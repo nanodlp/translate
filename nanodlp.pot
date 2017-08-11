@@ -28,7 +28,7 @@ msgstr ""
 msgid "100 Pulse ⇩"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:424
+#: ../templates/setup/setup-config.html:456
 msgid "16x2"
 msgstr ""
 
@@ -36,7 +36,7 @@ msgstr ""
 msgid "3D"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:104
+#: ../templates/setup/setup-config.html:116
 msgid "3D Printer Board"
 msgstr ""
 
@@ -52,7 +52,7 @@ msgstr ""
 msgid "ADD"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:136
+#: ../templates/setup/setup-config.html:148
 msgid "Absolute"
 msgstr ""
 
@@ -67,7 +67,7 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:368
+#: ../templates/setup/setup-config.html:400
 msgid "Actuator / Motor"
 msgstr ""
 
@@ -99,7 +99,7 @@ msgstr ""
 msgid "Admin has access to all functions including the dashboard."
 msgstr ""
 
-#: ../templates/setup/setup-config.html:407
+#: ../templates/setup/setup-config.html:439
 msgid "All Images"
 msgstr ""
 
@@ -186,7 +186,7 @@ msgstr ""
 msgid "Area Count"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:121
+#: ../templates/setup/setup-config.html:133
 msgid "Ascii"
 msgstr ""
 
@@ -198,15 +198,32 @@ msgstr ""
 msgid "Authentication Required"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:222
+#: ../templates/calibration/projector-calibration.html:47
+msgid "Barrel Distortion"
+msgstr ""
+
+#: ../templates/calibration/projector-calibration.html:51
+#: ../templates/setup/setup-config.html:288
+msgid "Barrel Factor"
+msgstr ""
+
+#: ../templates/calibration/projector-calibration.html:56
+msgid "Barrel's Center X"
+msgstr ""
+
+#: ../templates/calibration/projector-calibration.html:60
+msgid "Barrel's Center Y"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:239
 msgid "Before Each Layer"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:223
+#: ../templates/setup/setup-config.html:240
 msgid "Before Print"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:122
+#: ../templates/setup/setup-config.html:134
 msgid "Binary"
 msgstr ""
 
@@ -226,7 +243,7 @@ msgstr ""
 msgid "Bluring Radius"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:164
+#: ../templates/setup/setup-config.html:181
 msgid "Bootup Gcode"
 msgstr ""
 
@@ -258,26 +275,34 @@ msgstr ""
 msgid "Calibration plate being generated..."
 msgstr ""
 
-#: ../templates/setup/setup-config.html:411
+#: ../templates/setup/setup-config.html:443
 msgid "Camera Command"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:389
+#: ../templates/setup/setup-config.html:421
 msgid "Camera Module"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:392
+#: ../templates/setup/setup-config.html:424
 msgid "Camera Photo Frequency"
 msgstr ""
 
-#: ../templates/plate/edit.html:37
+#: ../templates/plate/edit.html:36
 #: ../templates/plate/usb.html:34
 msgid "Center Origin"
 msgstr ""
 
-#: ../templates/plate/edit.html:36
+#: ../templates/plate/edit.html:35
 #: ../templates/plate/usb.html:33
 msgid "Center Pieces"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:293
+msgid "Center of Barrel - X"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:297
+msgid "Center of Barrel - Y"
 msgstr ""
 
 #: ../templates/setup/setup.html:111
@@ -309,12 +334,13 @@ msgid "Clone"
 msgstr ""
 
 #: ../templates/base.html:82
+#: ../templates/calibration/projector-calibration.html:109
 #: ../templates/calibration/projector-calibration.html:18
 #: ../templates/calibration/projector-calibration.html:27
 #: ../templates/calibration/projector-calibration.html:36
-#: ../templates/calibration/projector-calibration.html:50
-#: ../templates/calibration/projector-calibration.html:63
+#: ../templates/calibration/projector-calibration.html:65
 #: ../templates/calibration/projector-calibration.html:9
+#: ../templates/calibration/projector-calibration.html:98
 msgid "Close"
 msgstr ""
 
@@ -355,7 +381,7 @@ msgstr ""
 msgid "Current Default"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:97
+#: ../templates/setup/setup-config.html:109
 msgid "Custom Acceleration"
 msgstr ""
 
@@ -371,7 +397,7 @@ msgstr ""
 msgid "Dashboard"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:119
+#: ../templates/setup/setup-config.html:131
 msgid "Data Encoding"
 msgstr ""
 
@@ -404,10 +430,10 @@ msgstr ""
 msgid "Dimming and Mask settings will take effect on the created layers."
 msgstr ""
 
-#: ../templates/plate/edit.html:38
+#: ../templates/plate/edit.html:37
 #: ../templates/plate/usb.html:35
 #: ../templates/setup/setup-config.html:4
-#: ../templates/setup/setup-config.html:465
+#: ../templates/setup/setup-config.html:497
 msgid "Disable"
 msgstr ""
 
@@ -419,10 +445,11 @@ msgstr ""
 msgid "Disable Motor"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:110
-#: ../templates/setup/setup-config.html:208
-#: ../templates/setup/setup-config.html:273
-#: ../templates/setup/setup-config.html:394
+#: ../templates/profile/edit.html:245
+#: ../templates/setup/setup-config.html:122
+#: ../templates/setup/setup-config.html:225
+#: ../templates/setup/setup-config.html:305
+#: ../templates/setup/setup-config.html:426
 msgid "Disabled"
 msgstr ""
 
@@ -430,13 +457,19 @@ msgstr ""
 msgid "Disk"
 msgstr ""
 
+#: ../templates/calibration/projector-calibration.html:109
 #: ../templates/calibration/projector-calibration.html:18
 #: ../templates/calibration/projector-calibration.html:27
 #: ../templates/calibration/projector-calibration.html:36
-#: ../templates/calibration/projector-calibration.html:50
-#: ../templates/calibration/projector-calibration.html:63
+#: ../templates/calibration/projector-calibration.html:65
 #: ../templates/calibration/projector-calibration.html:9
+#: ../templates/calibration/projector-calibration.html:98
+#: ../templates/setup/setup-config.html:266
 msgid "Display"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:303
+msgid "Display Communication Type"
 msgstr ""
 
 #: ../templates/plate/preview.html:3
@@ -447,8 +480,28 @@ msgstr ""
 msgid "Display Mask"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:319
+#: ../templates/setup/setup-config.html:351
 msgid "Display Number"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:355
+msgid "Display Power Cycle"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:344
+msgid "Display Turn Off Command"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:340
+msgid "Display Turn On Command"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:318
+msgid "Display Warm-up Time"
+msgstr ""
+
+#: ../templates/plate/edit.html:59
+msgid "Do not Rotate"
 msgstr ""
 
 #: ../templates/plate/plates.html:79
@@ -492,7 +545,7 @@ msgstr ""
 msgid "Empty username for dashboard, makes the dashboard accessible to everyone without authentication."
 msgstr ""
 
-#: ../templates/setup/setup-config.html:464
+#: ../templates/setup/setup-config.html:496
 msgid "Enable"
 msgstr ""
 
@@ -500,12 +553,24 @@ msgstr ""
 msgid "Enable Auto Shutdown"
 msgstr ""
 
+#: ../templates/setup/setup-config.html:102
+msgid "Enable Before Each Print"
+msgstr ""
+
 #: ../templates/calibration/z-calibration.html:48
 msgid "Enable Motor"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:87
+#: ../templates/setup/setup-config.html:99
+msgid "Enable Pin Mode"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:91
 msgid "Enable Pin State"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:101
+msgid "Enable on Boot"
 msgstr ""
 
 #: ../templates/calibration/z-calibration.html:31
@@ -524,15 +589,15 @@ msgstr ""
 msgid "Execute - Print Stop"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:335
-msgid "Execute to Turn Projector Off"
+#: ../templates/setup/setup-config.html:367
+msgid "Execute to Turn Display Off"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:331
-msgid "Execute to Turn Projector On"
+#: ../templates/setup/setup-config.html:363
+msgid "Execute to Turn Display On"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:281
+#: ../templates/setup/setup-config.html:313
 msgid "Execution Only"
 msgstr ""
 
@@ -556,7 +621,7 @@ msgstr ""
 msgid "F"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:446
+#: ../templates/setup/setup-config.html:478
 msgid "Fault Pin Default State"
 msgstr ""
 
@@ -592,11 +657,11 @@ msgstr ""
 msgid "Full White"
 msgstr ""
 
-#: ../templates/calibration/projector-calibration.html:49
+#: ../templates/calibration/projector-calibration.html:97
 msgid "FullHD Calibration"
 msgstr ""
 
-#: ../templates/calibration/projector-calibration.html:62
+#: ../templates/calibration/projector-calibration.html:108
 msgid "FullHD Red Calib."
 msgstr ""
 
@@ -622,11 +687,11 @@ msgstr ""
 msgid "Green"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:279
+#: ../templates/setup/setup-config.html:311
 msgid "HDMI Power On/Off - Standby Mode"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:439
+#: ../templates/setup/setup-config.html:471
 msgid "Hardware Fault Detection"
 msgstr ""
 
@@ -643,12 +708,16 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:449
-#: ../templates/setup/setup-config.html:90
+#: ../templates/setup/setup-config.html:481
+#: ../templates/setup/setup-config.html:94
 msgid "High"
 msgstr ""
 
-#: ../templates/calibration/projector-calibration.html:83
+#: ../templates/setup/setup-config.html:269
+msgid "Horizontal Resolution"
+msgstr ""
+
+#: ../templates/calibration/projector-calibration.html:84
 msgid "Hours"
 msgstr ""
 
@@ -701,16 +770,16 @@ msgstr ""
 msgid "It would not replace Raspberry Pi's configuration, if any function does not work as expected use ssh terminal to upgrade."
 msgstr ""
 
-#: ../templates/setup/setup-config.html:418
+#: ../templates/setup/setup-config.html:450
 msgid "LCD"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:421
+#: ../templates/setup/setup-config.html:453
 msgid "LCD Type"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:294
-msgid "Lamp Brightness Decrease"
+#: ../templates/setup/setup-config.html:326
+msgid "Lamp Brightness"
 msgstr ""
 
 #: ../templates/plate/preview.html:17
@@ -735,7 +804,7 @@ msgstr ""
 msgid "Layers"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:379
+#: ../templates/setup/setup-config.html:411
 msgid "Leadscrew Pitch"
 msgstr ""
 
@@ -748,7 +817,7 @@ msgid "Lift After Print"
 msgstr ""
 
 #: ../templates/profile/edit.html:28
-msgid "Light Color"
+msgid "Light Source Color"
 msgstr ""
 
 #: ../templates/setup/setup.html:39
@@ -759,8 +828,8 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:448
-#: ../templates/setup/setup-config.html:89
+#: ../templates/setup/setup-config.html:480
+#: ../templates/setup/setup-config.html:93
 msgid "Low"
 msgstr ""
 
@@ -776,7 +845,7 @@ msgstr ""
 msgid "Making any change will automatically discard the previous calibration plate."
 msgstr ""
 
-#: ../templates/setup/setup-config.html:195
+#: ../templates/setup/setup-config.html:212
 msgid "Manual Movement Gcode Template"
 msgstr ""
 
@@ -784,7 +853,7 @@ msgstr ""
 msgid "Mask File"
 msgstr ""
 
-#: ../templates/plate/edit.html:54
+#: ../templates/plate/edit.html:52
 msgid "Mask File (PNG)"
 msgstr ""
 
@@ -792,7 +861,7 @@ msgstr ""
 msgid "Mask Generation Wizard"
 msgstr ""
 
-#: ../templates/calibration/projector-calibration.html:81
+#: ../templates/calibration/projector-calibration.html:82
 msgid "Mask Generator"
 msgstr ""
 
@@ -804,7 +873,7 @@ msgstr ""
 msgid "Mask file effects only STL/SLC/SVG files uploaded after mask submit"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:355
+#: ../templates/setup/setup-config.html:387
 msgid "Max Speed"
 msgstr ""
 
@@ -828,12 +897,12 @@ msgstr ""
 msgid "Micron"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:234
-#: ../templates/setup/setup-config.html:238
+#: ../templates/setup/setup-config.html:251
+#: ../templates/setup/setup-config.html:255
 msgid "Microsecond"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:375
+#: ../templates/setup/setup-config.html:407
 msgid "Microstep"
 msgstr ""
 
@@ -846,17 +915,17 @@ msgstr ""
 #: ../templates/plate/generator.html:51
 #: ../templates/plate/generator.html:55
 #: ../templates/profile/edit.html:72
-#: ../templates/setup/setup-config.html:343
-#: ../templates/setup/setup-config.html:347
+#: ../templates/setup/setup-config.html:375
 #: ../templates/setup/setup-config.html:379
+#: ../templates/setup/setup-config.html:411
 msgid "Millimeter"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:242
+#: ../templates/setup/setup-config.html:259
 msgid "Millisecond"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:359
+#: ../templates/setup/setup-config.html:391
 msgid "Min Speed"
 msgstr ""
 
@@ -873,11 +942,11 @@ msgstr ""
 msgid "Module"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:363
+#: ../templates/setup/setup-config.html:395
 msgid "Motor Startup Speed"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:371
+#: ../templates/setup/setup-config.html:403
 msgid "Motor Step Angle"
 msgstr ""
 
@@ -898,7 +967,7 @@ msgstr ""
 msgid "Movement GPIOs"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:133
+#: ../templates/setup/setup-config.html:145
 msgid "Movement Positioning"
 msgstr ""
 
@@ -940,11 +1009,11 @@ msgstr ""
 msgid "Normal Layers"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:423
+#: ../templates/setup/setup-config.html:455
 msgid "Not Available"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:105
+#: ../templates/setup/setup-config.html:117
 msgid "Not required, if you are using GPIOs to drive the 3d printer."
 msgstr ""
 
@@ -964,7 +1033,7 @@ msgstr ""
 msgid "Number of Layers"
 msgstr ""
 
-#: ../templates/plate/edit.html:47
+#: ../templates/plate/edit.html:45
 #: ../templates/plate/extrude.html:48
 #: ../templates/plate/usb.html:43
 msgid "Number of Low Quality Layers"
@@ -978,23 +1047,23 @@ msgstr ""
 msgid "Number of Points in Width"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:400
+#: ../templates/setup/setup-config.html:432
 msgid "Once Per 10 Layers"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:397
+#: ../templates/setup/setup-config.html:429
 msgid "Once Per 2 Layers"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:398
+#: ../templates/setup/setup-config.html:430
 msgid "Once Per 3 Layers"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:399
+#: ../templates/setup/setup-config.html:431
 msgid "Once Per 5 Layers"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:396
+#: ../templates/setup/setup-config.html:428
 msgid "Once Per Layer"
 msgstr ""
 
@@ -1002,24 +1071,24 @@ msgstr ""
 msgid "Online Access Key"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:406
+#: ../templates/setup/setup-config.html:438
 msgid "Only Last Image"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:395
+#: ../templates/setup/setup-config.html:427
 msgid "Only Manually"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:220
+#: ../templates/setup/setup-config.html:237
 msgid "Open Shutter"
 msgstr ""
 
-#: ../templates/plate/edit.html:43
-#: ../templates/plate/edit.html:47
+#: ../templates/plate/edit.html:41
+#: ../templates/plate/edit.html:45
 msgid "Optional"
 msgstr ""
 
-#: ../templates/plate/edit.html:54
+#: ../templates/plate/edit.html:52
 msgid "Optional, Will be used instead of the global one"
 msgstr ""
 
@@ -1027,7 +1096,7 @@ msgstr ""
 msgid "Orange"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:481
+#: ../templates/setup/setup-config.html:513
 msgid "Other Settings"
 msgstr ""
 
@@ -1063,7 +1132,7 @@ msgstr ""
 msgid "Per Litre"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:294
+#: ../templates/setup/setup-config.html:326
 msgid "Percentage"
 msgstr ""
 
@@ -1131,7 +1200,7 @@ msgstr ""
 msgid "Physical 8, BCM 14"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:433
+#: ../templates/setup/setup-config.html:465
 msgid "Physical Buttons"
 msgstr ""
 
@@ -1145,6 +1214,11 @@ msgstr ""
 
 #: ../templates/plate/plates.html:158
 msgid "Pillars:"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:293
+#: ../templates/setup/setup-config.html:297
+msgid "Pixel"
 msgstr ""
 
 #: ../templates/plate/preview.html:19
@@ -1186,7 +1260,7 @@ msgstr ""
 msgid "Plates"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:340
+#: ../templates/setup/setup-config.html:372
 msgid "Platform / Resin"
 msgstr ""
 
@@ -1194,11 +1268,11 @@ msgstr ""
 msgid "Platform Information"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:343
+#: ../templates/setup/setup-config.html:375
 msgid "Platform Wait Position"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:462
+#: ../templates/setup/setup-config.html:494
 msgid "Play Sound After Print Stop"
 msgstr ""
 
@@ -1219,15 +1293,15 @@ msgstr ""
 msgid "Power Off"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:327
+#: ../templates/setup/setup-config.html:359
 msgid "Power-Up on Start / Power-Down on Last Layer"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:326
+#: ../templates/setup/setup-config.html:358
 msgid "Power-Up on Start / Power-Down on Shutdown"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:325
+#: ../templates/setup/setup-config.html:357
 msgid "Power-Up on Start / Power-Down on Stop"
 msgstr ""
 
@@ -1251,7 +1325,7 @@ msgstr ""
 msgid "Print From Start"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:178
+#: ../templates/setup/setup-config.html:195
 msgid "Print Stop Gcode"
 msgstr ""
 
@@ -1287,17 +1361,9 @@ msgstr ""
 msgid "Profile not found."
 msgstr ""
 
-#: ../templates/setup/setup-config.html:249
-msgid "Projector"
-msgstr ""
-
 #: ../templates/menu.html:14
 #: ../templates/setup/setup-buttons.html:16
 msgid "Projector Calibration"
-msgstr ""
-
-#: ../templates/setup/setup-config.html:271
-msgid "Projector Communication Type"
 msgstr ""
 
 #: ../templates/setup/setup.html:6
@@ -1308,40 +1374,16 @@ msgstr ""
 msgid "Projector Off"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:323
-msgid "Projector Power Cycle"
-msgstr ""
-
-#: ../templates/setup/setup-config.html:256
-msgid "Projector Resolution Height"
-msgstr ""
-
-#: ../templates/setup/setup-config.html:252
-msgid "Projector Resolution Width"
-msgstr ""
-
-#: ../templates/calibration/projector-calibration.html:73
+#: ../templates/calibration/projector-calibration.html:74
 msgid "Projector Turn Off"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:312
-msgid "Projector Turn Off Command"
-msgstr ""
-
-#: ../templates/calibration/projector-calibration.html:72
+#: ../templates/calibration/projector-calibration.html:73
 msgid "Projector Turn On"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:308
-msgid "Projector Turn On Command"
-msgstr ""
-
-#: ../templates/setup/setup-config.html:286
-msgid "Projector Warm-up Time"
-msgstr ""
-
 #: ../templates/calibration/z-calibration.html:16
-#: ../templates/setup/setup-config.html:383
+#: ../templates/setup/setup-config.html:415
 msgid "Pulse"
 msgstr ""
 
@@ -1349,7 +1391,7 @@ msgstr ""
 msgid "Quality"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:290
+#: ../templates/setup/setup-config.html:322
 msgid "Query Lamp Hours"
 msgstr ""
 
@@ -1377,7 +1419,7 @@ msgstr ""
 msgid "Red"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:135
+#: ../templates/setup/setup-config.html:147
 msgid "Relative"
 msgstr ""
 
@@ -1389,7 +1431,7 @@ msgstr ""
 msgid "Remote Access to the printer"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:470
+#: ../templates/setup/setup-config.html:502
 msgid "Remote Slicer"
 msgstr ""
 
@@ -1409,7 +1451,7 @@ msgstr ""
 msgid "Resin Cost"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:347
+#: ../templates/setup/setup-config.html:379
 msgid "Resin Depth"
 msgstr ""
 
@@ -1437,9 +1479,9 @@ msgstr ""
 msgid "Restart"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:156
-#: ../templates/setup/setup-config.html:421
-#: ../templates/setup/setup-config.html:458
+#: ../templates/setup/setup-config.html:173
+#: ../templates/setup/setup-config.html:453
+#: ../templates/setup/setup-config.html:490
 msgid "Restart Required"
 msgstr ""
 
@@ -1455,13 +1497,23 @@ msgstr ""
 msgid "Resume Print"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:173
+#: ../templates/setup/setup-config.html:190
 msgid "Resume Print Gcode"
 msgstr ""
 
 #: ../templates/index.html:48
 #: ../templates/plate/plates.html:116
 msgid "Resume Printing"
+msgstr ""
+
+#: ../templates/plate/edit.html:60
+#: ../templates/profile/edit.html:246
+msgid "Rotate 90°"
+msgstr ""
+
+#: ../templates/plate/edit.html:56
+#: ../templates/profile/edit.html:243
+msgid "Rotate Layers"
 msgstr ""
 
 #: ../templates/setup/wireless.html:25
@@ -1472,9 +1524,13 @@ msgstr ""
 msgid "STL, SLC, SVG or Zip (PNG Files)"
 msgstr ""
 
-#: ../templates/plate/edit.html:34
+#: ../templates/plate/edit.html:33
 #: ../templates/plate/usb.html:31
 msgid "STL/SLC/SVG Auto Center"
+msgstr ""
+
+#: ../templates/plate/edit.html:58
+msgid "Same as Profile"
 msgstr ""
 
 #: ../templates/setup/setup.html:84
@@ -1490,7 +1546,7 @@ msgstr ""
 #: ../templates/profile/edit.html:68
 #: ../templates/profile/edit.html:76
 #: ../templates/profile/profiles.html:10
-#: ../templates/setup/setup-config.html:286
+#: ../templates/setup/setup-config.html:318
 msgid "Second"
 msgstr ""
 
@@ -1506,19 +1562,19 @@ msgstr ""
 msgid "Serial Terminal"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:209
+#: ../templates/setup/setup-config.html:226
 msgid "Servo Motor"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:238
+#: ../templates/setup/setup-config.html:255
 msgid "Servo Pulse Width - Close Position"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:234
+#: ../templates/setup/setup-config.html:251
 msgid "Servo Pulse Width - Open Position"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:242
+#: ../templates/setup/setup-config.html:259
 msgid "Servo Signal Length"
 msgstr ""
 
@@ -1531,31 +1587,31 @@ msgstr ""
 msgid "Setup"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:126
+#: ../templates/setup/setup-config.html:138
 msgid "Shield Axis Direction"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:108
+#: ../templates/setup/setup-config.html:120
 msgid "Shield Connection"
 msgstr ""
 
-#: ../templates/calibration/projector-calibration.html:75
+#: ../templates/calibration/projector-calibration.html:76
 msgid "Shutter Close"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:190
+#: ../templates/setup/setup-config.html:207
 msgid "Shutter Close Gcode"
 msgstr ""
 
-#: ../templates/calibration/projector-calibration.html:74
+#: ../templates/calibration/projector-calibration.html:75
 msgid "Shutter Open"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:185
+#: ../templates/setup/setup-config.html:202
 msgid "Shutter Open Gcode"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:206
+#: ../templates/setup/setup-config.html:223
 msgid "Shutter Type"
 msgstr ""
 
@@ -1567,7 +1623,7 @@ msgstr ""
 msgid "Some critical settings such as type of the shield and etc, will not take effect in the middle of printing. To change those settings without restart, stop printing and submit this page again."
 msgstr ""
 
-#: ../templates/setup/setup-config.html:352
+#: ../templates/setup/setup-config.html:384
 msgid "Speed"
 msgstr ""
 
@@ -1575,7 +1631,7 @@ msgstr ""
 msgid "Start Display"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:169
+#: ../templates/setup/setup-config.html:186
 msgid "Start of Print Gcode"
 msgstr ""
 
@@ -1584,7 +1640,7 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: ../templates/plate/edit.html:43
+#: ../templates/plate/edit.html:41
 #: ../templates/plate/plates.html:63
 msgid "Stop Layers"
 msgstr ""
@@ -1599,15 +1655,15 @@ msgstr ""
 msgid "Stop Print"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:404
+#: ../templates/setup/setup-config.html:436
 msgid "Storage Mode"
 msgstr ""
 
-#: ../templates/plate/edit.html:59
+#: ../templates/plate/edit.html:66
 #: ../templates/plate/usb.html:49
 #: ../templates/setup/custom-inputs.html:59
-#: ../templates/setup/setup-config.html:476
-#: ../templates/setup/setup-config.html:491
+#: ../templates/setup/setup-config.html:508
+#: ../templates/setup/setup-config.html:523
 msgid "Submit"
 msgstr ""
 
@@ -1619,7 +1675,7 @@ msgstr ""
 msgid "Syscall"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:458
+#: ../templates/setup/setup-config.html:490
 msgid "TCP Port to Listen"
 msgstr ""
 
@@ -1712,43 +1768,40 @@ msgstr ""
 msgid "Total Solid Area"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:210
+#: ../templates/setup/setup-config.html:227
 msgid "True/False Signal"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:276
+#: ../templates/setup/setup-config.html:308
 msgid "USB / Serial Port - ASCII (\\n)"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:275
+#: ../templates/setup/setup-config.html:307
 msgid "USB / Serial Port - ASCII (\\r)"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:274
+#: ../templates/setup/setup-config.html:306
 msgid "USB / Serial Port - ASCII (\\r\\n)"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:277
+#: ../templates/setup/setup-config.html:309
 msgid "USB / Serial Port - Binary"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:111
+#: ../templates/setup/setup-config.html:123
 msgid "USB/Serial"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:304
+#: ../templates/setup/setup-config.html:154
+#: ../templates/setup/setup-config.html:336
 msgid "USB/Serial Port Address"
-msgstr ""
-
-#: ../templates/setup/setup-config.html:142
-msgid "USB/Serial Port Path"
 msgstr ""
 
 #: ../templates/setup/custom-inputs.html:26
 msgid "Unit Text"
 msgstr ""
 
-#: ../templates/calibration/projector-calibration.html:82
+#: ../templates/calibration/projector-calibration.html:83
 msgid "Update Lamp Hours"
 msgstr ""
 
@@ -1796,8 +1849,12 @@ msgstr ""
 msgid "Value Type"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:455
+#: ../templates/setup/setup-config.html:487
 msgid "Various Settings"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:273
+msgid "Vertical Resolution"
 msgstr ""
 
 #: ../templates/setup/wireless.html:45
@@ -1840,11 +1897,11 @@ msgstr ""
 msgid "Width"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:261
+#: ../templates/setup/setup-config.html:278
 msgid "X/Y Resolution"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:265
+#: ../templates/setup/setup-config.html:282
 msgid "Y Resolution"
 msgstr ""
 
@@ -1864,7 +1921,7 @@ msgstr ""
 msgid "Z-Axis Calibration"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:383
+#: ../templates/setup/setup-config.html:415
 msgid "Z-Axis Height"
 msgstr ""
 
@@ -1872,11 +1929,11 @@ msgstr ""
 msgid "Zero Level"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:128
+#: ../templates/setup/setup-config.html:140
 msgid "Zero at Bottom"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:129
+#: ../templates/setup/setup-config.html:141
 msgid "Zero at Top"
 msgstr ""
 
@@ -1892,11 +1949,11 @@ msgstr ""
 msgid "eg. {[[LayerThickness]]-[[ZLiftDistance]]}"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:113
+#: ../templates/setup/setup-config.html:125
 msgid "i2c"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:156
+#: ../templates/setup/setup-config.html:173
 msgid "i2c Address"
 msgstr ""
 
@@ -1905,10 +1962,10 @@ msgstr ""
 msgid "of"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:355
-msgid "μm/Second"
+#: ../templates/setup/setup-config.html:278
+msgid "μm"
 msgstr ""
 
-#: ../templates/base.html:23
-msgid "⟲"
+#: ../templates/setup/setup-config.html:387
+msgid "μm/Second"
 msgstr ""
