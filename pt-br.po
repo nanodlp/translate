@@ -1,4 +1,5 @@
-﻿msgid ""
+# Brazilian Portuguese of NanoDLP by Douglas Guerra
+msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -732,7 +733,7 @@ msgstr "Inativo"
 
 #: ../templates/setup/distro.html:11
 msgid "If you want to overwrite settings too, after restart go to `Setup` page / `Tools` tab and press `Restore Settings` button."
-msgstr " Se você deseja substituir as configurações também, depois de reiniciar, vá para a página 'Configuração' / guia 'Ferramentas' e pressione o botão 'Configurações de restauração'. ""
+msgstr "Se você deseja substituir as configurações também, depois de reiniciar, vá para a página 'Configuração' / guia 'Ferramentas' e pressione o botão 'Configurações de restauração'."
 
 #: ../templates/profile/edit.html:24
 msgid "Ignore"
@@ -1194,7 +1195,7 @@ msgstr "Físico 37, BCM 26"
 
 #: ../templates/setup/setup-config.html:5
 msgid "Physical 7, BCM 4"
-msgstr "Físico 7, BCM 4""
+msgstr "Físico 7, BCM 4"
 
 #: ../templates/setup/setup-config.html:6
 msgid "Physical 8, BCM 14"
@@ -1907,7 +1908,7 @@ msgstr "Resolução Y"
 
 #: ../templates/setup/custom-inputs.html:39
 msgid "You can add additional inputs to the setup page and they will be accessible as Gcode keywords. eg. [[_ResinPumpAmount]]"
-msgstr "Você Pode Adicionar Entradas Adicionais À Página De Configuração E Elas Serão Acessíveis Como Palavras-Chave Do Gcode. Por Exemplo. [[_ResinPumpAmount]]" "
+msgstr "Você Pode Adicionar Entradas Adicionais À Página De Configuração E Elas Serão Acessíveis Como Palavras-Chave Do Gcode. Por Exemplo. [[_ResinPumpAmount]]"
 
 #: ../templates/plate/cover.html:6
 msgid "You can partially select and cover some sections of the plate to prevent further damage to PDMS and resin waste."
