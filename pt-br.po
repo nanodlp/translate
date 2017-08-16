@@ -33,7 +33,7 @@ msgstr "100 Pulsos ⇩"
 msgid "16x2"
 msgstr "16x2"
 
-#: ../templates/plate/plates.html:83
+#: ../templates/plate/plates.html:84
 msgid "3D"
 msgstr "3D"
 
@@ -53,7 +53,7 @@ msgstr "?"
 msgid "Absolute"
 msgstr "Absoluto"
 
-#: ../templates/index.html:18 ../templates/plate/plates.html:33
+#: ../templates/index.html:18 ../templates/plate/plates.html:34
 #: ../templates/setup/custom-inputs.html:49
 #: ../templates/setup/setup-buttons.html:40
 msgid "Action"
@@ -69,9 +69,9 @@ msgstr "Atuador/Motor"
 
 #: ../templates/plate/plates.html:5
 msgid "Add"
-msgstr ""
+msgstr "Adicionar"
 
-#: ../templates/plate/plates.html:94
+#: ../templates/plate/plates.html:95
 msgid "Add Blackout"
 msgstr "Adicionar Blackout"
 
@@ -104,12 +104,8 @@ msgid "All Images"
 msgstr "Todas imagens"
 
 #: ../templates/setup/setup.html:94
-msgid ""
-"Any of the following actions will take effect immediately after click, "
-"without changing the page."
-msgstr ""
-"Qualquer Uma Das Seguintes Ações Entrará Em Vigor Imediatamente Após O "
-"Clique, Sem Alterar A Página."
+msgid "Any of the following actions will take effect immediately after click, without changing the page."
+msgstr "Qualquer Uma Das Seguintes Ações Entrará Em Vigor Imediatamente Após O Clique, Sem Alterar A Página."
 
 #: ../templates/setup/setup-buttons.html:19
 msgid "Anytime"
@@ -119,14 +115,12 @@ msgstr "A Qualquer Momento"
 msgid "Application Log"
 msgstr "Registro de Aplicativos"
 
-#: ../templates/plate/plates.html:22
+#: ../templates/plate/plates.html:23
 msgid "Are you sure you want to delete this plate?"
 msgstr "Tem Certeza Que Deseja Deletar Essa Bandeja?"
 
 #: ../templates/plate/preview.html:4
-msgid ""
-"Are you sure you want to display the current layer on the main Projector/LCD "
-"unit of the printer?"
+msgid "Are you sure you want to display the current layer on the main Projector/LCD unit of the printer?"
 msgstr "Tem Certeza De Que Deseja Exibir A Camada Atual Na Impressora?"
 
 #: ../templates/setup/setup.html:118
@@ -145,11 +139,11 @@ msgstr "Tem Certeza Que Deseja Desligar A Impressora?"
 msgid "Are you sure you want to power off the projector?"
 msgstr "Tem Certeza Que Deseja Desligar O Projetor?"
 
-#: ../templates/plate/plates.html:25
+#: ../templates/plate/plates.html:26
 msgid "Are you sure you want to print the calibration plate?"
 msgstr "Tem Certeza Que Deseja Imprimir A Bandeja De Calibração?"
 
-#: ../templates/plate/plates.html:23
+#: ../templates/plate/plates.html:24
 msgid "Are you sure you want to regenerate the layers of this plate?"
 msgstr "Tem Certeza Que Deseja Refazer As Camadas Dessa Bandeja?"
 
@@ -158,11 +152,8 @@ msgid "Are you sure you want to restart the printer?"
 msgstr "Tem Certeza Que Deseja Reiniciar A Impressora?"
 
 #: ../templates/setup/setup.html:109
-msgid ""
-"Are you sure you want to restore the default settings and reboot the printer?"
-msgstr ""
-"Tem Certeza Que Deseja Restaurar As Configurações Padrões E Reiniciar A "
-"Impressora?"
+msgid "Are you sure you want to restore the default settings and reboot the printer?"
+msgstr "Tem Certeza Que Deseja Restaurar As Configurações Padrões E Reiniciar A Impressora?"
 
 #: ../templates/plate/cover.html:32
 msgid "Are you sure you want to save the covered sections?"
@@ -173,27 +164,16 @@ msgid "Are you sure you want to set this height as the bottom?"
 msgstr "Tem Certeza Que Deseja Ajustar A Altura Da Base?"
 
 #: ../templates/index.html:44
-msgid ""
-"Are you sure you want to start the display? It will automatically select the "
-"second display."
-msgstr ""
-"Tem Certeza Que Deseja Iniciar O Display? O Segundo Display Será Selecionado "
-"Automaticamente."
+msgid "Are you sure you want to start the display? It will automatically select the second display."
+msgstr "Tem Certeza Que Deseja Iniciar O Display? O Segundo Display Será Selecionado Automaticamente."
 
-#: ../templates/index.html:66 ../templates/plate/plates.html:24
+#: ../templates/index.html:66 ../templates/plate/plates.html:25
 msgid "Are you sure you want to stop printing?"
 msgstr "Tem Certeza Que Deseja Cancelar A Impressão?"
 
 #: ../templates/index.html:33
-msgid ""
-"Are you sure you want to stop printing? It will stop after the current layer "
-"is completed. If you want to abort the current layer, go to the `Setup` "
-"page, click on `Tools` tab and click the `Force Stop` button."
-msgstr ""
-"Tem Certeza De Que Deseja Interromper A Impressão? Ela Irá Parar Após A "
-"Conclusão Da Camada Atual. Se Você Deseja Abortar A Camada Atual, Vá Para A "
-"Página 'Configuração', Clique Na Aba 'Ferramentas' E Clique No Botão 'Forçar "
-"Parar'."
+msgid "Are you sure you want to stop printing? It will stop after the current layer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click the `Force Stop` button."
+msgstr "Tem Certeza De Que Deseja Interromper A Impressão? Ela Irá Parar Após A Conclusão Da Camada Atual. Se Você Deseja Abortar A Camada Atual, Vá Para A Página 'Configuração', Clique Na Aba 'Ferramentas' E Clique No Botão 'Forçar Parar'."
 
 #: ../templates/setup/setup.html:105
 msgid "Are you sure you want to terminate nanoDLP and have access to terminal?"
@@ -288,11 +268,11 @@ msgstr "CPU"
 msgid "Calibrate Zero Position ⇧"
 msgstr "Calibrar a Posição Zero ⇧"
 
-#: ../templates/plate/plates.html:155
+#: ../templates/plate/plates.html:157
 msgid "Calibration Plate"
 msgstr "Bandeja de Calibração"
 
-#: ../templates/plate/plates.html:173
+#: ../templates/plate/plates.html:175
 msgid "Calibration plate being generated..."
 msgstr "A Bandeja de Calibração está sendo gerada..."
 
@@ -346,8 +326,7 @@ msgstr "Alterar para Versão \"nanoDLP generic\""
 
 #: ../templates/setup/wireless.html:22
 msgid "Changing the WiFi settings during printing could cause interruption."
-msgstr ""
-"Alterar As Configurações Wifi Durante A Impressão Pode Causar Interrupção."
+msgstr "Alterar As Configurações Wifi Durante A Impressão Pode Causar Interrupção."
 
 #: ../templates/profile/profiles.html:33
 msgid "Clone"
@@ -380,7 +359,7 @@ msgstr "Conectar"
 msgid "Could not connect to the printer. Please check your connection."
 msgstr "Não Foi Possível Conectar-Se À Impressora. Verifique Sua Conexão"
 
-#: ../templates/plate/plates.html:144
+#: ../templates/plate/plates.html:146
 msgid "Create 3D shapes by repeating an image frame"
 msgstr "Cria Formas 3D Repetindo Uma Imagem"
 
@@ -432,7 +411,7 @@ msgstr "Informação de depuração "
 msgid "Default"
 msgstr "Padrão"
 
-#: ../templates/plate/plates.html:74 ../templates/profile/profiles.html:32
+#: ../templates/plate/plates.html:75 ../templates/profile/profiles.html:32
 msgid "Delete"
 msgstr "Deletar"
 
@@ -440,7 +419,7 @@ msgstr "Deletar"
 msgid "Description"
 msgstr "Descrição"
 
-#: ../templates/index.html:116 ../templates/plate/plates.html:32
+#: ../templates/index.html:116 ../templates/plate/plates.html:33
 #: ../templates/setup/custom-inputs.html:46
 #: ../templates/setup/custom-inputs.html:47
 #: ../templates/setup/custom-inputs.html:48
@@ -449,8 +428,7 @@ msgstr "Detalhes"
 
 #: ../templates/plate/extrude.html:6
 msgid "Dimming and Mask settings will take effect on the created layers."
-msgstr ""
-"As configurações de Dimming e Máscara entrarão em vigor nas camadas criadas."
+msgstr "As configurações de Dimming e Máscara entrarão em vigor nas camadas criadas."
 
 #: ../templates/plate/edit.html:37 ../templates/plate/usb.html:35
 #: ../templates/setup/setup-config.html:4
@@ -524,7 +502,7 @@ msgstr "Exibir Tempo de Aquecimento"
 msgid "Do not Rotate"
 msgstr "Não Rotacione"
 
-#: ../templates/plate/plates.html:79
+#: ../templates/plate/plates.html:80
 msgid "Download"
 msgstr "Baixar"
 
@@ -552,7 +530,7 @@ msgstr "Calibração Dinâmica"
 msgid "Dynamic Red Calib."
 msgstr "Calib. Dinâmica Vermelha"
 
-#: ../templates/plate/plates.html:71 ../templates/profile/profiles.html:31
+#: ../templates/plate/plates.html:72 ../templates/profile/profiles.html:31
 msgid "Edit"
 msgstr "Editar"
 
@@ -561,12 +539,8 @@ msgid "Edit File"
 msgstr "Editar Arquivo"
 
 #: ../templates/setup/setup.html:66
-msgid ""
-"Empty username for dashboard, makes the dashboard accessible to everyone "
-"without authentication."
-msgstr ""
-"Nome De Usuário Vazio Para Painel De Controle, Torna O Painel Disponível "
-"Para Todos Sem Autenticação."
+msgid "Empty username for dashboard, makes the dashboard accessible to everyone without authentication."
+msgstr "Nome De Usuário Vazio Para Painel De Controle, Torna O Painel Disponível Para Todos Sem Autenticação."
 
 #: ../templates/setup/setup-config.html:504
 msgid "Enable"
@@ -605,13 +579,8 @@ msgid "English"
 msgstr ""
 
 #: ../templates/plate/extrude.html:8
-msgid ""
-"Even-though it can process multi color images, to make the dimming feature "
-"work correctly, try to use images containing grayscale colors."
-msgstr ""
-"Mesmo, Embora Possa Processar Imagens De Várias Cores, Para Que O Recurso De "
-"Escurecimento Funcione Corretamente, Tente Usar Imagens Que Contenham Cores "
-"Em Escala De Cinza."
+msgid "Even-though it can process multi color images, to make the dimming feature work correctly, try to use images containing grayscale colors."
+msgstr "Mesmo, Embora Possa Processar Imagens De Várias Cores, Para Que O Recurso De Escurecimento Funcione Corretamente, Tente Usar Imagens Que Contenham Cores Em Escala De Cinza."
 
 #: ../templates/setup/setup-config.html:64
 msgid "Execute - Print Start"
@@ -662,12 +631,8 @@ msgid "File From USB"
 msgstr "Arquivo do USB"
 
 #: ../templates/setup/setup.html:116
-msgid ""
-"Filesystem expantion will run silently in background, and will restart the "
-"Raspberry Pi afterward. Please do not change anything."
-msgstr ""
-"A Expansão Dos Arquivos De Sistema Será Executada Silenciosamente Em Segundo "
-"Plano E Reiniciará O Raspberry Pi Depois. Por Favor, Não Mude Nada."
+msgid "Filesystem expantion will run silently in background, and will restart the Raspberry Pi afterward. Please do not change anything."
+msgstr "A Expansão Dos Arquivos De Sistema Será Executada Silenciosamente Em Segundo Plano E Reiniciará O Raspberry Pi Depois. Por Favor, Não Mude Nada."
 
 #: ../templates/calibration/z-calibration.html:61
 msgid "Floor ⇩"
@@ -681,14 +646,13 @@ msgstr "Forçar Cancelamento"
 msgid "Framebuffer Path"
 msgstr "Framebuffer Path"
 
-#: ../templates/plate/plates.html:185
+#: ../templates/plate/plates.html:187
 msgid "Free Disk Space"
 msgstr "Espaço livre em Disco"
 
-#: ../templates/plate/plates.html:18
+#: ../templates/plate/plates.html:19
 msgid "Free space available on your disk is low. Please remove some plates."
-msgstr ""
-"O Espaço Livre Disponível No Seu Disco É Baixo. Remova Algumas Bandejas."
+msgstr "O Espaço Livre Disponível No Seu Disco É Baixo. Remova Algumas Bandejas."
 
 #: ../templates/calibration/projector-calibration.html:35
 msgid "Full White"
@@ -715,7 +679,7 @@ msgid "Gcode Before"
 msgstr "Depois Gcode"
 
 #: ../templates/plate/extrude.html:54 ../templates/plate/generator.html:60
-#: ../templates/plate/plates.html:162
+#: ../templates/plate/plates.html:164
 msgid "Generate"
 msgstr "Gerar"
 
@@ -757,7 +721,7 @@ msgstr "Resolução Horizontal"
 msgid "Hours"
 msgstr "Horas"
 
-#: ../templates/plate/plates.html:29 ../templates/profile/profiles.html:7
+#: ../templates/plate/plates.html:30 ../templates/profile/profiles.html:7
 msgid "ID"
 msgstr "ID"
 
@@ -766,13 +730,8 @@ msgid "Idle"
 msgstr "Inativo"
 
 #: ../templates/setup/distro.html:11
-msgid ""
-"If you want to overwrite settings too, after restart go to `Setup` page / "
-"`Tools` tab and press `Restore Settings` button."
-msgstr ""
-"Se você deseja substituir as configurações também, depois de reiniciar, vá "
-"para a página 'Configuração' / guia 'Ferramentas' e pressione o botão "
-"'Configurações de restauração'."
+msgid "If you want to overwrite settings too, after restart go to `Setup` page / `Tools` tab and press `Restore Settings` button."
+msgstr "Se você deseja substituir as configurações também, depois de reiniciar, vá para a página 'Configuração' / guia 'Ferramentas' e pressione o botão 'Configurações de restauração'."
 
 #: ../templates/profile/edit.html:24
 msgid "Ignore"
@@ -799,24 +758,16 @@ msgid "Import and Export Settings"
 msgstr "Importar e Exportar Configurações"
 
 #: ../templates/setup/setup-buttons.html:58
-msgid ""
-"It is possible to call a program or a script from shell and use the result "
-"as Gcode."
-msgstr ""
-"É Possível Chamar Um Programa Ou Um Script Do Shell E Usar O Resultado Como "
-"Gcode."
+msgid "It is possible to call a program or a script from shell and use the result as Gcode."
+msgstr "É Possível Chamar Um Programa Ou Um Script Do Shell E Usar O Resultado Como Gcode."
 
 #: ../templates/setup/setup-buttons.html:87
 msgid "It is possible to send binary codes using base 16 format."
 msgstr "É Possível Enviar Códigos Binários Usando O Formato Base 16."
 
 #: ../templates/setup/upgrade.html:11
-msgid ""
-"It would not replace Raspberry Pi's configuration, if any function does not "
-"work as expected use ssh terminal to upgrade."
-msgstr ""
-"Não Substituiria A Configuração Raspberry Pi, Se Qualquer Função Não "
-"Funcionar Como Esperado Use O Terminal Ssh Para Atualizar."
+msgid "It would not replace Raspberry Pi's configuration, if any function does not work as expected use ssh terminal to upgrade."
+msgstr "Não Substituiria A Configuração Raspberry Pi, Se Qualquer Função Não Funcionar Como Esperado Use O Terminal Ssh Para Atualizar."
 
 #: ../templates/setup/setup-config.html:458
 msgid "LCD"
@@ -839,16 +790,21 @@ msgid "Largest Area"
 msgstr "Maior Área"
 
 #: ../templates/calibration/z-calibration.html:102 ../templates/index.html:113
-#: ../templates/index.html:15 ../templates/plate/plates.html:125
+#: ../templates/index.html:15 ../templates/plate/plates.html:127
 #: ../templates/plate/preview.html:14
 msgid "Layer"
+msgstr "Camada"
+
+#: ../templates/plate/plates.html:116
+#, fuzzy
+msgid "Layer ID"
 msgstr "Camada"
 
 #: ../templates/profile/edit.html:53 ../templates/profile/profiles.html:9
 msgid "Layer Thickness"
 msgstr "Altura da Camada"
 
-#: ../templates/plate/plates.html:115 ../templates/plate/plates.html:96
+#: ../templates/plate/plates.html:117 ../templates/plate/plates.html:97
 msgid "Layers"
 msgstr "Camadas"
 
@@ -890,11 +846,8 @@ msgid "Make Default"
 msgstr "Tornar Padão"
 
 #: ../templates/plate/generator.html:4
-msgid ""
-"Making any change will automatically discard the previous calibration plate."
-msgstr ""
-"Fazer Qualquer Alteração Descartará Automaticamente A Bandeja De Calibração "
-"Anterior."
+msgid "Making any change will automatically discard the previous calibration plate."
+msgstr "Fazer Qualquer Alteração Descartará Automaticamente A Bandeja De Calibração Anterior."
 
 #: ../templates/setup/setup-config.html:220
 msgid "Manual Movement Gcode Template"
@@ -922,9 +875,7 @@ msgstr "Grade Máscara"
 
 #: ../templates/setup/setup.html:28
 msgid "Mask file effects only STL/SLC/SVG files uploaded after mask submit"
-msgstr ""
-"Os Efeitos De Arquivo De Máscara Somente Arquivos STL / SLC / SVG São "
-"Enviados Após O Envio De Máscara"
+msgstr "Os Efeitos De Arquivo De Máscara Somente Arquivos STL / SLC / SVG São Enviados Após O Envio De Máscara"
 
 #: ../templates/setup/setup-config.html:395
 msgid "Max Speed"
@@ -982,7 +933,7 @@ msgstr "Velocidade Mínima"
 msgid "Min for Number Input"
 msgstr "Entrada Mínima para Números "
 
-#: ../templates/plate/plates.html:92
+#: ../templates/plate/plates.html:93
 msgid "Modify Blackout"
 msgstr "Modificar Blackout"
 
@@ -1019,7 +970,7 @@ msgstr "Movimentação GPIOs"
 msgid "Movement Positioning"
 msgstr "Posicionamento do Movimento"
 
-#: ../templates/plate/plates.html:30 ../templates/setup/custom-inputs.html:45
+#: ../templates/plate/plates.html:31 ../templates/setup/custom-inputs.html:45
 msgid "Name"
 msgstr "Nome"
 
@@ -1039,7 +990,7 @@ msgstr "Nova Versão Disponível"
 msgid "No Encryption"
 msgstr "Sem Criptografia"
 
-#: ../templates/plate/plates.html:134
+#: ../templates/plate/plates.html:136
 msgid "No Plates"
 msgstr "Sem Bandeja"
 
@@ -1061,9 +1012,7 @@ msgstr "Não Disponível"
 
 #: ../templates/setup/setup-config.html:125
 msgid "Not required, if you are using GPIOs to drive the 3d printer."
-msgstr ""
-"Não É Necessário, Se Você Estiver Usando Gpios Para Controlar A Impressora "
-"3D."
+msgstr "Não É Necessário, Se Você Estiver Usando Gpios Para Controlar A Impressora 3D."
 
 #: ../templates/setup/setup-config.html:76
 msgid "Not required, if you are using a separate controller."
@@ -1150,7 +1099,7 @@ msgstr ""
 msgid "PNG/JPEG File"
 msgstr "Arquivo PNG/JPEG"
 
-#: ../templates/plate/plates.html:148
+#: ../templates/plate/plates.html:150
 msgid "Paint"
 msgstr "Paint"
 
@@ -1258,7 +1207,7 @@ msgstr "Pilar de Corte"
 msgid "Pillar Width"
 msgstr "Largura Pilar"
 
-#: ../templates/plate/plates.html:158
+#: ../templates/plate/plates.html:160
 msgid "Pillars:"
 msgstr "Pilares:"
 
@@ -1284,7 +1233,7 @@ msgid "Plate Depth"
 msgstr "Profundidade da Bandeja"
 
 #: ../templates/plate/extrude.html:12 ../templates/plate/generator.html:5
-#: ../templates/plate/plates.html:143
+#: ../templates/plate/plates.html:145
 msgid "Plate Generator"
 msgstr "Gerador Bandeja"
 
@@ -1293,7 +1242,7 @@ msgstr "Gerador Bandeja"
 msgid "Plate Name"
 msgstr "Nome Bandeja"
 
-#: ../templates/plate/plates.html:48
+#: ../templates/plate/plates.html:49
 msgid "Plate generated using old profile data."
 msgstr "Bandeja gerada com dados do perfil antigo"
 
@@ -1318,20 +1267,12 @@ msgid "Play Sound After Print Stop"
 msgstr "Tocar Som Após Encerrar Impressão"
 
 #: ../templates/setup/distro.html:9
-msgid ""
-"Please choose a distribution. Mask, default setting files and etc will be "
-"deployed."
-msgstr ""
-"Escolha Uma Distribuição. A Máscara, Os Arquivos De Configuração Padrão E "
-"Etc... Serão Implantados."
+msgid "Please choose a distribution. Mask, default setting files and etc will be deployed."
+msgstr "Escolha Uma Distribuição. A Máscara, Os Arquivos De Configuração Padrão E Etc... Serão Implantados."
 
 #: ../templates/plate/extrude.html:7
-msgid ""
-"Please upload an image with the same width and height as your projector's "
-"native resolution."
-msgstr ""
-"Carregue Uma Imagem Com A Mesma Largura E Altura Que A Resolução Nativa Do "
-"Seu Projetor."
+msgid "Please upload an image with the same width and height as your projector's native resolution."
+msgstr "Carregue Uma Imagem Com A Mesma Largura E Altura Que A Resolução Nativa Do Seu Projetor."
 
 #: ../templates/setup/setup-buttons.html:36
 msgid "Position / Condition"
@@ -1357,7 +1298,7 @@ msgstr "Ligar no Início / Desligar na Parada"
 msgid "Preview"
 msgstr "Visualização"
 
-#: ../templates/plate/plates.html:164
+#: ../templates/plate/plates.html:166
 msgid "Preview Layers"
 msgstr "Visualização das Camadas"
 
@@ -1365,11 +1306,11 @@ msgstr "Visualização das Camadas"
 msgid "Preview Layers of Plate"
 msgstr "Visualização das Camadas da Bandeja"
 
-#: ../templates/plate/plates.html:169
+#: ../templates/plate/plates.html:171
 msgid "Print Calibration Plate"
 msgstr "Bandeja de Calibração de Impressão"
 
-#: ../templates/plate/plates.html:119
+#: ../templates/plate/plates.html:121
 msgid "Print From Start"
 msgstr "Imprimir do Começo"
 
@@ -1377,7 +1318,7 @@ msgstr "Imprimir do Começo"
 msgid "Print Stop Gcode"
 msgstr "Gcode Parada de Impressão "
 
-#: ../templates/plate/plates.html:56
+#: ../templates/plate/plates.html:57
 msgid "Print Time"
 msgstr "Tempo de Impressão"
 
@@ -1385,7 +1326,7 @@ msgstr "Tempo de Impressão"
 msgid "Printer Name"
 msgstr ""
 
-#: ../templates/plate/plates.html:34 ../templates/setup/setup-buttons.html:21
+#: ../templates/plate/plates.html:35 ../templates/setup/setup-buttons.html:21
 msgid "Printing"
 msgstr "Imprimindo"
 
@@ -1393,16 +1334,16 @@ msgstr "Imprimindo"
 msgid "Proc"
 msgstr ""
 
-#: ../templates/plate/plates.html:101
+#: ../templates/plate/plates.html:102
 msgid "Processing. You can start printing."
 msgstr "Processando. Você Pode Começar a Imprimir."
 
 #: ../templates/plate/extrude.html:28 ../templates/plate/generator.html:9
-#: ../templates/plate/plates.html:31 ../templates/plate/usb.html:12
+#: ../templates/plate/plates.html:32 ../templates/plate/usb.html:12
 msgid "Profile"
 msgstr "Perfil"
 
-#: ../templates/plate/plates.html:51
+#: ../templates/plate/plates.html:52
 msgid "Profile not found."
 msgstr "Perfil não encontrado"
 
@@ -1447,11 +1388,11 @@ msgstr "R"
 msgid "RAMPS: Reconnect"
 msgstr "Ramps: Reconectar"
 
-#: ../templates/plate/plates.html:88
+#: ../templates/plate/plates.html:89
 msgid "Recreate"
 msgstr "Recriar"
 
-#: ../templates/plate/plates.html:156
+#: ../templates/plate/plates.html:158
 msgid "Rect:"
 msgstr "Retân.:"
 
@@ -1487,7 +1428,7 @@ msgstr "Remover Máscara"
 msgid "Resin Calibration"
 msgstr "Calibração Resina"
 
-#: ../templates/plate/plates.html:60
+#: ../templates/plate/plates.html:61
 msgid "Resin Cost"
 msgstr "Custo Resina"
 
@@ -1507,7 +1448,7 @@ msgstr "Perfil Resina"
 msgid "Resin Settings"
 msgstr "Configuração Resina"
 
-#: ../templates/plate/plates.html:58
+#: ../templates/plate/plates.html:59
 msgid "Resin Usage"
 msgstr "Resina Usada"
 
@@ -1541,7 +1482,7 @@ msgstr "Retomar Impressão"
 msgid "Resume Print Gcode"
 msgstr "Gcode Retomar Impressão"
 
-#: ../templates/index.html:48 ../templates/plate/plates.html:116
+#: ../templates/index.html:48 ../templates/plate/plates.html:118
 msgid "Resume Printing"
 msgstr "Retomar Impressão"
 
@@ -1576,6 +1517,10 @@ msgstr "Salvar"
 #: ../templates/calibration/z-calibration.html:42
 msgid "Save Z Axis Calibration"
 msgstr "Salvar Calibração do Eixo Z"
+
+#: ../templates/plate/plates.html:13
+msgid "Search Plates"
+msgstr "Sem Bandeja"
 
 #: ../templates/profile/edit.html:57 ../templates/profile/edit.html:61
 #: ../templates/profile/edit.html:68 ../templates/profile/edit.html:76
@@ -1613,11 +1558,8 @@ msgid "Servo Signal Length"
 msgstr "Comprimento Sinal Servo"
 
 #: ../templates/profile/edit.html:8 ../templates/setup/setup-config.html:40
-msgid ""
-"Setting changes will take effect immediately and does not require restart."
-msgstr ""
-"As Alterações De Configuração Terão Efeito Imediato E Não Requerem "
-"Reinicialização."
+msgid "Setting changes will take effect immediately and does not require restart."
+msgstr "As Alterações De Configuração Terão Efeito Imediato E Não Requerem Reinicialização."
 
 #: ../templates/menu.html:16
 msgid "Setup"
@@ -1656,14 +1598,8 @@ msgid "Smallest Area"
 msgstr "Área menor"
 
 #: ../templates/setup/setup.html:17
-msgid ""
-"Some critical settings such as type of the shield and etc, will not take "
-"effect in the middle of printing. To change those settings without restart, "
-"stop printing and submit this page again."
-msgstr ""
-"Algumas Configurações Críticas, Como O Tipo De Proteção E Etc, Não Terão "
-"Efeito No Meio Da Impressão. Para Alterar Essas Configurações Sem Reiniciar, "
-"Pare De Imprimir E Envie Esta Página Novamente."
+msgid "Some critical settings such as type of the shield and etc, will not take effect in the middle of printing. To change those settings without restart, stop printing and submit this page again."
+msgstr "Algumas Configurações Críticas, Como O Tipo De Proteção E Etc, Não Terão Efeito No Meio Da Impressão. Para Alterar Essas Configurações Sem Reiniciar, Pare De Imprimir E Envie Esta Página Novamente."
 
 #: ../templates/setup/setup-config.html:392
 msgid "Speed"
@@ -1677,11 +1613,11 @@ msgstr "Iniciar Exibição"
 msgid "Start of Print Gcode"
 msgstr "Gcode de Início de Impressão"
 
-#: ../templates/plate/plates.html:124 ../templates/plate/plates.html:177
+#: ../templates/plate/plates.html:126 ../templates/plate/plates.html:179
 msgid "Stop"
 msgstr "Parar"
 
-#: ../templates/plate/edit.html:41 ../templates/plate/plates.html:63
+#: ../templates/plate/edit.html:41 ../templates/plate/plates.html:64
 msgid "Stop Layers"
 msgstr "Parada Camadas"
 
@@ -1740,36 +1676,25 @@ msgstr "Encerrar nanoDLP"
 msgid "Text"
 msgstr "Texto"
 
-#: ../templates/plate/plates.html:99
+#: ../templates/plate/plates.html:100
 msgid "The plate is not processed yet."
 msgstr "A bandeja ainda não foi processada"
 
-#: ../templates/plate/plates.html:69
+#: ../templates/plate/plates.html:70
 msgid "This plate is corrupted."
 msgstr "Essa bandeja está corrompida"
 
 #: ../templates/plate/preview.html:8
-msgid ""
-"This plate is still being processed, the image of some layers is still "
-"missing."
-msgstr ""
-"Esta Bandeja Ainda Está Sendo Processada, A Imagem De Algumas Camadas Ainda "
-"Está Faltando."
+msgid "This plate is still being processed, the image of some layers is still missing."
+msgstr "Esta Bandeja Ainda Está Sendo Processada, A Imagem De Algumas Camadas Ainda Está Faltando."
 
 #: ../templates/setup/upgrade.html:9
-msgid ""
-"This process could take a few seconds to minutes depending on the quality of "
-"your internet connection."
-msgstr ""
-"Este Processo Pode Levar Alguns Segundos A Minutos, Dependendo Da Qualidade "
-"Da Sua Conexão Com A Internet."
+msgid "This process could take a few seconds to minutes depending on the quality of your internet connection."
+msgstr "Este Processo Pode Levar Alguns Segundos A Minutos, Dependendo Da Qualidade Da Sua Conexão Com A Internet."
 
 #: ../templates/plate/extrude.html:9
-msgid ""
-"This process could take up to a minute to complete, depending on the depth."
-msgstr ""
-"Este Processo Pode Demorar Até Um Minuto Para Ser Concluído, Dependendo Da "
-"Profundidade."
+msgid "This process could take up to a minute to complete, depending on the depth."
+msgstr "Este Processo Pode Demorar Até Um Minuto Para Ser Concluído, Dependendo Da Profundidade."
 
 #: ../templates/index.html:114
 msgid "Time"
@@ -1780,27 +1705,16 @@ msgid "Title"
 msgstr "Titulo"
 
 #: ../templates/setup/setup.html:82
-msgid ""
-"To enable the remote access to the printer, please enter random access key"
-msgstr ""
-"Para Habilitar O Acesso Remoto À Impressora, Insira A Senha De Acesso "
-"Aleatório "
+msgid "To enable the remote access to the printer, please enter random access key"
+msgstr "Para Habilitar O Acesso Remoto À Impressora, Insira A Senha De Acesso Aleatório "
 
 #: ../templates/setup/upgrade.html:13
-msgid ""
-"To monitor the process you could checkout the activity log. After completion "
-"the Printer will be restarted."
-msgstr ""
-"Para monitorar o processo, você pode verificar o registro de atividade. Após "
-"a conclusão, a impressora será reiniciada."
+msgid "To monitor the process you could checkout the activity log. After completion the Printer will be restarted."
+msgstr "Para monitorar o processo, você pode verificar o registro de atividade. Após a conclusão, a impressora será reiniciada."
 
 #: ../templates/setup/setup.html:67
-msgid ""
-"To remove the password protection, remove the username from the input and "
-"submit."
-msgstr ""
-"Para Remover A Proteção Por Senha, Remova O Nome De Usuário Da Entrada E "
-"Envie."
+msgid "To remove the password protection, remove the username from the input and submit."
+msgstr "Para Remover A Proteção Por Senha, Remova O Nome De Usuário Da Entrada E Envie."
 
 #: ../templates/plate/preview.html:3
 msgid "Toggle Details"
@@ -1879,7 +1793,7 @@ msgstr "Atualizar Para Versão Beta"
 msgid "Upgrade to the latest stable version"
 msgstr "Atualizar Para Última Versão Estável"
 
-#: ../templates/plate/plates.html:146
+#: ../templates/plate/plates.html:148
 msgid "Upload Image"
 msgstr "Carregar Imagem"
 
@@ -1964,21 +1878,12 @@ msgid "Y Resolution"
 msgstr "Resolução Y"
 
 #: ../templates/setup/custom-inputs.html:39
-msgid ""
-"You can add additional inputs to the setup page and they will be accessible "
-"as Gcode keywords. eg. [[_ResinPumpAmount]]"
-msgstr ""
-"Você Pode Adicionar Entradas Adicionais À Página De Configuração E Elas "
-"Serão Acessíveis Como Palavras-Chave Do Gcode. Por Exemplo. "
-"[[_ResinPumpAmount]]"
+msgid "You can add additional inputs to the setup page and they will be accessible as Gcode keywords. eg. [[_ResinPumpAmount]]"
+msgstr "Você Pode Adicionar Entradas Adicionais À Página De Configuração E Elas Serão Acessíveis Como Palavras-Chave Do Gcode. Por Exemplo. [[_ResinPumpAmount]]"
 
 #: ../templates/plate/cover.html:6
-msgid ""
-"You can partially select and cover some sections of the plate to prevent "
-"further damage to PDMS and resin waste."
-msgstr ""
-"Você Pode Selecionar Parcialmente E Cobrir Algumas Seções Da Bandeja Para "
-"Evitar Mais Danos Ao PDMS E Resíduos Da Resina."
+msgid "You can partially select and cover some sections of the plate to prevent further damage to PDMS and resin waste."
+msgstr "Você Pode Selecionar Parcialmente E Cobrir Algumas Seções Da Bandeja Para Evitar Mais Danos Ao PDMS E Resíduos Da Resina."
 
 #: ../templates/menu.html:13
 #, fuzzy
@@ -2025,7 +1930,7 @@ msgstr "i2c"
 msgid "i2c Address"
 msgstr "Endereço i2c"
 
-#: ../templates/plate/plates.html:115 ../templates/plate/plates.html:125
+#: ../templates/plate/plates.html:117 ../templates/plate/plates.html:127
 msgid "of"
 msgstr "De"
 
@@ -2036,9 +1941,6 @@ msgstr "μm"
 #: ../templates/setup/setup-config.html:395
 msgid "μm/Second"
 msgstr "μm/Segundo"
-
-#~ msgid "ADD"
-#~ msgstr "Adicionar"
 
 #~ msgid "Add with Support"
 #~ msgstr "Adicionar com Suportes"

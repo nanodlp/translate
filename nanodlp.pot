@@ -32,7 +32,7 @@ msgstr ""
 msgid "16x2"
 msgstr ""
 
-#: ../templates/plate/plates.html:83
+#: ../templates/plate/plates.html:84
 msgid "3D"
 msgstr ""
 
@@ -53,7 +53,7 @@ msgid "Absolute"
 msgstr ""
 
 #: ../templates/index.html:18
-#: ../templates/plate/plates.html:33
+#: ../templates/plate/plates.html:34
 #: ../templates/setup/custom-inputs.html:49
 #: ../templates/setup/setup-buttons.html:40
 msgid "Action"
@@ -71,7 +71,7 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: ../templates/plate/plates.html:94
+#: ../templates/plate/plates.html:95
 msgid "Add Blackout"
 msgstr ""
 
@@ -115,7 +115,7 @@ msgstr ""
 msgid "Application Log"
 msgstr ""
 
-#: ../templates/plate/plates.html:22
+#: ../templates/plate/plates.html:23
 msgid "Are you sure you want to delete this plate?"
 msgstr ""
 
@@ -140,11 +140,11 @@ msgstr ""
 msgid "Are you sure you want to power off the projector?"
 msgstr ""
 
-#: ../templates/plate/plates.html:25
+#: ../templates/plate/plates.html:26
 msgid "Are you sure you want to print the calibration plate?"
 msgstr ""
 
-#: ../templates/plate/plates.html:23
+#: ../templates/plate/plates.html:24
 msgid "Are you sure you want to regenerate the layers of this plate?"
 msgstr ""
 
@@ -170,7 +170,7 @@ msgid "Are you sure you want to start the display? It will automatically select 
 msgstr ""
 
 #: ../templates/index.html:66
-#: ../templates/plate/plates.html:24
+#: ../templates/plate/plates.html:25
 msgid "Are you sure you want to stop printing?"
 msgstr ""
 
@@ -271,11 +271,11 @@ msgstr ""
 msgid "Calibrate Zero Position ⇧"
 msgstr ""
 
-#: ../templates/plate/plates.html:155
+#: ../templates/plate/plates.html:157
 msgid "Calibration Plate"
 msgstr ""
 
-#: ../templates/plate/plates.html:173
+#: ../templates/plate/plates.html:175
 msgid "Calibration plate being generated..."
 msgstr ""
 
@@ -364,7 +364,7 @@ msgstr ""
 msgid "Could not connect to the printer. Please check your connection."
 msgstr ""
 
-#: ../templates/plate/plates.html:144
+#: ../templates/plate/plates.html:146
 msgid "Create 3D shapes by repeating an image frame"
 msgstr ""
 
@@ -417,7 +417,7 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: ../templates/plate/plates.html:74
+#: ../templates/plate/plates.html:75
 #: ../templates/profile/profiles.html:32
 msgid "Delete"
 msgstr ""
@@ -427,7 +427,7 @@ msgid "Description"
 msgstr ""
 
 #: ../templates/index.html:116
-#: ../templates/plate/plates.html:32
+#: ../templates/plate/plates.html:33
 #: ../templates/setup/custom-inputs.html:46
 #: ../templates/setup/custom-inputs.html:47
 #: ../templates/setup/custom-inputs.html:48
@@ -512,7 +512,7 @@ msgstr ""
 msgid "Do not Rotate"
 msgstr ""
 
-#: ../templates/plate/plates.html:79
+#: ../templates/plate/plates.html:80
 msgid "Download"
 msgstr ""
 
@@ -540,7 +540,7 @@ msgstr ""
 msgid "Dynamic Red Calib."
 msgstr ""
 
-#: ../templates/plate/plates.html:71
+#: ../templates/plate/plates.html:72
 #: ../templates/profile/profiles.html:31
 msgid "Edit"
 msgstr ""
@@ -657,11 +657,11 @@ msgstr ""
 msgid "Framebuffer Path"
 msgstr ""
 
-#: ../templates/plate/plates.html:185
+#: ../templates/plate/plates.html:187
 msgid "Free Disk Space"
 msgstr ""
 
-#: ../templates/plate/plates.html:18
+#: ../templates/plate/plates.html:19
 msgid "Free space available on your disk is low. Please remove some plates."
 msgstr ""
 
@@ -691,7 +691,7 @@ msgstr ""
 
 #: ../templates/plate/extrude.html:54
 #: ../templates/plate/generator.html:60
-#: ../templates/plate/plates.html:162
+#: ../templates/plate/plates.html:164
 msgid "Generate"
 msgstr ""
 
@@ -733,7 +733,7 @@ msgstr ""
 msgid "Hours"
 msgstr ""
 
-#: ../templates/plate/plates.html:29
+#: ../templates/plate/plates.html:30
 #: ../templates/profile/profiles.html:7
 msgid "ID"
 msgstr ""
@@ -805,9 +805,13 @@ msgstr ""
 #: ../templates/calibration/z-calibration.html:102
 #: ../templates/index.html:113
 #: ../templates/index.html:15
-#: ../templates/plate/plates.html:125
+#: ../templates/plate/plates.html:127
 #: ../templates/plate/preview.html:14
 msgid "Layer"
+msgstr ""
+
+#: ../templates/plate/plates.html:116
+msgid "Layer ID"
 msgstr ""
 
 #: ../templates/profile/edit.html:53
@@ -815,8 +819,8 @@ msgstr ""
 msgid "Layer Thickness"
 msgstr ""
 
-#: ../templates/plate/plates.html:115
-#: ../templates/plate/plates.html:96
+#: ../templates/plate/plates.html:117
+#: ../templates/plate/plates.html:97
 msgid "Layers"
 msgstr ""
 
@@ -949,7 +953,7 @@ msgstr ""
 msgid "Min for Number Input"
 msgstr ""
 
-#: ../templates/plate/plates.html:92
+#: ../templates/plate/plates.html:93
 msgid "Modify Blackout"
 msgstr ""
 
@@ -987,7 +991,7 @@ msgstr ""
 msgid "Movement Positioning"
 msgstr ""
 
-#: ../templates/plate/plates.html:30
+#: ../templates/plate/plates.html:31
 #: ../templates/setup/custom-inputs.html:45
 msgid "Name"
 msgstr ""
@@ -1009,7 +1013,7 @@ msgstr ""
 msgid "No Encryption"
 msgstr ""
 
-#: ../templates/plate/plates.html:134
+#: ../templates/plate/plates.html:136
 msgid "No Plates"
 msgstr ""
 
@@ -1120,7 +1124,7 @@ msgstr ""
 msgid "PNG/JPEG File"
 msgstr ""
 
-#: ../templates/plate/plates.html:148
+#: ../templates/plate/plates.html:150
 msgid "Paint"
 msgstr ""
 
@@ -1228,7 +1232,7 @@ msgstr ""
 msgid "Pillar Width"
 msgstr ""
 
-#: ../templates/plate/plates.html:158
+#: ../templates/plate/plates.html:160
 msgid "Pillars:"
 msgstr ""
 
@@ -1257,7 +1261,7 @@ msgstr ""
 
 #: ../templates/plate/extrude.html:12
 #: ../templates/plate/generator.html:5
-#: ../templates/plate/plates.html:143
+#: ../templates/plate/plates.html:145
 msgid "Plate Generator"
 msgstr ""
 
@@ -1267,7 +1271,7 @@ msgstr ""
 msgid "Plate Name"
 msgstr ""
 
-#: ../templates/plate/plates.html:48
+#: ../templates/plate/plates.html:49
 msgid "Plate generated using old profile data."
 msgstr ""
 
@@ -1325,7 +1329,7 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: ../templates/plate/plates.html:164
+#: ../templates/plate/plates.html:166
 msgid "Preview Layers"
 msgstr ""
 
@@ -1333,11 +1337,11 @@ msgstr ""
 msgid "Preview Layers of Plate"
 msgstr ""
 
-#: ../templates/plate/plates.html:169
+#: ../templates/plate/plates.html:171
 msgid "Print Calibration Plate"
 msgstr ""
 
-#: ../templates/plate/plates.html:119
+#: ../templates/plate/plates.html:121
 msgid "Print From Start"
 msgstr ""
 
@@ -1345,7 +1349,7 @@ msgstr ""
 msgid "Print Stop Gcode"
 msgstr ""
 
-#: ../templates/plate/plates.html:56
+#: ../templates/plate/plates.html:57
 msgid "Print Time"
 msgstr ""
 
@@ -1353,7 +1357,7 @@ msgstr ""
 msgid "Printer Name"
 msgstr ""
 
-#: ../templates/plate/plates.html:34
+#: ../templates/plate/plates.html:35
 #: ../templates/setup/setup-buttons.html:21
 msgid "Printing"
 msgstr ""
@@ -1362,18 +1366,18 @@ msgstr ""
 msgid "Proc"
 msgstr ""
 
-#: ../templates/plate/plates.html:101
+#: ../templates/plate/plates.html:102
 msgid "Processing. You can start printing."
 msgstr ""
 
 #: ../templates/plate/extrude.html:28
 #: ../templates/plate/generator.html:9
-#: ../templates/plate/plates.html:31
+#: ../templates/plate/plates.html:32
 #: ../templates/plate/usb.html:12
 msgid "Profile"
 msgstr ""
 
-#: ../templates/plate/plates.html:51
+#: ../templates/plate/plates.html:52
 msgid "Profile not found."
 msgstr ""
 
@@ -1419,11 +1423,11 @@ msgstr ""
 msgid "RAMPS: Reconnect"
 msgstr ""
 
-#: ../templates/plate/plates.html:88
+#: ../templates/plate/plates.html:89
 msgid "Recreate"
 msgstr ""
 
-#: ../templates/plate/plates.html:156
+#: ../templates/plate/plates.html:158
 msgid "Rect:"
 msgstr ""
 
@@ -1459,7 +1463,7 @@ msgstr ""
 msgid "Resin Calibration"
 msgstr ""
 
-#: ../templates/plate/plates.html:60
+#: ../templates/plate/plates.html:61
 msgid "Resin Cost"
 msgstr ""
 
@@ -1479,7 +1483,7 @@ msgstr ""
 msgid "Resin Settings"
 msgstr ""
 
-#: ../templates/plate/plates.html:58
+#: ../templates/plate/plates.html:59
 msgid "Resin Usage"
 msgstr ""
 
@@ -1514,7 +1518,7 @@ msgid "Resume Print Gcode"
 msgstr ""
 
 #: ../templates/index.html:48
-#: ../templates/plate/plates.html:116
+#: ../templates/plate/plates.html:118
 msgid "Resume Printing"
 msgstr ""
 
@@ -1551,6 +1555,10 @@ msgstr ""
 
 #: ../templates/calibration/z-calibration.html:42
 msgid "Save Z Axis Calibration"
+msgstr ""
+
+#: ../templates/plate/plates.html:13
+msgid "Search Plates"
 msgstr ""
 
 #: ../templates/profile/edit.html:57
@@ -1647,13 +1655,13 @@ msgstr ""
 msgid "Start of Print Gcode"
 msgstr ""
 
-#: ../templates/plate/plates.html:124
-#: ../templates/plate/plates.html:177
+#: ../templates/plate/plates.html:126
+#: ../templates/plate/plates.html:179
 msgid "Stop"
 msgstr ""
 
 #: ../templates/plate/edit.html:41
-#: ../templates/plate/plates.html:63
+#: ../templates/plate/plates.html:64
 msgid "Stop Layers"
 msgstr ""
 
@@ -1715,11 +1723,11 @@ msgstr ""
 msgid "Text"
 msgstr ""
 
-#: ../templates/plate/plates.html:99
+#: ../templates/plate/plates.html:100
 msgid "The plate is not processed yet."
 msgstr ""
 
-#: ../templates/plate/plates.html:69
+#: ../templates/plate/plates.html:70
 msgid "This plate is corrupted."
 msgstr ""
 
@@ -1833,7 +1841,7 @@ msgstr ""
 msgid "Upgrade to the latest stable version"
 msgstr ""
 
-#: ../templates/plate/plates.html:146
+#: ../templates/plate/plates.html:148
 msgid "Upload Image"
 msgstr ""
 
@@ -1969,8 +1977,8 @@ msgstr ""
 msgid "i2c Address"
 msgstr ""
 
-#: ../templates/plate/plates.html:115
-#: ../templates/plate/plates.html:125
+#: ../templates/plate/plates.html:117
+#: ../templates/plate/plates.html:127
 msgid "of"
 msgstr ""
 
