@@ -29,7 +29,7 @@ msgstr "100 Pulsos ⇧"
 msgid "100 Pulse ⇩"
 msgstr "100 Pulsos ⇩"
 
-#: ../templates/setup/setup-config.html:487
+#: ../templates/setup/setup-config.html:496
 msgid "16x2"
 msgstr "16x2"
 
@@ -63,7 +63,7 @@ msgstr "Ação"
 msgid "Actions"
 msgstr "Ações"
 
-#: ../templates/setup/setup-config.html:431
+#: ../templates/setup/setup-config.html:440
 msgid "Actuator / Motor"
 msgstr "Atuador/Motor"
 
@@ -84,9 +84,8 @@ msgid "Add Mask"
 msgstr "Adicionar Mascára"
 
 #: ../templates/plate/edit.html:6
-#, fuzzy
 msgid "Add Plate"
-msgstr "Bandeja"
+msgstr ""
 
 #: ../templates/profile/profiles.html:3
 msgid "Add Profile"
@@ -104,7 +103,11 @@ msgstr ""
 msgid "Admin has access to all functions including the dashboard."
 msgstr "Administrador Tem Acesso A Todas As Funções Do Painel De Controle."
 
-#: ../templates/setup/setup-config.html:470
+#: ../templates/profile/edit.html:148
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:479
 msgid "All Images"
 msgstr "Todas imagens"
 
@@ -205,16 +208,15 @@ msgid "Authentication Required"
 msgstr "Autenticação Requerida"
 
 #: ../templates/plate/edit.html:49
-#, fuzzy
 msgid "Auto Center"
-msgstr "STL/SLC/SVG Centralizar Automático"
+msgstr ""
 
 #: ../templates/calibration/projector-calibration.html:47
 msgid "Barrel Distortion"
 msgstr "Distorção de Barril"
 
 #: ../templates/calibration/projector-calibration.html:51
-#: ../templates/setup/setup-config.html:304
+#: ../templates/setup/setup-config.html:305
 msgid "Barrel Factor"
 msgstr "Fator Barril"
 
@@ -226,11 +228,11 @@ msgstr "Centro do Barril em X"
 msgid "Barrel's Center Y"
 msgstr "Centro do Barril em Y"
 
-#: ../templates/setup/setup-config.html:255
+#: ../templates/setup/setup-config.html:256
 msgid "Before Each Layer"
 msgstr "Antes de cada Camada"
 
-#: ../templates/setup/setup-config.html:256
+#: ../templates/setup/setup-config.html:257
 msgid "Before Print"
 msgstr "Antes da Impressão"
 
@@ -270,7 +272,7 @@ msgstr ""
 msgid "Bluring Radius"
 msgstr "Raio de Bluring"
 
-#: ../templates/setup/setup-config.html:197
+#: ../templates/setup/setup-config.html:198
 msgid "Bootup Gcode"
 msgstr "Gcode Inicialização"
 
@@ -290,7 +292,7 @@ msgstr ""
 msgid "Boundry - Y"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:54
+#: ../templates/setup/setup-config.html:53
 msgid "Brazilian Portuguese"
 msgstr ""
 
@@ -322,15 +324,15 @@ msgstr "Bandeja de Calibração"
 msgid "Calibration plate being generated..."
 msgstr "A Bandeja de Calibração está sendo gerada..."
 
-#: ../templates/setup/setup-config.html:474
+#: ../templates/setup/setup-config.html:483
 msgid "Camera Command"
 msgstr "Comando Câmera"
 
-#: ../templates/setup/setup-config.html:452
+#: ../templates/setup/setup-config.html:461
 msgid "Camera Module"
 msgstr "Modulo Câmera"
 
-#: ../templates/setup/setup-config.html:455
+#: ../templates/setup/setup-config.html:464
 msgid "Camera Photo Frequency"
 msgstr "Foto Frequência da Câmera"
 
@@ -342,11 +344,11 @@ msgstr "Origem Centro"
 msgid "Center Pieces"
 msgstr "Centrar Peças"
 
-#: ../templates/setup/setup-config.html:309
+#: ../templates/setup/setup-config.html:310
 msgid "Center of Barrel - X"
 msgstr "Centro do Barril - X"
 
-#: ../templates/setup/setup-config.html:313
+#: ../templates/setup/setup-config.html:314
 msgid "Center of Barrel - Y"
 msgstr "Centro do Barril - "
 
@@ -397,9 +399,8 @@ msgid "Comma Separated Cure Times"
 msgstr "Tempo De Cura É Separado Por Vírgula"
 
 #: ../templates/calibration/mask-generator.html:57
-#, fuzzy
 msgid "Comma Separated Values"
-msgstr "Tempo De Cura É Separado Por Vírgula"
+msgstr ""
 
 #: ../templates/setup/setup-buttons.html:39
 msgid "Confirmation Text"
@@ -425,7 +426,8 @@ msgstr ""
 msgid "Cure Layer"
 msgstr "Camada de Cura"
 
-#: ../templates/profile/edit.html:57 ../templates/profile/profiles.html:10
+#: ../templates/plate/plates.html:47 ../templates/profile/edit.html:57
+#: ../templates/profile/edit.html:89 ../templates/profile/profiles.html:10
 msgid "Cure Time"
 msgstr "Tempo de Cura"
 
@@ -489,17 +491,24 @@ msgid "Dimming Amount Percentage"
 msgstr ""
 
 #: ../templates/profile/edit.html:172
-#, fuzzy
 msgid "Dimming Type"
-msgstr "Tipo LCD"
+msgstr ""
 
 #: ../templates/plate/extrude.html:6
 msgid "Dimming and Mask settings will take effect on the created layers."
 msgstr "As configurações de Dimming e Máscara entrarão em vigor nas camadas criadas."
 
+#: ../templates/setup/setup-config.html:94
+msgid "DirectiDriver Enable GPIO"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:89
+msgid "Direction GPIO"
+msgstr ""
+
 #: ../templates/plate/edit.html:53 ../templates/profile/edit.html:238
-#: ../templates/setup/setup-config.html:4
-#: ../templates/setup/setup-config.html:537
+#: ../templates/setup/setup-config.html:3
+#: ../templates/setup/setup-config.html:546
 msgid "Disable"
 msgstr "Desabilitar"
 
@@ -512,9 +521,9 @@ msgid "Disable Motor"
 msgstr "Desabilitar Motor"
 
 #: ../templates/profile/edit.html:245 ../templates/setup/setup-config.html:138
-#: ../templates/setup/setup-config.html:241
-#: ../templates/setup/setup-config.html:321
-#: ../templates/setup/setup-config.html:457
+#: ../templates/setup/setup-config.html:242
+#: ../templates/setup/setup-config.html:322
+#: ../templates/setup/setup-config.html:466
 msgid "Disabled"
 msgstr "Desabilitar"
 
@@ -528,11 +537,11 @@ msgstr "Disco"
 #: ../templates/calibration/projector-calibration.html:65
 #: ../templates/calibration/projector-calibration.html:9
 #: ../templates/calibration/projector-calibration.html:98
-#: ../templates/setup/setup-config.html:282
+#: ../templates/setup/setup-config.html:283
 msgid "Display"
 msgstr "Display"
 
-#: ../templates/setup/setup-config.html:319
+#: ../templates/setup/setup-config.html:320
 msgid "Display Communication Type"
 msgstr "Tipo de Comunicação do Display"
 
@@ -544,19 +553,19 @@ msgstr "Exibir Camadas"
 msgid "Display Mask"
 msgstr "Exibir Máscara"
 
-#: ../templates/setup/setup-config.html:367
+#: ../templates/setup/setup-config.html:368
 msgid "Display Power Cycle"
 msgstr "Exibir Ciclo de Energia "
 
-#: ../templates/setup/setup-config.html:360
+#: ../templates/setup/setup-config.html:361
 msgid "Display Turn Off Command"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:356
+#: ../templates/setup/setup-config.html:357
 msgid "Display Turn On Command"
 msgstr "Exibir Comando de Ligar"
 
-#: ../templates/setup/setup-config.html:334
+#: ../templates/setup/setup-config.html:335
 msgid "Display Warm-up Time"
 msgstr "Exibir Tempo de Aquecimento"
 
@@ -584,28 +593,29 @@ msgstr "Baixar Configurações Máquina"
 msgid "Download Profile"
 msgstr "Baixar Perfis"
 
+#: ../templates/profile/edit.html:114
+msgid "Dynamic Calculation"
+msgstr ""
+
 #: ../templates/calibration/projector-calibration.html:8
 msgid "Dynamic Calibration"
 msgstr "Calibração Dinâmica"
 
 #: ../templates/profile/edit.html:117
-#, fuzzy
 msgid "Dynamic Cure Time"
-msgstr "Tempo de Cura"
+msgstr ""
 
 #: ../templates/profile/edit.html:125
-#, fuzzy
 msgid "Dynamic Lift"
-msgstr "Calibração Dinâmica"
+msgstr ""
 
 #: ../templates/calibration/projector-calibration.html:17
 msgid "Dynamic Red Calib."
 msgstr "Calib. Dinâmica Vermelha"
 
 #: ../templates/profile/edit.html:121
-#, fuzzy
 msgid "Dynamic Speed"
-msgstr "Calib. Dinâmica Vermelha"
+msgstr ""
 
 #: ../templates/plate/plates.html:72 ../templates/profile/profiles.html:31
 msgid "Edit"
@@ -616,15 +626,18 @@ msgid "Edit File"
 msgstr "Editar Arquivo"
 
 #: ../templates/plate/edit.html:8
-#, fuzzy
 msgid "Edit Plate"
-msgstr "Editar Arquivo"
+msgstr ""
+
+#: ../templates/profile/edit.html:7
+msgid "Edit Profile"
+msgstr ""
 
 #: ../templates/setup/setup.html:66
 msgid "Empty username for dashboard, makes the dashboard accessible to everyone without authentication."
 msgstr "Nome De Usuário Vazio Para Painel De Controle, Torna O Painel Disponível Para Todos Sem Autenticação."
 
-#: ../templates/profile/edit.html:237 ../templates/setup/setup-config.html:536
+#: ../templates/profile/edit.html:237 ../templates/setup/setup-config.html:545
 msgid "Enable"
 msgstr "Ativar"
 
@@ -636,17 +649,17 @@ msgstr "Ativar Desligamento Automático"
 msgid "Enable Before Each Print"
 msgstr "Ativar Antes de Cada Impressão"
 
+#: ../templates/setup/setup-config.html:116
+msgid "Enable GPIO Mode"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:109
+msgid "Enable GPIO State"
+msgstr ""
+
 #: ../templates/calibration/z-calibration.html:48
 msgid "Enable Motor"
 msgstr "Ativar Motor"
-
-#: ../templates/setup/setup-config.html:116
-msgid "Enable Pin Mode"
-msgstr "Ativar Modo Pino"
-
-#: ../templates/setup/setup-config.html:109
-msgid "Enable Pin State"
-msgstr "Ativar Estado Pino"
 
 #: ../templates/setup/setup-config.html:118
 msgid "Enable on Boot"
@@ -656,7 +669,15 @@ msgstr "Ativar na Inicialização"
 msgid "End Level"
 msgstr "Nível final"
 
-#: ../templates/setup/setup-config.html:53
+#: ../templates/setup/setup-config.html:105
+msgid "Endstop Switch - Bottom Limit"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:100
+msgid "Endstop Switch - Top Limit"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:52
 msgid "English"
 msgstr ""
 
@@ -672,15 +693,15 @@ msgstr "Executar – Inicio Impressora"
 msgid "Execute - Print Stop"
 msgstr "Execurar – Parada Impressora"
 
-#: ../templates/setup/setup-config.html:379
+#: ../templates/setup/setup-config.html:380
 msgid "Execute to Turn Display Off"
 msgstr "Executar Desligar o Display"
 
-#: ../templates/setup/setup-config.html:375
+#: ../templates/setup/setup-config.html:376
 msgid "Execute to Turn Display On"
 msgstr "Executar Ligar o Display"
 
-#: ../templates/setup/setup-config.html:329
+#: ../templates/setup/setup-config.html:330
 msgid "Execution Only"
 msgstr "Executar Somente"
 
@@ -704,9 +725,9 @@ msgstr "Extender a Camada base dos Pilares"
 msgid "F"
 msgstr "F"
 
-#: ../templates/setup/setup-config.html:518
-msgid "Fault Pin Default State"
-msgstr "Pino Padrão de Falha"
+#: ../templates/setup/setup-config.html:527
+msgid "Fault GPIO Default State"
+msgstr ""
 
 #: ../templates/plate/edit.html:15
 msgid "File From USB"
@@ -717,9 +738,8 @@ msgid "Filesystem expantion will run silently in background, and will restart th
 msgstr "A Expansão Dos Arquivos De Sistema Será Executada Silenciosamente Em Segundo Plano E Reiniciará O Raspberry Pi Depois. Por Favor, Não Mude Nada."
 
 #: ../templates/calibration/mask-generator.html:78
-#, fuzzy
 msgid "Final Mask"
-msgstr "Exibir Máscara"
+msgstr ""
 
 #: ../templates/calibration/z-calibration.html:61
 msgid "Floor ⇩"
@@ -729,7 +749,7 @@ msgstr "Piso"
 msgid "Force Stop"
 msgstr "Forçar Cancelamento"
 
-#: ../templates/setup/setup-config.html:392
+#: ../templates/setup/setup-config.html:387
 msgid "Framebuffer Path"
 msgstr "Framebuffer Path"
 
@@ -750,14 +770,12 @@ msgid "FullHD Calibration"
 msgstr "Calibração FullHD"
 
 #: ../templates/profile/edit.html:267
-#, fuzzy
 msgid "GCODE After Each Layer"
-msgstr "Antes de cada Camada"
+msgstr ""
 
 #: ../templates/profile/edit.html:259
-#, fuzzy
 msgid "GCODE Before Each Layer"
-msgstr "Antes de cada Camada"
+msgstr ""
 
 #: ../templates/profile/edit.html:253
 msgid "GCode"
@@ -785,15 +803,14 @@ msgid "Green"
 msgstr "Verde"
 
 #: ../templates/calibration/mask-generator.html:66
-#, fuzzy
 msgid "Grid Preview"
-msgstr "Visualização"
+msgstr ""
 
-#: ../templates/setup/setup-config.html:327
+#: ../templates/setup/setup-config.html:328
 msgid "HDMI Power On/Off - Standby Mode"
 msgstr "HDMI Power On / Off - Modo de Espera"
 
-#: ../templates/setup/setup-config.html:511
+#: ../templates/setup/setup-config.html:520
 msgid "Hardware Fault Detection"
 msgstr "Detecção Falha de Hardware"
 
@@ -815,7 +832,7 @@ msgid "Hexagonal"
 msgstr ""
 
 #: ../templates/setup/setup-config.html:112
-#: ../templates/setup/setup-config.html:521
+#: ../templates/setup/setup-config.html:530
 msgid "High"
 msgstr "Altura"
 
@@ -827,7 +844,7 @@ msgstr ""
 msgid "Homogeneous"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:285
+#: ../templates/setup/setup-config.html:286
 msgid "Horizontal Resolution"
 msgstr "Resolução Horizontal"
 
@@ -887,29 +904,31 @@ msgstr "É Possível Enviar Códigos Binários Usando O Formato Base 16."
 msgid "It would not replace Raspberry Pi's configuration, if any function does not work as expected use ssh terminal to upgrade."
 msgstr "Não Substituiria A Configuração Raspberry Pi, Se Qualquer Função Não Funcionar Como Esperado Use O Terminal Ssh Para Atualizar."
 
+#: ../templates/setup/setup-config.html:54
+msgid "Italian"
+msgstr ""
+
 #: ../templates/profile/edit.html:151
-#, fuzzy
 msgid "Jump After Number of Layers"
-msgstr "Número da Camada"
+msgstr ""
 
 #: ../templates/profile/edit.html:155
-#, fuzzy
 msgid "Jump Height"
-msgstr "Altura"
+msgstr ""
 
-#: ../templates/setup/setup-config.html:481
+#: ../templates/setup/setup-config.html:490
 msgid "LCD"
 msgstr "LCD"
 
-#: ../templates/setup/setup-config.html:484
+#: ../templates/setup/setup-config.html:493
 msgid "LCD Type"
 msgstr "Tipo LCD"
 
-#: ../templates/setup/setup-config.html:342
+#: ../templates/setup/setup-config.html:343
 msgid "Lamp Brightness"
 msgstr "Brilho Lâmpada"
 
-#: ../templates/setup/setup-config.html:51
+#: ../templates/setup/setup-config.html:50
 msgid "Language"
 msgstr ""
 
@@ -924,11 +943,11 @@ msgid "Layer"
 msgstr "Camada"
 
 #: ../templates/plate/plates.html:116
-#, fuzzy
 msgid "Layer ID"
-msgstr "Camada"
+msgstr ""
 
-#: ../templates/profile/edit.html:53 ../templates/profile/profiles.html:9
+#: ../templates/profile/edit.html:53 ../templates/profile/edit.html:85
+#: ../templates/profile/profiles.html:9
 msgid "Layer Thickness"
 msgstr "Altura da Camada"
 
@@ -937,7 +956,7 @@ msgstr "Altura da Camada"
 msgid "Layers"
 msgstr "Camadas"
 
-#: ../templates/setup/setup-config.html:442
+#: ../templates/setup/setup-config.html:451
 msgid "Leadscrew Pitch"
 msgstr "Passo do Fuso"
 
@@ -945,8 +964,12 @@ msgstr "Passo do Fuso"
 msgid "Level"
 msgstr "Nivel"
 
-#: ../templates/profile/edit.html:72
+#: ../templates/profile/edit.html:104 ../templates/profile/edit.html:72
 msgid "Lift After Print"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:397
+msgid "Light Output Formula"
 msgstr ""
 
 #: ../templates/profile/edit.html:28
@@ -962,14 +985,13 @@ msgid "Login"
 msgstr "Login"
 
 #: ../templates/setup/setup-config.html:111
-#: ../templates/setup/setup-config.html:520
+#: ../templates/setup/setup-config.html:529
 msgid "Low"
 msgstr "Baixo"
 
 #: ../templates/profile/edit.html:163
-#, fuzzy
 msgid "Low Quality Cure Time"
-msgstr "Tempo de Cura"
+msgstr ""
 
 #: ../templates/import.html:49
 msgid "Machine Settings and Profiles Repository"
@@ -983,7 +1005,7 @@ msgstr "Tornar Padão"
 msgid "Making any change will automatically discard the previous calibration plate."
 msgstr "Fazer Qualquer Alteração Descartará Automaticamente A Bandeja De Calibração Anterior."
 
-#: ../templates/setup/setup-config.html:228
+#: ../templates/setup/setup-config.html:229
 msgid "Manual Movement Gcode Template"
 msgstr "Modelo de Gcode Movimento Manual"
 
@@ -1008,15 +1030,14 @@ msgid "Mask Grid"
 msgstr "Grade Máscara"
 
 #: ../templates/calibration/mask-generator.html:72
-#, fuzzy
 msgid "Mask Preview"
-msgstr "Visualização"
+msgstr ""
 
 #: ../templates/setup/setup.html:28
 msgid "Mask file effects only STL/SLC/SVG files uploaded after mask submit"
 msgstr "Os Efeitos De Arquivo De Máscara Somente Arquivos STL / SLC / SVG São Enviados Após O Envio De Máscara"
 
-#: ../templates/setup/setup-config.html:418
+#: ../templates/setup/setup-config.html:427
 msgid "Max Speed"
 msgstr "Velocidade Máxima"
 
@@ -1040,12 +1061,12 @@ msgstr "Memoria"
 msgid "Micron"
 msgstr "Mícron"
 
-#: ../templates/setup/setup-config.html:267
-#: ../templates/setup/setup-config.html:271
+#: ../templates/setup/setup-config.html:268
+#: ../templates/setup/setup-config.html:272
 msgid "Microsecond"
 msgstr "Microssegundo"
 
-#: ../templates/setup/setup-config.html:438
+#: ../templates/setup/setup-config.html:447
 msgid "Microstep"
 msgstr "Micro Passo"
 
@@ -1056,17 +1077,17 @@ msgstr "Micro Passo"
 #: ../templates/plate/generator.html:44 ../templates/plate/generator.html:51
 #: ../templates/plate/generator.html:55 ../templates/profile/edit.html:125
 #: ../templates/profile/edit.html:138 ../templates/profile/edit.html:155
-#: ../templates/profile/edit.html:72 ../templates/setup/setup-config.html:406
-#: ../templates/setup/setup-config.html:410
-#: ../templates/setup/setup-config.html:442
+#: ../templates/profile/edit.html:72 ../templates/setup/setup-config.html:415
+#: ../templates/setup/setup-config.html:419
+#: ../templates/setup/setup-config.html:451
 msgid "Millimeter"
 msgstr "Milimetro"
 
-#: ../templates/setup/setup-config.html:275
+#: ../templates/setup/setup-config.html:276
 msgid "Millisecond"
 msgstr " Microssegundo "
 
-#: ../templates/setup/setup-config.html:422
+#: ../templates/setup/setup-config.html:431
 msgid "Min Speed"
 msgstr "Velocidade Mínima"
 
@@ -1082,13 +1103,21 @@ msgstr "Modificar Blackout"
 msgid "Module"
 msgstr "Modulo"
 
-#: ../templates/setup/setup-config.html:426
+#: ../templates/profile/edit.html:131
+msgid "Motor Speed"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:435
 msgid "Motor Startup Speed"
 msgstr "Velocidade Inicial Motor"
 
-#: ../templates/setup/setup-config.html:434
+#: ../templates/setup/setup-config.html:443
 msgid "Motor Step Angle"
 msgstr "Ângulo Motor de Passo"
+
+#: ../templates/calibration/z-calibration.html:58
+msgid "Move"
+msgstr ""
 
 #: ../templates/calibration/z-calibration.html:107
 #: ../templates/plate/preview.html:25
@@ -1147,7 +1176,7 @@ msgstr "Nenhuma conexão WIFI encontrada"
 msgid "Normal Layers"
 msgstr "Camadas Normais"
 
-#: ../templates/setup/setup-config.html:486
+#: ../templates/setup/setup-config.html:495
 msgid "Not Available"
 msgstr "Não Disponível"
 
@@ -1188,23 +1217,23 @@ msgstr "Número de Pontos na Largua"
 msgid "Off"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:463
+#: ../templates/setup/setup-config.html:472
 msgid "Once Per 10 Layers"
 msgstr "Uma vez por 10 camadas"
 
-#: ../templates/setup/setup-config.html:460
+#: ../templates/setup/setup-config.html:469
 msgid "Once Per 2 Layers"
 msgstr "Uma vez por 2 camadas"
 
-#: ../templates/setup/setup-config.html:461
+#: ../templates/setup/setup-config.html:470
 msgid "Once Per 3 Layers"
 msgstr "Uma vez por 3 Camadas"
 
-#: ../templates/setup/setup-config.html:462
+#: ../templates/setup/setup-config.html:471
 msgid "Once Per 5 Layers"
 msgstr "Uma vez por 5 Camadas"
 
-#: ../templates/setup/setup-config.html:459
+#: ../templates/setup/setup-config.html:468
 msgid "Once Per Layer"
 msgstr "Uma vez por Camada"
 
@@ -1212,15 +1241,15 @@ msgstr "Uma vez por Camada"
 msgid "Online Access Key"
 msgstr "Chave de Acesso Online"
 
-#: ../templates/setup/setup-config.html:469
+#: ../templates/setup/setup-config.html:478
 msgid "Only Last Image"
 msgstr "Apenas Ultima Imagem"
 
-#: ../templates/setup/setup-config.html:458
+#: ../templates/setup/setup-config.html:467
 msgid "Only Manually"
 msgstr "Manualmente Apenas"
 
-#: ../templates/setup/setup-config.html:253
+#: ../templates/setup/setup-config.html:254
 msgid "Open Shutter"
 msgstr "Abrir Shutter"
 
@@ -1236,7 +1265,7 @@ msgstr ""
 msgid "Orange"
 msgstr "Laranja"
 
-#: ../templates/setup/setup-config.html:553
+#: ../templates/setup/setup-config.html:562
 msgid "Other Settings"
 msgstr ""
 
@@ -1245,29 +1274,24 @@ msgid "Outer Wall"
 msgstr ""
 
 #: ../templates/profile/edit.html:273
-#, fuzzy
 msgid "Override Machine Level Settings"
-msgstr "Restaurar Configuração de Máquina"
+msgstr ""
 
 #: ../templates/profile/edit.html:285
-#, fuzzy
 msgid "Override Print Stop GCode"
-msgstr "Gcode Parada de Impressão "
+msgstr ""
 
 #: ../templates/profile/edit.html:280
-#, fuzzy
 msgid "Override Resume Print GCode"
-msgstr "Gcode Retomar Impressão"
+msgstr ""
 
 #: ../templates/profile/edit.html:276
-#, fuzzy
 msgid "Override Start of Print GCode"
-msgstr "Gcode de Início de Impressão"
+msgstr ""
 
 #: ../templates/profile/edit.html:292
-#, fuzzy
 msgid "Override X/Y Resolution"
-msgstr "Resolução X/Y"
+msgstr ""
 
 #: ../templates/plate/extrude.html:23
 msgid "PNG/JPEG File"
@@ -1302,75 +1326,76 @@ msgid "Per Litre"
 msgstr "Por Litro"
 
 #: ../templates/plate/edit.html:72 ../templates/profile/edit.html:296
-#: ../templates/profile/edit.html:300 ../templates/setup/setup-config.html:342
+#: ../templates/profile/edit.html:300 ../templates/setup/setup-config.html:343
+#: ../templates/setup/setup-config.html:397
 msgid "Percentage"
 msgstr "Porcentagem"
 
-#: ../templates/setup/setup-config.html:7
+#: ../templates/setup/setup-config.html:6
 msgid "Physical 10, BCM 15"
 msgstr "Físico 10, BCM 15"
 
-#: ../templates/setup/setup-config.html:8
+#: ../templates/setup/setup-config.html:7
 msgid "Physical 11, BCM 17"
 msgstr "Físico 11, BCM 17"
 
-#: ../templates/setup/setup-config.html:9
+#: ../templates/setup/setup-config.html:8
 msgid "Physical 12, BCM 18"
 msgstr "Físico 12, BCM 18"
 
-#: ../templates/setup/setup-config.html:10
+#: ../templates/setup/setup-config.html:9
 msgid "Physical 13, BCM 27"
 msgstr "Físico 13, BCM 27"
 
-#: ../templates/setup/setup-config.html:11
+#: ../templates/setup/setup-config.html:10
 msgid "Physical 15, BCM 22"
 msgstr "Físico 15, BCM 22"
 
-#: ../templates/setup/setup-config.html:12
+#: ../templates/setup/setup-config.html:11
 msgid "Physical 16, BCM 23"
 msgstr "Físico 16, BCM 23"
 
-#: ../templates/setup/setup-config.html:13
+#: ../templates/setup/setup-config.html:12
 msgid "Physical 18, BCM 24"
 msgstr "Físico 18, BCM 24"
 
-#: ../templates/setup/setup-config.html:14
+#: ../templates/setup/setup-config.html:13
 msgid "Physical 22, BCM 25"
 msgstr "Físico 22, BCM 25"
 
-#: ../templates/setup/setup-config.html:15
+#: ../templates/setup/setup-config.html:14
 msgid "Physical 29, BCM 5"
 msgstr "Físico 29, BCM 5"
 
-#: ../templates/setup/setup-config.html:16
+#: ../templates/setup/setup-config.html:15
 msgid "Physical 31, BCM 6"
 msgstr "Físico 31, BCM 6"
 
-#: ../templates/setup/setup-config.html:17
+#: ../templates/setup/setup-config.html:16
 msgid "Physical 32, BCM 12"
 msgstr "Físico 32, BCM 12"
 
-#: ../templates/setup/setup-config.html:18
+#: ../templates/setup/setup-config.html:17
 msgid "Physical 33, BCM 13"
 msgstr "Físico 33, BCM 13"
 
-#: ../templates/setup/setup-config.html:19
+#: ../templates/setup/setup-config.html:18
 msgid "Physical 36, BCM 16"
 msgstr "Físico 36, BCM 16"
 
-#: ../templates/setup/setup-config.html:20
+#: ../templates/setup/setup-config.html:19
 msgid "Physical 37, BCM 26"
 msgstr "Físico 37, BCM 26"
 
-#: ../templates/setup/setup-config.html:5
+#: ../templates/setup/setup-config.html:4
 msgid "Physical 7, BCM 4"
 msgstr "Físico 7, BCM 4"
 
-#: ../templates/setup/setup-config.html:6
+#: ../templates/setup/setup-config.html:5
 msgid "Physical 8, BCM 14"
 msgstr "Físico 8, BCM 14"
 
-#: ../templates/setup/setup-config.html:505
+#: ../templates/setup/setup-config.html:514
 msgid "Physical Buttons"
 msgstr "Botão Físico"
 
@@ -1387,8 +1412,8 @@ msgid "Pillars:"
 msgstr "Pilares:"
 
 #: ../templates/calibration/mask-generator.html:45
-#: ../templates/setup/setup-config.html:309
-#: ../templates/setup/setup-config.html:313
+#: ../templates/setup/setup-config.html:310
+#: ../templates/setup/setup-config.html:314
 msgid "Pixel"
 msgstr "Pixel "
 
@@ -1397,15 +1422,13 @@ msgid "Pixel Difference"
 msgstr "Diferença de Pixel"
 
 #: ../templates/profile/edit.html:169
-#, fuzzy
 msgid "Pixel Dimming"
-msgstr "Diferença de Pixel"
+msgstr ""
 
 #: ../templates/profile/edit.html:206 ../templates/profile/edit.html:211
 #: ../templates/profile/edit.html:226
-#, fuzzy
 msgid "Pixels"
-msgstr "Pixel "
+msgstr ""
 
 #: ../templates/setup/custom-inputs.html:16
 msgid "Placeholder Text"
@@ -1420,9 +1443,8 @@ msgid "Plate Depth"
 msgstr "Profundidade da Bandeja"
 
 #: ../templates/plate/edit.html:25
-#, fuzzy
 msgid "Plate File"
-msgstr "Nome Bandeja"
+msgstr ""
 
 #: ../templates/plate/extrude.html:12 ../templates/plate/generator.html:5
 #: ../templates/plate/plates.html:145
@@ -1441,7 +1463,7 @@ msgstr "Bandeja gerada com dados do perfil antigo"
 msgid "Plates"
 msgstr "Bandejas"
 
-#: ../templates/setup/setup-config.html:403
+#: ../templates/setup/setup-config.html:412
 msgid "Platform / Resin"
 msgstr "Plataforma / Resina"
 
@@ -1449,11 +1471,11 @@ msgstr "Plataforma / Resina"
 msgid "Platform Information"
 msgstr "Informações Plataforma"
 
-#: ../templates/setup/setup-config.html:406
+#: ../templates/setup/setup-config.html:415
 msgid "Platform Wait Position"
 msgstr "Posição Espera Plataforma"
 
-#: ../templates/setup/setup-config.html:534
+#: ../templates/setup/setup-config.html:543
 msgid "Play Sound After Print Stop"
 msgstr "Tocar Som Após Encerrar Impressão"
 
@@ -1473,15 +1495,15 @@ msgstr "Posição / Situação"
 msgid "Power Off"
 msgstr "Desligar"
 
-#: ../templates/setup/setup-config.html:371
+#: ../templates/setup/setup-config.html:372
 msgid "Power-Up on Start / Power-Down on Last Layer"
 msgstr "Ligar no Início / Desligar na Ultima Camada"
 
-#: ../templates/setup/setup-config.html:370
+#: ../templates/setup/setup-config.html:371
 msgid "Power-Up on Start / Power-Down on Shutdown"
 msgstr "Ligar no Início / Desligar no Encerramento"
 
-#: ../templates/setup/setup-config.html:369
+#: ../templates/setup/setup-config.html:370
 msgid "Power-Up on Start / Power-Down on Stop"
 msgstr "Ligar no Início / Desligar na Parada"
 
@@ -1505,7 +1527,7 @@ msgstr "Bandeja de Calibração de Impressão"
 msgid "Print From Start"
 msgstr "Imprimir do Começo"
 
-#: ../templates/setup/setup-config.html:211
+#: ../templates/setup/setup-config.html:212
 msgid "Print Stop Gcode"
 msgstr "Gcode Parada de Impressão "
 
@@ -1513,7 +1535,7 @@ msgstr "Gcode Parada de Impressão "
 msgid "Print Time"
 msgstr "Tempo de Impressão"
 
-#: ../templates/setup/setup-config.html:42
+#: ../templates/setup/setup-config.html:41
 msgid "Printer Name"
 msgstr ""
 
@@ -1529,8 +1551,8 @@ msgstr ""
 msgid "Processing. You can start printing."
 msgstr "Processando. Você Pode Começar a Imprimir."
 
-#: ../templates/plate/extrude.html:28 ../templates/plate/generator.html:9
-#: ../templates/plate/plates.html:32
+#: ../templates/plate/edit.html:40 ../templates/plate/extrude.html:28
+#: ../templates/plate/generator.html:9 ../templates/plate/plates.html:32
 msgid "Profile"
 msgstr "Perfil"
 
@@ -1538,7 +1560,7 @@ msgstr "Perfil"
 msgid "Profile not found."
 msgstr "Perfil não encontrado"
 
-#: ../templates/menu.html:14 ../templates/setup/setup-buttons.html:16
+#: ../templates/menu.html:15 ../templates/setup/setup-buttons.html:16
 msgid "Projector Calibration"
 msgstr "Calibração do Projetor"
 
@@ -1559,7 +1581,7 @@ msgid "Projector Turn On"
 msgstr "Ligar Projetor"
 
 #: ../templates/calibration/z-calibration.html:16
-#: ../templates/setup/setup-config.html:446
+#: ../templates/setup/setup-config.html:455
 msgid "Pulse"
 msgstr "Pulso"
 
@@ -1567,7 +1589,7 @@ msgstr "Pulso"
 msgid "Quality"
 msgstr "Qualidade"
 
-#: ../templates/setup/setup-config.html:338
+#: ../templates/setup/setup-config.html:339
 msgid "Query Lamp Hours"
 msgstr "Horas da Lampada"
 
@@ -1579,10 +1601,9 @@ msgstr "R"
 msgid "RAMPS: Reconnect"
 msgstr "Ramps: Reconectar"
 
-#: ../templates/setup/setup-config.html:387
-#, fuzzy
+#: ../templates/setup/setup-config.html:406
 msgid "RPi Display Number"
-msgstr "Exibir Números"
+msgstr ""
 
 #: ../templates/plate/plates.html:89
 msgid "Recreate"
@@ -1608,7 +1629,7 @@ msgstr "Restante"
 msgid "Remote Access to the printer"
 msgstr "Acesso Remoto a Impressora"
 
-#: ../templates/setup/setup-config.html:542
+#: ../templates/setup/setup-config.html:551
 msgid "Remote Slicer"
 msgstr "Fatiamento Remoto"
 
@@ -1628,7 +1649,7 @@ msgstr "Calibração Resina"
 msgid "Resin Cost"
 msgstr "Custo Resina"
 
-#: ../templates/setup/setup-config.html:410
+#: ../templates/setup/setup-config.html:419
 msgid "Resin Depth"
 msgstr "Profundidade Resina"
 
@@ -1636,7 +1657,7 @@ msgstr "Profundidade Resina"
 msgid "Resin Price"
 msgstr "Preço Resina"
 
-#: ../templates/menu.html:15
+#: ../templates/menu.html:13
 msgid "Resin Profiles"
 msgstr "Perfil Resina"
 
@@ -1656,9 +1677,9 @@ msgstr "A Resolução E As Alterações De Cor Não Afetam As Bandejas Existente
 msgid "Restart"
 msgstr "Reiniciar"
 
-#: ../templates/setup/setup-config.html:189
-#: ../templates/setup/setup-config.html:484
-#: ../templates/setup/setup-config.html:530
+#: ../templates/setup/setup-config.html:190
+#: ../templates/setup/setup-config.html:493
+#: ../templates/setup/setup-config.html:539
 msgid "Restart Required"
 msgstr "Reinicialização Requerida"
 
@@ -1674,7 +1695,7 @@ msgstr "Restaurar Configuração de Máquina"
 msgid "Resume Print"
 msgstr "Retomar Impressão"
 
-#: ../templates/setup/setup-config.html:206
+#: ../templates/setup/setup-config.html:207
 msgid "Resume Print Gcode"
 msgstr "Gcode Retomar Impressão"
 
@@ -1702,7 +1723,7 @@ msgstr "STL, SLC, SVG ou Zip (Arquivos PNG)"
 msgid "Same as Profile"
 msgstr "Mesmo Que o Perfil"
 
-#: ../templates/setup/setup.html:84
+#: ../templates/setup/setup.html:71 ../templates/setup/setup.html:84
 msgid "Save"
 msgstr "Salvar"
 
@@ -1714,11 +1735,13 @@ msgstr "Salvar Calibração do Eixo Z"
 msgid "Search Plates"
 msgstr "Sem Bandeja"
 
-#: ../templates/profile/edit.html:117 ../templates/profile/edit.html:163
-#: ../templates/profile/edit.html:57 ../templates/profile/edit.html:61
-#: ../templates/profile/edit.html:68 ../templates/profile/edit.html:76
+#: ../templates/profile/edit.html:108 ../templates/profile/edit.html:117
+#: ../templates/profile/edit.html:163 ../templates/profile/edit.html:57
+#: ../templates/profile/edit.html:61 ../templates/profile/edit.html:68
+#: ../templates/profile/edit.html:76 ../templates/profile/edit.html:89
+#: ../templates/profile/edit.html:93 ../templates/profile/edit.html:97
 #: ../templates/profile/profiles.html:10
-#: ../templates/setup/setup-config.html:334
+#: ../templates/setup/setup-config.html:335
 msgid "Second"
 msgstr "Segundo"
 
@@ -1734,23 +1757,23 @@ msgstr "Enviar Gcode"
 msgid "Serial Terminal"
 msgstr "Terminal Serial"
 
-#: ../templates/setup/setup-config.html:242
+#: ../templates/setup/setup-config.html:243
 msgid "Servo Motor"
 msgstr "Servo Motor"
 
-#: ../templates/setup/setup-config.html:271
+#: ../templates/setup/setup-config.html:272
 msgid "Servo Pulse Width - Close Position"
 msgstr "Largura Do Pulso Servo - Posição De Fechado "
 
-#: ../templates/setup/setup-config.html:267
+#: ../templates/setup/setup-config.html:268
 msgid "Servo Pulse Width - Open Position"
 msgstr "Largura Do Pulso Servo – Posição Aberto"
 
-#: ../templates/setup/setup-config.html:275
+#: ../templates/setup/setup-config.html:276
 msgid "Servo Signal Length"
 msgstr "Comprimento Sinal Servo"
 
-#: ../templates/profile/edit.html:8 ../templates/setup/setup-config.html:40
+#: ../templates/profile/edit.html:8 ../templates/setup/setup-config.html:39
 msgid "Setting changes will take effect immediately and does not require restart."
 msgstr "As Alterações De Configuração Terão Efeito Imediato E Não Requerem Reinicialização."
 
@@ -1766,23 +1789,31 @@ msgstr "Shield Direção Eixo"
 msgid "Shield Connection"
 msgstr "Conexão Shield"
 
+#: ../templates/setup/setup-config.html:239
+msgid "Shutter"
+msgstr ""
+
 #: ../templates/calibration/projector-calibration.html:76
 msgid "Shutter Close"
 msgstr "Shutter Fechado"
 
-#: ../templates/setup/setup-config.html:223
+#: ../templates/setup/setup-config.html:224
 msgid "Shutter Close Gcode"
 msgstr "Gcode Shutter Fechado"
+
+#: ../templates/setup/setup-config.html:261
+msgid "Shutter GPIO"
+msgstr ""
 
 #: ../templates/calibration/projector-calibration.html:75
 msgid "Shutter Open"
 msgstr "Shutter Aberto"
 
-#: ../templates/setup/setup-config.html:218
+#: ../templates/setup/setup-config.html:219
 msgid "Shutter Open Gcode"
 msgstr "Gcode Shutter Aberto"
 
-#: ../templates/setup/setup-config.html:239
+#: ../templates/setup/setup-config.html:240
 msgid "Shutter Type"
 msgstr "Tipo de Shutter"
 
@@ -1806,7 +1837,7 @@ msgstr "Área menor"
 msgid "Some critical settings such as type of the shield and etc, will not take effect in the middle of printing. To change those settings without restart, stop printing and submit this page again."
 msgstr "Algumas Configurações Críticas, Como O Tipo De Proteção E Etc, Não Terão Efeito No Meio Da Impressão. Para Alterar Essas Configurações Sem Reiniciar, Pare De Imprimir E Envie Esta Página Novamente."
 
-#: ../templates/setup/setup-config.html:415
+#: ../templates/setup/setup-config.html:424
 msgid "Speed"
 msgstr "Velocidade"
 
@@ -1818,9 +1849,17 @@ msgstr ""
 msgid "Start Display"
 msgstr "Iniciar Exibição"
 
-#: ../templates/setup/setup-config.html:202
+#: ../templates/setup/setup-config.html:203
 msgid "Start of Print Gcode"
 msgstr "Gcode de Início de Impressão"
+
+#: ../templates/setup/setup-config.html:85
+msgid "Step GPIO for Z-Axis"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:523
+msgid "Stepper Driver Fault Detection GPIO"
+msgstr ""
 
 #: ../templates/plate/plates.html:126 ../templates/plate/plates.html:179
 msgid "Stop"
@@ -1838,14 +1877,18 @@ msgstr "Parar Camadas – Separado Por Vírgula"
 msgid "Stop Print"
 msgstr "Parar Impressão"
 
-#: ../templates/setup/setup-config.html:467
+#: ../templates/setup/setup-config.html:515
+msgid "Stop/Shutdown Physical GPIO"
+msgstr ""
+
+#: ../templates/setup/setup-config.html:476
 msgid "Storage Mode"
 msgstr "Modo de Armazenamento"
 
 #: ../templates/plate/edit.html:86 ../templates/profile/edit.html:306
 #: ../templates/setup/custom-inputs.html:59
-#: ../templates/setup/setup-config.html:548
-#: ../templates/setup/setup-config.html:563
+#: ../templates/setup/setup-config.html:557
+#: ../templates/setup/setup-config.html:572
 msgid "Submit"
 msgstr "Enviar"
 
@@ -1858,16 +1901,14 @@ msgid "Syscall"
 msgstr " Syscall "
 
 #: ../templates/profile/edit.html:264
-#, fuzzy
 msgid "Syscall After Each Layer"
-msgstr "Antes de cada Camada"
+msgstr ""
 
 #: ../templates/profile/edit.html:256
-#, fuzzy
 msgid "Syscall Before Each Layer"
-msgstr "Antes de cada Camada"
+msgstr ""
 
-#: ../templates/setup/setup-config.html:530
+#: ../templates/setup/setup-config.html:539
 msgid "TCP Port to Listen"
 msgstr "TCP Port to Listen "
 
@@ -1927,7 +1968,8 @@ msgstr "Este Processo Pode Demorar Até Um Minuto Para Ser Concluído, Dependend
 msgid "Time"
 msgstr "Tempo"
 
-#: ../templates/profile/profiles.html:8 ../templates/setup/custom-inputs.html:9
+#: ../templates/profile/edit.html:13 ../templates/profile/profiles.html:8
+#: ../templates/setup/custom-inputs.html:9
 msgid "Title"
 msgstr "Titulo"
 
@@ -1971,28 +2013,27 @@ msgstr "Topo ⇧"
 msgid "Total Solid Area"
 msgstr "Área Solida Total"
 
-#: ../templates/setup/setup-config.html:243
+#: ../templates/setup/setup-config.html:244
 msgid "True/False Signal"
 msgstr "Sinal True/False"
 
 #: ../templates/profile/edit.html:197
-#, fuzzy
 msgid "Type"
-msgstr "Tipo LCD"
+msgstr ""
 
-#: ../templates/setup/setup-config.html:324
+#: ../templates/setup/setup-config.html:325
 msgid "USB / Serial Port - ASCII (\\n)"
 msgstr "USB / Porta Serial - ASCII (\\n)"
 
-#: ../templates/setup/setup-config.html:323
+#: ../templates/setup/setup-config.html:324
 msgid "USB / Serial Port - ASCII (\\r)"
 msgstr "USB / Porta Serial - ASCII (\\r)"
 
-#: ../templates/setup/setup-config.html:322
+#: ../templates/setup/setup-config.html:323
 msgid "USB / Serial Port - ASCII (\\r\\n)"
 msgstr "USB / Porta Serial - ASCII (\\r\\n)"
 
-#: ../templates/setup/setup-config.html:325
+#: ../templates/setup/setup-config.html:326
 msgid "USB / Serial Port - Binary"
 msgstr "USB / Porta Serial - Binário"
 
@@ -2001,7 +2042,7 @@ msgid "USB/Serial"
 msgstr "USB/Serial"
 
 #: ../templates/setup/setup-config.html:170
-#: ../templates/setup/setup-config.html:352
+#: ../templates/setup/setup-config.html:353
 msgid "USB/Serial Port Address"
 msgstr "Endereço Porta USB/Serial"
 
@@ -2057,11 +2098,11 @@ msgstr "Nome de Usuário Painel de Controle"
 msgid "Value Type"
 msgstr "Tipo de Valor"
 
-#: ../templates/setup/setup-config.html:527
+#: ../templates/setup/setup-config.html:536
 msgid "Various Settings"
 msgstr "Configurações Variadas"
 
-#: ../templates/setup/setup-config.html:289
+#: ../templates/setup/setup-config.html:290
 msgid "Vertical Resolution"
 msgstr "Resolução Vertical"
 
@@ -2081,11 +2122,11 @@ msgstr "Esperar"
 msgid "Wait After"
 msgstr "Esperar Depois"
 
-#: ../templates/profile/edit.html:76
+#: ../templates/profile/edit.html:108 ../templates/profile/edit.html:76
 msgid "Wait After Lift"
 msgstr "Esperar Depois Lift"
 
-#: ../templates/profile/edit.html:68
+#: ../templates/profile/edit.html:68 ../templates/profile/edit.html:97
 msgid "Wait After Print"
 msgstr "Esperar Depois Impressão"
 
@@ -2093,9 +2134,13 @@ msgstr "Esperar Depois Impressão"
 msgid "Wait Before"
 msgstr "Esperar Antes"
 
-#: ../templates/profile/edit.html:61
+#: ../templates/profile/edit.html:61 ../templates/profile/edit.html:93
 msgid "Wait Before Print"
 msgstr "Esperar Antes Impressão"
+
+#: ../templates/setup/setup-config.html:185
+msgid "Wait GPIO"
+msgstr ""
 
 #: ../templates/profile/edit.html:184
 msgid "Wall Around Dimming"
@@ -2117,7 +2162,7 @@ msgstr "Wi-Fi"
 msgid "Width"
 msgstr "Largura"
 
-#: ../templates/setup/setup-config.html:294
+#: ../templates/setup/setup-config.html:295
 msgid "X/Y Resolution"
 msgstr "Resolução X/Y"
 
@@ -2125,7 +2170,7 @@ msgstr "Resolução X/Y"
 msgid "X/Y Size Modifier"
 msgstr ""
 
-#: ../templates/setup/setup-config.html:298
+#: ../templates/setup/setup-config.html:299
 msgid "Y Resolution"
 msgstr "Resolução Y"
 
@@ -2137,10 +2182,9 @@ msgstr "Você Pode Adicionar Entradas Adicionais À Página De Configuração E 
 msgid "You can partially select and cover some sections of the plate to prevent further damage to PDMS and resin waste."
 msgstr "Você Pode Selecionar Parcialmente E Cobrir Algumas Seções Da Bandeja Para Evitar Mais Danos Ao PDMS E Resíduos Da Resina."
 
-#: ../templates/menu.html:13
-#, fuzzy
+#: ../templates/menu.html:14
 msgid "Z Axis Control"
-msgstr "Calibração Eixo Z"
+msgstr ""
 
 #: ../templates/profile/edit.html:300
 msgid "Z Model Size Modifier"
@@ -2150,14 +2194,13 @@ msgstr ""
 msgid "Z-Axis Calibration"
 msgstr "Calibração Eixo Z"
 
-#: ../templates/setup/setup-config.html:446
+#: ../templates/setup/setup-config.html:455
 msgid "Z-Axis Height"
 msgstr "Altura Eixo Z"
 
 #: ../templates/profile/edit.html:134
-#, fuzzy
 msgid "Z-Axis Max Speed"
-msgstr "Velocidade Máxima"
+msgstr ""
 
 #: ../templates/calibration/z-calibration.html:21
 msgid "Zero Level"
@@ -2187,12 +2230,12 @@ msgstr "Exemp. {[[LayerThickness]]-[[ZLiftDistance]]}"
 msgid "i2c"
 msgstr "i2c"
 
-#: ../templates/setup/setup-config.html:189
-#: ../templates/setup/setup-config.html:500
+#: ../templates/setup/setup-config.html:190
+#: ../templates/setup/setup-config.html:509
 msgid "i2c Address"
 msgstr "Endereço i2c"
 
-#: ../templates/setup/setup-config.html:491
+#: ../templates/setup/setup-config.html:500
 msgid "i2c Bus Path"
 msgstr ""
 
@@ -2200,12 +2243,12 @@ msgstr ""
 msgid "of"
 msgstr "De"
 
-#: ../templates/setup/setup-config.html:294
+#: ../templates/profile/edit.html:85 ../templates/setup/setup-config.html:295
 msgid "μm"
 msgstr "μm"
 
 #: ../templates/profile/edit.html:121 ../templates/profile/edit.html:134
-#: ../templates/profile/edit.html:142 ../templates/setup/setup-config.html:418
+#: ../templates/profile/edit.html:142 ../templates/setup/setup-config.html:427
 msgid "μm/Second"
 msgstr "μm/Segundo"
 
