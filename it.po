@@ -1105,7 +1105,7 @@ msgstr "Modulo"
 
 #: ../templates/profile/edit.html:131
 msgid "Motor Speed"
-msgstr "Velocit� Motore"
+msgstr "Velocit&agrave Motore"
 
 #: ../templates/setup/setup-config.html:435
 msgid "Motor Startup Speed"
@@ -1473,7 +1473,7 @@ msgstr "Informazioni Piattaforma"
 
 #: ../templates/setup/setup-config.html:415
 msgid "Platform Wait Position"
-msgstr "Attendere posizionamento Piattaforma"
+msgstr "Posizione di attesa della  Piattaforma"
 
 #: ../templates/setup/setup-config.html:543
 msgid "Play Sound After Print Stop"
@@ -1570,7 +1570,7 @@ msgstr "Maschera Proiettore"
 
 #: ../templates/index.html:56
 msgid "Projector Off"
-msgstr "Proiettore Spento"
+msgstr "Spegni Proiettore"
 
 #: ../templates/calibration/projector-calibration.html:74
 msgid "Projector Turn Off"
@@ -1709,7 +1709,7 @@ msgstr "Rotare a 90º"
 
 #: ../templates/plate/edit.html:76 ../templates/profile/edit.html:243
 msgid "Rotate Layers"
-msgstr "ruota gli Strati"
+msgstr "Ruota gli Strati"
 
 #: ../templates/setup/wireless.html:25
 msgid "SSID"
@@ -1971,7 +1971,7 @@ msgstr "Tempo"
 #: ../templates/profile/edit.html:13 ../templates/profile/profiles.html:8
 #: ../templates/setup/custom-inputs.html:9
 msgid "Title"
-msgstr "Titolo"
+msgstr "Nome Profilo"
 
 #: ../templates/setup/setup.html:82
 msgid "To enable the remote access to the printer, please enter random access key"
@@ -2035,7 +2035,7 @@ msgstr "USB / Porta Seriale - ASCII (\\r\\n)"
 
 #: ../templates/setup/setup-config.html:326
 msgid "USB / Serial Port - Binary"
-msgstr "USB / Porta Seriale - Binário"
+msgstr "USB / Porta Seriale - Binario"
 
 #: ../templates/setup/setup-config.html:139
 msgid "USB/Serial"
@@ -2076,7 +2076,7 @@ msgstr "Caricare Immagine"
 
 #: ../templates/index.html:100
 msgid "Uptime"
-msgstr "Tempo di Attivit&agrave "
+msgstr "Tempo di Attivit&agrave - "
 
 #: ../templates/setup/setup-buttons.html:62
 msgid "Usable Keywords:"
