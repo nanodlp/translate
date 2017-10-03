@@ -107,6 +107,7 @@ msgstr "L'Amministratore ha accesso a tutte le funzioni incluse nel Pannello di 
 msgid "Advanced Settings"
 msgstr "Settaggi Avanzati"
 
+
 #: ../templates/setup/setup-config.html:479
 msgid "All Images"
 msgstr "Tutte le Immagini"
@@ -1783,6 +1784,7 @@ msgstr "Impostazioni"
 
 #: ../templates/setup/setup-config.html:154
 msgid "Shield Axis Direction"
+
 msgstr "Direzione asse della Scheda"
 
 #: ../templates/setup/setup-config.html:136
