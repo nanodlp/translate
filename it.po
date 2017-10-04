@@ -105,7 +105,8 @@ msgstr "L'Amministratore ha accesso a tutte le funzioni incluse nel Pannello di 
 
 #: ../templates/profile/edit.html:148
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Settaggi Avanzati"
+
 
 #: ../templates/setup/setup-config.html:479
 msgid "All Images"
@@ -133,7 +134,7 @@ msgstr "Sei sicuro di voler eliminare questa piastra?"
 
 #: ../templates/plate/preview.html:4
 msgid "Are you sure you want to display the current layer on the main Projector/LCD unit of the printer?"
-msgstr "Sei sicuro di voler visualizzare il livello corrente nella Proiettore/LCD della stampante?"
+msgstr "Sei sicuro di voler visualizzare il livello corrente nel Proiettore/LCD della stampante?"
 
 #: ../templates/setup/setup.html:118
 msgid "Are you sure you want to expand filesystem?"
@@ -141,7 +142,7 @@ msgstr "Sei sicuro di voler espandere il filesystem?"
 
 #: ../templates/setup/setup.html:96
 msgid "Are you sure you want to force stop the printer?"
-msgstr "Sei sicuro di voler forzare l'arresto della stampa?"
+msgstr "Sei sicuro di voler forzare l'arresto della stampante?"
 
 #: ../templates/index.html:63 ../templates/setup/setup.html:99
 msgid "Are you sure you want to power off the printer?"
@@ -157,7 +158,7 @@ msgstr "Sei sicuro di voler stampare la piastra di calibrazione?"
 
 #: ../templates/plate/plates.html:24
 msgid "Are you sure you want to regenerate the layers of this plate?"
-msgstr "Sei sicuro di voler rigenerare il livello di questa piastra?"
+msgstr "Sei sicuro di voler rigenerare gli strati di questa piastra?"
 
 #: ../templates/index.html:65 ../templates/setup/setup.html:102
 msgid "Are you sure you want to restart the printer?"
@@ -173,11 +174,11 @@ msgstr "Sei sicuro di voler salvare le sezioni coperte?"
 
 #: ../templates/calibration/z-calibration.html:44
 msgid "Are you sure you want to set this height as the bottom?"
-msgstr "Sei sicuro di voler impostare questa altezza come base?"
+msgstr "Sei sicuro di voler impostare questa come Altezza di base?"
 
 #: ../templates/index.html:49
 msgid "Are you sure you want to start the display? It will automatically select the second display."
-msgstr "Sei sicuro di voler avviare il display? Seleziona automaticamente il secondo display."
+msgstr "Sei sicuro di voler avviare il display? Sar&aagrave selezionato automaticamente il secondo display."
 
 #: ../templates/index.html:71 ../templates/plate/plates.html:25
 msgid "Are you sure you want to stop printing?"
@@ -185,7 +186,7 @@ msgstr "Sei sicuro di voler fermare la stampa?"
 
 #: ../templates/index.html:38
 msgid "Are you sure you want to stop printing? It will stop after the current layer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click the `Force Stop` button."
-msgstr "Sei sicuro di voler fermare la stampa?Si arrester&agrave dopo che il livello corrente &egrave completato. Se si desidera abortire il livello corrente, andare alla pagina `Impostazioni`, fare clic sulla scheda`Strumenti` e fare clic sul pulsante `Arresto Forzato`."
+msgstr "Sei sicuro di voler fermare la stampa?  Questa si arrester&agrave dopo che il livello corrente &egrave stato completato. Se si desidera abortire il livello corrente, andare alla pagina `Impostazioni`, fare clic sulla scheda`Strumenti` e fare clic sul pulsante `Arresto Forzato`."
 
 #: ../templates/setup/setup.html:105
 msgid "Are you sure you want to terminate nanoDLP and have access to terminal?"
@@ -238,11 +239,11 @@ msgstr "Prima della Stampa"
 
 #: ../templates/setup/setup-config.html:150
 msgid "Binary"
-msgstr "Bynary"
+msgstr "Binaria"
 
 #: ../templates/setup/setup-buttons.html:85
 msgid "Binary support:"
-msgstr "Supporto Binary:"
+msgstr "Supporto Binario:"
 
 #: ../templates/setup/setup-config.html:65
 msgid "Black / Dark"
@@ -274,7 +275,7 @@ msgstr "Raggio di sfocatura"
 
 #: ../templates/setup/setup-config.html:198
 msgid "Bootup Gcode"
-msgstr "Avvio del Gcode"
+msgstr "Avvio Gcode"
 
 #: ../templates/profile/edit.html:222
 msgid "Bottom Cap Wall"
@@ -358,19 +359,19 @@ msgstr "Cambia Distribuzione"
 
 #: ../templates/calibration/mask-generator.html:52
 msgid "Change Mask File"
-msgstr "Cambia il File di Mascheramento"
+msgstr "Cambia il File della Maschera"
 
 #: ../templates/setup/distro.html:16
 msgid "Change to \"Microlay\" Version"
-msgstr "Cambia a \"Microlay\""
+msgstr "Cambia a \"Microlay\"Versione"
 
 #: ../templates/setup/distro.html:15
 msgid "Change to \"mUVe3D\" Version"
-msgstr "Cambia a \"mUVe3D\""
+msgstr "Cambia a \"mUVe3D\"Versione"
 
 #: ../templates/setup/distro.html:14
 msgid "Change to \"nanoDLP generic\" Version"
-msgstr "Cambia a \"nanoDLP generic\""
+msgstr "Cambia a \"nanoDLP generic\"Versione"
 
 #: ../templates/setup/wireless.html:22
 msgid "Changing the WiFi settings during printing could cause interruption."
@@ -488,7 +489,7 @@ msgstr "Dettagli"
 
 #: ../templates/profile/edit.html:180
 msgid "Dimming Amount Percentage"
-msgstr "Percentuale di Oascuramento"
+msgstr "Percentuale di Oscuramento"
 
 #: ../templates/profile/edit.html:172
 msgid "Dimming Type"
@@ -500,25 +501,25 @@ msgstr "Le impostazioni di Oscuramento e della maschera avranno effetto sui live
 
 #: ../templates/setup/setup-config.html:94
 msgid "DirectiDriver Enable GPIO"
-msgstr ""
+msgstr "Abilita DirectiDriver GPIO"
 
 #: ../templates/setup/setup-config.html:89
 msgid "Direction GPIO"
-msgstr ""
+msgstr "Direzione GPIO"
 
 #: ../templates/plate/edit.html:53 ../templates/profile/edit.html:238
 #: ../templates/setup/setup-config.html:3
 #: ../templates/setup/setup-config.html:546
 msgid "Disable"
-msgstr "Disattivare"
+msgstr "Disattiva"
 
 #: ../templates/index.html:41
 msgid "Disable Auto Shutdown"
-msgstr "Disattivare Spegnimento Automatico"
+msgstr "Disattiva Spegnimento Automatico"
 
 #: ../templates/calibration/z-calibration.html:49
 msgid "Disable Motor"
-msgstr "Disattivare Motore"
+msgstr "Disattiva Motore"
 
 #: ../templates/profile/edit.html:245 ../templates/setup/setup-config.html:138
 #: ../templates/setup/setup-config.html:242
@@ -591,11 +592,11 @@ msgstr "Scarica le Impostazioni della Macchina"
 
 #: ../templates/import.html:19
 msgid "Download Profile"
-msgstr "Scarica i Profili"
+msgstr "Scarica Profilo"
 
 #: ../templates/profile/edit.html:114
 msgid "Dynamic Calculation"
-msgstr ""
+msgstr "Calcolo Dinamico"
 
 #: ../templates/calibration/projector-calibration.html:8
 msgid "Dynamic Calibration"
@@ -631,7 +632,7 @@ msgstr "Modifica Piastra"
 
 #: ../templates/profile/edit.html:7
 msgid "Edit Profile"
-msgstr ""
+msgstr "Modifica Profilo"
 
 #: ../templates/setup/setup.html:66
 msgid "Empty username for dashboard, makes the dashboard accessible to everyone without authentication."
@@ -651,11 +652,11 @@ msgstr "Abilita prima di ogni stampa"
 
 #: ../templates/setup/setup-config.html:116
 msgid "Enable GPIO Mode"
-msgstr ""
+msgstr "Attiva Modalit&agrave GPIO"
 
 #: ../templates/setup/setup-config.html:109
 msgid "Enable GPIO State"
-msgstr ""
+msgstr "Attiva Stato GPIO"
 
 #: ../templates/calibration/z-calibration.html:48
 msgid "Enable Motor"
@@ -671,11 +672,11 @@ msgstr "Livello Finale"
 
 #: ../templates/setup/setup-config.html:105
 msgid "Endstop Switch - Bottom Limit"
-msgstr ""
+msgstr "Finecorsa - Limite Inferiore"
 
 #: ../templates/setup/setup-config.html:100
 msgid "Endstop Switch - Top Limit"
-msgstr ""
+msgstr "Finecorsa - Limite Superiore"
 
 #: ../templates/setup/setup-config.html:52
 msgid "English"
@@ -683,7 +684,7 @@ msgstr "Inglese"
 
 #: ../templates/plate/extrude.html:8
 msgid "Even-though it can process multi color images, to make the dimming feature work correctly, try to use images containing grayscale colors."
-msgstr "Anche se &egrave in grado di elaborare immagini a colori, per far funzionare correttamente la funzione di dimmerazione, prova a utilizzare immagini contenenti i colori in scala di grigi."
+msgstr "Anche se &egrave in grado di elaborare immagini a colori, per far funzionare correttamente la funzione di Oscuramento, prova a utilizzare immagini contenenti i colori in scala di grigi."
 
 #: ../templates/setup/setup-config.html:70
 msgid "Execute - Print Start"
@@ -727,7 +728,7 @@ msgstr "F"
 
 #: ../templates/setup/setup-config.html:527
 msgid "Fault GPIO Default State"
-msgstr ""
+msgstr "Stato Predefinito Di Guasto GPIO"
 
 #: ../templates/plate/edit.html:15
 msgid "File From USB"
@@ -735,11 +736,11 @@ msgstr "File da USB"
 
 #: ../templates/setup/setup.html:116
 msgid "Filesystem expantion will run silently in background, and will restart the Raspberry Pi afterward. Please do not change anything."
-msgstr "L'espansione del Filesystem verr&agrave eseguita silenziosamente in background e riavvier&agrave il Raspberry Pi al termine. Per favore non cambiare nulla."
+msgstr "L'espansione del Filesystem verr&agrave eseguita silenziosamente in background e riavvier&agrave il Raspberry Pi al termine. Per favore non Modificare nulla."
 
 #: ../templates/calibration/mask-generator.html:78
 msgid "Final Mask"
-msgstr ""
+msgstr "Maschera Finale"
 
 #: ../templates/calibration/z-calibration.html:61
 msgid "Floor ⇩"
@@ -812,7 +813,7 @@ msgstr "HDMI Power On/Off - Modalit&agrave Standby"
 
 #: ../templates/setup/setup-config.html:520
 msgid "Hardware Fault Detection"
-msgstr "Rilevazione guasti Hardware"
+msgstr "Rilevazione Guasti Hardware"
 
 #: ../templates/setup/setup.html:5
 msgid "Hardware Setup"
@@ -862,7 +863,7 @@ msgstr "Inattivo"
 
 #: ../templates/setup/distro.html:11
 msgid "If you want to overwrite settings too, after restart go to `Setup` page / `Tools` tab and press `Restore Settings` button."
-msgstr "Se si desidera sovrascrivere anche le impostazioni, dopo il riavvio andare alla scheda `Impostazioni` pagina / `Strumenti` e premi il pulsante `Ripristina Settaggi`."
+msgstr "Se vuoi sovrascrivere anche le impostazioni, dopo il riavvio andare alla scheda `Impostazioni` pagina / `Strumenti` e premi il pulsante `Ripristina Settaggi`."
 
 #: ../templates/profile/edit.html:24
 msgid "Ignore"
@@ -910,7 +911,7 @@ msgstr "Italiano"
 
 #: ../templates/profile/edit.html:151
 msgid "Jump After Number of Layers"
-msgstr "Salta dopo numero di Strati"
+msgstr "Salta dopo Numero di Strati"
 
 #: ../templates/profile/edit.html:155
 msgid "Jump Height"
@@ -949,7 +950,7 @@ msgstr "ID Strato"
 #: ../templates/profile/edit.html:53 ../templates/profile/edit.html:85
 #: ../templates/profile/profiles.html:9
 msgid "Layer Thickness"
-msgstr "Spessore dello strato"
+msgstr "Spessore dello Strato"
 
 #: ../templates/plate/plates.html:117 ../templates/plate/plates.html:97
 #: ../templates/profile/edit.html:218 ../templates/profile/edit.html:222
@@ -970,7 +971,7 @@ msgstr "Sollevare dopo la Stampa"
 
 #: ../templates/setup/setup-config.html:397
 msgid "Light Output Formula"
-msgstr ""
+msgstr "Formula di Uscita della Sorgente Luminosa"
 
 #: ../templates/profile/edit.html:28
 msgid "Light Source Color"
@@ -1068,7 +1069,7 @@ msgstr "Microsecondi"
 
 #: ../templates/setup/setup-config.html:447
 msgid "Microstep"
-msgstr "Micro Passo"
+msgstr "Micro Passi"
 
 #: ../templates/calibration/mask-generator.html:23
 #: ../templates/calibration/z-calibration.html:15
@@ -1105,7 +1106,7 @@ msgstr "Modulo"
 
 #: ../templates/profile/edit.html:131
 msgid "Motor Speed"
-msgstr ""
+msgstr "Velocit&agrave Motore"
 
 #: ../templates/setup/setup-config.html:435
 msgid "Motor Startup Speed"
@@ -1117,7 +1118,7 @@ msgstr "Angolo di Step del Motore"
 
 #: ../templates/calibration/z-calibration.html:58
 msgid "Move"
-msgstr ""
+msgstr "Muovi"
 
 #: ../templates/calibration/z-calibration.html:107
 #: ../templates/plate/preview.html:25
@@ -1130,7 +1131,7 @@ msgstr "Sposta in Posizione"
 
 #: ../templates/calibration/z-calibration.html:89
 msgid "Move to layer"
-msgstr "Sposta allo strato"
+msgstr "Sposta allo Strato"
 
 #: ../templates/setup/setup-config.html:81
 msgid "Movement GPIOs"
@@ -1146,7 +1147,7 @@ msgstr "Nome"
 
 #: ../templates/setup/setup-buttons.html:35
 msgid "Name / Color"
-msgstr "Nome/Colore"
+msgstr "Nome / Colore"
 
 #: ../templates/setup/custom-inputs.html:6
 msgid "Name without space, only characters"
@@ -1215,27 +1216,27 @@ msgstr "Numero di punti in Larghezza"
 
 #: ../templates/profile/edit.html:174 ../templates/profile/edit.html:199
 msgid "Off"
-msgstr "Off"
+msgstr "Disattivato"
 
 #: ../templates/setup/setup-config.html:472
 msgid "Once Per 10 Layers"
-msgstr "Una volta per 10 livelli"
+msgstr "Una volta ogni 10 livelli"
 
 #: ../templates/setup/setup-config.html:469
 msgid "Once Per 2 Layers"
-msgstr "Una volta per 2 livelli"
+msgstr "Una volta ogni 2 livelli"
 
 #: ../templates/setup/setup-config.html:470
 msgid "Once Per 3 Layers"
-msgstr "Una volta per 3 livelli"
+msgstr "Una volta ogni 3 livelli"
 
 #: ../templates/setup/setup-config.html:471
 msgid "Once Per 5 Layers"
-msgstr "Una volta per 5 livelli"
+msgstr "Una volta ogni 5 livelli"
 
 #: ../templates/setup/setup-config.html:468
 msgid "Once Per Layer"
-msgstr "Una volta per livello"
+msgstr "Una volta ogni livello"
 
 #: ../templates/setup/setup.html:77
 msgid "Online Access Key"
@@ -1299,7 +1300,7 @@ msgstr "File PNG/JPEG"
 
 #: ../templates/plate/plates.html:150
 msgid "Paint"
-msgstr "Verniciare"
+msgstr "Disegnare"
 
 #: ../templates/setup/wireless.html:27
 msgid "Password"
@@ -1319,11 +1320,11 @@ msgstr "Password per Pannello di Controllo"
 
 #: ../templates/index.html:39
 msgid "Pause Print"
-msgstr "Sospendi la stampa"
+msgstr "Sospendi la Stampa"
 
 #: ../templates/profile/edit.html:17
 msgid "Per Litre"
-msgstr "Per Litro"
+msgstr "per Litro"
 
 #: ../templates/plate/edit.html:72 ../templates/profile/edit.html:296
 #: ../templates/profile/edit.html:300 ../templates/setup/setup-config.html:343
@@ -1473,11 +1474,11 @@ msgstr "Informazioni Piattaforma"
 
 #: ../templates/setup/setup-config.html:415
 msgid "Platform Wait Position"
-msgstr "Attendere posizionamento Piattaforma"
+msgstr "Posizione di attesa della  Piattaforma"
 
 #: ../templates/setup/setup-config.html:543
 msgid "Play Sound After Print Stop"
-msgstr "Riprodurre il suono alla fine della Stampa"
+msgstr "Riprodurre un suono alla fine della Stampa"
 
 #: ../templates/setup/distro.html:9
 msgid "Please choose a distribution. Mask, default setting files and etc will be deployed."
@@ -1521,7 +1522,7 @@ msgstr "Anteprima degli Strati della Piastra"
 
 #: ../templates/plate/plates.html:171
 msgid "Print Calibration Plate"
-msgstr "Srampare la Piastra di Calibrazione"
+msgstr "Stampa la Piastra di Calibrazione"
 
 #: ../templates/plate/plates.html:121
 msgid "Print From Start"
@@ -1570,7 +1571,7 @@ msgstr "Maschera Proiettore"
 
 #: ../templates/index.html:56
 msgid "Projector Off"
-msgstr "Proiettore Spento"
+msgstr "Spegni Proiettore"
 
 #: ../templates/calibration/projector-calibration.html:74
 msgid "Projector Turn Off"
@@ -1599,7 +1600,7 @@ msgstr "R"
 
 #: ../templates/menu.html:22
 msgid "RAMPS: Reconnect"
-msgstr "Ramps: Riconnettere"
+msgstr "RAMPS: Riconnettere"
 
 #: ../templates/setup/setup-config.html:406
 msgid "RPi Display Number"
@@ -1631,7 +1632,7 @@ msgstr "Accesso Remoto alla Stampante"
 
 #: ../templates/setup/setup-config.html:551
 msgid "Remote Slicer"
-msgstr "Slicer Remoto"
+msgstr "Affettatrice Remota"
 
 #: ../templates/plate/cover.html:23
 msgid "Remove"
@@ -1685,7 +1686,7 @@ msgstr "Riavvio Richiesto"
 
 #: ../templates/setup/setup.html:108
 msgid "Restore Default Settings of Machine/Profiles/Buttons"
-msgstr "Ripristina impostazioni predefinite di macchina/Profili/pulsanti"
+msgstr "Ripristina impostazioni predefinite di Macchina/Profili/Pulsanti"
 
 #: ../templates/import.html:30
 msgid "Restore Machine Settings"
@@ -1701,7 +1702,7 @@ msgstr "Riprendi Stampa Gcode"
 
 #: ../templates/index.html:53 ../templates/plate/plates.html:118
 msgid "Resume Printing"
-msgstr "Riprendi la stampa"
+msgstr "Riprendi la Stampa"
 
 #: ../templates/plate/edit.html:80 ../templates/profile/edit.html:246
 msgid "Rotate 90°"
@@ -1709,7 +1710,7 @@ msgstr "Rotare a 90º"
 
 #: ../templates/plate/edit.html:76 ../templates/profile/edit.html:243
 msgid "Rotate Layers"
-msgstr "ruota gli Strati"
+msgstr "Ruota gli Strati"
 
 #: ../templates/setup/wireless.html:25
 msgid "SSID"
@@ -1733,7 +1734,7 @@ msgstr "Salva la Calibrazione dell'Asse Z"
 
 #: ../templates/plate/plates.html:13
 msgid "Search Plates"
-msgstr "Cerca la Piastra"
+msgstr "Cerca le Piastre"
 
 #: ../templates/profile/edit.html:108 ../templates/profile/edit.html:117
 #: ../templates/profile/edit.html:163 ../templates/profile/edit.html:57
@@ -1763,11 +1764,11 @@ msgstr "Servo Motore"
 
 #: ../templates/setup/setup-config.html:272
 msgid "Servo Pulse Width - Close Position"
-msgstr "Larghezza di impulso servo - Posizione di chiusura "
+msgstr "Larghezza di impulso Servo - Posizione di chiusura "
 
 #: ../templates/setup/setup-config.html:268
 msgid "Servo Pulse Width - Open Position"
-msgstr "Larghezza di impulso servo - Posizione di Apertura"
+msgstr "Larghezza di impulso Servo - Posizione di Apertura"
 
 #: ../templates/setup/setup-config.html:276
 msgid "Servo Signal Length"
@@ -1783,7 +1784,8 @@ msgstr "Impostazioni"
 
 #: ../templates/setup/setup-config.html:154
 msgid "Shield Axis Direction"
-msgstr "Direzione asse della scheda"
+
+msgstr "Direzione asse della Scheda"
 
 #: ../templates/setup/setup-config.html:136
 msgid "Shield Connection"
@@ -1791,7 +1793,7 @@ msgstr "Connessione Scheda"
 
 #: ../templates/setup/setup-config.html:239
 msgid "Shutter"
-msgstr ""
+msgstr "Otturatore"
 
 #: ../templates/calibration/projector-calibration.html:76
 msgid "Shutter Close"
@@ -1803,7 +1805,7 @@ msgstr "Otturatore Chiuso Gcode"
 
 #: ../templates/setup/setup-config.html:261
 msgid "Shutter GPIO"
-msgstr ""
+msgstr "Otturatore GPIO"
 
 #: ../templates/calibration/projector-calibration.html:75
 msgid "Shutter Open"
@@ -1819,7 +1821,7 @@ msgstr "Tipo di Otturatore"
 
 #: ../templates/profile/edit.html:188
 msgid "Skip Dimming for Early Layers"
-msgstr ""
+msgstr "Salta l'Oscuramento per i livelli iniziali"
 
 #: ../templates/profile/edit.html:232
 msgid "Slicer Options"
@@ -1835,7 +1837,7 @@ msgstr "Area pi&ugrave Piccola"
 
 #: ../templates/setup/setup.html:17
 msgid "Some critical settings such as type of the shield and etc, will not take effect in the middle of printing. To change those settings without restart, stop printing and submit this page again."
-msgstr "Alcune impostazioni critiche, come il tipo dello schermo, ecc., non avranno effetto in fase di stampa. Per modificare queste impostazioni senza riavvio, interrompere la stampa e inviare nuovamente questa pagina."
+msgstr "Alcune impostazioni critiche, come il tipo di schermo, ecc., non avranno effetto in fase di stampa. Per modificare queste impostazioni senza riavvio, interrompere la stampa e inviare nuovamente questa pagina."
 
 #: ../templates/setup/setup-config.html:424
 msgid "Speed"
@@ -1855,15 +1857,15 @@ msgstr "Avvio della Stampa Gcode"
 
 #: ../templates/setup/setup-config.html:85
 msgid "Step GPIO for Z-Axis"
-msgstr ""
+msgstr "Passo per Asse Z GPIO"
 
 #: ../templates/setup/setup-config.html:523
 msgid "Stepper Driver Fault Detection GPIO"
-msgstr ""
+msgstr "Rilevamento Guasti del driver passo-passo GPIO"
 
 #: ../templates/plate/plates.html:126 ../templates/plate/plates.html:179
 msgid "Stop"
-msgstr "Fermare"
+msgstr "Ferma"
 
 #: ../templates/plate/edit.html:57 ../templates/plate/plates.html:64
 msgid "Stop Layers"
@@ -1879,7 +1881,7 @@ msgstr "Ferma Stampa"
 
 #: ../templates/setup/setup-config.html:515
 msgid "Stop/Shutdown Physical GPIO"
-msgstr ""
+msgstr "Arresto/Spegnimento fisico GPIO"
 
 #: ../templates/setup/setup-config.html:476
 msgid "Storage Mode"
@@ -1890,7 +1892,7 @@ msgstr "Modalit&agrave di Archiviazione"
 #: ../templates/setup/setup-config.html:557
 #: ../templates/setup/setup-config.html:572
 msgid "Submit"
-msgstr "Inviare"
+msgstr "Invia"
 
 #: ../templates/setup/setup-buttons.html:80
 msgid "Supported Math operations:"
@@ -1971,11 +1973,11 @@ msgstr "Tempo"
 #: ../templates/profile/edit.html:13 ../templates/profile/profiles.html:8
 #: ../templates/setup/custom-inputs.html:9
 msgid "Title"
-msgstr "Titolo"
+msgstr "Nome Profilo"
 
 #: ../templates/setup/setup.html:82
 msgid "To enable the remote access to the printer, please enter random access key"
-msgstr "Per abilitare l'accesso remoto alla stampante, inserire la chiave di accesso casuale"
+msgstr "Per abilitare l'accesso remoto alla stampante, inserire una chiave di accesso casuale"
 
 #: ../templates/setup/upgrade.html:13
 msgid "To monitor the process you could checkout the activity log. After completion the Printer will be restarted."
@@ -2035,16 +2037,16 @@ msgstr "USB / Porta Seriale - ASCII (\\r\\n)"
 
 #: ../templates/setup/setup-config.html:326
 msgid "USB / Serial Port - Binary"
-msgstr "USB / Porta Seriale - Binário"
+msgstr "USB / Porta Seriale - Binario"
 
 #: ../templates/setup/setup-config.html:139
 msgid "USB/Serial"
-msgstr "USB/Serial"
+msgstr "USB/Seriale"
 
 #: ../templates/setup/setup-config.html:170
 #: ../templates/setup/setup-config.html:353
 msgid "USB/Serial Port Address"
-msgstr "USB/Serial Port Address"
+msgstr "USB/Seriale Indirizzo della Porta"
 
 #: ../templates/setup/custom-inputs.html:26
 msgid "Unit Text"
@@ -2076,7 +2078,7 @@ msgstr "Caricare Immagine"
 
 #: ../templates/index.html:100
 msgid "Uptime"
-msgstr "Tempo di Attivit&agrave"
+msgstr "Tempo di Attivit&agrave - "
 
 #: ../templates/setup/setup-buttons.html:62
 msgid "Usable Keywords:"
@@ -2092,7 +2094,7 @@ msgstr "Nome utente Amministratore"
 
 #: ../templates/setup/setup.html:54
 msgid "Username for Dashboard"
-msgstr "Nome utente  Pannello di Controllo"
+msgstr "Nome utente per il Pannello di Controllo"
 
 #: ../templates/setup/custom-inputs.html:20
 msgid "Value Type"
@@ -2116,31 +2118,31 @@ msgstr "WPA"
 
 #: ../templates/plate/preview.html:32
 msgid "Wait"
-msgstr "Attendere"
+msgstr "Attesa"
 
 #: ../templates/plate/preview.html:29
 msgid "Wait After"
-msgstr "Attendere Dopo"
+msgstr "Attesa Dopo"
 
 #: ../templates/profile/edit.html:108 ../templates/profile/edit.html:76
 msgid "Wait After Lift"
-msgstr "Attendere dopo la Salita"
+msgstr "Attesa dopo la Salita"
 
 #: ../templates/profile/edit.html:68 ../templates/profile/edit.html:97
 msgid "Wait After Print"
-msgstr "Attendere dopo la Stampa"
+msgstr "Attesa dopo la Stampa"
 
 #: ../templates/plate/preview.html:27
 msgid "Wait Before"
-msgstr "Attendere Prima"
+msgstr "Attesa Prima"
 
 #: ../templates/profile/edit.html:61 ../templates/profile/edit.html:93
 msgid "Wait Before Print"
-msgstr "Attendere Prima della Stampa"
+msgstr "Attesa Prima della Stampa"
 
 #: ../templates/setup/setup-config.html:185
 msgid "Wait GPIO"
-msgstr ""
+msgstr "Attesa GPIO"
 
 #: ../templates/profile/edit.html:184
 msgid "Wall Around Dimming"
@@ -2184,7 +2186,7 @@ msgstr "&Egrave possibile selezionare e coprire parzialmente alcune sezioni dell
 
 #: ../templates/menu.html:14
 msgid "Z Axis Control"
-msgstr ""
+msgstr "Controllo Asse Z"
 
 #: ../templates/profile/edit.html:300
 msgid "Z Model Size Modifier"
