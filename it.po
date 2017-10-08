@@ -73,7 +73,7 @@ msgstr "Aggiungi"
 
 #: ../templates/plate/plates.html:95
 msgid "Add Blackout"
-msgstr "Agguingi Blackout"
+msgstr "Aggiungi Blackout"
 
 #: ../templates/plate/plates.html:7
 msgid "Add From USB"
