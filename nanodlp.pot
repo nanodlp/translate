@@ -319,11 +319,11 @@ msgstr ""
 msgid "Calibrate Zero Position ⇧"
 msgstr ""
 
-#: ../templates/plate/plates.html:157
+#: ../templates/plate/plates.html:155
 msgid "Calibration Plate"
 msgstr ""
 
-#: ../templates/plate/plates.html:175
+#: ../templates/plate/plates.html:171
 msgid "Calibration plate being generated..."
 msgstr ""
 
@@ -417,7 +417,7 @@ msgstr ""
 msgid "Could not connect to the printer. Please check your connection."
 msgstr ""
 
-#: ../templates/plate/plates.html:146
+#: ../templates/plate/plates.html:144
 msgid "Create 3D shapes by repeating an image frame"
 msgstr ""
 
@@ -764,7 +764,7 @@ msgstr ""
 msgid "Framebuffer Path"
 msgstr ""
 
-#: ../templates/plate/plates.html:187
+#: ../templates/plate/plates.html:183
 msgid "Free Disk Space"
 msgstr ""
 
@@ -806,7 +806,7 @@ msgstr ""
 
 #: ../templates/plate/extrude.html:54
 #: ../templates/plate/generator.html:60
-#: ../templates/plate/plates.html:164
+#: ../templates/plate/plates.html:162
 msgid "Generate"
 msgstr ""
 
@@ -952,7 +952,7 @@ msgstr ""
 #: ../templates/calibration/z-calibration.html:102
 #: ../templates/index.html:118
 #: ../templates/index.html:20
-#: ../templates/plate/plates.html:127
+#: ../templates/plate/plates.html:125
 #: ../templates/plate/preview.html:14
 msgid "Layer"
 msgstr ""
@@ -1189,7 +1189,7 @@ msgstr ""
 msgid "No Encryption"
 msgstr ""
 
-#: ../templates/plate/plates.html:136
+#: ../templates/plate/plates.html:134
 msgid "No Plates"
 msgstr ""
 
@@ -1329,7 +1329,7 @@ msgstr ""
 msgid "PNG/JPEG File"
 msgstr ""
 
-#: ../templates/plate/plates.html:150
+#: ../templates/plate/plates.html:148
 msgid "Paint"
 msgstr ""
 
@@ -1441,7 +1441,7 @@ msgstr ""
 msgid "Pillar Width"
 msgstr ""
 
-#: ../templates/plate/plates.html:160
+#: ../templates/plate/plates.html:158
 msgid "Pillars:"
 msgstr ""
 
@@ -1449,10 +1449,6 @@ msgstr ""
 #: ../templates/setup/setup-config.html:310
 #: ../templates/setup/setup-config.html:314
 msgid "Pixel"
-msgstr ""
-
-#: ../templates/plate/preview.html:19
-msgid "Pixel Difference"
 msgstr ""
 
 #: ../templates/profile/edit.html:169
@@ -1485,7 +1481,7 @@ msgstr ""
 
 #: ../templates/plate/extrude.html:12
 #: ../templates/plate/generator.html:5
-#: ../templates/plate/plates.html:145
+#: ../templates/plate/plates.html:143
 msgid "Plate Generator"
 msgstr ""
 
@@ -1552,7 +1548,7 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: ../templates/plate/plates.html:166
+#: ../templates/plate/plates.html:164
 msgid "Preview Layers"
 msgstr ""
 
@@ -1560,7 +1556,7 @@ msgstr ""
 msgid "Preview Layers of Plate"
 msgstr ""
 
-#: ../templates/plate/plates.html:171
+#: ../templates/plate/plates.html:169
 msgid "Print Calibration Plate"
 msgstr ""
 
@@ -1654,7 +1650,7 @@ msgstr ""
 msgid "Recreate"
 msgstr ""
 
-#: ../templates/plate/plates.html:158
+#: ../templates/plate/plates.html:156
 msgid "Rect:"
 msgstr ""
 
@@ -1718,6 +1714,7 @@ msgstr ""
 msgid "Resolution and color changes would not effect the existing plates."
 msgstr ""
 
+#: ../templates/index.html:64
 #: ../templates/setup/setup.html:101
 msgid "Restart"
 msgstr ""
@@ -1916,8 +1913,8 @@ msgstr ""
 msgid "Stepper Driver Fault Detection GPIO"
 msgstr ""
 
-#: ../templates/plate/plates.html:126
-#: ../templates/plate/plates.html:179
+#: ../templates/plate/plates.html:124
+#: ../templates/plate/plates.html:175
 msgid "Stop"
 msgstr ""
 
@@ -2130,7 +2127,7 @@ msgstr ""
 msgid "Upgrade to the latest stable version"
 msgstr ""
 
-#: ../templates/plate/plates.html:148
+#: ../templates/plate/plates.html:146
 msgid "Upload Image"
 msgstr ""
 
@@ -2303,7 +2300,7 @@ msgid "i2c Bus Path"
 msgstr ""
 
 #: ../templates/plate/plates.html:117
-#: ../templates/plate/plates.html:127
+#: ../templates/plate/plates.html:125
 msgid "of"
 msgstr ""
 

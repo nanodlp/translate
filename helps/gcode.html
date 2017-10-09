@@ -29,7 +29,7 @@
 	<dt>[[LayerSkip Value]]</dt>
 	<dd>For the positive values it skips a layer <samp>eg. [[LayerSkip 1]]</samp><br><br>
 		It skips any remaining gcode and layer tasks, and starts the next layer.<br><br>
-		The more advanced use case example: <samp>[[LayerSkip ((100>[[PixDiff]])*(1-[[SkippedLayers]])*([[LayerNumber]]>3))]]</samp><br>
+		The more advanced use case example: <samp>[[LayerSkip ((100>[[TotalSolidArea]])*(1-[[SkippedLayers]])*([[LayerNumber]]>3))]]</samp><br>
 		The gcode above would cause layers to be skipped after the first 3 layers if a layer before the current one has not been skipped and the difference between the previous and the current layer is less than 100 pixels.
 	</dd>
 	<dt>[[Delay Seconds]]</dt>

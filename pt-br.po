@@ -316,11 +316,11 @@ msgstr "CPU"
 msgid "Calibrate Zero Position ⇧"
 msgstr "Calibrar a Posição Zero ⇧"
 
-#: ../templates/plate/plates.html:157
+#: ../templates/plate/plates.html:155
 msgid "Calibration Plate"
 msgstr "Bandeja de Calibração"
 
-#: ../templates/plate/plates.html:175
+#: ../templates/plate/plates.html:171
 msgid "Calibration plate being generated..."
 msgstr "A Bandeja de Calibração está sendo gerada..."
 
@@ -414,7 +414,7 @@ msgstr "Conectar"
 msgid "Could not connect to the printer. Please check your connection."
 msgstr "Não Foi Possível Conectar-Se À Impressora. Verifique Sua Conexão"
 
-#: ../templates/plate/plates.html:146
+#: ../templates/plate/plates.html:144
 msgid "Create 3D shapes by repeating an image frame"
 msgstr "Cria Formas 3D Repetindo Uma Imagem"
 
@@ -753,7 +753,7 @@ msgstr "Forçar Cancelamento"
 msgid "Framebuffer Path"
 msgstr "Framebuffer Path"
 
-#: ../templates/plate/plates.html:187
+#: ../templates/plate/plates.html:183
 msgid "Free Disk Space"
 msgstr "Espaço livre em Disco"
 
@@ -794,7 +794,7 @@ msgid "Gcode Before"
 msgstr "Depois Gcode"
 
 #: ../templates/plate/extrude.html:54 ../templates/plate/generator.html:60
-#: ../templates/plate/plates.html:164
+#: ../templates/plate/plates.html:162
 msgid "Generate"
 msgstr "Gerar"
 
@@ -937,7 +937,7 @@ msgid "Largest Area"
 msgstr "Maior Área"
 
 #: ../templates/calibration/z-calibration.html:102 ../templates/index.html:118
-#: ../templates/index.html:20 ../templates/plate/plates.html:127
+#: ../templates/index.html:20 ../templates/plate/plates.html:125
 #: ../templates/plate/preview.html:14
 msgid "Layer"
 msgstr "Camada"
@@ -1160,7 +1160,7 @@ msgstr "Nova Versão Disponível"
 msgid "No Encryption"
 msgstr "Sem Criptografia"
 
-#: ../templates/plate/plates.html:136
+#: ../templates/plate/plates.html:134
 msgid "No Plates"
 msgstr "Sem Bandeja"
 
@@ -1297,7 +1297,7 @@ msgstr ""
 msgid "PNG/JPEG File"
 msgstr "Arquivo PNG/JPEG"
 
-#: ../templates/plate/plates.html:150
+#: ../templates/plate/plates.html:148
 msgid "Paint"
 msgstr "Paint"
 
@@ -1407,7 +1407,7 @@ msgstr "Pilar de Corte"
 msgid "Pillar Width"
 msgstr "Largura Pilar"
 
-#: ../templates/plate/plates.html:160
+#: ../templates/plate/plates.html:158
 msgid "Pillars:"
 msgstr "Pilares:"
 
@@ -1416,10 +1416,6 @@ msgstr "Pilares:"
 #: ../templates/setup/setup-config.html:314
 msgid "Pixel"
 msgstr "Pixel "
-
-#: ../templates/plate/preview.html:19
-msgid "Pixel Difference"
-msgstr "Diferença de Pixel"
 
 #: ../templates/profile/edit.html:169
 msgid "Pixel Dimming"
@@ -1447,7 +1443,7 @@ msgid "Plate File"
 msgstr ""
 
 #: ../templates/plate/extrude.html:12 ../templates/plate/generator.html:5
-#: ../templates/plate/plates.html:145
+#: ../templates/plate/plates.html:143
 msgid "Plate Generator"
 msgstr "Gerador Bandeja"
 
@@ -1511,7 +1507,7 @@ msgstr "Ligar no Início / Desligar na Parada"
 msgid "Preview"
 msgstr "Visualização"
 
-#: ../templates/plate/plates.html:166
+#: ../templates/plate/plates.html:164
 msgid "Preview Layers"
 msgstr "Visualização das Camadas"
 
@@ -1519,7 +1515,7 @@ msgstr "Visualização das Camadas"
 msgid "Preview Layers of Plate"
 msgstr "Visualização das Camadas da Bandeja"
 
-#: ../templates/plate/plates.html:171
+#: ../templates/plate/plates.html:169
 msgid "Print Calibration Plate"
 msgstr "Bandeja de Calibração de Impressão"
 
@@ -1609,7 +1605,7 @@ msgstr ""
 msgid "Recreate"
 msgstr "Recriar"
 
-#: ../templates/plate/plates.html:158
+#: ../templates/plate/plates.html:156
 msgid "Rect:"
 msgstr "Retân.:"
 
@@ -1673,7 +1669,7 @@ msgstr "Resina Usada"
 msgid "Resolution and color changes would not effect the existing plates."
 msgstr "A Resolução E As Alterações De Cor Não Afetam As Bandejas Existentes."
 
-#: ../templates/setup/setup.html:101
+#: ../templates/index.html:64 ../templates/setup/setup.html:101
 msgid "Restart"
 msgstr "Reiniciar"
 
@@ -1861,7 +1857,7 @@ msgstr ""
 msgid "Stepper Driver Fault Detection GPIO"
 msgstr ""
 
-#: ../templates/plate/plates.html:126 ../templates/plate/plates.html:179
+#: ../templates/plate/plates.html:124 ../templates/plate/plates.html:175
 msgid "Stop"
 msgstr "Parar"
 
@@ -2070,7 +2066,7 @@ msgstr "Atualizar Para Versão Beta"
 msgid "Upgrade to the latest stable version"
 msgstr "Atualizar Para Última Versão Estável"
 
-#: ../templates/plate/plates.html:148
+#: ../templates/plate/plates.html:146
 msgid "Upload Image"
 msgstr "Carregar Imagem"
 
@@ -2239,7 +2235,7 @@ msgstr "Endereço i2c"
 msgid "i2c Bus Path"
 msgstr ""
 
-#: ../templates/plate/plates.html:117 ../templates/plate/plates.html:127
+#: ../templates/plate/plates.html:117 ../templates/plate/plates.html:125
 msgid "of"
 msgstr "De"
 
@@ -2251,6 +2247,9 @@ msgstr "μm"
 #: ../templates/profile/edit.html:142 ../templates/setup/setup-config.html:427
 msgid "μm/Second"
 msgstr "μm/Segundo"
+
+#~ msgid "Pixel Difference"
+#~ msgstr "Diferença de Pixel"
 
 #~ msgid "FullHD Red Calib."
 #~ msgstr "Calib. FullHD Vermelha"
