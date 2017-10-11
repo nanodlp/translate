@@ -1,13 +1,13 @@
-Due to performance constrains on some development boards such as Raspberry Pi, remote slicer could be used to speed up process substantially and handle larger 3D files.
+A causa di vincoli di prestazioni su alcune schede di sviluppo come Raspberry Pi, l'affettatore a distanza potrebbe essere sostanzialmente utilizzato per accelerare il processo e gestire file 3D pi&ugrave grandi.
 <br><br>
-This function delegate slicing to another NanoDLP installation. If this field not filled, computer uploading a new plate will be scanned for active NanoDLP  installation (only on port 8080) and will be used as default slicer for ARM systems. If TCP IP:Port specified for remote NanoDLP, system will try to use it as remote slicer.<br><br>
-<h4>How remote Slicer works: (example)</h4>
+Questa funzione delega il taglio a un'altra installazione di NanoDLP. Se questo campo non &eacuto riempito, il computer che carica una nuova piastra verr&agrave sottoposto a scansione per l'installazione attiva di NanoDLP (solo sulla porta 8080) e verr&agrave utilizzata come affettatrice predefinita per i sistemi ARM. Se la porta TCP IP: &egrave stata specificata per il NanoDLP remoto, il sistema cercher&agrave di utilizzarlo come affettatore a distanza.<br><br>
+<h4>Come funziona Slicer remoto: (esempio)</h4>
 <ol>
-	<li>NanoDLP installed on Raspberry Pi and Windows computer being used by user.</li>
-	<li>A new plate uploaded to Raspberry Pi.</li>
-	<li>Raspberry Pi NanoDLP detects active NanoDLP installation on users's Windows computer.</li>
-	<li>Raspberry Pi transfer required data to Windows.</li>
-	<li>NanoDLP on Windows start processing.</li>
-	<li>NanoDLP on Raspberry Pi get status update from Windows version. And wait until slicing get completed.</li>
-	<li>NanoDLP on Raspberry Pi fetch prepared data.</li>
+	<li>NanoDLP &egrave installato sul Raspberry Pi e sul computer Windows utilizzato dall'utente.</li>
+	<li>Una nuova piastra viene caricata sul Raspberry Pi.</li>
+	<li>Il Raspberry Pi con NanoDLP rileva l'installazione attiva di NanoDLP nel computer Windows dell'utente.</li>
+	<li>Il Raspberry Pi trasferisce i dati richiesti a Windows.</li>
+	<li>NanoDLP su Windows avvia il processo.</li>
+	<li>NanoDLP su Raspberry Pi ottiene l'aggiornamento dello stato dalla versione di Windows. E aspetta che l'affettutura venga completata.</li>
+	<li>NanoDLP su Raspberry Pi raccoglie i dati preparati.</li>
 </ol>
