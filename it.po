@@ -1784,7 +1784,6 @@ msgstr "Impostazioni"
 
 #: ../templates/setup/setup-config.html:154
 msgid "Shield Axis Direction"
-
 msgstr "Direzione asse della Scheda"
 
 #: ../templates/setup/setup-config.html:136
