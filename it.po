@@ -223,11 +223,11 @@ msgstr "Fattore di Distorsione"
 
 #: ../templates/calibration/projector-calibration.html:56
 msgid "Barrel's Center X"
-msgstr "Centro di Distorsione in X"
+msgstr "Centro di Distors. in X"
 
 #: ../templates/calibration/projector-calibration.html:60
 msgid "Barrel's Center Y"
-msgstr "Centro di Distorsione in Y"
+msgstr "Centro di Distors. in Y"
 
 #: ../templates/setup/setup-config.html:256
 msgid "Before Each Layer"
@@ -279,7 +279,7 @@ msgstr "Avvio Gcode"
 
 #: ../templates/profile/edit.html:222
 msgid "Bottom Cap Wall"
-msgstr "Parete Inferiore di Copertura"
+msgstr "Parete Infer. di Copert."
 
 #: ../templates/calibration/projector-calibration.html:26
 msgid "Boundaries"
@@ -347,11 +347,11 @@ msgstr "Pezzi al Centro"
 
 #: ../templates/setup/setup-config.html:310
 msgid "Center of Barrel - X"
-msgstr "Centro della Distorsione - X"
+msgstr "Centro della Distors. - X"
 
 #: ../templates/setup/setup-config.html:314
 msgid "Center of Barrel - Y"
-msgstr "Centro della Distorsione - Y"
+msgstr "Centro della Distors. - Y"
 
 #: ../templates/setup/setup.html:111
 msgid "Change Distribution"
@@ -489,15 +489,15 @@ msgstr "Dettagli"
 
 #: ../templates/profile/edit.html:180
 msgid "Dimming Amount Percentage"
-msgstr "Percentuale di Oscuramento"
+msgstr "Percentuale di Oscur."
 
 #: ../templates/profile/edit.html:172
 msgid "Dimming Type"
-msgstr "Tipo di Oscuramento"
+msgstr "Tipo di Oscur."
 
 #: ../templates/plate/extrude.html:6
 msgid "Dimming and Mask settings will take effect on the created layers."
-msgstr "Le impostazioni di Oscuramento e della maschera avranno effetto sui livelli creati."
+msgstr "Le impostazioni di Oscur. e della maschera avranno effetto sui livelli creati."
 
 #: ../templates/setup/setup-config.html:94
 msgid "DirectiDriver Enable GPIO"
@@ -544,7 +544,7 @@ msgstr "Schermo"
 
 #: ../templates/setup/setup-config.html:320
 msgid "Display Communication Type"
-msgstr "Tipo di Comunicazione dello Schermo"
+msgstr "Tipo di Comunic. dello Schermo"
 
 #: ../templates/plate/preview.html:3
 msgid "Display Layer"
@@ -600,23 +600,23 @@ msgstr "Calcolo Dinamico"
 
 #: ../templates/calibration/projector-calibration.html:8
 msgid "Dynamic Calibration"
-msgstr "Calibrazione Dinamica"
+msgstr "Calibrazione Dinam."
 
 #: ../templates/profile/edit.html:117
 msgid "Dynamic Cure Time"
-msgstr "Tempo di Cura Dinamico"
+msgstr "Tempo di Cura Dinam."
 
 #: ../templates/profile/edit.html:125
 msgid "Dynamic Lift"
-msgstr "Sollevamento Dinamico"
+msgstr "Sollevamento Dinam."
 
 #: ../templates/calibration/projector-calibration.html:17
 msgid "Dynamic Red Calib."
-msgstr "Calibrazione Dinamica Rossa"
+msgstr "Calibrazione Dinam. Rossa"
 
 #: ../templates/profile/edit.html:121
 msgid "Dynamic Speed"
-msgstr "Velocit&agrave Dinamica"
+msgstr "Vel. Dinam."
 
 #: ../templates/plate/plates.html:72 ../templates/profile/profiles.html:31
 msgid "Edit"
@@ -684,7 +684,7 @@ msgstr "Inglese"
 
 #: ../templates/plate/extrude.html:8
 msgid "Even-though it can process multi color images, to make the dimming feature work correctly, try to use images containing grayscale colors."
-msgstr "Anche se &egrave in grado di elaborare immagini a colori, per far funzionare correttamente la funzione di Oscuramento, prova a utilizzare immagini contenenti i colori in scala di grigi."
+msgstr "Anche se &egrave in grado di elaborare immagini a colori, per far funzionare correttamente la funzione di Oscur., prova a utilizzare immagini contenenti i colori in scala di grigi."
 
 #: ../templates/setup/setup-config.html:70
 msgid "Execute - Print Start"
@@ -967,7 +967,7 @@ msgstr "Livello"
 
 #: ../templates/profile/edit.html:104 ../templates/profile/edit.html:72
 msgid "Lift After Print"
-msgstr "Sollevare dopo la Stampa"
+msgstr "Soll. dopo la Stampa"
 
 #: ../templates/setup/setup-config.html:397
 msgid "Light Output Formula"
@@ -1008,7 +1008,7 @@ msgstr "Effettuare qualsiasi modifica eliminer&agrave automaticamente la precede
 
 #: ../templates/setup/setup-config.html:229
 msgid "Manual Movement Gcode Template"
-msgstr "Movimento Manuale del modello Gcode"
+msgstr "Mov. Manuale del modello Gcode"
 
 #: ../templates/profile/edit.html:21
 msgid "Mask File"
@@ -1040,7 +1040,7 @@ msgstr "la Maschera ha effetto solo sui file STL/SLC/SVG caricati dopo l'invio d
 
 #: ../templates/setup/setup-config.html:427
 msgid "Max Speed"
-msgstr "Velocit&agrave Massima"
+msgstr "Vel. Massima"
 
 #: ../templates/setup/custom-inputs.html:33
 msgid "Max for Number Input"
@@ -1065,7 +1065,7 @@ msgstr "Micron"
 #: ../templates/setup/setup-config.html:268
 #: ../templates/setup/setup-config.html:272
 msgid "Microsecond"
-msgstr "Microsecondi"
+msgstr "Microsec."
 
 #: ../templates/setup/setup-config.html:447
 msgid "Microstep"
@@ -1082,15 +1082,15 @@ msgstr "Micro Passi"
 #: ../templates/setup/setup-config.html:419
 #: ../templates/setup/setup-config.html:451
 msgid "Millimeter"
-msgstr "Milimetri"
+msgstr "MM"
 
 #: ../templates/setup/setup-config.html:276
 msgid "Millisecond"
-msgstr " Millisecondi"
+msgstr " Millisec."
 
 #: ../templates/setup/setup-config.html:431
 msgid "Min Speed"
-msgstr "Velocit&agrave Minima"
+msgstr "Vel. Minima"
 
 #: ../templates/setup/custom-inputs.html:30
 msgid "Min for Number Input"
@@ -1106,11 +1106,11 @@ msgstr "Modulo"
 
 #: ../templates/profile/edit.html:131
 msgid "Motor Speed"
-msgstr "Velocit&agrave Motore"
+msgstr "Vel. Motore"
 
 #: ../templates/setup/setup-config.html:435
 msgid "Motor Startup Speed"
-msgstr "Velocit&agrave Iniziale del Motore"
+msgstr "Vel. Iniziale del Motore"
 
 #: ../templates/setup/setup-config.html:443
 msgid "Motor Step Angle"
@@ -1127,7 +1127,7 @@ msgstr "Sposta allo Strato"
 
 #: ../templates/plate/preview.html:31
 msgid "Move to Position"
-msgstr "Sposta in Posizione"
+msgstr "Sposta in Posiz."
 
 #: ../templates/calibration/z-calibration.html:89
 msgid "Move to layer"
@@ -1139,7 +1139,7 @@ msgstr "Movimenti GPIO"
 
 #: ../templates/setup/setup-config.html:161
 msgid "Movement Positioning"
-msgstr "Movimento di Posizionamento"
+msgstr "Movim. di Posizionamento"
 
 #: ../templates/plate/plates.html:31 ../templates/setup/custom-inputs.html:45
 msgid "Name"
@@ -1292,7 +1292,7 @@ msgstr "Sostituisce l'Avvio della Stampa GCode"
 
 #: ../templates/profile/edit.html:292
 msgid "Override X/Y Resolution"
-msgstr "Sostituisce risoluzione X/Y"
+msgstr "Sostituisce risol. X/Y"
 
 #: ../templates/plate/extrude.html:23
 msgid "PNG/JPEG File"
@@ -1424,7 +1424,7 @@ msgstr "Differenza di Pixel"
 
 #: ../templates/profile/edit.html:169
 msgid "Pixel Dimming"
-msgstr "Oscuramento Pixel"
+msgstr "Oscur. Pixel"
 
 #: ../templates/profile/edit.html:206 ../templates/profile/edit.html:211
 #: ../templates/profile/edit.html:226
@@ -1474,11 +1474,11 @@ msgstr "Informazioni Piattaforma"
 
 #: ../templates/setup/setup-config.html:415
 msgid "Platform Wait Position"
-msgstr "Posizione di attesa della  Piattaforma"
+msgstr "Posiz. di attesa della  Piatt."
 
 #: ../templates/setup/setup-config.html:543
 msgid "Play Sound After Print Stop"
-msgstr "Riprodurre un suono alla fine della Stampa"
+msgstr "Ripr. suono al termine"
 
 #: ../templates/setup/distro.html:9
 msgid "Please choose a distribution. Mask, default setting files and etc will be deployed."
@@ -1486,7 +1486,7 @@ msgstr "Scegli una distribuzione. La maschera, i file di configurazione standard
 
 #: ../templates/plate/extrude.html:7
 msgid "Please upload an image with the same width and height as your projector's native resolution."
-msgstr "Carica un'immagine con la stessa larghezza e altezza della risoluzione nativa del proiettore."
+msgstr "Carica un'immagine con la stessa larghezza e altezza della risol. nativa del proiettore."
 
 #: ../templates/setup/setup-buttons.html:36
 msgid "Position / Condition"
@@ -1744,7 +1744,7 @@ msgstr "Cerca le Piastre"
 #: ../templates/profile/profiles.html:10
 #: ../templates/setup/setup-config.html:335
 msgid "Second"
-msgstr "Secondi"
+msgstr "Sec."
 
 #: ../templates/plate/cover.html:22
 msgid "Selected Covers"
@@ -1764,11 +1764,11 @@ msgstr "Servo Motore"
 
 #: ../templates/setup/setup-config.html:272
 msgid "Servo Pulse Width - Close Position"
-msgstr "Larghezza di impulso Servo - Posizione di chiusura "
+msgstr "Largh. di impulso Servo - Posiz. di chiu. "
 
 #: ../templates/setup/setup-config.html:268
 msgid "Servo Pulse Width - Open Position"
-msgstr "Larghezza di impulso Servo - Posizione di Apertura"
+msgstr "Largh. di impulso Servo - Posiz. di Apert."
 
 #: ../templates/setup/setup-config.html:276
 msgid "Servo Signal Length"
@@ -1820,7 +1820,7 @@ msgstr "Tipo di Otturatore"
 
 #: ../templates/profile/edit.html:188
 msgid "Skip Dimming for Early Layers"
-msgstr "Salta l'Oscuramento per i livelli iniziali"
+msgstr "Salta l'Oscur. per i livelli iniziali"
 
 #: ../templates/profile/edit.html:232
 msgid "Slicer Options"
@@ -1844,7 +1844,7 @@ msgstr "Velocit&agrave"
 
 #: ../templates/profile/edit.html:142
 msgid "Speed in Slow Section"
-msgstr "Velocit&agrave in Sezione Lenta"
+msgstr "Vel. in Sezione Lenta"
 
 #: ../templates/index.html:50
 msgid "Start Display"
@@ -2004,7 +2004,7 @@ msgstr "Strumenti"
 
 #: ../templates/profile/edit.html:218
 msgid "Top Cap Wall"
-msgstr "Parete di Chiusura Superiore"
+msgstr "Parete di copert. Super."
 
 #: ../templates/calibration/z-calibration.html:74
 msgid "Top ⇧"
@@ -2145,7 +2145,7 @@ msgstr "Attesa GPIO"
 
 #: ../templates/profile/edit.html:184
 msgid "Wall Around Dimming"
-msgstr "Parete intorno all'Oscuramento"
+msgstr "Parete intorno all'Oscur."
 
 #: ../templates/profile/edit.html:226
 msgid "Wall Gap"
@@ -2169,7 +2169,7 @@ msgstr "Risoluzione X/Y"
 
 #: ../templates/profile/edit.html:296
 msgid "X/Y Size Modifier"
-msgstr "Modifica Dimensioni X/Y"
+msgstr "Mod. Dimens. X/Y"
 
 #: ../templates/setup/setup-config.html:299
 msgid "Y Resolution"
@@ -2189,7 +2189,7 @@ msgstr "Controllo Asse Z"
 
 #: ../templates/profile/edit.html:300
 msgid "Z Model Size Modifier"
-msgstr "Modifica Dimensioni del Modello Z"
+msgstr "Mod. Dimens. del Modello Z"
 
 #: ../templates/setup/setup-buttons.html:15
 msgid "Z-Axis Calibration"
@@ -2201,7 +2201,7 @@ msgstr "Altezza Asse Z"
 
 #: ../templates/profile/edit.html:134
 msgid "Z-Axis Max Speed"
-msgstr "Massima Velocit&agrave Asse Z"
+msgstr "Max Vel. Asse Z"
 
 #: ../templates/calibration/z-calibration.html:21
 msgid "Zero Level"
@@ -2251,4 +2251,4 @@ msgstr "μm"
 #: ../templates/profile/edit.html:121 ../templates/profile/edit.html:134
 #: ../templates/profile/edit.html:142 ../templates/setup/setup-config.html:427
 msgid "μm/Second"
-msgstr "μm/Secondo"
+msgstr "μm/Sec."
