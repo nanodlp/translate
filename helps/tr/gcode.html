@@ -1,76 +1,76 @@
 <br>
-<h4>Dynamic Variables</h4>
+<h4>Dinamik Değişkenler</h4>
 <dl class="dl-horizontal small">
 	<dt>[[ZSpeed]]</dt>
-	<dd>Speed in micron/second, calculated from startup/min/max/slow section speeds in setup page. The result of dynamic speed will be used.</dd>
+	<dd>Kurulum sayfasındaki startup/min/max/slow hızlarından hesaplanan micron/second hızı. Dinamik hızın sonucu kullanılacaktır.</dd>
 	<dt>[[ZLiftDistance]]</dt>
-	<dd>Amount of lift after layer print in millimeter. The result of dynamic lifting will be used.</dd>
+	<dd>Milimetre cinsinden katman baskısından sonraki yükseltme miktarıdır. Dinamik yükseltme sonucu kullanılacaktır.</dd>
 	<dt>[[SyscallResult]]</dt>
-	<dd>If any GCODE box has paired with external execution, the result of execution could be used inside the GCODE box.</dd>
+	<dd>Herhangi bir GCODE kutusu harici uygulama ile eşleştirilmişse, yürütme sonucu GCODE kutusu için de kullanılabilir.</dd>
 </dl>
 <br>
 
-<h4>Control Keywords</h4>
+<h4>Kontrol Anahtar Kelimeleri</h4>
 <dl class="dl-horizontal small">
 	<dt>[[LayerChange layer]]</dt>
-	<dd>Change current layer <samp>eg. [[LayerChange 22.1]]</samp></dd>
+	<dd>Geçerli katmanı değiştirin <samp>örneğin, [[LayerChange 22.1]]</samp></dd>
 	<dt>[[PositionSet mm]]</dt>
-	<dd>Update current absolute position <samp>eg. [[PositionSet 22.1]]</samp></dd>
+	<dd>Mevcut mutlak konumu güncelle <samp>örneğin, [[PositionSet 22.1]]</samp></dd>
 	<dt>[[PositionChange mm]]</dt>
-	<dd>Update relative position update <samp>eg. [[PositionChange -2.1]]</samp></dd>
+	<dd>İlgili konum güncellemesini güncelle <samp>örneğin, [[PositionChange -2.1]]</samp></dd>
 </dl>
 <br>
-<h4>Action Keywords</h4>
+<h4>Eylem Anahtar Kelimeleri</h4>
 <dl class="dl-horizontal small">
 	<dt>[[DisplayLayer LayerID]]</dt>
-	<dd>Display any layer from current plate <samp>eg. [[DisplayLayer 10]]</samp></dd>
+	<dd>Geçerli tabakadan herhangi bir katmanı görüntüle <samp>örneğin, [[DisplayLayer 10]]</samp></dd>
 	<dt>[[Blank]]</dt>
-	<dd>Make screen blank</dd>
+	<dd>Ekranı boş bırak</dd>
 	<dt>[[LayerSkip Value]]</dt>
-	<dd>For the positive values it skips a layer <samp>eg. [[LayerSkip 1]]</samp><br><br>
-		It skips any remaining gcode and layer tasks, and starts the next layer.<br><br>
-		The more advanced use case example: <samp>[[LayerSkip ((100>[[TotalSolidArea]])*(1-[[SkippedLayers]])*([[LayerNumber]]>3))]]</samp><br>
-		The gcode above would cause layers to be skipped after the first 3 layers if a layer before the current one has not been skipped and the difference between the previous and the current layer is less than 100 pixels.
+	<dd>Pozitif değerler için bir katmanı atlar <samp>örneğin, [[LayerSkip 1]]</samp><br><br>
+		Geriye kalan herhangi bir gcode ve katman görevlerini atlar ve bir sonraki katmanı başlatır.<br><br>
+		Daha gelişmiş kullanım örneğ: <samp>[[LayerSkip ((100>[[TotalSolidArea]])*(1-[[SkippedLayers]])*([[LayerNumber]]>3))]]</samp><br>
+		Yukarıdaki gcode, geçerli katmandan önceki bir katmanı atlanmadığında ve önceki ile mevcut katman arasındaki fark 100 pikselden az ise, katmanların ilk 3 tabakadan sonra atlanmasına neden olur.
 	</dd>
 	<dt>[[Delay Seconds]]</dt>
-	<dd>Put delay <samp>eg. [[Delay 1.23]]</samp></dd>
+	<dd>Geciktir <samp>örneğin, [[Delay 1.23]]</samp></dd>
 	<dt>[[WaitForDoneMessage]]</dt>
-	<dd>Wait for <kbd>Z_move_comp</kbd> message from RAMPS or similar boards</dd>
+	<dd>RAMPS veya benzeri tabakalardan gelen <kbd>Z_move_comp</kbd> mesajını bekleyin</dd>
 	<dt>[[Pause]]</dt>
-	<dd>Pause the printer, requires resume from dashboard to continue.</dd>
+	<dd>Yazıcıyı duraklatın, devam etmek için gösterge panelinden devam edilmesi gerekir.</dd>
 </dl>
 <br>
-<h4>Communication Keywords</h4>
+<h4>İletişim Anahtar Kelimeleri</h4>
 <dl class="dl-horizontal small">
 	<dt>[[Net URL]]</dt>
-	<dd>Send get request to the specified URL without waiting for the result <samp>eg. [[Net http://example.com/api]]</samp></dd>
+	<dd>Sonucu beklemeden belirtilen URL'ye alma isteği gönderin<samp>örneğin, [[Net http://example.com/api]]</samp></dd>
 	<dt>[[NetReturn URL]]</dt>
-	<dd>Send get request to the specified URL and send the result to RAMPS <samp>eg. [[NetReturn http://127.0.0.1/gcode?layer=[[LayerNumber]]]]</samp></dd>
+	<dd>Belirtilen URL'ye istek gönderiniz ve sonucu RAMPS'e gönderiniz <samp>eg. [[NetReturn http://127.0.0.1/gcode?layer=[[LayerNumber]]]]</samp></dd>
 	<dt>[[Exec Command]]</dt>
-	<dd>Run external command without waiting for the result <samp>eg. [[Exec python my_python_script.py]]</samp></dd>
+	<dd>Sonuç beklemeden harici komutu çalıştırınız <samp>öreğin, [[Exec python my_python_script.py]]</samp></dd>
 	<dt>[[ExecReturn Command]]</dt>
-	<dd>Run external command and send the result to RAMPS <samp>eg. [[ExecReturn python my_python_script.py]]</samp></dd>
+	<dd>Harici komutu çalıştırın ve sonucu RAMPS'e gönderiniz <samp>örneğin, [[ExecReturn python my_python_script.py]]</samp></dd>
 </dl>
 <br>
-<h4>Hardware Keywords</h4>
+<h4>Donanım Anahtar Kelimeleri</h4>
 <dl class="dl-horizontal small">
 	<dt>[[GPIOWaitForLow]]</dt>
-	<dd>Wait for <kbd>"wait pin"</kbd> GPIO to be LOW</dd>
+	<dd>Wait for <kbd>"bekle pini"</kbd> GPIO to be LOW</dd>
 	<dt>[[Projector Command]]</dt>
-	<dd>Send any command to the projector <samp>eg. [[Projector \x01\x02\x03 On]]</samp></dd>
+	<dd>Projektöre herhangi bir komut gönder <samp>örneğin, [[Projector \x01\x02\x03 On]]</samp></dd>
 	<dt>[[GPIOHigh GPIO]]</dt>
-	<dd>Makes any GPIO HIGH <samp>eg. [[GPIOHigh 12]]</samp></dd>
+	<dd>Herhangi bir GPIO'yu YÜKSEK yapar <samp>örneğin, [[GPIOHigh 12]]</samp></dd>
 	<dt>[[GPIOLow GPIO]]</dt>
-	<dd>Makes any GPIO Low</dd>
+	<dd>Herhangi bir GPIO'yu ALÇAK yapar</dd>
 </dl>
 
 <br>
 
 <h4>Syncronizing Movements</h4>
-nanoDLP does not have knowledge of how much time it would take to finish a movement. There are a couple of ways to solve this problem.<br>
+NanoDLP, bir işlemi bitirmek için ne kadar zaman gerektiğini bilmemektedir. Bu sorunu çözmenin birkaç yolu vardır.<br>
 <br>
 <h5>1. Using [[Delay Seconds]] keyword</h5>
-It is possible to put delay after each movement. It is the most widely used method.
+Her işlemde gecikme yapmak mümkündür. Bu, en yaygın kullanılan yöntemdir.
 <pre>
 G1 Z1.1
 [[Delay 1.5]]
@@ -78,15 +78,15 @@ G1 Z1.1
 <br>
 
 <h5>2. Using [[GPIOWaitForLow]] keyword</h5>
-To syncronize movements nanoDLP waits for pin to be LOW. At the start of movement, controllers / drivers must make this pin HIGH and at the end of movement make it LOW. Maximum delay for detection is 1ms.
+Hareketi senkronize etmek için nanoDLP pinin ALÇAK olmasını bekler.Hareket başlangıcında, kontroller/sürücüler bu pimi YÜKSEK yapmalı ve hareketin sonunda düşük konuma getirmelidir.Algılama için maksimum gecikme 1 ms'dir.
 <pre>
 G1 Z1.1
 [[GPIOWaitForLow]]
 </pre>
 <br>
 
-<h5>3. Using [[WaitForDoneMessage]] keyword</h5>
-By using the patched <a href="https://github.com/kitprinter3d/grbl/tree/master/grbl-solidray">grbl</a> / <a href="https://github.com/mUVe3D/Marlin-mUVe1DLP-Running">marlin</a> firmwares you can achieve sync movements. After seeing this keyword nanoDLP will wait for <kbd>Z_move_comp</kbd> response from RAMPS.
+<h5>3. Anahtar Kelimeleri [[WaitForDoneMessage]] Kullan </h5>
+Düzeltme eki <a href="https://github.com/kitprinter3d/grbl/tree/master/grbl-solidray">grbl</a> / <a href="https://github.com/mUVe3D/Marlin-mUVe1DLP-Running">marlin</a> kullanarak senkronizasyon hareketleri gerçekleştirebilirsiniz. Bu anahtar kelimeyi gördükten sonra, nanoDLP RAMPS'ten <kbd>Z_move_comp</kbd> yanıtını bekleyecektir.
 <pre>
 G1 Z1.1
 [[WaitForDoneMessage]]
@@ -94,28 +94,28 @@ G1 Z1.1
 <br>
 
 <br>
-<h4>Crash Recovery</h4>
-Using the right settings is the key to crash recovery and to benefit from nanoDLP in full potential. A way to do this is to delegate positioning to nanoDLP.<br>
-Follow the sample codes below to understand how to delegate positioning to nanoDLP. By doing so in addition to crash recovery, printer stop and other functions also will start working.<br>
+<h4>Çökme Kurtarma</h4>
+Doğru ayarları kullanmak, kurtarmaya ve nanoDLP'in tam potansiyelinden yararlanmanın anahtarıdır. Bunu yapmanın bir yolu konumlandırmayı nanoDLP'ye devretmektir.<br>
+NanoDLP'ye konumlandırmayı nasıl devredeceğinizi anlamak için aşağıdaki örnek kodları takip edin.Çökmeyi kurtarma işlemine ek olarak bunu yaparak, yazıcı durdurma ve diğer işlevlerde de çalışmaya başlayacaktır.<br>
 <br>
-Start of Print
-<pre>G90 ; Put positioning in absolute mode
-G28 ; Homing
-[[WaitForDoneMessage]] ; Wait until movement is completed, it requires firmwares to get patched for Z_move_comp, if you do not want to use patched firmware you can use [[Delay n.n]] instead
-[[PositionSet 0]] ; Set current position on nanodlp so it could be recovered in case of failure</pre>
+Yazdırmaya Başla
+<pre>G90 ; Konumlamayı kesin moda getiriniz
+G28 ; Eve dönen
+[[WaitForDoneMessage]] ;[[Delay nn.]]'yi kullanabileceğiniz yamalı bir firmware kullanmak istemiyorsanız, Hareket tamamlanıncaya kadar bekleyiniz, Z_move_comp için yamanın alınması için firma yetkisi gerekmektedir.
+[[PositionSet 0]] ; Nanodlp'de geçerli konumu ayarlayınız, böylece arıza durumunda geri alınabilir</pre>
 <br>
-Before Layer
-<pre>G1 Z[[LayerPosition]] ; Move to layer position
-[[WaitForDoneMessage]] ; Wait for the movement to get finished
-[[PositionSet [[LayerPosition]]]] ; Save layer position as the current position</pre>
+Katman Öncesi
+<pre>G1 Z[[LayerPosition]] ; Katman Konumuna Geçmek
+[[WaitForDoneMessage]] ; İşlemin bitmesi için bekleyiniz
+[[PositionSet [[LayerPosition]]]] ; Katman pozisyonunu geçerli konum olarak kaydedin</pre>
 <br>
-After Layer
-<pre>G1 Z{[[LayerPosition]]+[[ZLiftDistance]]} ; Lift to wait position
-[[WaitForDoneMessage]] ; Wait for the movement to get finished
-[[PositionChange [[ZLiftDistance]]]] ; Again update position</pre>
+Katman Sonrası
+<pre>G1 Z{[[LayerPosition]]+[[ZLiftDistance]]} ; Bekleme pozisyonuna yükseltiniz
+[[WaitForDoneMessage]] ; İşlemin bitmesi için bekleyiniz
+[[PositionChange [[ZLiftDistance]]]] ; Pozisyonu yeniden güncelle </pre>
 <br>
-Resume Print
-<pre>G90 ; Put positioning in absolute mode
-G92 Z[[CurrentPosition]] Y0 X0 ; System crashed so we need to recover current position from nanodlp and set it on RAMP
-G1 Z[[LayerPosition]] ; Move to layer position
+Yazdırmaya Devam et
+<pre>G90 ; Konumlamayı kesin moda getirin
+G92 Z[[CurrentPosition]] Y0 X0 ; Sistem çöktü, bu nedenle nanodlp'den güncel konumunu kurtarmamız ve RAMP üzerineki ayarlamamız gerekmektedir.
+G1 Z[[LayerPosition]] ; Katman konumuna git
 ...</pre>
