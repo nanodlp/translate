@@ -2,47 +2,47 @@
 {% block content %}
 <div class="row">
 	<div class="col-sm-12 terminal">
-		<legend>Troubleshooting</legend>
+		<legend>Sorun Giderme</legend>
 
-		<h4>Image Issues</h4>
+		<h4>Resim Konuları</h4>
 
-		<b>No Picture</b>
+		<b>Resim yok</b>
 		<p>
 			<ul>
-				<li>Raspberry Pi: Wrong HDMI mode, edit config.txt file.</li>
-				<li>Desktop Version: Display is not started from dashboard.</li>
-				<li>Wrong display no.</li>
-				<li>Black or color close to black has been chosen as layer rendering color.</li>
+				<li>Raspberry Pi: Yanlış HDMI modu, config.txt dosyasını düzenleyiniz.</li>
+				<li>Desktop Version: Ekran gösterge tablosundan başlatılmadı.</li>
+				<li>Yanlış gösterge yok.</li>
+				<li>Siyah veya siyaha yakın renk, katman oluşturma rengi olarak seçildi.</li>
 			</ul>
 		</p>
 
 		<br>
-		<b>Image is flipped</b>
+		<b>Resim ters çevirildi</b>
 		<p>
 			<ul>
-				<li>Raspberry Pi: edit config.txt file.
+				<li>Raspberry Pi: config.txt dosyasını düzenle.
 					<ul>
-						<li>90 degrees - display_rotate=1</li>
-						<li>180 degrees - display_rotate=2</li>
-						<li>270 degrees - display_rotate=3</li>
-						<li>horizontal flip - display_rotate=0x10000</li>
-						<li>vertical flip - display_rotate=0x20000</li>
+						<li>90 derece - display_rotate=1</li>
+						<li>180 derece - display_rotate=2</li>
+						<li>270 derece - display_rotate=3</li>
+						<li>yatay çevir - display_rotate=0x10000</li>
+						<li>dikey çevir - display_rotate=0x20000</li>
 					</ul>
 				</li>
-				<li>Projector: You can correct image flipping issue using projector options.</li>
+				<li>Projector: Projektör seçeneklerini kullanarak görüntü sıkışmasını düzeltebilirsiniz.</li>
 			</ul>
 		</p>
 
 		<br>
-		<h4>Print Issues</h4>
+		<h4>Yazdırma Konuları</h4>
 
-		<b>Print dimension issue on X/Y</b>
+		<b>X/Y Boyutunda yazdır</b>
 		<p>
 			<ul>
-				<li>Projector resolution on setup page is wrong.</li>
-				<li>X/Y resolution on setup page is wrong.</li>
-				<li>Override X/Y Resolution on profile page is wrong.</li>
-				<li>Modify x/y resolution on profile page is wrong.</li>
+				<li>Kurulum sayfasındaki projektör çözünürlüğü yanlıştır.</li>
+				<li>Kurulum sayfasındaki X/Y çözünütlüğü yalıştır.</li>
+				<li>Profil sayfasındaki X/Y çözünürlüğü geçersizdir.</li>
+				<li>Profil sayfasındaki X/Y çözünürlüğü değiştirmek yanlıştır.</li>
 			</ul>
 		</p>
 
@@ -58,32 +58,32 @@
 			</ul>
 		</p>
 
-		<b>Movement direction is wrong</b>
+		<b>Hareket yönü yanlış</b>
 		<p>
 			<ul>
-				<li>Change axis direction from the setup page</li>
+				<li>Kurulum sayfasından eksen yönünü değiştirmek</li>
 			</ul>
 		</p>
 
 
 		<br>
-		<h4>Slicer Issues</h4>
+		<h4>Bölücü Sorunları</h4>
 
-		<b>Missing or additional parts on a layer</b>
+		<b>Katmandaki eksik veya ek parçalar</b>
 		<p>
 			<ul>
-				<li>Source STL file has issue, share it so we could analyse if we could handle the problem or not.</li>
+				<li>Kaynak STL dosyasında sorun oluştu, sorunu ele alıp analiz edebilmemiz için paylaşınız.</li>
 			</ul>
 		</p>
 
 		<br>
-		<h4>NanoDLP Issues</h4>
+		<h4>NanoDLP Sorunları</h4>
 
-		<b>Program crashes or reboot</b>
+		<b>Program çöküyor veya yeniden başlatılıyor</b>
 		<p>
 			<ul>
-				<li>Go to setup page / tools tab and press debug button to save log files belong to the crash, and share it with us.</li>
-				<li>In some cases crashes are related to power supply issues. Make sure the power supply is reliable and powerful enough.</li>
+				<li>Setup page/tools sayfasına gidin ve çöküşe ait günlük dosyalarını kaydetmek için hata ayıklama düğmesine basınız ve bizimle paylaşınız.</li>
+				<li>Bazı durumlarda çökmeler güç kaynağı sorunlarıyla ilgilidir. Güç kaynağının güvenilir ve yeterince güçlü olduğundan emin olunuz.</li>
 			</ul>
 		</p>
 
