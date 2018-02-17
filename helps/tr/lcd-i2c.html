@@ -1,6 +1,6 @@
-You need to setup two values to make LCD works.<br>
-For i2c Bus Path usually correct path on Raspberry Pi is /dev/i2c-1<br>
-For i2c address you can check out LCD technical details or run i2cdetect command on Raspberry Pi through SSH. <br>
+LCD'nin çalışması için iki değeri ayarlamanız gereklidir.<br>
+I2c Bus yolu için genellikle Raspberry Pi üzerinde doğru yol /dev/i2c-1'dir.<br>
+I2c adresi için LCD teknik detaylarını kontrol edebilir veya SSH aracılığıyla Raspberry Pi üzerinde i2cdetect komutunu çalıştırabilirsiniz. <br>
 <br>
 <pre>
 root@nanodlp:/# i2cdetect -y 1
@@ -15,9 +15,10 @@ root@nanodlp:/# i2cdetect -y 1
 70: -- -- -- -- -- -- -- --
 </pre>
 <br>
-You need to convert hexadecimal value to decimal value.
+Onaltılı değeri ondalık değere dönüştürmeniz gerekmektedir.
 <br>
-For example 27 hexadecimal value is equal to 39. You need to use 39 as address.
+Örneğin, 27'nin onaltılık değeri 39'a eşittir. Adres olarak 39'u kullanmanız gerekmektedir.
 <br>
 <br>
-If /dev/i2c-1 is not correct you can search different buses by -y switch on i2cdetect command.
+Eğer /dev/i2c-1 doğru değilse, farklı trafikleri i2cdetect komutunda -y anahtarı ile arayabilirsiniz.
+
