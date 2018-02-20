@@ -1,88 +1,88 @@
 <br>
-<h4>GCODE Operations</h4>
+<h4>GCODE İşlemleri</h4>
 <dl class="dl-horizontal small">
-	<dt>Math Operators: + - * / ** () &lt; > %</dt>
-	<dd>Calculating different values <samp>eg. G1 Z{[[LayerThickness]]-[[ZLiftDistance]]*[[LayerNumber]]}</samp></dd>
-	<dt>Math Functions</dt>
-	<dd>Return largest value eg. G1 Z{3.2*max([[LayerNumber]],[[TotalNumberOfLayers]]-[[LayerNumber]])}</dd>
-	<dt>Conditionals: () &lt; ></dt>
-	<dd>Add conditionals to your math logic <samp>eg. G1 Z{([[LayerNumber]]&lt;30)*1+0.5} if current layer is less than 30 lift 1.5mm if not lift 0.5mm</samp></dd>
-	<dt>Base 16 Binary</dt>
-	<dd>To send binary codes to drivers / controllers you can use base 16 format <samp>eg. \x00\x00\xff</samp></dd>
+	<dt>Matematik Operatörleri: + - * / ** () &lt; > %</dt>
+	<dd>Farklı değer hesaplama <samp>örneğin. G1 Z{[[LayerThickness]]-[[ZLiftDistance]]*[[LayerNumber]]}</samp></dd>
+	<dt>Matematik İşlevleri</dt>
+	<dd>En büyük değere geri dön örneğin. G1 Z{3.2*max([[LayerNumber]],[[TotalNumberOfLayers]]-[[LayerNumber]])}</dd>
+	<dt>Koşullular: () &lt; ></dt>
+	<dd>Matematik mantığına koşullar ekle <samp>örneğin. G1 Z{([[LayerNumber]]&lt;30)*1+0.5} eğer akım tabakası 30'dan az ise 1,5 mm yükselt değilse 0.5 mm yükselt</samp></dd>
+	<dt>İkili 16lık taban</dt>
+	<dd>Binary kodları Sürücülere/denetleyicilere göndermek için 16'lık taban formatını kullanabilirsiniz<samp>örneğin. \x00\x00\xff</samp></dd>
 </dl>
 <br>
-<h4>Supported Math Operators</h4>
+<h4>Desteklenen Matematik Operatörleri</h4>
 <dl class="dl-horizontal small">
 	<dt>=</dt>
-	<dd>assignment</dd>
+	<dd>atama</dd>
 	<dt>+</dt>
-	<dd>addition</dd>
+	<dd>toplama</dd>
 	<dt>-</dt>
-	<dd>subtraction</dd>
+	<dd>çıkarma</dd>
 	<dt>/</dt>
-	<dd>division</dd>
+	<dd>bölme</dd>
 	<dt>*</dt>
-	<dd>multiply</dd>
+	<dd>çarpma</dd>
 	<dt>**</dt>
-	<dd>power</dd>
+	<dd>üst</dd>
 	<dt>%</dt>
-	<dd>remainder</dd>
+	<dd>kalan</dd>
 	<dt>&</dt>
-	<dd>bitwise and</dd>
+	<dd>bitsel ve</dd>
 	<dt>|</dt>
-	<dd>bitwise or</dd>
+	<dd>bitsel veya</dd>
 	<dt>^</dt>
-	<dd>bitwise xor</dd>
+	<dd>bitsel xor</dd>
 	<dt>&lt;&lt;</dt>
-	<dd>bitwise left shift</dd>
+	<dd>bitsel sola kaydırma</dd>
 	<dt>></dt>
-	<dd>bitwise right shift</dd>
+	<dd>bitsel sağa kaydırma</dd>
 	<dt>~</dt>
-	<dd>bitwise not</dd>
+	<dd>bitsel not</dd>
 	<dt>==</dt>
-	<dd>equal</dd>
+	<dd>eşit</dd>
 	<dt>!=</dt>
-	<dd>not equal</dd>
+	<dd>eşit değil</dd>
 	<dt>></dt>
-	<dd>greater than</dd>
+	<dd>den büyük</dd>
 	<dt>>=</dt>
-	<dd>greater than or equal</dd>
+	<dd>büyük veya eşit</dd>
 	<dt>&lt;</dt>
-	<dd>less than</dd>
+	<dd>daha küçük</dd>
 	<dt><=</dt>
-	<dd>less than or equal</dd>
+	<dd>küçük veya eşit</dd>
 </dl>
 <br>
-<h4>Supported Math Functions</h4>
+<h4>Desteklenen Matematik İşlevleri</h4>
 <dl class="dl-horizontal small">
 	<dt>abs</dt>
-	<dd>Returns the absolute value of a given number</dd>
+	<dd>Belirli bir sayının mutlak değerini döndürür</dd>
 	<dt>acos</dt>
-	<dd>Returns the arccosine of a given number, in radians</dd>
+	<dd>Belirli bir sayıyı arccos radyan cinsinden döndürür</dd>
 	<dt>sin</dt>
-	<dd>Returns the sine of a given number</dd>
+	<dd>Belirli bir sayının sinüsünü döndürür</dd>
 	<dt>cos</dt>
-	<dd>Returns the cosine of a given number</dd>
+	<dd>Belirli bir sayının kosinüsünü döndürür</dd>
 	<dt>tan</dt>
-	<dd>Returns the tangent of a given number</dd>
+	<dd>Belirli bir sayının tanjantını döndürür</dd>
 	<dt>asin</dt>
-	<dd>Returns the arcsine of a given number</dd>
+	<dd>Belirli bir sayının arksinüsünü döndürür</dd>
 	<dt>atan</dt>
-	<dd>Returns the arctangent of a given number</dd>
+	<dd>Belirli bir sayının arktanjantını döndürür</dd>
 	<dt>ceil</dt>
-	<dd>Function returns the smallest integer greater than or equal to a given number</dd>
+	<dd>Fonksiyon, belirli bir sayıya eşit veya daha büyük olan en küçük tam sayıyı döndürür</dd>
 	<dt>floor</dt>
-	<dd>Returns the largest integer less than or equal to a given number</dd>
+	<dd>Belirli bir sayıya eşit veya daha küçük en büyük tam sayıyı döndürür</dd>
 	<dt>log</dt>
-	<dd>Returns the natural logarithm of a given number</dd>
+	<dd>Belirli bir sayının doğal logaritmasını döndürür</dd>
 	<dt>max</dt>
-	<dd>Returns the larger of the two given numbers</dd>
+	<dd>Verilen iki sayıdan daha büyük olanı döndürür</dd>
 	<dt>min</dt>
-	<dd>Returns the smaller of the two given numbers</dd>
+	<dd>Verilen iki sayıdan daha küçük olanı döndürür</dd>
 	<dt>sqrt</dt>
-	<dd>Returns the square root of a given number</dd>
+	<dd>Belirli bir sayının karekökünü döndürür</dd>
 	<dt>rand</dt>
-	<dd>Returns a random float between 0.0 and 1.0</dd>
+	<dd>0.0 ile 1.0 arasında rasgele bir ondalıklı sayı döndürür</dd>
 	<dt>fact</dt>
-	<dd>Returns the factorial of a given number</dd>
+	<dd>Belirli bir sayının faktöryelini döndürür</dd>
 </dl>
