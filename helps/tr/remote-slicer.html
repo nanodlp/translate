@@ -1,13 +1,14 @@
-Due to performance constrains on some development boards such as Raspberry Pi, remote slicer could be used to speed up process substantially and handle larger 3D files.
+Raspberry Pi gibi bazı geliştirme kartlarında performans kısıtlamaları nedeniyle uzak bölme makinesi, esasen işlemi hızlandırmak ve daha büyük 3D dosyaları ele almak için kullanılabilir.
+
 <br><br>
-This function delegate slicing to another NanoDLP installation. If this field not filled, computer uploading a new plate will be scanned for active NanoDLP  installation (only on port 8080) and will be used as default slicer for ARM systems. If TCP IP:Port specified for remote NanoDLP, system will try to use it as remote slicer.<br><br>
-<h4>How remote Slicer works: (example)</h4>
+Bu foksiyon bölme işlemini başka bir NanoDLP'ye kurar. Bu alan dolu değilse, yeni bir tabaka yükleyen bilgisayar aktif NanoDLP kurulumu için taranacak (yalnızca 8080 portunda) ve ARM sistemleri için varsayılan dilimleyiciyi kullanılacaktır. Uzak NanoDLP için TCP IP: Port belirli ise, sistem uzak dilimleyiciyi kullanmaya çalışacaktır.<br><br>
+<h4>Uzak dilimleyici nasıl çalışır?: (örneğin)</h4>
 <ol>
-	<li>NanoDLP installed on Raspberry Pi and Windows computer being used by user.</li>
-	<li>A new plate uploaded to Raspberry Pi.</li>
-	<li>Raspberry Pi NanoDLP detects active NanoDLP installation on users's Windows computer.</li>
-	<li>Raspberry Pi transfer required data to Windows.</li>
-	<li>NanoDLP on Windows start processing.</li>
-	<li>NanoDLP on Raspberry Pi get status update from Windows version. And wait until slicing get completed.</li>
-	<li>NanoDLP on Raspberry Pi fetch prepared data.</li>
+	<li>Raspberry Pi ve Windows(işletim sistemi) bilgisayarda yüklü olan NanoDLP kullanıcı tarafından kullanılıyor.</li>
+	<li>Raspberry Pi'ye yeni bir tabaka yüklendi.</li>
+	<li>Raspberry Pi NanoDLP, kullanıcıların Windows bilgisayarında belirli etkin NanoDLP yüklemesi tespit eder.</li>
+	<li>Raspberry Pi, Windows'a gerekli verileri aktarır.</li>
+	<li>Windows'daki NanoDLP işlenmeye başlar.</li>
+	<li>Raspberry Pi üzerindeki NanoDLP, Windows sürümünden durum güncellemesi alır. Dilimleme tamamlanıncaya kadar bekleyin.</li>
+	<li>Raspberry Pi üzerine NanoDLP hazırlanmış verileri alır.</li>
 </ol>
