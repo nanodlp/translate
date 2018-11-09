@@ -254,8 +254,8 @@ msgstr ""
 msgid "Black / Light"
 msgstr ""
 
-#: ../templates/plate/plates.html:111
-#: ../templates/plate/plates.html:115
+#: ../templates/plate/plates.html:112
+#: ../templates/plate/plates.html:116
 msgid "Blackout"
 msgstr ""
 
@@ -1632,6 +1632,10 @@ msgstr ""
 msgid "Red"
 msgstr ""
 
+#: ../templates/plate/plates.html:107
+msgid "Regenerate"
+msgstr ""
+
 #: ../templates/setup/setup.html:203
 msgid "Relative"
 msgstr ""
@@ -1704,6 +1708,10 @@ msgstr ""
 
 #: ../templates/import.html:30
 msgid "Restore Machine Settings"
+msgstr ""
+
+#: ../templates/plate/plates.html:141
+msgid "Resume Print"
 msgstr ""
 
 #: ../templates/setup/setup.html:239
@@ -1877,6 +1885,10 @@ msgstr ""
 
 #: ../templates/index.html:103
 msgid "Start Display"
+msgstr ""
+
+#: ../templates/plate/plates.html:144
+msgid "Start Print"
 msgstr ""
 
 #: ../templates/setup/setup.html:235

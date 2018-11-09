@@ -250,7 +250,7 @@ msgstr "黑 / 暗"
 msgid "Black / Light"
 msgstr "黑 / 亮"
 
-#: ../templates/plate/plates.html:111 ../templates/plate/plates.html:115
+#: ../templates/plate/plates.html:112 ../templates/plate/plates.html:116
 msgid "Blackout"
 msgstr ""
 
@@ -1580,6 +1580,10 @@ msgstr "矩形.:"
 msgid "Red"
 msgstr "红"
 
+#: ../templates/plate/plates.html:107
+msgid "Regenerate"
+msgstr ""
+
 #: ../templates/setup/setup.html:203
 msgid "Relative"
 msgstr "相对"
@@ -1652,6 +1656,10 @@ msgstr "从/配置文件/按钮恢复默认设置 "
 #: ../templates/import.html:30
 msgid "Restore Machine Settings"
 msgstr "恢复机器设置"
+
+#: ../templates/plate/plates.html:141
+msgid "Resume Print"
+msgstr ""
 
 #: ../templates/setup/setup.html:239
 msgid "Resume Print Code"
@@ -1814,6 +1822,10 @@ msgstr "慢段速度"
 #: ../templates/index.html:103
 msgid "Start Display"
 msgstr "开始显示"
+
+#: ../templates/plate/plates.html:144
+msgid "Start Print"
+msgstr ""
 
 #: ../templates/setup/setup.html:235
 msgid "Start of Print Code"

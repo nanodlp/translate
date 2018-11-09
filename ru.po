@@ -250,7 +250,7 @@ msgstr "Черный / Темный"
 msgid "Black / Light"
 msgstr "Черный / Светлый"
 
-#: ../templates/plate/plates.html:111 ../templates/plate/plates.html:115
+#: ../templates/plate/plates.html:112 ../templates/plate/plates.html:116
 msgid "Blackout"
 msgstr ""
 
@@ -1580,6 +1580,10 @@ msgstr "Квад.:"
 msgid "Red"
 msgstr "Красный"
 
+#: ../templates/plate/plates.html:107
+msgid "Regenerate"
+msgstr ""
+
 #: ../templates/setup/setup.html:203
 msgid "Relative"
 msgstr "Относительно"
@@ -1652,6 +1656,10 @@ msgstr "Востановить по умолчанию настройки при
 #: ../templates/import.html:30
 msgid "Restore Machine Settings"
 msgstr "Восстановить настройки принтера"
+
+#: ../templates/plate/plates.html:141
+msgid "Resume Print"
+msgstr ""
 
 #: ../templates/setup/setup.html:239
 msgid "Resume Print Code"
@@ -1814,6 +1822,10 @@ msgstr "Скорость в медленной секции"
 #: ../templates/index.html:103
 msgid "Start Display"
 msgstr "Старт дисплея"
+
+#: ../templates/plate/plates.html:144
+msgid "Start Print"
+msgstr ""
 
 #: ../templates/setup/setup.html:235
 msgid "Start of Print Code"

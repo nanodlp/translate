@@ -250,7 +250,7 @@ msgstr "Negro / Oscuro"
 msgid "Black / Light"
 msgstr "Negro / Luminoso"
 
-#: ../templates/plate/plates.html:111 ../templates/plate/plates.html:115
+#: ../templates/plate/plates.html:112 ../templates/plate/plates.html:116
 msgid "Blackout"
 msgstr ""
 
@@ -1580,6 +1580,10 @@ msgstr "Rect.:"
 msgid "Red"
 msgstr "Rojo"
 
+#: ../templates/plate/plates.html:107
+msgid "Regenerate"
+msgstr ""
+
 #: ../templates/setup/setup.html:203
 msgid "Relative"
 msgstr "Relativo"
@@ -1652,6 +1656,10 @@ msgstr "Restaurar Configuración por Defecto de la Máquina/Perfiles/Botones"
 #: ../templates/import.html:30
 msgid "Restore Machine Settings"
 msgstr "Restaurar Configuración de la Máquina"
+
+#: ../templates/plate/plates.html:141
+msgid "Resume Print"
+msgstr ""
 
 #: ../templates/setup/setup.html:239
 msgid "Resume Print Code"
@@ -1814,6 +1822,10 @@ msgstr "Velocidad Secciones Lentas"
 #: ../templates/index.html:103
 msgid "Start Display"
 msgstr "Iniciar Pantalla"
+
+#: ../templates/plate/plates.html:144
+msgid "Start Print"
+msgstr ""
 
 #: ../templates/setup/setup.html:235
 msgid "Start of Print Code"
