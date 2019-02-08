@@ -29,11 +29,11 @@ msgstr "100 Шагов ⇧"
 msgid "100 Pulse ⇩"
 msgstr "100 Шагов ⇩"
 
-#: ../templates/setup/setup.html:502
+#: ../templates/setup/setup.html:509
 msgid "16x2"
 msgstr "16x2"
 
-#: ../templates/plate/plates.html:99
+#: ../templates/plate/plates.html:104
 msgid "3D"
 msgstr "3D"
 
@@ -41,19 +41,19 @@ msgstr "3D"
 msgid "3D Editor"
 msgstr ""
 
-#: ../templates/setup/setup.html:174
+#: ../templates/setup/setup.html:181
 msgid "3D Printer Board"
 msgstr "Плата 3д принтера"
 
-#: ../templates/setup/setup.html:496
+#: ../templates/setup/setup.html:503
 msgid "AMLCD"
 msgstr ""
 
-#: ../templates/setup/setup.html:204
+#: ../templates/setup/setup.html:211
 msgid "Absolute"
 msgstr "Абсолютно"
 
-#: ../templates/index.html:63 ../templates/plate/plates.html:36
+#: ../templates/index.html:65 ../templates/plate/plates.html:36
 #: ../templates/setup/custom-buttons.html:42
 #: ../templates/setup/custom-inputs.html:49
 msgid "Action"
@@ -79,7 +79,7 @@ msgstr "Добавить выделеное"
 msgid "Admin has access to all functions including the dashboard."
 msgstr "Администратор получает полный доступ, включая главный экран"
 
-#: ../templates/profile/edit.html:19 ../templates/setup/setup.html:91
+#: ../templates/profile/edit.html:19 ../templates/setup/setup.html:59
 msgid "Advanced"
 msgstr ""
 
@@ -87,7 +87,7 @@ msgstr ""
 msgid "Advanced Settings"
 msgstr "Дополнительные настройки"
 
-#: ../templates/setup/setup.html:487
+#: ../templates/setup/setup.html:494
 msgid "All Images"
 msgstr "Все изображения"
 
@@ -103,7 +103,7 @@ msgstr "Любое из следующих действий вступает в 
 msgid "Anytime"
 msgstr "В любое время"
 
-#: ../templates/index.html:161
+#: ../templates/index.html:162
 msgid "Application Log"
 msgstr "Журнал событий"
 
@@ -129,11 +129,11 @@ msgstr "Вы действительно хотите выпонить 'Расш�
 msgid "Are you sure you want to force stop the printer?"
 msgstr "Вы действительно хотите экстренно остановить принтер?"
 
-#: ../templates/index.html:120 ../templates/setup/tools.html:17
+#: ../templates/index.html:122 ../templates/setup/tools.html:17
 msgid "Are you sure you want to power off the printer?"
 msgstr "Вы действительно хотите выключить принтер?"
 
-#: ../templates/index.html:121
+#: ../templates/index.html:123
 msgid "Are you sure you want to power off the projector?"
 msgstr "Вы действительно хотите отключить питание проектора?"
 
@@ -149,7 +149,7 @@ msgstr "Вы действительно хотите напечатать кал
 msgid "Are you sure you want to regenerate the layers of this plate?"
 msgstr "Вы действительно хотите пересчитать слои задания?"
 
-#: ../templates/index.html:124 ../templates/setup/tools.html:20
+#: ../templates/index.html:125 ../templates/setup/tools.html:20
 msgid "Are you sure you want to restart the printer?"
 msgstr "Вы действительно хотите перезагрузить принтер?"
 
@@ -157,7 +157,7 @@ msgstr "Вы действительно хотите перезагрузить 
 msgid "Are you sure you want to restore the default settings and reboot the printer?"
 msgstr "Вы действительно хотите восстановить заводские настройки и перезагрузить принтер?"
 
-#: ../templates/index.html:125
+#: ../templates/index.html:126
 msgid "Are you sure you want to resume the previous print?"
 msgstr ""
 
@@ -169,21 +169,16 @@ msgstr "Вы действительно хотите сохранить зону
 msgid "Are you sure you want to set this height as the bottom?"
 msgstr "Вы действительно хотите установить эту высоту как нижнию точку?"
 
-#: ../templates/index.html:122
-msgid ""
-"Are you sure you want to start the display? It will automatically\n"
-"\t\t\t\tselect the second display."
+#: ../templates/index.html:124
+msgid "Are you sure you want to start the display? It will automatically select the second display."
 msgstr ""
 
 #: ../templates/plate/plates.html:27
 msgid "Are you sure you want to stop printing?"
 msgstr "Вы действительно хотите остановить печать?"
 
-#: ../templates/index.html:117
-msgid ""
-"Are you sure you want to stop printing? It will stop after the current\n"
-"\t\t\t\tlayer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click\n"
-"\t\t\t\tthe `Force Stop` button."
+#: ../templates/index.html:121
+msgid "Are you sure you want to stop printing? It will stop after the current layer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click the `Force Stop` button."
 msgstr ""
 
 #: ../templates/setup/tools.html:23
@@ -194,7 +189,7 @@ msgstr "Вы действительно хотите остановить nanoDL
 msgid "Area Count"
 msgstr "Количество поверхностей"
 
-#: ../templates/setup/setup.html:180
+#: ../templates/setup/setup.html:187
 msgid "Ascii"
 msgstr "Ascii"
 
@@ -230,11 +225,11 @@ msgstr "Центр Х 'Бочки'"
 msgid "Barrel's Center Y"
 msgstr "Центр Y 'Бочки'"
 
-#: ../templates/profile/edit.html:18 ../templates/setup/setup.html:90
+#: ../templates/profile/edit.html:18 ../templates/setup/setup.html:58
 msgid "Basic"
 msgstr ""
 
-#: ../templates/setup/setup.html:181
+#: ../templates/setup/setup.html:188
 msgid "Binary"
 msgstr "Бинарный"
 
@@ -242,15 +237,15 @@ msgstr "Бинарный"
 msgid "Binary support:"
 msgstr "Бинарная поддержка"
 
-#: ../templates/setup/setup.html:82
+#: ../templates/setup/setup.html:91
 msgid "Black / Dark"
 msgstr "Черный / Темный"
 
-#: ../templates/setup/setup.html:80
+#: ../templates/setup/setup.html:89
 msgid "Black / Light"
 msgstr "Черный / Светлый"
 
-#: ../templates/plate/plates.html:112 ../templates/plate/plates.html:116
+#: ../templates/plate/plates.html:117 ../templates/plate/plates.html:121
 msgid "Blackout"
 msgstr ""
 
@@ -266,11 +261,11 @@ msgstr "Цвет фона засветки"
 msgid "Blue"
 msgstr "Синий"
 
-#: ../templates/setup/setup.html:78
+#: ../templates/setup/setup.html:87
 msgid "Blue / Dark"
 msgstr "Синий / Темный"
 
-#: ../templates/setup/setup.html:79
+#: ../templates/setup/setup.html:88
 msgid "Blue / Light"
 msgstr "Синий / Светлый"
 
@@ -278,11 +273,11 @@ msgstr "Синий / Светлый"
 msgid "Bluring Radius"
 msgstr "Радиус размытия"
 
-#: ../templates/setup/setup.html:230
+#: ../templates/setup/setup.html:237
 msgid "Bootup Code"
 msgstr ""
 
-#: ../templates/setup/setup.html:338
+#: ../templates/setup/setup.html:345
 msgid "Both"
 msgstr "Оба"
 
@@ -302,15 +297,15 @@ msgstr ""
 msgid "Boundry - Y"
 msgstr ""
 
-#: ../templates/setup/setup.html:66
+#: ../templates/setup/setup.html:75
 msgid "Brazilian Portuguese"
 msgstr "Бразильский"
 
-#: ../templates/setup/setup.html:81
+#: ../templates/setup/setup.html:90
 msgid "Brown / Light"
 msgstr "Коричневый / Светлый"
 
-#: ../templates/menu.html:50
+#: ../templates/menu.html:52
 msgid "Build"
 msgstr "Версия"
 
@@ -318,7 +313,7 @@ msgstr "Версия"
 msgid "Burn-in Layers"
 msgstr "Слои крепления"
 
-#: ../templates/index.html:132
+#: ../templates/index.html:133
 msgid "CPU"
 msgstr "CPU"
 
@@ -326,19 +321,19 @@ msgstr "CPU"
 msgid "Calibrate Zero Position ⇧"
 msgstr "Каллибровка нулевой позиции ⇧"
 
-#: ../templates/plate/plates.html:181
+#: ../templates/plate/plates.html:187
 msgid "Calibration Plate"
 msgstr "Каллибровочное задание"
 
-#: ../templates/setup/setup.html:491
+#: ../templates/setup/setup.html:498
 msgid "Camera Command"
 msgstr "Команда камеры"
 
-#: ../templates/setup/setup.html:469
+#: ../templates/setup/setup.html:476
 msgid "Camera Module"
 msgstr "Модуль камеры"
 
-#: ../templates/setup/setup.html:472
+#: ../templates/setup/setup.html:479
 msgid "Camera Photo Frequency"
 msgstr "Частота кадров камеры"
 
@@ -350,11 +345,11 @@ msgstr "Центр осей"
 msgid "Center Pieces"
 msgstr "Центр деталей"
 
-#: ../templates/setup/setup.html:325
+#: ../templates/setup/setup.html:332
 msgid "Center of Barrel - X"
 msgstr "Центр 'Бочки' - X"
 
-#: ../templates/setup/setup.html:329
+#: ../templates/setup/setup.html:336
 msgid "Center of Barrel - Y"
 msgstr "Центр 'Бочки' - Y"
 
@@ -386,7 +381,7 @@ msgstr "Изменение настроек WiFi во время печати м
 msgid "Checkerboard"
 msgstr "Шахматная доска"
 
-#: ../templates/setup/setup.html:69
+#: ../templates/setup/setup.html:78
 msgid "Chinese"
 msgstr "Китайский"
 
@@ -408,7 +403,7 @@ msgstr ""
 msgid "Code Before Each Layer"
 msgstr ""
 
-#: ../templates/profile/edit.html:357 ../templates/setup/setup.html:227
+#: ../templates/profile/edit.html:357 ../templates/setup/setup.html:234
 msgid "Codes"
 msgstr ""
 
@@ -432,15 +427,15 @@ msgstr "Соединение"
 msgid "Could not connect to the NanoDLP. Please check your network connection."
 msgstr ""
 
-#: ../templates/plate/plates.html:171
+#: ../templates/plate/plates.html:177
 msgid "Create 3D shapes by repeating an image frame"
 msgstr "Создать 3д модель из повторяющегося изображения"
 
-#: ../templates/index.html:74 ../templates/plate/preview.html:48
+#: ../templates/index.html:78 ../templates/plate/preview.html:48
 msgid "Cure Layer"
 msgstr "Время засветки слоя"
 
-#: ../templates/plate/plates.html:48 ../templates/profile/edit.html:107
+#: ../templates/plate/plates.html:49 ../templates/profile/edit.html:107
 #: ../templates/profile/edit.html:151 ../templates/profile/edit.html:55
 #: ../templates/profile/profiles.html:9
 msgid "Cure Time"
@@ -450,15 +445,19 @@ msgstr "Время засветки"
 msgid "Current"
 msgstr "Текущая"
 
-#: ../templates/setup/setup.html:166
+#: ../templates/setup/setup.html:173
 msgid "Custom Acceleration"
 msgstr "Пользовательское ускорение"
+
+#: ../templates/menu.html:24
+msgid "Custom Buttons"
+msgstr ""
 
 #: ../templates/setup/custom-buttons.html:16
 msgid "Dashboard"
 msgstr "Контрольная панель"
 
-#: ../templates/setup/setup.html:178
+#: ../templates/setup/setup.html:185
 msgid "Data Encoding"
 msgstr "Кодировка данных"
 
@@ -478,7 +477,7 @@ msgstr "По умолчанию"
 msgid "Description"
 msgstr "Описание"
 
-#: ../templates/index.html:171 ../templates/plate/plates.html:35
+#: ../templates/index.html:172 ../templates/plate/plates.html:35
 #: ../templates/setup/custom-inputs.html:46
 #: ../templates/setup/custom-inputs.html:47
 #: ../templates/setup/custom-inputs.html:48
@@ -503,11 +502,11 @@ msgstr "Пин вращения"
 
 #: ../templates/plate/edit.html:51 ../templates/profile/edit.html:339
 #: ../templates/setup/setup.html:107 ../templates/setup/setup.html:5
-#: ../templates/setup/setup.html:551
+#: ../templates/setup/setup.html:558
 msgid "Disable"
 msgstr "Отключить"
 
-#: ../templates/index.html:94
+#: ../templates/index.html:98
 msgid "Disable Auto Shutdown"
 msgstr "Отключить АвтоВыключение"
 
@@ -515,13 +514,13 @@ msgstr "Отключить АвтоВыключение"
 msgid "Disable Motor"
 msgstr "Отключить мотор"
 
-#: ../templates/profile/edit.html:347 ../templates/setup/setup.html:335
-#: ../templates/setup/setup.html:344 ../templates/setup/setup.html:474
+#: ../templates/profile/edit.html:347 ../templates/setup/setup.html:342
+#: ../templates/setup/setup.html:351 ../templates/setup/setup.html:481
 #: ../templates/setup/setup.html:98
 msgid "Disabled"
 msgstr "Отключены"
 
-#: ../templates/index.html:145
+#: ../templates/index.html:146
 msgid "Disk"
 msgstr "Диск"
 
@@ -531,11 +530,11 @@ msgstr "Диск"
 #: ../templates/calibration/projector-calibration.html:65
 #: ../templates/calibration/projector-calibration.html:9
 #: ../templates/calibration/projector-calibration.html:99
-#: ../templates/setup/setup.html:298
+#: ../templates/setup/setup.html:305
 msgid "Display"
 msgstr "Показать"
 
-#: ../templates/setup/setup.html:342
+#: ../templates/setup/setup.html:349
 msgid "Display Communication Type"
 msgstr "Тип связи для управления дисплеем"
 
@@ -543,23 +542,23 @@ msgstr "Тип связи для управления дисплеем"
 msgid "Display Mask"
 msgstr "Маска дисплея"
 
-#: ../templates/setup/setup.html:401
+#: ../templates/setup/setup.html:408
 msgid "Display Number"
 msgstr "Номер дисплея"
 
-#: ../templates/setup/setup.html:384
+#: ../templates/setup/setup.html:391
 msgid "Display Power Cycle"
 msgstr "Цикл работы дисплея"
 
-#: ../templates/setup/setup.html:379
+#: ../templates/setup/setup.html:386
 msgid "Display Turn Off Command"
 msgstr "Команда выключения дисплея"
 
-#: ../templates/setup/setup.html:375
+#: ../templates/setup/setup.html:382
 msgid "Display Turn On Command"
 msgstr "Команда включения дисплея"
 
-#: ../templates/setup/setup.html:355
+#: ../templates/setup/setup.html:362
 msgid "Display Warm-up Time"
 msgstr "Время прогрева дисплея"
 
@@ -583,7 +582,7 @@ msgstr "Скачать настройки принтера"
 msgid "Download Profile"
 msgstr "Скачать профиль"
 
-#: ../templates/setup/setup.html:145
+#: ../templates/setup/setup.html:152
 msgid "Driver Enable GPIO"
 msgstr ""
 
@@ -599,7 +598,7 @@ msgstr "Динамическая сетка"
 msgid "Dynamic Red Calib."
 msgstr "Динамическая сетка красная"
 
-#: ../templates/index.html:58
+#: ../templates/index.html:60
 msgid "ETA"
 msgstr ""
 
@@ -617,23 +616,23 @@ msgid ""
 "                authentication."
 msgstr ""
 
-#: ../templates/profile/edit.html:338 ../templates/setup/setup.html:550
+#: ../templates/profile/edit.html:338 ../templates/setup/setup.html:557
 msgid "Enable"
 msgstr "Включить"
 
-#: ../templates/index.html:97
+#: ../templates/index.html:101
 msgid "Enable Auto Shutdown"
 msgstr "Включиьт АвтоВыключение"
 
-#: ../templates/setup/setup.html:161
+#: ../templates/setup/setup.html:168
 msgid "Enable Before Each Print"
 msgstr "Включить перед каждым слоем"
 
-#: ../templates/setup/setup.html:158
+#: ../templates/setup/setup.html:165
 msgid "Enable GPIO Mode"
 msgstr "Включить GPIO Mode"
 
-#: ../templates/setup/setup.html:150
+#: ../templates/setup/setup.html:157
 msgid "Enable GPIO State"
 msgstr "Включить GPIO State"
 
@@ -641,7 +640,7 @@ msgstr "Включить GPIO State"
 msgid "Enable Motor"
 msgstr "Включить мотор"
 
-#: ../templates/setup/setup.html:160
+#: ../templates/setup/setup.html:167
 msgid "Enable on Boot"
 msgstr "Включить при загрузке"
 
@@ -661,11 +660,11 @@ msgstr ""
 msgid "Endstop Switch - Top Limit"
 msgstr "Микровыключатель - верхнего уровня"
 
-#: ../templates/setup/setup.html:65
+#: ../templates/setup/setup.html:74
 msgid "English"
 msgstr ""
 
-#: ../templates/profile/edit.html:17 ../templates/setup/setup.html:89
+#: ../templates/profile/edit.html:17 ../templates/setup/setup.html:57
 msgid "Essential"
 msgstr ""
 
@@ -673,15 +672,15 @@ msgstr ""
 msgid "Even-though it can process multi color images, to make the dimming feature work correctly, try to use images containing grayscale colors."
 msgstr "Если обрабатывать многоцветные изображения, чтобы функция яркости работала правильно, попробуйте использовать изображения, содержащие оттенки серого."
 
-#: ../templates/setup/setup.html:396
+#: ../templates/setup/setup.html:403
 msgid "Execute to Turn Display Off"
 msgstr "Выполнить для выключения дисплея"
 
-#: ../templates/setup/setup.html:392
+#: ../templates/setup/setup.html:399
 msgid "Execute to Turn Display On"
 msgstr "Выполнить для включения дисплея"
 
-#: ../templates/setup/setup.html:350
+#: ../templates/setup/setup.html:357
 msgid "Execution Only"
 msgstr "Выполнить"
 
@@ -697,7 +696,7 @@ msgstr "Экспорт, значения разделить точкой"
 msgid "Export Machine Settings File"
 msgstr "Экспорт параметров принтера в файл"
 
-#: ../templates/setup/setup.html:531
+#: ../templates/setup/setup.html:538
 msgid "Fault GPIO Default State"
 msgstr "Пин GPIO аварийной ситуации"
 
@@ -721,11 +720,11 @@ msgstr "Низ"
 msgid "Force Stop"
 msgstr "Аварийный стоп"
 
-#: ../templates/setup/setup.html:405
+#: ../templates/setup/setup.html:412
 msgid "Framebuffer Path"
 msgstr "Framebuffer Path"
 
-#: ../templates/plate/plates.html:206
+#: ../templates/plate/plates.html:212
 msgid "Free Disk Space"
 msgstr "Свободное дисковое пространство"
 
@@ -745,16 +744,16 @@ msgstr "FullHD калибровка"
 msgid "Gcode"
 msgstr "GCode"
 
-#: ../templates/index.html:76 ../templates/plate/preview.html:52
+#: ../templates/index.html:80 ../templates/plate/preview.html:52
 msgid "Gcode After"
 msgstr "GCode после"
 
-#: ../templates/index.html:72 ../templates/plate/preview.html:44
+#: ../templates/index.html:76 ../templates/plate/preview.html:44
 msgid "Gcode Before"
 msgstr "Gcode до"
 
 #: ../templates/plate/extrude.html:54 ../templates/plate/generator.html:46
-#: ../templates/plate/plates.html:188
+#: ../templates/plate/plates.html:194
 msgid "Generate"
 msgstr "Генерировать"
 
@@ -766,19 +765,19 @@ msgstr "Зеленый"
 msgid "Grid Preview"
 msgstr "Просмотр сетки"
 
-#: ../templates/setup/setup.html:349
+#: ../templates/setup/setup.html:356
 msgid "HDMI Power On/Off - Standby Mode"
 msgstr "HDMI Power On / Off - опция Stanby"
 
-#: ../templates/setup/setup.html:524
+#: ../templates/setup/setup.html:531
 msgid "Hardware Fault Detection"
 msgstr "Определение неисправности электроники"
 
-#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:46
+#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:48
 msgid "Height"
 msgstr "Высота"
 
-#: ../templates/menu.html:24
+#: ../templates/menu.html:26
 msgid "Help"
 msgstr "Помощь"
 
@@ -786,8 +785,8 @@ msgstr "Помощь"
 msgid "Hexagonal"
 msgstr "Шестиугольная"
 
-#: ../templates/setup/setup.html:140 ../templates/setup/setup.html:153
-#: ../templates/setup/setup.html:534
+#: ../templates/setup/setup.html:140 ../templates/setup/setup.html:160
+#: ../templates/setup/setup.html:541
 msgid "High"
 msgstr "Высота"
 
@@ -803,11 +802,11 @@ msgstr "Оболочка"
 msgid "Homogeneous"
 msgstr "Гомогенный"
 
-#: ../templates/setup/setup.html:301
+#: ../templates/setup/setup.html:308
 msgid "Horizontal Resolution"
 msgstr "Разрешение по горизонтали"
 
-#: ../templates/setup/setup.html:336
+#: ../templates/setup/setup.html:343
 msgid "Horizontally"
 msgstr "По горизонтали"
 
@@ -859,7 +858,7 @@ msgstr "Можно послать бинарный код использую 16-
 msgid "It would not replace Raspberry Pi's configuration, if any function does not work as expected use ssh terminal to upgrade."
 msgstr "Это не заменит настройки Raspberry Pi, если какая-либо функция не работает, как ожидалось, использовать ssh-терминал для обновления."
 
-#: ../templates/setup/setup.html:67
+#: ../templates/setup/setup.html:76
 msgid "Italian"
 msgstr ""
 
@@ -871,15 +870,15 @@ msgstr "Подъем после (кол-во) слоев"
 msgid "Jump Height"
 msgstr "Высота подъема"
 
-#: ../templates/setup/setup.html:499
+#: ../templates/setup/setup.html:506
 msgid "LCD Type"
 msgstr "Тип LCD"
 
-#: ../templates/setup/setup.html:363
+#: ../templates/setup/setup.html:370
 msgid "Lamp Brightness"
 msgstr "Яркость лампы"
 
-#: ../templates/setup/setup.html:63
+#: ../templates/setup/setup.html:72
 msgid "Language"
 msgstr "Язык"
 
@@ -887,7 +886,7 @@ msgstr "Язык"
 msgid "Largest Area"
 msgstr "Наибольшая поверхность"
 
-#: ../templates/setup/setup.html:58
+#: ../templates/setup/setup.html:67
 msgid "Laser"
 msgstr ""
 
@@ -895,13 +894,13 @@ msgstr ""
 msgid "Laser Code"
 msgstr ""
 
-#: ../templates/calibration/z-calibration.html:102 ../templates/index.html:168
-#: ../templates/index.html:41 ../templates/plate/plates.html:151
+#: ../templates/calibration/z-calibration.html:102 ../templates/index.html:169
+#: ../templates/index.html:43 ../templates/plate/plates.html:157
 #: ../templates/plate/preview.html:24
 msgid "Layer"
 msgstr "Слой"
 
-#: ../templates/plate/plates.html:138
+#: ../templates/plate/plates.html:143
 msgid "Layer ID"
 msgstr "ID Слоя"
 
@@ -910,24 +909,24 @@ msgstr "ID Слоя"
 msgid "Layer Thickness"
 msgstr "Толщина слоя"
 
-#: ../templates/plate/plates.html:139 ../templates/profile/edit.html:310
+#: ../templates/plate/plates.html:144 ../templates/profile/edit.html:310
 #: ../templates/profile/edit.html:317
 msgid "Layers"
 msgstr "Слои"
 
-#: ../templates/setup/setup.html:458
+#: ../templates/setup/setup.html:465
 msgid "Leadscrew Pitch"
 msgstr "Шаг резьбы ШВП"
 
-#: ../templates/setup/setup.html:320
+#: ../templates/setup/setup.html:327
 msgid "Lens Barrel Factor"
 msgstr "Фактор линзы 'Бочки'"
 
-#: ../templates/index.html:167
+#: ../templates/index.html:168
 msgid "Level"
 msgstr "Уровень"
 
-#: ../templates/index.html:77 ../templates/profile/edit.html:163
+#: ../templates/index.html:81 ../templates/profile/edit.html:163
 msgid "Lift"
 msgstr "Подъем"
 
@@ -935,11 +934,11 @@ msgstr "Подъем"
 msgid "Lift After Print"
 msgstr "Подъем после засвета"
 
-#: ../templates/index.html:78
+#: ../templates/index.html:82
 msgid "Lift Wait"
 msgstr "Пауза после подъема"
 
-#: ../templates/setup/setup.html:415
+#: ../templates/setup/setup.html:422
 msgid "Light Output Formula"
 msgstr "Формула 'Света'"
 
@@ -956,8 +955,8 @@ msgstr "Защита паролем локальной панели"
 msgid "Login"
 msgstr "Логин"
 
-#: ../templates/setup/setup.html:141 ../templates/setup/setup.html:152
-#: ../templates/setup/setup.html:533
+#: ../templates/setup/setup.html:141 ../templates/setup/setup.html:159
+#: ../templates/setup/setup.html:540
 msgid "Low"
 msgstr "Низкий"
 
@@ -965,7 +964,7 @@ msgstr "Низкий"
 msgid "Low Quality Cure Time"
 msgstr "Время засветки слоев низкого качества"
 
-#: ../templates/menu.html:20
+#: ../templates/menu.html:21
 msgid "Machine Settings"
 msgstr ""
 
@@ -977,7 +976,7 @@ msgstr "Репозитари настроек принтера и профиле
 msgid "Making any change will automatically discard the previous calibration plate."
 msgstr "При внесении любых изменений автоматически отменяется предыдущее калибровочное задание."
 
-#: ../templates/setup/setup.html:249
+#: ../templates/setup/setup.html:256
 msgid "Manual Movement Code Template"
 msgstr ""
 
@@ -1009,7 +1008,7 @@ msgstr "Просмотр маски"
 msgid "Mask file effects only STL/SLC/SVG files uploaded after mask submit"
 msgstr "Маска работает только для файлов STL / SLC / SVG, загруженных после создания маски"
 
-#: ../templates/setup/setup.html:437
+#: ../templates/setup/setup.html:444
 msgid "Max Speed"
 msgstr "Максимальная скорость"
 
@@ -1037,7 +1036,7 @@ msgstr "Тип измерения"
 msgid "Measurement Point Width"
 msgstr "Ширина измеряемой точки"
 
-#: ../templates/index.html:147
+#: ../templates/index.html:148
 msgid "Memory"
 msgstr "Память"
 
@@ -1046,7 +1045,7 @@ msgstr "Память"
 msgid "Micron"
 msgstr "Микрон"
 
-#: ../templates/setup/setup.html:454
+#: ../templates/setup/setup.html:461
 msgid "Microstep"
 msgstr "Микрошаг"
 
@@ -1056,16 +1055,16 @@ msgstr "Микрошаг"
 #: ../templates/plate/generator.html:32 ../templates/plate/generator.html:36
 #: ../templates/plate/generator.html:40 ../templates/profile/edit.html:164
 #: ../templates/profile/edit.html:187 ../templates/profile/edit.html:211
-#: ../templates/profile/edit.html:81 ../templates/setup/setup.html:425
-#: ../templates/setup/setup.html:429 ../templates/setup/setup.html:458
+#: ../templates/profile/edit.html:81 ../templates/setup/setup.html:432
+#: ../templates/setup/setup.html:436 ../templates/setup/setup.html:465
 msgid "Millimeter"
 msgstr "Миллиметр"
 
-#: ../templates/setup/setup.html:291
+#: ../templates/setup/setup.html:298
 msgid "Millisecond"
 msgstr "Миллисекунда"
 
-#: ../templates/setup/setup.html:441
+#: ../templates/setup/setup.html:448
 msgid "Min Speed"
 msgstr "Минимальная скорость"
 
@@ -1073,15 +1072,15 @@ msgstr "Минимальная скорость"
 msgid "Min for Number Input"
 msgstr "Минимальное количество входов"
 
-#: ../templates/setup/setup.html:333
+#: ../templates/setup/setup.html:340
 msgid "Mirror Layers"
 msgstr "Зеркальный слои"
 
-#: ../templates/index.html:170
+#: ../templates/index.html:171
 msgid "Module"
 msgstr "Модуль"
 
-#: ../templates/setup/setup.html:434
+#: ../templates/setup/setup.html:441
 msgid "Motor"
 msgstr ""
 
@@ -1089,11 +1088,11 @@ msgstr ""
 msgid "Motor Speed"
 msgstr "Скорость мотора"
 
-#: ../templates/setup/setup.html:445
+#: ../templates/setup/setup.html:452
 msgid "Motor Startup Speed"
 msgstr "Скорость мотора вначале"
 
-#: ../templates/setup/setup.html:449
+#: ../templates/setup/setup.html:456
 msgid "Motor Step Angle"
 msgstr "Угол шага мотора"
 
@@ -1118,11 +1117,11 @@ msgstr "Переместить на слой"
 msgid "Movement GPIOs"
 msgstr "Пин вращения GPIOs"
 
-#: ../templates/setup/setup.html:201
+#: ../templates/setup/setup.html:208
 msgid "Movement Positioning"
 msgstr "Позиция перемещения"
 
-#: ../templates/plate/plates.html:33 ../templates/setup/custom-inputs.html:45
+#: ../templates/setup/custom-inputs.html:45
 msgid "Name"
 msgstr "Имя"
 
@@ -1134,15 +1133,19 @@ msgstr "Имя / Цвет"
 msgid "Name without space, only characters"
 msgstr "Имя без пробелов и только буквы"
 
-#: ../templates/menu.html:46
+#: ../templates/menu.html:48
 msgid "New Version Available"
 msgstr "Доступна новая версия"
+
+#: ../templates/setup/setup.html:148
+msgid "No"
+msgstr ""
 
 #: ../templates/setup/wireless.html:44
 msgid "No Encryption"
 msgstr "Без шифрования"
 
-#: ../templates/plate/plates.html:162
+#: ../templates/plate/plates.html:168
 msgid "No Plates"
 msgstr "Нет заданий"
 
@@ -1158,11 +1161,11 @@ msgstr "Нет проводного подключения"
 msgid "Normal Layers"
 msgstr "Обычные слои"
 
-#: ../templates/setup/setup.html:501
+#: ../templates/setup/setup.html:508
 msgid "Not Available"
 msgstr "Не доступно"
 
-#: ../templates/setup/setup.html:175
+#: ../templates/setup/setup.html:182
 msgid "Not required, if you are using GPIOs to drive the 3d printer."
 msgstr "Не требуется, если Вы используете прямое управление"
 
@@ -1195,23 +1198,23 @@ msgstr "Количество точек по ширине"
 msgid "Off"
 msgstr "Выключить"
 
-#: ../templates/setup/setup.html:480
+#: ../templates/setup/setup.html:487
 msgid "Once Per 10 Layers"
 msgstr "Каждые 10 слоев"
 
-#: ../templates/setup/setup.html:477
+#: ../templates/setup/setup.html:484
 msgid "Once Per 2 Layers"
 msgstr "Каждые 2 слоя"
 
-#: ../templates/setup/setup.html:478
+#: ../templates/setup/setup.html:485
 msgid "Once Per 3 Layers"
 msgstr "Каждые 3 слоя"
 
-#: ../templates/setup/setup.html:479
+#: ../templates/setup/setup.html:486
 msgid "Once Per 5 Layers"
 msgstr "Каждые 5 слоев"
 
-#: ../templates/setup/setup.html:476
+#: ../templates/setup/setup.html:483
 msgid "Once Per Layer"
 msgstr "Каждый слой"
 
@@ -1223,11 +1226,11 @@ msgstr "Ключ онлайн доступа"
 msgid "Only Display Point"
 msgstr "Показать только точки"
 
-#: ../templates/setup/setup.html:486
+#: ../templates/setup/setup.html:493
 msgid "Only Last Image"
 msgstr "Только последнее изображение"
 
-#: ../templates/setup/setup.html:475
+#: ../templates/setup/setup.html:482
 msgid "Only Manually"
 msgstr "Только вручную"
 
@@ -1251,7 +1254,7 @@ msgstr "Опционально, заменяет глобальную маску
 msgid "Orange"
 msgstr "Оранжевый"
 
-#: ../templates/setup/setup.html:568
+#: ../templates/setup/setup.html:575
 msgid "Other Settings"
 msgstr "Другие настройки"
 
@@ -1287,7 +1290,7 @@ msgstr ""
 msgid "PNG/JPEG File"
 msgstr "Файл PNG/JPEG"
 
-#: ../templates/plate/plates.html:175
+#: ../templates/plate/plates.html:181
 msgid "Paint"
 msgstr "Paint"
 
@@ -1295,7 +1298,7 @@ msgstr "Paint"
 msgid "Password"
 msgstr "Пароль"
 
-#: ../templates/menu.html:22
+#: ../templates/menu.html:23
 msgid "Password Protection"
 msgstr "Защита паролем"
 
@@ -1312,7 +1315,7 @@ msgid "Per Litre"
 msgstr "За литр"
 
 #: ../templates/plate/edit.html:69 ../templates/profile/edit.html:417
-#: ../templates/setup/setup.html:363 ../templates/setup/setup.html:415
+#: ../templates/setup/setup.html:370 ../templates/setup/setup.html:422
 msgid "Percentage"
 msgstr "Проценты"
 
@@ -1380,16 +1383,16 @@ msgstr "Физический 7, BCM 4"
 msgid "Physical 8, BCM 14"
 msgstr "Физический 8, BCM 14"
 
-#: ../templates/setup/setup.html:520
+#: ../templates/setup/setup.html:527
 msgid "Physical Buttons"
 msgstr "Физические кнопки"
 
-#: ../templates/plate/plates.html:184
+#: ../templates/plate/plates.html:190
 msgid "Pillars:"
 msgstr "Столбики"
 
 #: ../templates/calibration/mask-generator.html:54
-#: ../templates/setup/setup.html:325 ../templates/setup/setup.html:329
+#: ../templates/setup/setup.html:332 ../templates/setup/setup.html:336
 msgid "Pixel"
 msgstr "Пиксель"
 
@@ -1407,6 +1410,7 @@ msgid "Placeholder Text"
 msgstr "Надпись"
 
 #: ../templates/calibration/z-calibration.html:93
+#: ../templates/plate/plates.html:33
 msgid "Plate"
 msgstr "Задание"
 
@@ -1419,7 +1423,7 @@ msgid "Plate File"
 msgstr "Файл задания"
 
 #: ../templates/plate/extrude.html:12 ../templates/plate/generator.html:5
-#: ../templates/plate/plates.html:170
+#: ../templates/plate/plates.html:176
 msgid "Plate Generator"
 msgstr "Генератор задания"
 
@@ -1427,7 +1431,7 @@ msgstr "Генератор задания"
 msgid "Plate Name"
 msgstr "Имя задания"
 
-#: ../templates/plate/plates.html:50
+#: ../templates/plate/plates.html:51
 msgid "Plate generated using old profile data."
 msgstr "Задание использует устаревшие данные профиля печати"
 
@@ -1435,7 +1439,7 @@ msgstr "Задание использует устаревшие данные п
 msgid "Plates"
 msgstr "Задания"
 
-#: ../templates/setup/setup.html:422
+#: ../templates/setup/setup.html:429
 msgid "Platform / Resin"
 msgstr "Платформа / полимер"
 
@@ -1443,11 +1447,11 @@ msgstr "Платформа / полимер"
 msgid "Platform Information"
 msgstr "Инвформация платформы"
 
-#: ../templates/setup/setup.html:425
+#: ../templates/setup/setup.html:432
 msgid "Platform Wait Position"
 msgstr "Платформа в позиции ожидания"
 
-#: ../templates/setup/setup.html:548
+#: ../templates/setup/setup.html:555
 msgid "Play Sound After Print Stop"
 msgstr "Проиграть звуковой файл после остановки печати"
 
@@ -1467,19 +1471,20 @@ msgstr "Позиция / Состояние"
 msgid "Power Off"
 msgstr "Выключить питание"
 
-#: ../templates/setup/setup.html:388
+#: ../templates/setup/setup.html:395
 msgid "Power-Up on Start / Power-Down on Last Layer"
 msgstr "Включить при старте печати / Выключить на последнем слое"
 
-#: ../templates/setup/setup.html:387
+#: ../templates/setup/setup.html:394
 msgid "Power-Up on Start / Power-Down on Shutdown"
 msgstr "Включить при старте печати / Выключить при выключении питания"
 
-#: ../templates/setup/setup.html:386
+#: ../templates/setup/setup.html:393
 msgid "Power-Up on Start / Power-Down on Stop"
 msgstr "Включить при старте печати / Выключить при остановке печати"
 
 #: ../templates/calibration/mask-generator.html:32
+#: ../templates/plate/plates.html:34
 msgid "Preview"
 msgstr "Просмотр"
 
@@ -1487,11 +1492,11 @@ msgstr "Просмотр"
 msgid "Preview Layers of Plate"
 msgstr "Просмотр слоев задания"
 
-#: ../templates/setup/setup.html:244
+#: ../templates/setup/setup.html:251
 msgid "Print Stop Code"
 msgstr ""
 
-#: ../templates/plate/plates.html:59
+#: ../templates/plate/plates.html:63
 msgid "Print Time"
 msgstr "Время печати"
 
@@ -1507,34 +1512,34 @@ msgstr ""
 msgid "Printing"
 msgstr "Печать"
 
-#: ../templates/index.html:134
+#: ../templates/index.html:135
 msgid "Proc"
 msgstr "Процесс"
 
-#: ../templates/plate/plates.html:123
+#: ../templates/plate/plates.html:128
 msgid "Processing. You can start printing."
 msgstr "В процессе, Вы можете начать печать"
 
 #: ../templates/plate/edit.html:38 ../templates/plate/extrude.html:28
-#: ../templates/plate/generator.html:9 ../templates/plate/plates.html:34
+#: ../templates/plate/generator.html:9
 msgid "Profile"
 msgstr "Профиль"
 
-#: ../templates/plate/plates.html:53
+#: ../templates/plate/plates.html:54
 msgid "Profile not found."
 msgstr "Профиль отсутствует"
 
-#: ../templates/index.html:108
+#: ../templates/index.html:112
 msgid ""
 "Projector\n"
 "\t\t\t\t\tOff"
 msgstr ""
 
-#: ../templates/setup/setup.html:57
+#: ../templates/setup/setup.html:66
 msgid "Projector / LCD"
 msgstr ""
 
-#: ../templates/menu.html:19 ../templates/setup/custom-buttons.html:18
+#: ../templates/menu.html:20 ../templates/setup/custom-buttons.html:18
 msgid "Projector Calibration"
 msgstr "Калибровка проектора"
 
@@ -1552,7 +1557,7 @@ msgid "Projector Turn On"
 msgstr "Включить проектор"
 
 #: ../templates/calibration/z-calibration.html:16
-#: ../templates/setup/setup.html:462
+#: ../templates/setup/setup.html:469
 msgid "Pulse"
 msgstr "Импульс"
 
@@ -1560,19 +1565,19 @@ msgstr "Импульс"
 msgid "Quality"
 msgstr "Качество"
 
-#: ../templates/setup/setup.html:359
+#: ../templates/setup/setup.html:366
 msgid "Query Lamp Hours"
 msgstr "Запрос времени работы лампы"
 
-#: ../templates/menu.html:21
+#: ../templates/menu.html:22
 msgid "RAMPS Terminal"
 msgstr ""
 
-#: ../templates/menu.html:31
+#: ../templates/menu.html:33
 msgid "RAMPS: Reconnect"
 msgstr "Электроника: переподключить"
 
-#: ../templates/plate/plates.html:182
+#: ../templates/plate/plates.html:188
 msgid "Rect:"
 msgstr "Квад.:"
 
@@ -1580,15 +1585,15 @@ msgstr "Квад.:"
 msgid "Red"
 msgstr "Красный"
 
-#: ../templates/plate/plates.html:107
+#: ../templates/plate/plates.html:112
 msgid "Regenerate"
 msgstr ""
 
-#: ../templates/setup/setup.html:203
+#: ../templates/setup/setup.html:210
 msgid "Relative"
 msgstr "Относительно"
 
-#: ../templates/index.html:51
+#: ../templates/index.html:53
 msgid "Remaining"
 msgstr "Осталось"
 
@@ -1596,7 +1601,7 @@ msgstr "Осталось"
 msgid "Remote Access to the printer"
 msgstr "Удаленный доступ к принтеру"
 
-#: ../templates/setup/setup.html:556
+#: ../templates/setup/setup.html:563
 msgid "Remote Slicer"
 msgstr "Удаленный слайсер"
 
@@ -1616,11 +1621,15 @@ msgstr "Сбросить сетку"
 msgid "Reset Grid Values"
 msgstr "Сбросить значения сетки"
 
-#: ../templates/plate/plates.html:67
+#: ../templates/setup/setup.html:145
+msgid "Reset Position on Limit"
+msgstr ""
+
+#: ../templates/plate/plates.html:71
 msgid "Resin Cost"
 msgstr "Стоимость полимера"
 
-#: ../templates/setup/setup.html:429
+#: ../templates/setup/setup.html:436
 msgid "Resin Depth"
 msgstr "Количество полимера"
 
@@ -1636,7 +1645,7 @@ msgstr "Профили полимеров"
 msgid "Resin Settings"
 msgstr "Настройки полимера"
 
-#: ../templates/plate/plates.html:63
+#: ../templates/plate/plates.html:67
 msgid "Resin Usage"
 msgstr "Использование полимера"
 
@@ -1644,8 +1653,8 @@ msgstr "Использование полимера"
 msgid "Restart"
 msgstr "Перезагрузка"
 
-#: ../templates/setup/setup.html:220 ../templates/setup/setup.html:499
-#: ../templates/setup/setup.html:544
+#: ../templates/setup/setup.html:227 ../templates/setup/setup.html:506
+#: ../templates/setup/setup.html:551
 msgid "Restart Required"
 msgstr "Требуется перезагрузка"
 
@@ -1657,11 +1666,11 @@ msgstr "Востановить по умолчанию настройки при
 msgid "Restore Machine Settings"
 msgstr "Восстановить настройки принтера"
 
-#: ../templates/plate/plates.html:141
+#: ../templates/plate/plates.html:148
 msgid "Resume Print"
 msgstr ""
 
-#: ../templates/setup/setup.html:239
+#: ../templates/setup/setup.html:246
 msgid "Resume Print Code"
 msgstr ""
 
@@ -1673,7 +1682,7 @@ msgstr "Поворот 90º"
 msgid "Rotate Layers"
 msgstr "Поворот слоев"
 
-#: ../templates/setup/setup.html:71
+#: ../templates/setup/setup.html:80
 msgid "Russian"
 msgstr ""
 
@@ -1711,7 +1720,7 @@ msgstr "Поиск задания"
 #: ../templates/profile/edit.html:223 ../templates/profile/edit.html:56
 #: ../templates/profile/edit.html:64 ../templates/profile/edit.html:73
 #: ../templates/profile/edit.html:88 ../templates/profile/profiles.html:9
-#: ../templates/setup/setup.html:355
+#: ../templates/setup/setup.html:362
 msgid "Second"
 msgstr "Секунд"
 
@@ -1727,19 +1736,19 @@ msgstr "Отправить GCode"
 msgid "Serial Terminal"
 msgstr "Терминал"
 
-#: ../templates/setup/setup.html:272
+#: ../templates/setup/setup.html:279
 msgid "Servo Motor"
 msgstr "Серводвигатель"
 
-#: ../templates/setup/setup.html:287
+#: ../templates/setup/setup.html:294
 msgid "Servo Pulse Width - Close"
 msgstr "Ширина импульса - Закрыть"
 
-#: ../templates/setup/setup.html:283
+#: ../templates/setup/setup.html:290
 msgid "Servo Pulse Width - Open"
 msgstr "Ширина импульса - Открыть"
 
-#: ../templates/setup/setup.html:291
+#: ../templates/setup/setup.html:298
 msgid "Servo Signal Length"
 msgstr "Длина импульса"
 
@@ -1747,11 +1756,11 @@ msgstr "Длина импульса"
 msgid "Setup"
 msgstr "Настройки"
 
-#: ../templates/profile/edit.html:15 ../templates/setup/setup.html:87
+#: ../templates/profile/edit.html:15 ../templates/setup/setup.html:55
 msgid "Setup Mode"
 msgstr ""
 
-#: ../templates/setup/setup.html:209
+#: ../templates/setup/setup.html:216
 msgid "Shield Axis Direction"
 msgstr "Ось вращения"
 
@@ -1759,7 +1768,7 @@ msgstr "Ось вращения"
 msgid "Shield Use"
 msgstr ""
 
-#: ../templates/setup/setup.html:105 ../templates/setup/setup.html:266
+#: ../templates/setup/setup.html:105 ../templates/setup/setup.html:273
 msgid "Shutter"
 msgstr "Шторка"
 
@@ -1767,11 +1776,11 @@ msgstr "Шторка"
 msgid "Shutter Close"
 msgstr "Закрыть шторку"
 
-#: ../templates/setup/setup.html:259
+#: ../templates/setup/setup.html:266
 msgid "Shutter Close Code"
 msgstr ""
 
-#: ../templates/setup/setup.html:278
+#: ../templates/setup/setup.html:285
 msgid "Shutter GPIO"
 msgstr "Пин GPIO шторки"
 
@@ -1779,11 +1788,11 @@ msgstr "Пин GPIO шторки"
 msgid "Shutter Open"
 msgstr "Открыть шторку"
 
-#: ../templates/setup/setup.html:254
+#: ../templates/setup/setup.html:261
 msgid "Shutter Open Code"
 msgstr ""
 
-#: ../templates/setup/setup.html:269
+#: ../templates/setup/setup.html:276
 msgid "Shutter Type"
 msgstr "Тип шторки"
 
@@ -1807,7 +1816,7 @@ msgstr "Самая маленькая поверхность"
 msgid "Some critical settings such as type of the shield and etc, will not take effect in the middle of printing. To change those settings without restart, stop printing and submit this page again."
 msgstr "Некоторые критические настройки, такие как тип экрана и т. Д., Не будут действовать в середине печати. Чтобы изменить эти настройки без перезагрузки, прекратите печать и отправьте эту страницу еще раз."
 
-#: ../templates/setup/setup.html:68
+#: ../templates/setup/setup.html:77
 msgid "Spanish"
 msgstr ""
 
@@ -1819,15 +1828,15 @@ msgstr "Скорость"
 msgid "Speed in Slow Section"
 msgstr "Скорость в медленной секции"
 
-#: ../templates/index.html:103
+#: ../templates/index.html:107
 msgid "Start Display"
 msgstr "Старт дисплея"
 
-#: ../templates/plate/plates.html:144
+#: ../templates/plate/plates.html:150
 msgid "Start Print"
 msgstr ""
 
-#: ../templates/setup/setup.html:235
+#: ../templates/setup/setup.html:242
 msgid "Start of Print Code"
 msgstr ""
 
@@ -1835,11 +1844,11 @@ msgstr ""
 msgid "Step GPIO for Z-Axis"
 msgstr "Пин GPIO Step для оси Z"
 
-#: ../templates/setup/setup.html:527
+#: ../templates/setup/setup.html:534
 msgid "Stepper Driver Fault Detection GPIO"
 msgstr ""
 
-#: ../templates/plate/edit.html:55 ../templates/plate/plates.html:72
+#: ../templates/plate/edit.html:55 ../templates/plate/plates.html:76
 msgid "Stop Layers"
 msgstr "Остановить слои"
 
@@ -1847,17 +1856,17 @@ msgstr "Остановить слои"
 msgid "Stop Layers - Comma Seperated"
 msgstr "Остановить слои – разделить точкой"
 
-#: ../templates/setup/setup.html:521
+#: ../templates/setup/setup.html:528
 msgid "Stop/Shutdown Physical GPIO"
 msgstr "Остановить/Выключить физический пин GPIO"
 
-#: ../templates/setup/setup.html:484
+#: ../templates/setup/setup.html:491
 msgid "Storage Mode"
 msgstr "Тип хранения"
 
 #: ../templates/plate/edit.html:84 ../templates/profile/edit.html:431
-#: ../templates/setup/custom-inputs.html:59 ../templates/setup/setup.html:563
-#: ../templates/setup/setup.html:578
+#: ../templates/setup/custom-inputs.html:59 ../templates/setup/setup.html:570
+#: ../templates/setup/setup.html:585
 msgid "Submit"
 msgstr "Подтвердить"
 
@@ -1873,15 +1882,15 @@ msgstr "Поддерживаемые математические операци
 msgid "Syscall"
 msgstr "Syscall"
 
-#: ../templates/setup/setup.html:544
+#: ../templates/setup/setup.html:551
 msgid "TCP Port to Listen"
 msgstr "TCP Port прослушивание"
 
-#: ../templates/index.html:115
+#: ../templates/index.html:119
 msgid "Take Photo"
 msgstr "Сделать снимок"
 
-#: ../templates/index.html:136
+#: ../templates/index.html:137
 msgid "Temp"
 msgstr "Темп."
 
@@ -1901,15 +1910,15 @@ msgstr "Текст"
 msgid "The 3D printer is idle. Click on 'Plates' menu to start printing."
 msgstr ""
 
-#: ../templates/plate/plates.html:121
+#: ../templates/plate/plates.html:126
 msgid "The plate is not processed yet."
 msgstr "Задание еще не обработано"
 
-#: ../templates/setup/setup.html:76
+#: ../templates/setup/setup.html:85
 msgid "Theme"
 msgstr "Тема"
 
-#: ../templates/plate/plates.html:80
+#: ../templates/plate/plates.html:85
 msgid "This plate is corrupted."
 msgstr "Это задание повреждено"
 
@@ -1927,11 +1936,11 @@ msgstr "Этот процесс может занять от нескольки�
 msgid "This process could take up to a minute to complete, depending on the depth."
 msgstr "В зависимости от высоты построения этого задания может потребоваться до минуты."
 
-#: ../templates/setup/setup.html:271
+#: ../templates/setup/setup.html:278
 msgid "Through Shield"
 msgstr ""
 
-#: ../templates/index.html:169
+#: ../templates/index.html:170
 msgid "Time"
 msgstr "Время"
 
@@ -1940,7 +1949,7 @@ msgstr "Время"
 msgid "Title"
 msgstr "Заголовок"
 
-#: ../templates/index.html:71
+#: ../templates/index.html:75
 msgid "To Layer"
 msgstr "к слою"
 
@@ -1960,7 +1969,7 @@ msgstr "Чтобы удалить защиту паролем, удалите и
 msgid "Toggle Navigation"
 msgstr "Переключить навигацию"
 
-#: ../templates/menu.html:23
+#: ../templates/menu.html:25
 msgid "Tools"
 msgstr "Инструменты"
 
@@ -1976,15 +1985,15 @@ msgstr "Вверх ⇧"
 msgid "Total Solid Area"
 msgstr "Общая площадь поверхности"
 
-#: ../templates/setup/setup.html:273
+#: ../templates/setup/setup.html:280
 msgid "True/False Signal"
 msgstr "Сигнал True/False"
 
-#: ../templates/setup/setup.html:70
+#: ../templates/setup/setup.html:79
 msgid "Turkish"
 msgstr ""
 
-#: ../templates/profile/edit.html:280 ../templates/setup/setup.html:55
+#: ../templates/profile/edit.html:280 ../templates/setup/setup.html:64
 msgid "Type"
 msgstr "Тип"
 
@@ -1992,19 +2001,19 @@ msgstr "Тип"
 msgid "USB"
 msgstr ""
 
-#: ../templates/setup/setup.html:347
+#: ../templates/setup/setup.html:354
 msgid "USB / Serial Port - ASCII (\\n)"
 msgstr ""
 
-#: ../templates/setup/setup.html:346
+#: ../templates/setup/setup.html:353
 msgid "USB / Serial Port - ASCII (\\r)"
 msgstr ""
 
-#: ../templates/setup/setup.html:345
+#: ../templates/setup/setup.html:352
 msgid "USB / Serial Port - ASCII (\\r\\n)"
 msgstr ""
 
-#: ../templates/setup/setup.html:348
+#: ../templates/setup/setup.html:355
 msgid "USB / Serial Port - Binary"
 msgstr ""
 
@@ -2012,7 +2021,7 @@ msgstr ""
 msgid "USB/Serial"
 msgstr "USB/Serial"
 
-#: ../templates/setup/setup.html:186 ../templates/setup/setup.html:371
+#: ../templates/setup/setup.html:193 ../templates/setup/setup.html:378
 msgid "USB/Serial Port Address"
 msgstr ""
 
@@ -2040,11 +2049,11 @@ msgstr "Обновить до Бета версии"
 msgid "Upgrade to the latest stable version"
 msgstr "Обновить до последней стабильной версии"
 
-#: ../templates/plate/plates.html:173
+#: ../templates/plate/plates.html:179
 msgid "Upload Image"
 msgstr "Загрузить изображение"
 
-#: ../templates/index.html:149
+#: ../templates/index.html:150
 msgid "Uptime"
 msgstr "Время работы"
 
@@ -2068,15 +2077,15 @@ msgstr "Логин для панели управления"
 msgid "Value Type"
 msgstr "Тип значения"
 
-#: ../templates/setup/setup.html:541
+#: ../templates/setup/setup.html:548
 msgid "Various Settings"
 msgstr "Другие настройки"
 
-#: ../templates/setup/setup.html:305
+#: ../templates/setup/setup.html:312
 msgid "Vertical Resolution"
 msgstr "Разрешение по вертикали"
 
-#: ../templates/setup/setup.html:337
+#: ../templates/setup/setup.html:344
 msgid "Vertically"
 msgstr "Вертикально"
 
@@ -2092,7 +2101,7 @@ msgstr "WPA"
 msgid "Wait"
 msgstr "Пауза"
 
-#: ../templates/index.html:75 ../templates/plate/preview.html:50
+#: ../templates/index.html:79 ../templates/plate/preview.html:50
 msgid "Wait After"
 msgstr "Пауза после"
 
@@ -2105,7 +2114,7 @@ msgstr "Пауза после подъема"
 msgid "Wait After Print"
 msgstr "Пауза после засветки"
 
-#: ../templates/index.html:73 ../templates/plate/preview.html:46
+#: ../templates/index.html:77 ../templates/plate/preview.html:46
 msgid "Wait Before"
 msgstr "Пауза перед"
 
@@ -2113,7 +2122,7 @@ msgstr "Пауза перед"
 msgid "Wait Before Print"
 msgstr "Пауза перед засветкой"
 
-#: ../templates/setup/setup.html:216
+#: ../templates/setup/setup.html:223
 msgid "Wait GPIO"
 msgstr "Пауза GPIO"
 
@@ -2129,17 +2138,21 @@ msgstr "Стенка Gap"
 msgid "Wall Size"
 msgstr "толщина стенки"
 
-#: ../templates/menu.html:39
+#: ../templates/menu.html:41
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
-#: ../templates/setup/setup.html:310
+#: ../templates/setup/setup.html:317
 msgid "X/Y Resolution"
 msgstr "Разрешение X/Y"
 
-#: ../templates/setup/setup.html:314
+#: ../templates/setup/setup.html:321
 msgid "Y Resolution"
 msgstr "Разрешение по Y"
+
+#: ../templates/setup/setup.html:147
+msgid "Yes"
+msgstr ""
 
 #: ../templates/setup/custom-inputs.html:39
 msgid "You can add additional inputs to the setup page and they will be accessible as Gcode keywords. eg. [[_ResinPumpAmount]]"
@@ -2149,7 +2162,7 @@ msgstr "Вы можете добавить дополнительные вход
 msgid "You can partially select and cover some sections of the plate to prevent further damage to PDMS and resin waste."
 msgstr "Вы можете частично выбрать и покрыть некоторые участки задания, чтобы предотвратить дальнейшее повреждение PDMS и отходов смолы."
 
-#: ../templates/menu.html:18
+#: ../templates/menu.html:19
 msgid "Z Axis Control"
 msgstr "Упарвление осью Z"
 
@@ -2161,7 +2174,7 @@ msgstr ""
 msgid "Z-Axis Calibration"
 msgstr "Калибровка оси Z"
 
-#: ../templates/setup/setup.html:462
+#: ../templates/setup/setup.html:469
 msgid "Z-Axis Height"
 msgstr "Высота по оси Z"
 
@@ -2173,11 +2186,11 @@ msgstr "Максимальная скорость по оси Z"
 msgid "Zero Level"
 msgstr "Нулевой уровень"
 
-#: ../templates/setup/setup.html:211
+#: ../templates/setup/setup.html:218
 msgid "Zero at Bottom"
 msgstr "Ноль внизу"
 
-#: ../templates/setup/setup.html:212
+#: ../templates/setup/setup.html:219
 msgid "Zero at Top"
 msgstr "Ноль вверху"
 
@@ -2197,28 +2210,28 @@ msgstr "прим. {[[LayerThickness]]-[[ZLiftDistance]]}"
 msgid "i2c"
 msgstr "i2c"
 
-#: ../templates/setup/setup.html:220 ../templates/setup/setup.html:515
+#: ../templates/setup/setup.html:227 ../templates/setup/setup.html:522
 msgid "i2c Address"
 msgstr "Адрес i2c"
 
-#: ../templates/setup/setup.html:506
+#: ../templates/setup/setup.html:513
 msgid "i2c Bus Path"
 msgstr "Путь шины i2c"
 
-#: ../templates/setup/setup.html:283 ../templates/setup/setup.html:287
+#: ../templates/setup/setup.html:290 ../templates/setup/setup.html:294
 msgid "ms"
 msgstr "милисекунда"
 
-#: ../templates/plate/plates.html:139 ../templates/plate/plates.html:151
+#: ../templates/plate/plates.html:144 ../templates/plate/plates.html:157
 msgid "of"
 msgstr "на"
 
-#: ../templates/profile/edit.html:102 ../templates/setup/setup.html:310
+#: ../templates/profile/edit.html:102 ../templates/setup/setup.html:317
 msgid "μm"
 msgstr "μm"
 
 #: ../templates/profile/edit.html:158 ../templates/profile/edit.html:181
-#: ../templates/profile/edit.html:194 ../templates/setup/setup.html:437
+#: ../templates/profile/edit.html:194 ../templates/setup/setup.html:444
 msgid "μm/Second"
 msgstr "μm/Секунду"
 
