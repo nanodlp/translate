@@ -1,0 +1,17 @@
+Nextion displays being supported by NanoDLP internally.
+<br>
+To use them you need to load NanoDLP HMI on Nextion Display and enter correct address on NanoDLP.
+<br>
+If you are connecting Nextion to Raspberry Pi without Serial2USB adapter, you need to enable serial on Raspberry Pi by following steps below:<br>
+<ul>
+    <li>SSH into your Raspberry Pi</li>
+    <li>Run command: sudo raspi-config</li>
+    <li>Enable Serial</li>
+    <li>sudo nano /boot/cmdline.txt</li>
+    <li>remove command "console=ttyAMA0,115200" and "console=serial0,115200"</li>
+    <li>sudo nano /boot/config.txt</li>
+    <li>Add following line: dtoverlay=pi3-disable-bt</li>
+    <li>sudo reboot</li>
+</ul>
+<br>
+For more information visit <a href="https://www.raspberrypi.org/documentation/configuration/uart.md">Raspberry Pi UART</a> page.

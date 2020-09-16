@@ -5,71 +5,77 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../templates/calibration/z-calibration.html:84
+#: ../templates/calibration/z-calibration.html:86
 msgid "1 Pulse ⇧"
-msgstr "1 Pulso ⇧"
+msgstr "1 Pulse ⇧"
+
+#: ../templates/calibration/z-calibration.html:73
+msgid "1 Pulse ⇩"
+msgstr "1 Pulse ⇩"
+
+#: ../templates/calibration/z-calibration.html:85
+msgid "10 Pulse ⇧"
+msgstr "10 Pulses ⇧"
+
+#: ../templates/calibration/z-calibration.html:72
+msgid "10 Pulse ⇩"
+msgstr "10 Pulses ⇩"
+
+#: ../templates/calibration/z-calibration.html:84
+msgid "100 Pulse ⇧"
+msgstr "100 Pulses ⇧"
 
 #: ../templates/calibration/z-calibration.html:71
-msgid "1 Pulse ⇩"
-msgstr "1 Pulso ⇩"
-
-#: ../templates/calibration/z-calibration.html:83
-msgid "10 Pulse ⇧"
-msgstr "10 Pulsos ⇧"
-
-#: ../templates/calibration/z-calibration.html:70
-msgid "10 Pulse ⇩"
-msgstr "10 Pulsos ⇩"
-
-#: ../templates/calibration/z-calibration.html:82
-msgid "100 Pulse ⇧"
-msgstr "100 Pulsos ⇧"
-
-#: ../templates/calibration/z-calibration.html:69
 msgid "100 Pulse ⇩"
-msgstr "100 Pulsos ⇩"
+msgstr "100 Pulses ⇩"
 
-#: ../templates/setup/setup.html:509
+#: ../templates/setup/setup.html:723
 msgid "16x2"
 msgstr "16x2"
 
-#: ../templates/plate/plates.html:104
+#: ../templates/plate/advanced-plates.html:92
+#: ../templates/plate/plates.html:141
 msgid "3D"
 msgstr "3D"
 
-#: ../templates/plate/plates.html:7
+#: ../templates/profile/edit.html:374
+msgid "3D Anti-aliasing"
+msgstr "3D 抗锯齿处理"
+
+#: ../templates/plate/plates.html:11
 msgid "3D Editor"
-msgstr ""
+msgstr "3D编辑器"
 
-#: ../templates/setup/setup.html:181
-msgid "3D Printer Board"
-msgstr "3D 打印机主板"
+#: ../templates/index.html:28
+msgid "3D Printer"
+msgstr "3D 打印"
 
-#: ../templates/setup/setup.html:503
-msgid "AMLCD"
-msgstr ""
+#: ../templates/setup/setup.html:719
+msgid "AMLCD Type"
+msgstr "AMLCD类型"
 
-#: ../templates/setup/setup.html:211
+#: ../templates/setup/setup.html:273
 msgid "Absolute"
 msgstr "绝对"
 
-#: ../templates/index.html:65 ../templates/plate/plates.html:36
-#: ../templates/setup/custom-buttons.html:42
+#: ../templates/index.html:101 ../templates/index.html:62
+#: ../templates/plate/advanced-plates.html:24 ../templates/plate/plates.html:55
+#: ../templates/setup/custom-buttons.html:40
 #: ../templates/setup/custom-inputs.html:49
 msgid "Action"
 msgstr "动作"
 
-#: ../templates/profile/profiles.html:11
+#: ../templates/profile/profiles.html:11 ../templates/setup/tools.html:20
 msgid "Actions"
 msgstr "动作"
 
 #: ../templates/setup/mask.html:11
 msgid "Add Mask"
-msgstr "增加掩膜"
+msgstr "添加掩码"
 
 #: ../templates/plate/edit.html:6
 msgid "Add Plate"
-msgstr "增加板型"
+msgstr "增加模型"
 
 #: ../templates/plate/cover.html:28
 msgid "Add Selection"
@@ -79,87 +85,97 @@ msgstr "增加选择"
 msgid "Admin has access to all functions including the dashboard."
 msgstr "管理员可以访问包括仪表板在内的所有功能."
 
-#: ../templates/profile/edit.html:19 ../templates/setup/setup.html:59
-msgid "Advanced"
-msgstr ""
+#: ../templates/plate/edit.html:47
+msgid "Advanced Options"
+msgstr "高级选项"
 
-#: ../templates/profile/edit.html:201
-msgid "Advanced Settings"
-msgstr "高级设置"
+#: ../templates/plate/advanced-plates.html:5
+msgid "Advanced Plates"
+msgstr "高级模型"
 
-#: ../templates/setup/setup.html:494
+#: ../templates/setup/upgrade.html:13
+msgid "After completion printer will be restarted."
+msgstr "完成后打印机将重新启动"
+
+#: ../templates/setup/setup.html:695
 msgid "All Images"
 msgstr "所有映像"
 
-#: ../templates/profile/edit.html:336
-msgid "Anti-aliasing"
-msgstr "Anti-aliasing"
+#: ../templates/plate/plates.html:23
+msgid "All Profiles"
+msgstr "所有配置文件"
 
-#: ../templates/setup/tools.html:12
-msgid "Any of the following actions will take effect immediately after click, without changing the page."
-msgstr "下列操作中的任何一项都将在单击后立即生效，而不需要重起系统."
+#: ../templates/profile/edit.html:383
+msgid "Anti-aliasing"
+msgstr "抗锯齿处理"
 
 #: ../templates/setup/custom-buttons.html:21
 msgid "Anytime"
 msgstr "任何时间"
 
-#: ../templates/index.html:162
+#: ../templates/index.html:214
 msgid "Application Log"
 msgstr "应用记录"
 
-#: ../templates/plate/plates.html:25
+#: ../templates/plate/plates.html:42
+msgid "Are you sure you want to delete all plates?"
+msgstr "确定要删除所有模型吗？"
+
+#: ../templates/plate/advanced-plates.html:12 ../templates/plate/plates.html:43
 msgid "Are you sure you want to delete this plate?"
-msgstr "你确定要删除这个板型吗?"
+msgstr "你确定要删除这个模型吗?"
 
 #: ../templates/profile/profiles.html:33
 msgid "Are you sure you want to delete this profile?"
-msgstr ""
+msgstr "是否确实要删除此配置文件？"
 
-#: ../templates/plate/preview.html:11
+#: ../templates/plate/preview.html:37
 msgid ""
 "Are you sure you want to display the current layer on the main\n"
 "    Projector/LCD unit of the printer?"
 msgstr ""
+"确实要在主服务器上显示当前层\n"
+"打印机的投影仪/LCD单元？"
 
-#: ../templates/setup/tools.html:36
+#: ../templates/setup/tools.html:48
 msgid "Are you sure you want to expand filesystem?"
 msgstr "您确定要扩展文件系统吗?"
 
-#: ../templates/setup/tools.html:14
+#: ../templates/setup/tools.html:22
 msgid "Are you sure you want to force stop the printer?"
 msgstr "您确定要强制停止打印机吗?"
 
-#: ../templates/index.html:122 ../templates/setup/tools.html:17
+#: ../templates/index.html:172 ../templates/setup/tools.html:25
 msgid "Are you sure you want to power off the printer?"
 msgstr "你确定需要关闭打印机电源?"
 
-#: ../templates/index.html:123
+#: ../templates/index.html:173
 msgid "Are you sure you want to power off the projector?"
 msgstr "您确定要关闭投影机 ?"
 
-#: ../templates/plate/plates.html:28
+#: ../templates/plate/advanced-plates.html:15 ../templates/plate/plates.html:47
 msgid "Are you sure you want to print plate from the start?"
-msgstr ""
+msgstr "你确定要从头开始打印吗？"
 
-#: ../templates/plate/plates.html:29
+#: ../templates/plate/advanced-plates.html:16 ../templates/plate/plates.html:48
 msgid "Are you sure you want to print the calibration plate?"
 msgstr "您确定要打印校准盘吗?"
 
-#: ../templates/plate/plates.html:26
+#: ../templates/plate/advanced-plates.html:13 ../templates/plate/plates.html:44
 msgid "Are you sure you want to regenerate the layers of this plate?"
-msgstr "您确定要重新生成这个板型的图层吗?"
+msgstr "您确定要重新生成这个模型的图层吗?"
 
-#: ../templates/index.html:125 ../templates/setup/tools.html:20
+#: ../templates/index.html:176 ../templates/setup/tools.html:28
 msgid "Are you sure you want to restart the printer?"
 msgstr "您确定要重新启动打印机吗?"
 
-#: ../templates/setup/tools.html:27
+#: ../templates/setup/tools.html:12
 msgid "Are you sure you want to restore the default settings and reboot the printer?"
 msgstr "您确定要恢复默认设置并重新启动打印机吗?"
 
-#: ../templates/index.html:126
+#: ../templates/index.html:177
 msgid "Are you sure you want to resume the previous print?"
-msgstr ""
+msgstr "是否确实要恢复上一次打印？"
 
 #: ../templates/plate/cover.html:32
 msgid "Are you sure you want to save the covered sections?"
@@ -169,27 +185,37 @@ msgstr "您确定要保存已覆盖的部分吗?"
 msgid "Are you sure you want to set this height as the bottom?"
 msgstr "您确定要将此高度设置为底部吗?"
 
-#: ../templates/index.html:124
-msgid "Are you sure you want to start the display? It will automatically select the second display."
+#: ../templates/index.html:174
+msgid ""
+"Are you sure you want to start the display? It will automatically select\n"
+"\t\t\tthe second display."
 msgstr ""
+"确定要启动显示吗？它将自动选择\n"
+"\t\t\t第二次显示。"
 
-#: ../templates/plate/plates.html:27
+#: ../templates/plate/advanced-plates.html:14 ../templates/plate/plates.html:46
 msgid "Are you sure you want to stop printing?"
 msgstr "您确定要停止打印吗?"
 
-#: ../templates/index.html:121
-msgid "Are you sure you want to stop printing? It will stop after the current layer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click the `Force Stop` button."
+#: ../templates/index.html:169
+msgid ""
+"Are you sure you want to stop printing? It will stop after the current\n"
+"\t\t\tlayer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click\n"
+"\t\t\tthe `Force Stop` button."
 msgstr ""
+"确定要停止打印吗？它将在当前\n"
+"\t\t\t层已完成。如果要中止当前层，请转到“设置”页，单击“工具”选项卡，然后单击\n"
+"\t\t\t“强制停止”按钮。"
 
-#: ../templates/setup/tools.html:23
+#: ../templates/setup/tools.html:33
 msgid "Are you sure you want to terminate nanoDLP and have access to terminal?"
 msgstr "你确定你想终止nanodlp和接入终端?"
 
-#: ../templates/plate/preview.html:26
+#: ../templates/plate/preview.html:69
 msgid "Area Count"
 msgstr "区域计数"
 
-#: ../templates/setup/setup.html:187
+#: ../templates/setup/setup.html:243
 msgid "Ascii"
 msgstr "Ascii"
 
@@ -201,17 +227,25 @@ msgstr "认证"
 msgid "Authentication Required"
 msgstr "认证要求"
 
-#: ../templates/plate/edit.html:47
+#: ../templates/plate/edit.html:52
 msgid "Auto Center"
 msgstr "自动居中"
 
-#: ../templates/plate/edit.html:91
+#: ../templates/setup/setup.html:791
+msgid "Auto Slice"
+msgstr "自动切片"
+
+#: ../templates/plate/edit.html:106
 msgid "Available memory on Raspberry Pi is limited to slice STL files larger than 200MB. Please, use NanoDLP remote slicer feature or SLC format to upload large plates."
-msgstr ""
+msgstr "Raspberry Pi上的可用内存仅限于切片小于200MB的STL文件。请使用NanoDLP远程切片器功能或SLC格式上传大模型"
+
+#: ../templates/setup/tools.html:14
+msgid "Backup Plates and Settings"
+msgstr "备份模型与设置"
 
 #: ../templates/calibration/projector-calibration.html:47
 msgid "Barrel Distortion"
-msgstr "Distorção de Barril"
+msgstr "桶体变形"
 
 #: ../templates/calibration/projector-calibration.html:51
 msgid "Barrel Factor"
@@ -219,53 +253,49 @@ msgstr "桶形失真"
 
 #: ../templates/calibration/projector-calibration.html:56
 msgid "Barrel's Center X"
-msgstr "Barrel's Center X"
+msgstr "桶中心 X"
 
 #: ../templates/calibration/projector-calibration.html:60
 msgid "Barrel's Center Y"
-msgstr "Barrel's Center Y"
+msgstr "桶中心Y"
 
-#: ../templates/profile/edit.html:18 ../templates/setup/setup.html:58
-msgid "Basic"
-msgstr ""
-
-#: ../templates/setup/setup.html:188
+#: ../templates/setup/setup.html:244
 msgid "Binary"
 msgstr "二进制"
 
-#: ../templates/setup/custom-buttons.html:86
+#: ../templates/setup/custom-buttons.html:84
 msgid "Binary support:"
 msgstr "二进制支持:"
 
-#: ../templates/setup/setup.html:91
+#: ../templates/setup/setup.html:112
 msgid "Black / Dark"
 msgstr "黑 / 暗"
 
-#: ../templates/setup/setup.html:89
+#: ../templates/setup/setup.html:110
 msgid "Black / Light"
 msgstr "黑 / 亮"
 
-#: ../templates/plate/plates.html:117 ../templates/plate/plates.html:121
+#: ../templates/plate/plates.html:160
 msgid "Blackout"
-msgstr ""
+msgstr "断层"
 
 #: ../templates/plate/cover.html:3
 msgid "Blackout Platform"
 msgstr "平台断点"
 
-#: ../templates/profile/edit.html:237
+#: ../templates/profile/edit.html:271
 msgid "Blank Area Color"
-msgstr ""
+msgstr "空白区颜色"
 
 #: ../templates/setup/custom-buttons.html:9
 msgid "Blue"
 msgstr "蓝"
 
-#: ../templates/setup/setup.html:87
+#: ../templates/setup/setup.html:108
 msgid "Blue / Dark"
 msgstr "蓝 / 暗"
 
-#: ../templates/setup/setup.html:88
+#: ../templates/setup/setup.html:109
 msgid "Blue / Light"
 msgstr "蓝 / 亮"
 
@@ -273,15 +303,15 @@ msgstr "蓝 / 亮"
 msgid "Bluring Radius"
 msgstr "模糊半径"
 
-#: ../templates/setup/setup.html:237
+#: ../templates/setup/setup.html:305
 msgid "Bootup Code"
-msgstr ""
+msgstr "启动代码"
 
-#: ../templates/setup/setup.html:345
+#: ../templates/setup/setup.html:487
 msgid "Both"
-msgstr ""
+msgstr "都"
 
-#: ../templates/profile/edit.html:316
+#: ../templates/profile/edit.html:335
 msgid "Bottom Cap Wall"
 msgstr "底盖墙"
 
@@ -289,31 +319,55 @@ msgstr "底盖墙"
 msgid "Boundaries"
 msgstr "边界"
 
-#: ../templates/plate/preview.html:35
+#: ../templates/plate/preview.html:78
 msgid "Boundry - X"
 msgstr "边界 - X"
 
-#: ../templates/plate/preview.html:37
+#: ../templates/plate/preview.html:80
 msgid "Boundry - Y"
 msgstr "边界 - Y"
 
-#: ../templates/setup/setup.html:75
+#: ../templates/setup/setup.html:95
 msgid "Brazilian Portuguese"
 msgstr "巴西葡萄牙语"
 
-#: ../templates/setup/setup.html:90
+#: ../templates/setup/setup.html:111
 msgid "Brown / Light"
 msgstr "棕 / 亮"
 
-#: ../templates/menu.html:52
+#: ../templates/menu.html:53
 msgid "Build"
 msgstr "建立"
 
-#: ../templates/profile/edit.html:37
-msgid "Burn-in Layers"
-msgstr "老化层"
+#: ../templates/profile/edit.html:56
+msgid "Burn-in Cure Time"
+msgstr "老化-固化时间"
 
-#: ../templates/index.html:133
+#: ../templates/profile/edit.html:96
+msgid "Burn-in Erode / Dilate Areas"
+msgstr "老化-腐蚀/膨胀区域"
+
+#: ../templates/profile/edit.html:48
+msgid "Burn-in Layer Thickness"
+msgstr "老化层厚"
+
+#: ../templates/profile/edit.html:80
+msgid "Burn-in Lift After Print"
+msgstr "老化-打印后提升"
+
+#: ../templates/profile/edit.html:88
+msgid "Burn-in Wait After Lift"
+msgstr "老化-抬升后等待"
+
+#: ../templates/profile/edit.html:72
+msgid "Burn-in Wait After Print"
+msgstr "老化-打印后等待"
+
+#: ../templates/profile/edit.html:64
+msgid "Burn-in Wait Before Print"
+msgstr "老化-打印前等待"
+
+#: ../templates/index.html:184
 msgid "CPU"
 msgstr "CPU"
 
@@ -321,51 +375,51 @@ msgstr "CPU"
 msgid "Calibrate Zero Position ⇧"
 msgstr "校准零位置 ⇧"
 
-#: ../templates/plate/plates.html:187
+#: ../templates/plate/plates.html:237
 msgid "Calibration Plate"
-msgstr "校准板型"
+msgstr "校准模型"
 
-#: ../templates/setup/setup.html:498
+#: ../templates/setup/setup.html:700
 msgid "Camera Command"
 msgstr "摄像命令"
 
-#: ../templates/setup/setup.html:476
-msgid "Camera Module"
-msgstr "摄像模块"
-
-#: ../templates/setup/setup.html:479
+#: ../templates/setup/setup.html:673
 msgid "Camera Photo Frequency"
 msgstr "相机拍照频率"
 
-#: ../templates/plate/edit.html:50
+#: ../templates/setup/setup.html:813
+msgid "Cancel"
+msgstr "取消"
+
+#: ../templates/plate/edit.html:55
 msgid "Center Origin"
 msgstr "起始中心"
 
-#: ../templates/plate/edit.html:49
+#: ../templates/plate/edit.html:54
 msgid "Center Pieces"
 msgstr "中心件"
 
-#: ../templates/setup/setup.html:332
+#: ../templates/setup/setup.html:467
 msgid "Center of Barrel - X"
 msgstr "中心筒 - X"
 
-#: ../templates/setup/setup.html:336
+#: ../templates/setup/setup.html:474
 msgid "Center of Barrel - Y"
 msgstr "中心筒 - Y"
 
-#: ../templates/setup/tools.html:29
+#: ../templates/setup/tools.html:40
 msgid "Change Distribution"
 msgstr "变化分布"
 
-#: ../templates/setup/distro.html:17
+#: ../templates/setup/distro.html:18
 msgid "Change to \"Microlay\" Version"
 msgstr "修改到 \"Microlay\" 版本"
 
-#: ../templates/setup/distro.html:15
-msgid "Change to \"Phrozen\" Version"
-msgstr ""
-
 #: ../templates/setup/distro.html:16
+msgid "Change to \"Phrozen\" Version"
+msgstr "更改为 “Phrozen” 版本"
+
+#: ../templates/setup/distro.html:17
 msgid "Change to \"mUVe3D\" Version"
 msgstr "修改到 \"mUVe3D\" 版本"
 
@@ -373,19 +427,23 @@ msgstr "修改到 \"mUVe3D\" 版本"
 msgid "Change to \"nanoDLP generic\" Version"
 msgstr "修改到 \"nanoDLP generic\" 版本"
 
+#: ../templates/setup/distro.html:15
+msgid "Change to \"ynde\" Version"
+msgstr "更改为 “ynde” 版本"
+
 #: ../templates/setup/wireless.html:22
 msgid "Changing the WiFi settings during printing could cause interruption."
 msgstr "更改打印过程中的WiFi设置可能会导致中断."
 
-#: ../templates/profile/edit.html:253
+#: ../templates/profile/edit.html:284
 msgid "Checkerboard"
 msgstr "棋盘"
 
-#: ../templates/setup/setup.html:78
+#: ../templates/setup/setup.html:93
 msgid "Chinese"
-msgstr ""
+msgstr "中国"
 
-#: ../templates/base.html:72
+#: ../templates/base.html:102
 #: ../templates/calibration/projector-calibration.html:18
 #: ../templates/calibration/projector-calibration.html:27
 #: ../templates/calibration/projector-calibration.html:36
@@ -395,17 +453,13 @@ msgstr ""
 msgid "Close"
 msgstr "关闭"
 
-#: ../templates/profile/edit.html:374
+#: ../templates/profile/edit.html:417
 msgid "Code After Each Layer"
-msgstr ""
+msgstr "每层后编码"
 
-#: ../templates/profile/edit.html:367
+#: ../templates/profile/edit.html:172
 msgid "Code Before Each Layer"
-msgstr ""
-
-#: ../templates/profile/edit.html:357 ../templates/setup/setup.html:234
-msgid "Codes"
-msgstr ""
+msgstr "每层前编码"
 
 #: ../templates/plate/generator.html:22
 msgid "Comma Separated Cure Times"
@@ -413,9 +467,13 @@ msgstr "每个逗号分隔的固化时间"
 
 #: ../templates/plate/generator.html:26
 msgid "Comma Separated Pillar Diameter"
-msgstr ""
+msgstr "逗号分隔柱直径"
 
-#: ../templates/setup/custom-buttons.html:41
+#: ../templates/plate/edit.html:60
+msgid "Comma separated in second"
+msgstr "以秒分隔的逗号"
+
+#: ../templates/setup/custom-buttons.html:39
 msgid "Confirmation Text"
 msgstr "确认文本"
 
@@ -423,90 +481,90 @@ msgstr "确认文本"
 msgid "Connect"
 msgstr "连接"
 
-#: ../templates/index.html:9
-msgid "Could not connect to the NanoDLP. Please check your network connection."
+#: ../templates/setup/password.html:60
+msgid "Consider this protection is very basic and easily could be bypassed."
 msgstr ""
 
-#: ../templates/plate/plates.html:177
+#: ../templates/index.html:10
+msgid "Could not connect to the NanoDLP. Please check your network connection."
+msgstr "无法连接到NanoDLP。请检查您的网络连接"
+
+#: ../templates/plate/plates.html:227
 msgid "Create 3D shapes by repeating an image frame"
 msgstr "通过重复图像框创建三维形状"
 
-#: ../templates/index.html:78 ../templates/plate/preview.html:48
+#: ../templates/index.html:114 ../templates/plate/preview.html:91
 msgid "Cure Layer"
 msgstr "固化层"
 
-#: ../templates/plate/plates.html:49 ../templates/profile/edit.html:107
-#: ../templates/profile/edit.html:151 ../templates/profile/edit.html:55
+#: ../templates/plate/advanced-plates.html:37 ../templates/plate/plates.html:71
 #: ../templates/profile/profiles.html:9
 msgid "Cure Time"
 msgstr "固化时间"
 
 #: ../templates/calibration/z-calibration.html:26
 msgid "Current"
-msgstr "电流"
+msgstr "当前层"
 
-#: ../templates/setup/setup.html:173
+#: ../templates/setup/setup.html:231
 msgid "Custom Acceleration"
 msgstr "自定义加速度"
 
 #: ../templates/menu.html:24
 msgid "Custom Buttons"
-msgstr ""
+msgstr "自定义按钮"
 
 #: ../templates/setup/custom-buttons.html:16
 msgid "Dashboard"
 msgstr "仪表盘"
 
-#: ../templates/setup/setup.html:185
+#: ../templates/setup/setup.html:240
 msgid "Data Encoding"
 msgstr "数据编码"
 
-#: ../templates/setup/tools.html:8
+#: ../templates/setup/tools.html:38
 msgid "Debug Info"
 msgstr "调试信息"
 
-#: ../templates/plate/edit.html:69
+#: ../templates/plate/edit.html:84
 msgid "Decrease Mask Intensity"
-msgstr "Decrease Mask Intensity"
+msgstr "降低掩膜强度"
 
 #: ../templates/profile/profiles.html:10
 msgid "Default"
 msgstr "默认"
 
-#: ../templates/profile/edit.html:31
+#: ../templates/profile/edit.html:36
 msgid "Description"
 msgstr "描述"
 
-#: ../templates/index.html:172 ../templates/plate/plates.html:35
-#: ../templates/setup/custom-inputs.html:46
+#: ../templates/index.html:225 ../templates/plate/advanced-plates.html:23
+#: ../templates/plate/plates.html:54 ../templates/setup/custom-inputs.html:46
 #: ../templates/setup/custom-inputs.html:47
 #: ../templates/setup/custom-inputs.html:48
 msgid "Details"
 msgstr "细节"
 
-#: ../templates/profile/edit.html:259
+#: ../templates/profile/edit.html:291
 msgid "Dimming Amount Percentage"
 msgstr "变暗百分比"
-
-#: ../templates/profile/edit.html:250
-msgid "Dimming Type"
-msgstr "调暗类型"
 
 #: ../templates/plate/extrude.html:6
 msgid "Dimming and Mask settings will take effect on the created layers."
 msgstr "调暗和遮罩设置将对所创建的图层生效."
 
-#: ../templates/setup/setup.html:124
+#: ../templates/setup/setup.html:153
 msgid "Direction GPIO"
 msgstr "方向 GPIO"
 
-#: ../templates/plate/edit.html:51 ../templates/profile/edit.html:339
-#: ../templates/setup/setup.html:107 ../templates/setup/setup.html:5
-#: ../templates/setup/setup.html:558
+#: ../templates/plate/edit.html:56 ../templates/profile/edit.html:377
+#: ../templates/profile/edit.html:387 ../templates/setup/setup.html:133
+#: ../templates/setup/setup.html:5 ../templates/setup/setup.html:778
+#: ../templates/setup/setup.html:795 ../templates/setup/setup.html:804
 msgid "Disable"
 msgstr "禁止"
 
-#: ../templates/index.html:98
+#: ../templates/index.html:146
 msgid "Disable Auto Shutdown"
 msgstr "禁用自动关机"
 
@@ -514,13 +572,13 @@ msgstr "禁用自动关机"
 msgid "Disable Motor"
 msgstr "禁用马达"
 
-#: ../templates/profile/edit.html:347 ../templates/setup/setup.html:342
-#: ../templates/setup/setup.html:351 ../templates/setup/setup.html:481
-#: ../templates/setup/setup.html:98
+#: ../templates/profile/edit.html:395 ../templates/setup/setup.html:121
+#: ../templates/setup/setup.html:484 ../templates/setup/setup.html:495
+#: ../templates/setup/setup.html:676
 msgid "Disabled"
 msgstr "禁用"
 
-#: ../templates/index.html:146
+#: ../templates/index.html:197
 msgid "Disk"
 msgstr "磁盘"
 
@@ -530,49 +588,52 @@ msgstr "磁盘"
 #: ../templates/calibration/projector-calibration.html:65
 #: ../templates/calibration/projector-calibration.html:9
 #: ../templates/calibration/projector-calibration.html:99
-#: ../templates/setup/setup.html:305
 msgid "Display"
 msgstr "显示"
 
-#: ../templates/setup/setup.html:349
+#: ../templates/setup/setup.html:492
 msgid "Display Communication Type"
 msgstr "显示通信类型"
 
+#: ../templates/setup/setup.html:435
+msgid "Display Controller"
+msgstr "显示控制器"
+
 #: ../templates/calibration/mask-generator.html:31
 msgid "Display Mask"
-msgstr "显示遮照"
+msgstr "显示掩膜"
 
-#: ../templates/setup/setup.html:408
+#: ../templates/setup/setup.html:577
 msgid "Display Number"
-msgstr ""
+msgstr "显示编号"
 
-#: ../templates/setup/setup.html:391
+#: ../templates/setup/setup.html:552
 msgid "Display Power Cycle"
 msgstr "显示能量循环 "
 
-#: ../templates/setup/setup.html:386
+#: ../templates/setup/setup.html:545
 msgid "Display Turn Off Command"
 msgstr "显示关闭命令"
 
-#: ../templates/setup/setup.html:382
+#: ../templates/setup/setup.html:539
 msgid "Display Turn On Command"
 msgstr "显示开机命令"
 
-#: ../templates/setup/setup.html:362
+#: ../templates/setup/setup.html:506
 msgid "Display Warm-up Time"
 msgstr "唤醒时间显示"
 
-#: ../templates/plate/edit.html:77
+#: ../templates/plate/edit.html:92
 msgid "Do not Rotate"
 msgstr "不旋转"
 
 #: ../templates/import.html:22
 msgid "Download & Import Profile"
-msgstr ""
+msgstr "导入和下载配置文件"
 
 #: ../templates/import.html:44
 msgid "Download & Restore Machine Settings"
-msgstr ""
+msgstr "下载并还原计算机设置"
 
 #: ../templates/import.html:41
 msgid "Download Machine Settings"
@@ -582,57 +643,73 @@ msgstr "下载机器设置"
 msgid "Download Profile"
 msgstr "下载配置文件"
 
-#: ../templates/setup/setup.html:152
+#: ../templates/setup/setup.html:200
 msgid "Driver Enable GPIO"
-msgstr ""
+msgstr "驱动程序启用GPIO"
 
-#: ../templates/profile/edit.html:147
-msgid "Dynamic Calculation"
-msgstr "动态计算"
+#: ../templates/setup/upgrade.html:10
+msgid "During the upgrade process NanoDLP would not be accessible."
+msgstr "在升级过程中，NanoDLP将无法访问"
 
 #: ../templates/calibration/projector-calibration.html:8
 msgid "Dynamic Calibration"
 msgstr "动态校准"
 
+#: ../templates/profile/edit.html:153
+msgid "Dynamic Cure Time"
+msgstr "动态固化时间"
+
+#: ../templates/profile/edit.html:180
+msgid "Dynamic Lift"
+msgstr "动力提升"
+
 #: ../templates/calibration/projector-calibration.html:17
 msgid "Dynamic Red Calib."
 msgstr "动态红标线"
 
-#: ../templates/index.html:60
+#: ../templates/profile/edit.html:163
+msgid "Dynamic Speed"
+msgstr "动态速度"
+
+#: ../templates/profile/edit.html:189
+msgid "Dynamic Wait After Lift"
+msgstr "提升后动态等待"
+
+#: ../templates/index.html:96
 msgid "ETA"
-msgstr ""
+msgstr "预计完成时间"
 
 #: ../templates/plate/edit.html:8
 msgid "Edit Plate"
-msgstr "编辑板型"
-
-#: ../templates/profile/edit.html:6
-msgid "Edit Profile"
-msgstr "编辑配置"
+msgstr "编辑模型"
 
 #: ../templates/setup/password.html:30
-msgid ""
-"Empty username for dashboard, makes the dashboard accessible to everyone without\n"
-"                authentication."
-msgstr ""
+msgid "Empty username for dashboard, makes the dashboard accessible to everyone without authentication."
+msgstr "仪表板的用户名为空，使每个人无需身份验证即可访问仪表板"
 
-#: ../templates/profile/edit.html:338 ../templates/setup/setup.html:557
+#: ../templates/profile/edit.html:378 ../templates/profile/edit.html:386
+#: ../templates/setup/setup.html:777 ../templates/setup/setup.html:794
+#: ../templates/setup/setup.html:803
 msgid "Enable"
 msgstr "开启"
 
-#: ../templates/index.html:101
-msgid "Enable Auto Shutdown"
-msgstr "开启自动关机"
+#: ../templates/index.html:149
+msgid ""
+"Enable\n"
+"\t\t\t\tAuto Shutdown"
+msgstr ""
+"启用\n"
+"\t\t\t\t自动关机"
 
-#: ../templates/setup/setup.html:168
+#: ../templates/setup/setup.html:223
 msgid "Enable Before Each Print"
 msgstr "每次打印前启用"
 
-#: ../templates/setup/setup.html:165
+#: ../templates/setup/setup.html:219
 msgid "Enable GPIO Mode"
 msgstr "启用 GPIO 模式"
 
-#: ../templates/setup/setup.html:157
+#: ../templates/setup/setup.html:208
 msgid "Enable GPIO State"
 msgstr "启用 GPIO 状态"
 
@@ -640,7 +717,7 @@ msgstr "启用 GPIO 状态"
 msgid "Enable Motor"
 msgstr "开启马达"
 
-#: ../templates/setup/setup.html:167
+#: ../templates/setup/setup.html:222
 msgid "Enable on Boot"
 msgstr "起动时启用"
 
@@ -648,63 +725,71 @@ msgstr "起动时启用"
 msgid "End Level"
 msgstr "结束层"
 
-#: ../templates/setup/setup.html:134
+#: ../templates/setup/setup.html:170
 msgid "Endstop Switch - Bottom Limit"
 msgstr "限位开关 - 下限"
 
-#: ../templates/setup/setup.html:138
+#: ../templates/setup/setup.html:178
 msgid "Endstop Switch - Default State"
-msgstr ""
+msgstr "限位开关-默认状态"
 
-#: ../templates/setup/setup.html:129
+#: ../templates/setup/setup.html:161
 msgid "Endstop Switch - Top Limit"
 msgstr "限位开关 - 上限"
 
-#: ../templates/setup/setup.html:74
+#: ../templates/setup/setup.html:92
 msgid "English"
 msgstr "英语"
 
-#: ../templates/profile/edit.html:17 ../templates/setup/setup.html:57
-msgid "Essential"
-msgstr ""
+#: ../templates/profile/edit.html:145
+msgid "Erode / Dilate Areas"
+msgstr "侵蚀/扩张区域"
+
+#: ../templates/error.html:4
+msgid "Error ({{code}}) Accessing Requested Resource {{path}}"
+msgstr "访问请求的资源{path}}时出错（{code}}）"
 
 #: ../templates/plate/extrude.html:8
 msgid "Even-though it can process multi color images, to make the dimming feature work correctly, try to use images containing grayscale colors."
 msgstr "即使可以处理多彩色图像，使调光功能正常工作，尽量使用包含灰度颜色的图像."
 
-#: ../templates/setup/setup.html:403
+#: ../templates/setup/setup.html:569
 msgid "Execute to Turn Display Off"
 msgstr "执行关闭显示"
 
-#: ../templates/setup/setup.html:399
+#: ../templates/setup/setup.html:562
 msgid "Execute to Turn Display On"
 msgstr "执行打开显示"
 
-#: ../templates/setup/setup.html:357
+#: ../templates/setup/setup.html:500
 msgid "Execution Only"
 msgstr "仅执行"
 
-#: ../templates/setup/tools.html:35
+#: ../templates/setup/tools.html:47
 msgid "Expand Filesystem"
 msgstr "扩展文件系统"
 
 #: ../templates/calibration/mask-generator.html:101
 msgid "Export Comma Separated Values"
-msgstr ""
+msgstr "导出逗号分隔值"
 
-#: ../templates/setup/tools.html:4
+#: ../templates/setup/tools.html:7
 msgid "Export Machine Settings File"
 msgstr "导出机器设置文件"
 
-#: ../templates/setup/setup.html:538
+#: ../templates/setup/setup.html:758
 msgid "Fault GPIO Default State"
 msgstr "GPIO 默认状态故障"
+
+#: ../templates/plate/preview.html:48
+msgid "Faulty layers:"
+msgstr "故障层"
 
 #: ../templates/plate/edit.html:15
 msgid "File From USB"
 msgstr "从 USB 获取文件"
 
-#: ../templates/setup/tools.html:34
+#: ../templates/setup/tools.html:46
 msgid "Filesystem expantion will run silently in background, and will restart the Raspberry Pi afterward. Please do not change anything."
 msgstr "文件系统的扩展将在后台执行，完成后将重启 Raspberry Pi。请不要执行东西。."
 
@@ -712,25 +797,26 @@ msgstr "文件系统的扩展将在后台执行，完成后将重启 Raspberry P
 msgid "Final Mask"
 msgstr "最终掩模"
 
-#: ../templates/calibration/z-calibration.html:61
+#: ../templates/calibration/z-calibration.html:63
 msgid "Floor ⇩"
-msgstr "Piso"
+msgstr "底部"
 
-#: ../templates/setup/tools.html:13
+#: ../templates/setup/tools.html:21
 msgid "Force Stop"
 msgstr "强制取消"
 
-#: ../templates/setup/setup.html:412
+#: ../templates/setup/setup.html:583
 msgid "Framebuffer Path"
 msgstr "帧缓存路径"
 
-#: ../templates/plate/plates.html:212
+#: ../templates/plate/advanced-plates.html:136
+#: ../templates/plate/plates.html:270
 msgid "Free Disk Space"
 msgstr "可用磁盘空间"
 
-#: ../templates/plate/plates.html:21
+#: ../templates/plate/plates.html:37
 msgid "Free space available on your disk is low. Please remove some plates."
-msgstr "磁盘上可用的空闲空间很低。请移除一些板型."
+msgstr "磁盘上可用的空闲空间很低。请移除一些模型."
 
 #: ../templates/calibration/projector-calibration.html:35
 msgid "Full White"
@@ -740,22 +826,26 @@ msgstr "全白"
 msgid "FullHD Calibration"
 msgstr "全高清校正"
 
-#: ../templates/setup/custom-buttons.html:40
+#: ../templates/setup/custom-buttons.html:38
 msgid "Gcode"
 msgstr "Gcode"
 
-#: ../templates/index.html:80 ../templates/plate/preview.html:52
+#: ../templates/index.html:116 ../templates/plate/preview.html:95
 msgid "Gcode After"
 msgstr "Gcode 后"
 
-#: ../templates/index.html:76 ../templates/plate/preview.html:44
+#: ../templates/index.html:112 ../templates/plate/preview.html:87
 msgid "Gcode Before"
 msgstr "Gcode 前"
 
 #: ../templates/plate/extrude.html:54 ../templates/plate/generator.html:46
-#: ../templates/plate/plates.html:194
+#: ../templates/plate/plates.html:244
 msgid "Generate"
 msgstr "生成"
+
+#: ../templates/setup/setup.html:800
+msgid "Generate 3D Preview"
+msgstr "生成三维预览"
 
 #: ../templates/setup/custom-buttons.html:8
 msgid "Green"
@@ -765,50 +855,46 @@ msgstr "绿"
 msgid "Grid Preview"
 msgstr "网格预览"
 
-#: ../templates/setup/setup.html:356
-msgid "HDMI Power On/Off - Standby Mode"
-msgstr "HDMI 电源 开启 / 关闭 - 待机模式"
-
-#: ../templates/setup/setup.html:531
-msgid "Hardware Fault Detection"
-msgstr "硬件故障检测"
-
-#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:48
+#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:84
 msgid "Height"
 msgstr "高度"
 
-#: ../templates/menu.html:26
+#: ../templates/menu.html:27
 msgid "Help"
 msgstr "帮助"
 
-#: ../templates/profile/edit.html:283
+#: ../templates/profile/edit.html:318
 msgid "Hexagonal"
 msgstr "六边形"
 
-#: ../templates/setup/setup.html:140 ../templates/setup/setup.html:160
-#: ../templates/setup/setup.html:541
+#: ../templates/setup/setup.html:182 ../templates/setup/setup.html:212
+#: ../templates/setup/setup.html:762
 msgid "High"
 msgstr "高"
 
 #: ../templates/calibration/mask-generator.html:68
 msgid "Highlight Point"
-msgstr ""
+msgstr "突出显示点"
 
-#: ../templates/profile/edit.html:284
+#: ../templates/profile/edit.html:319
 msgid "Hollowing"
 msgstr "挖洞"
 
-#: ../templates/profile/edit.html:254
-msgid "Homogeneous"
-msgstr "Homogeneous"
+#: ../templates/profile/edit.html:314
+msgid "Hollowing / Infill Type"
+msgstr "空心/填充型"
 
-#: ../templates/setup/setup.html:308
+#: ../templates/profile/edit.html:285
+msgid "Homogeneous"
+msgstr "同种类"
+
+#: ../templates/setup/setup.html:420
 msgid "Horizontal Resolution"
 msgstr "水平分辨率"
 
-#: ../templates/setup/setup.html:343
+#: ../templates/setup/setup.html:485
 msgid "Horizontally"
-msgstr ""
+msgstr "水平"
 
 #: ../templates/calibration/projector-calibration.html:85
 msgid "Hours"
@@ -822,15 +908,15 @@ msgstr "空闲"
 msgid "If you want to overwrite settings too, after restart go to `Setup` page / `Tools` tab and press `Restore Settings` button."
 msgstr "如果你想重写设置，重新启动后，转到'设置'页/ '工具'选项卡，并按'恢复设置'按钮."
 
-#: ../templates/profile/edit.html:425
+#: ../templates/profile/edit.html:474
 msgid "Ignore"
 msgstr "忽略"
 
 #: ../templates/calibration/mask-generator.html:96
 msgid "Import Comma Separated Values"
-msgstr ""
+msgstr "导入逗号分隔值"
 
-#: ../templates/setup/tools.html:6
+#: ../templates/setup/tools.html:9
 msgid "Import Machine Settings"
 msgstr "导入机器设置"
 
@@ -842,108 +928,111 @@ msgstr "导入配置"
 msgid "Import and Export Settings"
 msgstr "导入和导出设置"
 
-#: ../templates/profile/edit.html:276
-msgid "Infill / Hollowing"
-msgstr "填充 / 挖孔"
+#: ../templates/profile/edit.html:365
+msgid "Infill Pattern Cell Width"
+msgstr "填充图案单元宽度"
 
-#: ../templates/setup/custom-buttons.html:60
+#: ../templates/profile/edit.html:355
+msgid "Infill Pattern Wall Size"
+msgstr "填充图案尺寸"
+
+#: ../templates/plate/preview.html:11
+msgid "Information"
+msgstr "信息"
+
+#: ../templates/setup/custom-buttons.html:58
 msgid "It is possible to call a program or a script from shell and use the result as Gcode."
 msgstr "可以调用一个程序或脚本从外壳和使用效果Gcode."
 
-#: ../templates/setup/custom-buttons.html:88
+#: ../templates/setup/custom-buttons.html:86
 msgid "It is possible to send binary codes using base 16 format."
 msgstr "使用二进制或16禁止格式发送二进制代码是可能的."
 
-#: ../templates/setup/upgrade.html:11
-msgid "It would not replace Raspberry Pi's configuration, if any function does not work as expected use ssh terminal to upgrade."
-msgstr "树莓派将不会取代任何配置，如果不按预期工作的功能，使用SSH来更新终端."
-
-#: ../templates/setup/setup.html:76
+#: ../templates/setup/setup.html:96
 msgid "Italian"
 msgstr "意大利"
 
-#: ../templates/profile/edit.html:205
+#: ../templates/setup/setup.html:94
+msgid "Japanese"
+msgstr ""
+
+#: ../templates/profile/edit.html:232
 msgid "Jump After Number of Layers"
 msgstr "跳到层号"
 
-#: ../templates/profile/edit.html:210
+#: ../templates/profile/edit.html:239
 msgid "Jump Height"
 msgstr "跳跃高度"
 
-#: ../templates/setup/setup.html:506
-msgid "LCD Type"
-msgstr "LCD 类型"
-
-#: ../templates/setup/setup.html:370
+#: ../templates/setup/setup.html:521
 msgid "Lamp Brightness"
 msgstr "灯的亮度"
 
-#: ../templates/setup/setup.html:72
+#: ../templates/setup/setup.html:89
 msgid "Language"
 msgstr "语言"
 
-#: ../templates/plate/preview.html:30
+#: ../templates/plate/preview.html:73
 msgid "Largest Area"
 msgstr "最大面积"
 
-#: ../templates/setup/setup.html:67
+#: ../templates/setup/setup.html:83
 msgid "Laser"
-msgstr ""
+msgstr "激光器"
 
-#: ../templates/profile/edit.html:360
+#: ../templates/profile/edit.html:411
 msgid "Laser Code"
-msgstr ""
+msgstr "激光编码"
 
-#: ../templates/calibration/z-calibration.html:102 ../templates/index.html:169
-#: ../templates/index.html:43 ../templates/plate/plates.html:157
-#: ../templates/plate/preview.html:24
+#: ../templates/calibration/z-calibration.html:104 ../templates/index.html:222
+#: ../templates/index.html:79 ../templates/plate/plates.html:207
+#: ../templates/plate/preview.html:67
 msgid "Layer"
 msgstr "层"
 
-#: ../templates/plate/plates.html:143
+#: ../templates/plate/plates.html:180
 msgid "Layer ID"
 msgstr "层 ID"
 
-#: ../templates/profile/edit.html:101 ../templates/profile/edit.html:48
 #: ../templates/profile/profiles.html:8
 msgid "Layer Thickness"
 msgstr "层厚度"
 
-#: ../templates/plate/plates.html:144 ../templates/profile/edit.html:310
-#: ../templates/profile/edit.html:317
+#: ../templates/plate/plates.html:181 ../templates/profile/edit.html:326
+#: ../templates/profile/edit.html:336
 msgid "Layers"
 msgstr "层"
 
-#: ../templates/setup/setup.html:465
+#: ../templates/setup/setup.html:657
 msgid "Leadscrew Pitch"
 msgstr "丝杆螺距"
 
-#: ../templates/setup/setup.html:327
+#: ../templates/setup/setup.html:459
 msgid "Lens Barrel Factor"
-msgstr ""
+msgstr "透镜筒系数"
 
-#: ../templates/index.html:168
+#: ../templates/index.html:221
 msgid "Level"
 msgstr "水平"
 
-#: ../templates/index.html:81 ../templates/profile/edit.html:163
+#: ../templates/index.html:117
 msgid "Lift"
-msgstr ""
+msgstr "提高"
 
-#: ../templates/profile/edit.html:131 ../templates/profile/edit.html:80
+#: ../templates/profile/edit.html:137
 msgid "Lift After Print"
 msgstr "提后打印"
 
-#: ../templates/index.html:82
+#: ../templates/index.html:118
 msgid "Lift Wait"
-msgstr ""
+msgstr "提高等待"
 
-#: ../templates/setup/setup.html:422
+#: ../templates/setup/setup.html:595
 msgid "Light Output Formula"
 msgstr "光输出方案"
 
 #: ../templates/calibration/mask-generator.html:27
-#: ../templates/profile/edit.html:230
+#: ../templates/profile/edit.html:262
 msgid "Light Source Color"
 msgstr "光源颜色"
 
@@ -955,18 +1044,23 @@ msgstr "本地面板密码保护"
 msgid "Login"
 msgstr "登陆"
 
-#: ../templates/setup/setup.html:141 ../templates/setup/setup.html:159
-#: ../templates/setup/setup.html:540
+#: ../templates/setup/setup.html:183 ../templates/setup/setup.html:211
+#: ../templates/setup/setup.html:761
 msgid "Low"
 msgstr "低"
 
-#: ../templates/profile/edit.html:222
+#: ../templates/profile/edit.html:254
 msgid "Low Quality Cure Time"
 msgstr "低品质固化时间"
 
+#: ../templates/profile/edit.html:146 ../templates/profile/edit.html:401
+#: ../templates/profile/edit.html:97
+msgid "MM"
+msgstr "毫米"
+
 #: ../templates/menu.html:21
 msgid "Machine Settings"
-msgstr ""
+msgstr "机器设置"
 
 #: ../templates/import.html:49
 msgid "Machine Settings and Profiles Repository"
@@ -976,15 +1070,19 @@ msgstr "机器设置和配置文件库"
 msgid "Making any change will automatically discard the previous calibration plate."
 msgstr "作出任何更改将自动丢弃先前的校准盘."
 
-#: ../templates/setup/setup.html:256
+#: ../templates/setup/setup.html:339
 msgid "Manual Movement Code Template"
-msgstr ""
+msgstr "手动移动代码模板"
 
-#: ../templates/profile/edit.html:422
+#: ../templates/setup/password.html:50
+msgid "Manufacturer Settings"
+msgstr "制造商设置"
+
+#: ../templates/profile/edit.html:469
 msgid "Mask File"
 msgstr "掩模文件"
 
-#: ../templates/plate/edit.html:65
+#: ../templates/plate/edit.html:80
 msgid "Mask File (PNG)"
 msgstr "掩模文件 (PNG)"
 
@@ -1008,7 +1106,7 @@ msgstr "掩模预览"
 msgid "Mask file effects only STL/SLC/SVG files uploaded after mask submit"
 msgstr "上传提交的掩膜文件仅影响 STL SLC / SVG 文件"
 
-#: ../templates/setup/setup.html:444
+#: ../templates/setup/setup.html:622
 msgid "Max Speed"
 msgstr "最大速度"
 
@@ -1022,30 +1120,30 @@ msgstr "测量 Z 轴长度 ⇧"
 
 #: ../templates/plate/generator.html:36
 msgid "Measurement Cube Height"
-msgstr ""
+msgstr "测量立方体高度"
 
 #: ../templates/plate/generator.html:32
 msgid "Measurement Cube Width"
-msgstr ""
+msgstr "测量立方体宽度"
 
 #: ../templates/calibration/mask-generator.html:66
 msgid "Measurement Mode"
-msgstr ""
+msgstr "测量方式"
 
 #: ../templates/calibration/mask-generator.html:23
 msgid "Measurement Point Width"
 msgstr "测量点宽度"
 
-#: ../templates/index.html:148
+#: ../templates/index.html:199
 msgid "Memory"
 msgstr "内存"
 
-#: ../templates/profile/edit.html:403 ../templates/profile/edit.html:410
+#: ../templates/profile/edit.html:446 ../templates/profile/edit.html:454
 #: ../templates/profile/profiles.html:8
 msgid "Micron"
 msgstr "微米"
 
-#: ../templates/setup/setup.html:461
+#: ../templates/setup/setup.html:651
 msgid "Microstep"
 msgstr "细分"
 
@@ -1053,18 +1151,18 @@ msgstr "细分"
 #: ../templates/calibration/z-calibration.html:15
 #: ../templates/plate/extrude.html:39 ../templates/plate/generator.html:17
 #: ../templates/plate/generator.html:32 ../templates/plate/generator.html:36
-#: ../templates/plate/generator.html:40 ../templates/profile/edit.html:164
-#: ../templates/profile/edit.html:187 ../templates/profile/edit.html:211
-#: ../templates/profile/edit.html:81 ../templates/setup/setup.html:432
-#: ../templates/setup/setup.html:436 ../templates/setup/setup.html:465
+#: ../templates/plate/generator.html:40 ../templates/profile/edit.html:181
+#: ../templates/profile/edit.html:216 ../templates/profile/edit.html:240
+#: ../templates/profile/edit.html:81 ../templates/setup/setup.html:605
+#: ../templates/setup/setup.html:613 ../templates/setup/setup.html:657
 msgid "Millimeter"
 msgstr "毫米"
 
-#: ../templates/setup/setup.html:298
+#: ../templates/setup/setup.html:411
 msgid "Millisecond"
 msgstr " 毫秒 "
 
-#: ../templates/setup/setup.html:448
+#: ../templates/setup/setup.html:630
 msgid "Min Speed"
 msgstr "最小速度"
 
@@ -1072,60 +1170,56 @@ msgstr "最小速度"
 msgid "Min for Number Input"
 msgstr "最小输入数"
 
-#: ../templates/setup/setup.html:340
+#: ../templates/setup/setup.html:481
 msgid "Mirror Layers"
-msgstr ""
+msgstr "镜像层"
 
-#: ../templates/index.html:171
+#: ../templates/index.html:224
 msgid "Module"
 msgstr "模块"
 
-#: ../templates/setup/setup.html:441
-msgid "Motor"
-msgstr ""
-
-#: ../templates/profile/edit.html:176
-msgid "Motor Speed"
-msgstr "电机速度"
-
-#: ../templates/setup/setup.html:452
+#: ../templates/setup/setup.html:636
 msgid "Motor Startup Speed"
 msgstr "电机启动速度"
 
-#: ../templates/setup/setup.html:456
+#: ../templates/setup/setup.html:643
 msgid "Motor Step Angle"
 msgstr "电机步进角"
 
-#: ../templates/calibration/z-calibration.html:58
+#: ../templates/calibration/z-calibration.html:60
 msgid "Move"
 msgstr "移动"
 
-#: ../templates/calibration/z-calibration.html:107
-#: ../templates/plate/preview.html:42
+#: ../templates/calibration/z-calibration.html:109
+#: ../templates/plate/preview.html:85
 msgid "Move to Layer"
 msgstr "移动到层"
 
-#: ../templates/plate/preview.html:54
+#: ../templates/plate/preview.html:97
 msgid "Move to Position"
 msgstr "移动到位置"
 
-#: ../templates/calibration/z-calibration.html:89
+#: ../templates/calibration/z-calibration.html:91
 msgid "Move to layer"
 msgstr "移动到层"
 
-#: ../templates/setup/setup.html:117
-msgid "Movement GPIOs"
-msgstr "运动 GPIOs"
-
-#: ../templates/setup/setup.html:208
+#: ../templates/setup/setup.html:269
 msgid "Movement Positioning"
 msgstr "运动点"
 
-#: ../templates/setup/custom-inputs.html:45
+#: ../templates/profile/edit.html:401
+msgid "Multi Print Gap"
+msgstr "多重打印间隙"
+
+#: ../templates/plate/edit.html:60
+msgid "Multiple Print"
+msgstr "多重打印"
+
+#: ../templates/profile/edit.html:24 ../templates/setup/custom-inputs.html:45
 msgid "Name"
 msgstr "名称"
 
-#: ../templates/setup/custom-buttons.html:37
+#: ../templates/setup/custom-buttons.html:36
 msgid "Name / Color"
 msgstr "名称 / 颜色"
 
@@ -1133,21 +1227,26 @@ msgstr "名称 / 颜色"
 msgid "Name without space, only characters"
 msgstr "名称不能有空格,只能是字符"
 
-#: ../templates/menu.html:48
+#: ../templates/menu.html:49
 msgid "New Version Available"
 msgstr "可用新版本"
 
-#: ../templates/setup/setup.html:148
+#: ../templates/setup/setup.html:706
+msgid "Nextion Display Port Address"
+msgstr "Nextion端口显示地址"
+
+#: ../templates/setup/setup.html:194
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: ../templates/setup/wireless.html:44
 msgid "No Encryption"
 msgstr "未加密"
 
-#: ../templates/plate/plates.html:168
+#: ../templates/plate/advanced-plates.html:124
+#: ../templates/plate/plates.html:218
 msgid "No Plates"
-msgstr "没有板型"
+msgstr "没有模型"
 
 #: ../templates/profile/profiles.html:40
 msgid "No Profile"
@@ -1157,17 +1256,25 @@ msgstr "没有配置"
 msgid "No wireless connection found"
 msgstr "未找到无线连接"
 
-#: ../templates/profile/edit.html:97
-msgid "Normal Layers"
-msgstr "普通层"
+#: ../templates/setup/setup.html:439
+msgid "Non-Standard Monochrome"
+msgstr "非标准单色"
 
-#: ../templates/setup/setup.html:508
+#: ../templates/setup/setup.html:438
+msgid "Normal"
+msgstr "正常"
+
+#: ../templates/profile/edit.html:113
+msgid "Normal Layer Cure Time"
+msgstr "正常层固化时间"
+
+#: ../templates/profile/edit.html:104
+msgid "Normal Layer Thickness"
+msgstr "正常层厚度"
+
+#: ../templates/setup/setup.html:722
 msgid "Not Available"
 msgstr "不可用"
-
-#: ../templates/setup/setup.html:182
-msgid "Not required, if you are using GPIOs to drive the 3d printer."
-msgstr "不需要，如果你正在使用GPIO驱动3D打印机."
 
 #: ../templates/setup/custom-inputs.html:13
 msgid "Note Text"
@@ -1178,13 +1285,13 @@ msgid "Number"
 msgstr "号码"
 
 #: ../templates/profile/edit.html:41
-msgid "Number of Layers"
-msgstr "层号"
+msgid "Number of Burin-in Layers"
+msgstr "层数"
 
-#: ../templates/plate/edit.html:59 ../templates/plate/extrude.html:48
-#: ../templates/profile/edit.html:216
+#: ../templates/plate/edit.html:74 ../templates/plate/extrude.html:48
+#: ../templates/profile/edit.html:247
 msgid "Number of Low Quality Layers"
-msgstr "低品质层号"
+msgstr "低质量层数"
 
 #: ../templates/calibration/mask-generator.html:19
 msgid "Number of Points in Height"
@@ -1194,105 +1301,109 @@ msgstr "高度点数"
 msgid "Number of Points in Width"
 msgstr "宽度点数"
 
-#: ../templates/profile/edit.html:252 ../templates/profile/edit.html:282
+#: ../templates/profile/edit.html:283 ../templates/profile/edit.html:317
 msgid "Off"
-msgstr "off"
+msgstr "关"
 
-#: ../templates/setup/setup.html:487
+#: ../templates/plate/edit.html:65
+msgid "Offset Lowest Point for Slicing"
+msgstr "切片的偏移最低点"
+
+#: ../templates/setup/setup.html:685
 msgid "Once Per 10 Layers"
 msgstr "每十层一次"
 
-#: ../templates/setup/setup.html:484
+#: ../templates/setup/setup.html:679
 msgid "Once Per 2 Layers"
 msgstr "每两层一次"
 
-#: ../templates/setup/setup.html:485
+#: ../templates/setup/setup.html:681
 msgid "Once Per 3 Layers"
 msgstr "每三层一次"
 
-#: ../templates/setup/setup.html:486
+#: ../templates/setup/setup.html:683
 msgid "Once Per 5 Layers"
 msgstr "每五层一次"
 
-#: ../templates/setup/setup.html:483
+#: ../templates/setup/setup.html:678
 msgid "Once Per Layer"
 msgstr "每层一次"
 
-#: ../templates/setup/password.html:42
+#: ../templates/setup/password.html:41
 msgid "Online Access Key"
 msgstr "在线访问码"
 
 #: ../templates/calibration/mask-generator.html:69
 msgid "Only Display Point"
-msgstr ""
+msgstr "仅显示点"
 
-#: ../templates/setup/setup.html:493
+#: ../templates/setup/setup.html:694
 msgid "Only Last Image"
 msgstr "仅最后图像"
 
-#: ../templates/setup/setup.html:482
+#: ../templates/setup/setup.html:677
 msgid "Only Manually"
 msgstr "仅手动功能"
 
-#: ../templates/setup/setup.html:108
+#: ../templates/setup/setup.html:134
 msgid "Open Before Each Layer"
-msgstr ""
+msgstr "在每层之前打开"
 
-#: ../templates/setup/setup.html:109
+#: ../templates/setup/setup.html:136
 msgid "Open Before Print"
-msgstr ""
+msgstr "打印前打开"
 
-#: ../templates/plate/edit.html:55 ../templates/plate/edit.html:59
+#: ../templates/plate/edit.html:69 ../templates/plate/edit.html:74
 msgid "Optional"
 msgstr "可选"
 
-#: ../templates/plate/edit.html:65
+#: ../templates/plate/edit.html:80
 msgid "Optional, override global mask"
-msgstr "可选,覆盖全局掩码"
+msgstr "可选,覆盖全局掩膜"
 
 #: ../templates/setup/custom-buttons.html:10
 msgid "Orange"
 msgstr "橙"
 
-#: ../templates/setup/setup.html:575
+#: ../templates/setup/setup.html:818
 msgid "Other Settings"
 msgstr "其它设置"
 
-#: ../templates/profile/edit.html:290
-msgid "Outer Wall"
-msgstr "外墙"
+#: ../templates/profile/edit.html:345
+msgid "Outer Wall Thickness"
+msgstr "外壁厚度"
 
-#: ../templates/profile/edit.html:381
-msgid "Override Machine Level Settings"
-msgstr "重写机器层设置"
+#: ../templates/plate/preview.html:55
+msgid "Overhang areas on layers:"
+msgstr "层上的悬空区域:"
 
-#: ../templates/profile/edit.html:396
+#: ../templates/profile/edit.html:439
 msgid "Override Print Stop GCode"
 msgstr "重写打印停止GCode"
 
-#: ../templates/profile/edit.html:390
+#: ../templates/profile/edit.html:432
 msgid "Override Resume Print GCode"
 msgstr "重写返回打印 GCode"
 
-#: ../templates/profile/edit.html:385
+#: ../templates/profile/edit.html:425
 msgid "Override Start of Print GCode"
 msgstr "重写开始打印 GCode"
 
-#: ../templates/profile/edit.html:402
+#: ../templates/profile/edit.html:445
 msgid "Override X Resolution"
-msgstr ""
+msgstr "覆盖X分辨率"
 
-#: ../templates/profile/edit.html:409
+#: ../templates/profile/edit.html:453
 msgid "Override Y Resolution"
-msgstr ""
+msgstr "覆盖Y分辨率"
 
 #: ../templates/plate/extrude.html:23
 msgid "PNG/JPEG File"
 msgstr "PNG/JPEG 文件"
 
-#: ../templates/plate/plates.html:181
+#: ../templates/plate/plates.html:231
 msgid "Paint"
-msgstr "油漆"
+msgstr "涂层"
 
 #: ../templates/setup/wireless.html:27
 msgid "Password"
@@ -1302,6 +1413,10 @@ msgstr "密码"
 msgid "Password Protection"
 msgstr "密码保护"
 
+#: ../templates/setup/password.html:54
+msgid "Password Protection for Manufacturer Settings"
+msgstr "制造商设置的密码保护"
+
 #: ../templates/setup/password.html:11
 msgid "Password for Admin"
 msgstr "管理员密码"
@@ -1310,12 +1425,12 @@ msgstr "管理员密码"
 msgid "Password for Dashboard"
 msgstr "仪表盘密码"
 
-#: ../templates/profile/edit.html:26
+#: ../templates/profile/edit.html:30
 msgid "Per Litre"
 msgstr "每升"
 
-#: ../templates/plate/edit.html:69 ../templates/profile/edit.html:417
-#: ../templates/setup/setup.html:370 ../templates/setup/setup.html:422
+#: ../templates/plate/edit.html:84 ../templates/profile/edit.html:462
+#: ../templates/setup/setup.html:521 ../templates/setup/setup.html:595
 msgid "Percentage"
 msgstr "百分比"
 
@@ -1383,25 +1498,21 @@ msgstr "物理 7, BCM 4"
 msgid "Physical 8, BCM 14"
 msgstr "物理 8, BCM 14"
 
-#: ../templates/setup/setup.html:527
-msgid "Physical Buttons"
-msgstr "物理按钮"
-
-#: ../templates/plate/plates.html:190
+#: ../templates/plate/plates.html:240
 msgid "Pillars:"
 msgstr "支柱:"
 
 #: ../templates/calibration/mask-generator.html:54
-#: ../templates/setup/setup.html:332 ../templates/setup/setup.html:336
+#: ../templates/setup/setup.html:467 ../templates/setup/setup.html:474
 msgid "Pixel"
 msgstr "像素 "
 
-#: ../templates/profile/edit.html:246
-msgid "Pixel Dimming"
-msgstr "像素调光"
+#: ../templates/profile/edit.html:280
+msgid "Pixel Dimming Type"
+msgstr "像素调光类型"
 
-#: ../templates/profile/edit.html:291 ../templates/profile/edit.html:299
-#: ../templates/profile/edit.html:324
+#: ../templates/profile/edit.html:346 ../templates/profile/edit.html:356
+#: ../templates/profile/edit.html:366
 msgid "Pixels"
 msgstr "像素"
 
@@ -1409,135 +1520,145 @@ msgstr "像素"
 msgid "Placeholder Text"
 msgstr "占位符文本"
 
-#: ../templates/calibration/z-calibration.html:93
-#: ../templates/plate/plates.html:33
+#: ../templates/calibration/z-calibration.html:95
+#: ../templates/plate/advanced-plates.html:21 ../templates/plate/plates.html:52
+#: ../templates/plate/preview.html:6
 msgid "Plate"
-msgstr "板型"
+msgstr "模型"
 
 #: ../templates/plate/extrude.html:39 ../templates/plate/generator.html:17
 msgid "Plate Depth"
-msgstr "板型厚度"
+msgstr "模型厚度"
 
 #: ../templates/plate/edit.html:25
 msgid "Plate File"
-msgstr "板型文件"
+msgstr "模型文件"
 
 #: ../templates/plate/extrude.html:12 ../templates/plate/generator.html:5
-#: ../templates/plate/plates.html:176
+#: ../templates/plate/plates.html:226
 msgid "Plate Generator"
-msgstr "板型生成"
+msgstr "模型生成"
 
 #: ../templates/plate/edit.html:33 ../templates/plate/extrude.html:16
 msgid "Plate Name"
-msgstr "板型名称"
+msgstr "模型名称"
 
-#: ../templates/plate/plates.html:51
+#: ../templates/plate/plates.html:266
+msgid "Plate Size"
+msgstr "模型尺寸"
+
+#: ../templates/plate/plates.html:88
+msgid "Plate contains overhang areas."
+msgstr "模型包含悬空区域"
+
+#: ../templates/plate/advanced-plates.html:39 ../templates/plate/plates.html:75
 msgid "Plate generated using old profile data."
 msgstr "使用老配置数据生成面板"
 
 #: ../templates/menu.html:12 ../templates/plate/plates.html:5
 msgid "Plates"
-msgstr "板型"
-
-#: ../templates/setup/setup.html:429
-msgid "Platform / Resin"
-msgstr "平台 / 树脂"
+msgstr "模型"
 
 #: ../templates/calibration/z-calibration.html:5
 msgid "Platform Information"
 msgstr "平台信息"
 
-#: ../templates/setup/setup.html:432
+#: ../templates/setup/setup.html:605
 msgid "Platform Wait Position"
 msgstr "平台等待位置"
 
-#: ../templates/setup/setup.html:555
+#: ../templates/setup/setup.html:774
 msgid "Play Sound After Print Stop"
 msgstr "打印停止后播放声音"
 
 #: ../templates/setup/distro.html:9
 msgid "Please choose a distribution. Mask, default setting files and etc will be deployed."
-msgstr "请选择一个分布。将部署掩码、默认设置文件等."
+msgstr "请选择一个分布。将部署掩膜、默认设置文件等."
 
 #: ../templates/plate/extrude.html:7
 msgid "Please upload an image with the same width and height as your projector's native resolution."
 msgstr "请上传与您的投影机的本机分辨率相同的宽度和高度的图像"
 
-#: ../templates/setup/custom-buttons.html:38
+#: ../templates/setup/custom-buttons.html:37
 msgid "Position / Condition"
 msgstr "位置 / 条件"
 
-#: ../templates/setup/tools.html:16
+#: ../templates/setup/tools.html:24
 msgid "Power Off"
 msgstr "电源关闭"
 
-#: ../templates/setup/setup.html:395
+#: ../templates/setup/setup.html:557
 msgid "Power-Up on Start / Power-Down on Last Layer"
-msgstr "开始启动 / 打完断电"
+msgstr "启动时通电/最后一层断电"
 
-#: ../templates/setup/setup.html:394
+#: ../templates/setup/setup.html:556
 msgid "Power-Up on Start / Power-Down on Shutdown"
-msgstr "开始启动 / 打完关机"
+msgstr "启动时通电/关机时断电"
 
-#: ../templates/setup/setup.html:393
+#: ../templates/setup/setup.html:555
 msgid "Power-Up on Start / Power-Down on Stop"
-msgstr "开始启动 / 打完停止"
+msgstr "启动时通电/停止时断电"
 
 #: ../templates/calibration/mask-generator.html:32
-#: ../templates/plate/plates.html:34
+#: ../templates/plate/advanced-plates.html:22 ../templates/plate/plates.html:53
 msgid "Preview"
 msgstr "预览"
 
-#: ../templates/plate/preview.html:4
-msgid "Preview Layers of Plate"
-msgstr "板型预览层"
+#: ../templates/plate/plates.html:197
+msgid "Print After Sliced"
+msgstr "切片后打印"
 
-#: ../templates/setup/setup.html:251
+#: ../templates/plate/plates.html:192
+msgid "Print Now"
+msgstr "立即打印"
+
+#: ../templates/setup/setup.html:332
 msgid "Print Stop Code"
-msgstr ""
+msgstr "打印停止代码"
 
-#: ../templates/plate/plates.html:63
+#: ../templates/plate/advanced-plates.html:51 ../templates/plate/plates.html:99
 msgid "Print Time"
 msgstr "打印时间"
 
-#: ../templates/setup/setup.html:50
+#: ../templates/setup/setup.html:73
 msgid "Printer Name"
 msgstr "打印名称"
 
-#: ../templates/setup/setup.html:44
-msgid "Printer Settings"
-msgstr ""
+#: ../templates/setup/setup.html:79
+msgid "Printer Type"
+msgstr "打印机类型"
 
-#: ../templates/plate/plates.html:37 ../templates/setup/custom-buttons.html:23
+#: ../templates/plate/advanced-plates.html:25 ../templates/plate/plates.html:56
+#: ../templates/setup/custom-buttons.html:23
 msgid "Printing"
 msgstr "打印中"
 
-#: ../templates/index.html:135
+#: ../templates/index.html:186
 msgid "Proc"
 msgstr "Proc"
-
-#: ../templates/plate/plates.html:128
-msgid "Processing. You can start printing."
-msgstr "处理中,你可以开始打印了."
 
 #: ../templates/plate/edit.html:38 ../templates/plate/extrude.html:28
 #: ../templates/plate/generator.html:9
 msgid "Profile"
 msgstr "配置"
 
-#: ../templates/plate/plates.html:54
+#: ../templates/plate/advanced-plates.html:42 ../templates/plate/plates.html:80
 msgid "Profile not found."
 msgstr "配置没找到"
 
-#: ../templates/index.html:112
+#: ../templates/plate/preview.html:9
+msgid "Project Layer"
+msgstr "投射图层"
+
+#: ../templates/index.html:160
 msgid ""
 "Projector\n"
-"\t\t\t\t\tOff"
+"\t\t\t\tOff"
 msgstr ""
 
-#: ../templates/setup/setup.html:66
+#: ../templates/setup/setup.html:82
 msgid "Projector / LCD"
-msgstr ""
+msgstr "投影仪/LCD"
 
 #: ../templates/menu.html:20 ../templates/setup/custom-buttons.html:18
 msgid "Projector Calibration"
@@ -1556,8 +1677,12 @@ msgstr "投影机关闭"
 msgid "Projector Turn On"
 msgstr "投影机打开"
 
+#: ../templates/setup/setup.html:532
+msgid "Projector USB/Serial Port Address"
+msgstr "投影仪USB/串行端口地址"
+
 #: ../templates/calibration/z-calibration.html:16
-#: ../templates/setup/setup.html:469
+#: ../templates/setup/setup.html:665
 msgid "Pulse"
 msgstr "脉冲"
 
@@ -1565,19 +1690,23 @@ msgstr "脉冲"
 msgid "Quality"
 msgstr "品质"
 
-#: ../templates/setup/setup.html:366
+#: ../templates/setup/setup.html:514
 msgid "Query Lamp Hours"
 msgstr "查询灯时间"
 
 #: ../templates/menu.html:22
 msgid "RAMPS Terminal"
-msgstr ""
+msgstr "RAMPS终端"
 
-#: ../templates/menu.html:33
+#: ../templates/menu.html:34
 msgid "RAMPS: Reconnect"
 msgstr "RAMPS: 重新连接"
 
-#: ../templates/plate/plates.html:188
+#: ../templates/calibration/z-calibration.html:52
+msgid "Record Current Height as Axis Height"
+msgstr "将当前高度记录为轴高度"
+
+#: ../templates/plate/plates.html:238
 msgid "Rect:"
 msgstr "矩形.:"
 
@@ -1585,23 +1714,28 @@ msgstr "矩形.:"
 msgid "Red"
 msgstr "红"
 
-#: ../templates/plate/plates.html:112
+#: ../templates/plate/advanced-plates.html:100
+#: ../templates/plate/plates.html:154
 msgid "Regenerate"
-msgstr ""
+msgstr "重新生成"
 
-#: ../templates/setup/setup.html:210
+#: ../templates/setup/setup.html:272
 msgid "Relative"
 msgstr "相对"
 
-#: ../templates/index.html:53
+#: ../templates/setup/tools.html:30
+msgid "Reload NanoDLP"
+msgstr "重新加载NanoDLP"
+
+#: ../templates/index.html:89
 msgid "Remaining"
 msgstr "剩余"
 
-#: ../templates/setup/password.html:38
+#: ../templates/setup/password.html:37
 msgid "Remote Access to the printer"
 msgstr "远程接入打印"
 
-#: ../templates/setup/setup.html:563
+#: ../templates/setup/setup.html:784
 msgid "Remote Slicer"
 msgstr "远程切片"
 
@@ -1615,25 +1749,26 @@ msgstr "移除掩模"
 
 #: ../templates/calibration/mask-generator.html:50
 msgid "Reset Grid"
-msgstr ""
+msgstr "重置网格"
 
 #: ../templates/calibration/mask-generator.html:49
 msgid "Reset Grid Values"
-msgstr ""
+msgstr "重置网格值"
 
-#: ../templates/setup/setup.html:145
+#: ../templates/setup/setup.html:189
 msgid "Reset Position on Limit"
-msgstr ""
+msgstr "复位限位"
 
-#: ../templates/plate/plates.html:71
+#: ../templates/plate/advanced-plates.html:59
+#: ../templates/plate/plates.html:107
 msgid "Resin Cost"
 msgstr "树脂成本"
 
-#: ../templates/setup/setup.html:436
+#: ../templates/setup/setup.html:613
 msgid "Resin Depth"
 msgstr "树脂深度"
 
-#: ../templates/profile/edit.html:25
+#: ../templates/profile/edit.html:29
 msgid "Resin Price"
 msgstr "树脂价格"
 
@@ -1645,82 +1780,93 @@ msgstr "树脂简介"
 msgid "Resin Settings"
 msgstr "树脂设置"
 
-#: ../templates/plate/plates.html:67
+#: ../templates/plate/advanced-plates.html:55
+#: ../templates/plate/plates.html:103
 msgid "Resin Usage"
-msgstr "树脂的使用"
+msgstr "树脂使用"
 
-#: ../templates/setup/tools.html:19
-msgid "Restart"
-msgstr "重新开始"
+#: ../templates/setup/tools.html:27
+msgid "Restart Printer"
+msgstr "重新启动打印机"
 
-#: ../templates/setup/setup.html:227 ../templates/setup/setup.html:506
-#: ../templates/setup/setup.html:551
+#: ../templates/setup/setup.html:296 ../templates/setup/setup.html:719
+#: ../templates/setup/setup.html:768
 msgid "Restart Required"
 msgstr "需要重新启动"
 
-#: ../templates/setup/tools.html:26
-msgid "Restore Default Settings of Machine/Profiles/Buttons"
-msgstr "从/配置文件/按钮恢复默认设置 "
+#: ../templates/setup/restore.html:3
+msgid "Restore Backup"
+msgstr "恢复备份"
+
+#: ../templates/setup/restore.html:5 ../templates/setup/tools.html:16
+msgid "Restore Backup File"
+msgstr "还原备份文件"
+
+#: ../templates/setup/tools.html:11
+msgid "Restore Default Settings"
+msgstr "恢复默认设置"
 
 #: ../templates/import.html:30
 msgid "Restore Machine Settings"
 msgstr "恢复机器设置"
 
-#: ../templates/plate/plates.html:148
-msgid "Resume Print"
-msgstr ""
+#: ../templates/plate/plates.html:186
+msgid "Resume"
+msgstr "继续"
 
-#: ../templates/setup/setup.html:246
+#: ../templates/setup/setup.html:324
 msgid "Resume Print Code"
-msgstr ""
+msgstr "继续打印代码"
 
-#: ../templates/plate/edit.html:78 ../templates/profile/edit.html:348
+#: ../templates/plate/edit.html:93 ../templates/profile/edit.html:396
 msgid "Rotate 90°"
 msgstr "旋转 90º"
 
-#: ../templates/plate/edit.html:74 ../templates/profile/edit.html:345
+#: ../templates/plate/edit.html:89 ../templates/profile/edit.html:392
 msgid "Rotate Layers"
 msgstr "旋转层"
 
-#: ../templates/setup/setup.html:80
+#: ../templates/setup/setup.html:99
 msgid "Russian"
-msgstr ""
+msgstr "俄语"
 
 #: ../templates/setup/wireless.html:25
 msgid "SSID"
 msgstr "SSID"
 
 #: ../templates/plate/edit.html:25
-msgid "STL, SLC, SVG or Zip (PNG Files)"
-msgstr "STL, SLC, SVG 或 Zip (PNG 文件)"
+msgid "STL, OBJ, SLC, SVG, NanoDLP or Zip (PNG Files)"
+msgstr "STL, OBJ, SLC, SVG, NanoDLP or Zip (PNG Files)"
 
-#: ../templates/plate/edit.html:76
+#: ../templates/plate/edit.html:91
 msgid "Same as Profile"
 msgstr "相同的轮廓"
 
-#: ../templates/setup/password.html:36 ../templates/setup/password.html:49
+#: ../templates/profile/edit.html:480 ../templates/setup/password.html:35
+#: ../templates/setup/password.html:48 ../templates/setup/password.html:62
+#: ../templates/setup/setup.html:812
 msgid "Save"
 msgstr "保存"
 
 #: ../templates/calibration/mask-generator.html:60
 msgid "Save Mask"
-msgstr ""
+msgstr "保存掩膜"
 
 #: ../templates/calibration/z-calibration.html:42
 msgid "Save Z Axis Calibration"
 msgstr "保存 Z 轴校准"
 
-#: ../templates/plate/plates.html:15
+#: ../templates/plate/advanced-plates.html:9 ../templates/plate/plates.html:31
 msgid "Search Plates"
-msgstr "搜索板型"
+msgstr "搜索模型"
 
-#: ../templates/profile/edit.html:108 ../templates/profile/edit.html:115
-#: ../templates/profile/edit.html:123 ../templates/profile/edit.html:138
-#: ../templates/profile/edit.html:152 ../templates/profile/edit.html:170
-#: ../templates/profile/edit.html:223 ../templates/profile/edit.html:56
-#: ../templates/profile/edit.html:64 ../templates/profile/edit.html:73
-#: ../templates/profile/edit.html:88 ../templates/profile/profiles.html:9
-#: ../templates/setup/setup.html:362
+#: ../templates/profile/edit.html:114 ../templates/profile/edit.html:122
+#: ../templates/profile/edit.html:130 ../templates/profile/edit.html:154
+#: ../templates/profile/edit.html:190 ../templates/profile/edit.html:199
+#: ../templates/profile/edit.html:255 ../templates/profile/edit.html:57
+#: ../templates/profile/edit.html:65 ../templates/profile/edit.html:73
+#: ../templates/profile/edit.html:89 ../templates/profile/profiles.html:9
+#: ../templates/setup/setup.html:506
 msgid "Second"
 msgstr "秒"
 
@@ -1736,39 +1882,43 @@ msgstr "发送 Gcode"
 msgid "Serial Terminal"
 msgstr "串行终端"
 
-#: ../templates/setup/setup.html:279
+#: ../templates/setup/setup.html:377
 msgid "Servo Motor"
 msgstr "伺服电机"
 
-#: ../templates/setup/setup.html:294
+#: ../templates/setup/setup.html:402
 msgid "Servo Pulse Width - Close"
-msgstr ""
+msgstr "伺服脉冲宽度-关闭"
 
-#: ../templates/setup/setup.html:290
+#: ../templates/setup/setup.html:393
 msgid "Servo Pulse Width - Open"
-msgstr ""
+msgstr "伺服脉冲宽度-打开"
 
-#: ../templates/setup/setup.html:298
+#: ../templates/setup/setup.html:411
 msgid "Servo Signal Length"
 msgstr "伺服信号长度"
+
+#: ../templates/setup/tools.html:6
+msgid "Settings"
+msgstr "设置"
 
 #: ../templates/menu.html:16
 msgid "Setup"
 msgstr "设置"
 
-#: ../templates/profile/edit.html:15 ../templates/setup/setup.html:55
-msgid "Setup Mode"
-msgstr ""
-
-#: ../templates/setup/setup.html:216
+#: ../templates/setup/setup.html:279
 msgid "Shield Axis Direction"
 msgstr "盾构轴线方向"
 
-#: ../templates/setup/setup.html:96
+#: ../templates/setup/setup.html:118
 msgid "Shield Use"
-msgstr ""
+msgstr "防护罩使用"
 
-#: ../templates/setup/setup.html:105 ../templates/setup/setup.html:273
+#: ../templates/setup/setup.html:311
+msgid "Shutdown Code"
+msgstr "关机代码"
+
+#: ../templates/setup/setup.html:130
 msgid "Shutter"
 msgstr "快门"
 
@@ -1776,11 +1926,11 @@ msgstr "快门"
 msgid "Shutter Close"
 msgstr "快门关闭"
 
-#: ../templates/setup/setup.html:266
+#: ../templates/setup/setup.html:363
 msgid "Shutter Close Code"
-msgstr ""
+msgstr "快门关闭代码"
 
-#: ../templates/setup/setup.html:285
+#: ../templates/setup/setup.html:385
 msgid "Shutter GPIO"
 msgstr "快门 GPIO"
 
@@ -1788,67 +1938,68 @@ msgstr "快门 GPIO"
 msgid "Shutter Open"
 msgstr "快门打开"
 
-#: ../templates/setup/setup.html:261
+#: ../templates/setup/setup.html:353
 msgid "Shutter Open Code"
-msgstr ""
+msgstr "快门打开代码"
 
-#: ../templates/setup/setup.html:276
+#: ../templates/setup/setup.html:373
 msgid "Shutter Type"
 msgstr "快门类型"
 
-#: ../templates/profile/edit.html:269
+#: ../templates/profile/edit.html:307
 msgid "Skip Dimming for Early Layers"
 msgstr "跳过早期层调光"
 
-#: ../templates/profile/edit.html:332
-msgid "Slicer Options"
-msgstr "切片机选项"
+#: ../templates/plate/plates.html:165
+msgid "Slicing..."
+msgstr "切片中..."
 
-#: ../templates/profile/edit.html:186
+#: ../templates/plate/advanced-plates.html:107
+msgid "Slicing... (You can start printing)"
+msgstr "切片中。。。（可以开始打印）"
+
+#: ../templates/profile/edit.html:215
 msgid "Slow Section Height"
 msgstr "缓慢的截面高度"
 
-#: ../templates/plate/preview.html:32
+#: ../templates/plate/preview.html:75
 msgid "Smallest Area"
 msgstr "最小面积"
 
-#: ../templates/setup/setup.html:46
+#: ../templates/setup/setup.html:47
 msgid "Some critical settings such as type of the shield and etc, will not take effect in the middle of printing. To change those settings without restart, stop printing and submit this page again."
-msgstr "一些关键的设置，如盾牌的类型等，将不会在打印中期生效。若要在不重新启动的情况下更改这些设置，请停止打印并再次提交此页。."
+msgstr "一些关键设置，如屏蔽类型等，在打印过程中不会生效。若要在不重新启动的情况下更改这些设置，请停止打印并再次提交此页"
 
-#: ../templates/setup/setup.html:77
+#: ../templates/plate/plates.html:84
+msgid "Source file contains faulty triangles."
+msgstr "源文件包含错误三角形"
+
+#: ../templates/setup/setup.html:97
 msgid "Spanish"
-msgstr ""
+msgstr "西班牙"
 
-#: ../templates/profile/edit.html:157
-msgid "Speed"
-msgstr "速度"
-
-#: ../templates/profile/edit.html:193
+#: ../templates/profile/edit.html:223
 msgid "Speed in Slow Section"
 msgstr "慢段速度"
 
-#: ../templates/index.html:107
+#: ../templates/index.html:155
 msgid "Start Display"
 msgstr "开始显示"
 
-#: ../templates/plate/plates.html:150
-msgid "Start Print"
-msgstr ""
-
-#: ../templates/setup/setup.html:242
+#: ../templates/setup/setup.html:317
 msgid "Start of Print Code"
-msgstr ""
+msgstr "开始打印代码"
 
-#: ../templates/setup/setup.html:120
+#: ../templates/setup/setup.html:146
 msgid "Step GPIO for Z-Axis"
 msgstr "Z 轴步进 GPIO"
 
-#: ../templates/setup/setup.html:534
+#: ../templates/setup/setup.html:752
 msgid "Stepper Driver Fault Detection GPIO"
 msgstr "步进驱动器故障检测GPIO"
 
-#: ../templates/plate/edit.html:55 ../templates/plate/plates.html:76
+#: ../templates/plate/advanced-plates.html:64 ../templates/plate/edit.html:69
+#: ../templates/plate/plates.html:112
 msgid "Stop Layers"
 msgstr "停止层"
 
@@ -1856,41 +2007,40 @@ msgstr "停止层"
 msgid "Stop Layers - Comma Seperated"
 msgstr "停止层 – 逗号分割"
 
-#: ../templates/setup/setup.html:528
+#: ../templates/setup/setup.html:746
 msgid "Stop/Shutdown Physical GPIO"
 msgstr "停止/关机 物理 GPIO"
 
-#: ../templates/setup/setup.html:491
+#: ../templates/setup/setup.html:691
 msgid "Storage Mode"
 msgstr "储存模式"
 
-#: ../templates/plate/edit.html:84 ../templates/profile/edit.html:431
-#: ../templates/setup/custom-inputs.html:59 ../templates/setup/setup.html:570
-#: ../templates/setup/setup.html:585
+#: ../templates/plate/edit.html:99 ../templates/setup/custom-inputs.html:59
+#: ../templates/setup/setup.html:832
 msgid "Submit"
 msgstr "提交"
+
+#: ../templates/menu.html:26
+msgid "Support Forum"
+msgstr ""
 
 #: ../templates/plate/generator.html:40
 msgid "Support Padding"
 msgstr ""
 
-#: ../templates/setup/custom-buttons.html:81
+#: ../templates/setup/custom-buttons.html:79
 msgid "Supported Math operations:"
 msgstr "支持数学运算:"
 
-#: ../templates/setup/custom-buttons.html:39
-msgid "Syscall"
-msgstr " 系统调用 "
-
-#: ../templates/setup/setup.html:551
+#: ../templates/setup/setup.html:768
 msgid "TCP Port to Listen"
 msgstr "TCP 端口监听 "
 
-#: ../templates/index.html:119
+#: ../templates/index.html:167
 msgid "Take Photo"
 msgstr "拍照"
 
-#: ../templates/index.html:137
+#: ../templates/index.html:188
 msgid "Temp"
 msgstr "临时"
 
@@ -1898,7 +2048,7 @@ msgstr "临时"
 msgid "Terminate WiFi Connections"
 msgstr "终止 WiFi 连接"
 
-#: ../templates/setup/tools.html:22
+#: ../templates/setup/tools.html:32
 msgid "Terminate nanoDLP"
 msgstr "终止 nanoDLP"
 
@@ -1906,122 +2056,147 @@ msgstr "终止 nanoDLP"
 msgid "Text"
 msgstr "文本"
 
-#: ../templates/index.html:28
-msgid "The 3D printer is idle. Click on 'Plates' menu to start printing."
-msgstr ""
-
-#: ../templates/plate/plates.html:126
+#: ../templates/plate/advanced-plates.html:105
 msgid "The plate is not processed yet."
-msgstr "板型还没有加工"
+msgstr "模型还没有加工"
 
-#: ../templates/setup/setup.html:85
+#: ../templates/setup/upgrade.html:9
+msgid "The process could takes few seconds to minutes depending on the quality of your internet connection."
+msgstr "这个过程可能需要几秒钟到几分钟，这取决于你的互联网连接质量"
+
+#: ../templates/setup/upgrade.html:11
+msgid "The upgrade process would not change your configurations."
+msgstr "升级过程不会更改您的配置"
+
+#: ../templates/setup/setup.html:105
 msgid "Theme"
 msgstr "主题"
 
-#: ../templates/plate/plates.html:85
-msgid "This plate is corrupted."
-msgstr "这个板型坏了"
+#: ../templates/plate/plates.html:121
+msgid "This plate is corrupt."
+msgstr "这个模型坏了"
 
-#: ../templates/plate/preview.html:16
+#: ../templates/plate/advanced-plates.html:73
+msgid "This plate is corrupted."
+msgstr "这个模型坏了"
+
+#: ../templates/plate/preview.html:42
 msgid ""
 "This plate is still being processed, the image of some\n"
 "            layers is still missing."
 msgstr ""
-
-#: ../templates/setup/upgrade.html:9
-msgid "This process could take a few seconds to minutes depending on the quality of your internet connection."
-msgstr "这个过程可能需要几秒钟到几分钟，这取决于Internet连接的质量."
+"此板仍在处理中，一些图像\n"
+"            图层仍然丢失."
 
 #: ../templates/plate/extrude.html:9
 msgid "This process could take up to a minute to complete, depending on the depth."
-msgstr "这一过程可能需要一分钟才能完成，具体取决于深度。."
+msgstr "这一过程可能需要一分钟才能完成，具体取决于深度."
 
-#: ../templates/setup/setup.html:278
+#: ../templates/setup/setup.html:376
 msgid "Through Shield"
-msgstr ""
+msgstr "穿透屏蔽层"
 
-#: ../templates/index.html:170
+#: ../templates/index.html:223
 msgid "Time"
 msgstr "时间"
 
-#: ../templates/profile/edit.html:10 ../templates/profile/profiles.html:7
-#: ../templates/setup/custom-inputs.html:9
+#: ../templates/profile/profiles.html:7 ../templates/setup/custom-inputs.html:9
 msgid "Title"
 msgstr "标题"
 
-#: ../templates/index.html:75
+#: ../templates/index.html:111
 msgid "To Layer"
-msgstr ""
+msgstr "层"
 
-#: ../templates/setup/password.html:47
+#: ../templates/setup/password.html:46
 msgid "To enable the remote access to the printer, please enter random access key"
 msgstr "若要启用对打印机的远程访问，请输入随机访问密钥"
 
-#: ../templates/setup/upgrade.html:13
-msgid "To monitor the process you could checkout the activity log. After completion the Printer will be restarted."
-msgstr "要监视进程，您可以签出活动日志。完成后，打印机将重新启动."
+#: ../templates/setup/upgrade.html:12
+msgid "To monitor the process you could checkout the dashboard activity log."
+msgstr "要监视进程，可以仪表板活动日志查看"
 
-#: ../templates/setup/password.html:32
+#: ../templates/setup/password.html:59
+msgid "To remove manufacturer lock, enter correct password."
+msgstr "要删除制造商锁，请输入正确的密码。"
+
+#: ../templates/setup/password.html:31
 msgid "To remove the password protection, remove the username from the input and submit."
-msgstr "若要删除密码保护，请从输入和提交中删除用户名."
+msgstr "要删除密码保护，请从输入中删除用户名并提交."
 
 #: ../templates/menu.html:3
 msgid "Toggle Navigation"
 msgstr "切换导航"
 
-#: ../templates/menu.html:25
+#: ../templates/plate/preview.html:16
+msgid "Toggle Overhang Areas"
+msgstr "切换悬空区域"
+
+#: ../templates/menu.html:25 ../templates/setup/tools.html:37
 msgid "Tools"
 msgstr "工具"
 
-#: ../templates/profile/edit.html:309
+#: ../templates/profile/edit.html:325
 msgid "Top Cap Wall"
-msgstr "顶盖墙"
+msgstr "顶部限制"
 
-#: ../templates/calibration/z-calibration.html:74
+#: ../templates/calibration/z-calibration.html:76
 msgid "Top ⇧"
 msgstr "上 ⇧"
 
-#: ../templates/plate/preview.html:28
-msgid "Total Solid Area"
-msgstr "总固体区 "
+#: ../templates/index.html:49
+msgid "Total Cure Time"
+msgstr "总共固化时间"
 
-#: ../templates/setup/setup.html:280
+#: ../templates/index.html:37
+msgid "Total Layers Printed"
+msgstr "打印总层数"
+
+#: ../templates/index.html:42
+msgid "Total Plates Printed"
+msgstr "总共打印次数"
+
+#: ../templates/index.html:54
+msgid "Total Print Time"
+msgstr "总共打印时间"
+
+#: ../templates/plate/preview.html:71
+msgid "Total Solid Area"
+msgstr "总共固体面积 "
+
+#: ../templates/setup/setup.html:378
 msgid "True/False Signal"
 msgstr "真/假信号"
 
-#: ../templates/setup/setup.html:79
+#: ../templates/setup/setup.html:98
 msgid "Turkish"
-msgstr ""
+msgstr "土耳其"
 
-#: ../templates/profile/edit.html:280 ../templates/setup/setup.html:64
-msgid "Type"
-msgstr "类型"
-
-#: ../templates/plate/plates.html:9
+#: ../templates/plate/plates.html:16
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
-#: ../templates/setup/setup.html:354
+#: ../templates/setup/setup.html:498
 msgid "USB / Serial Port - ASCII (\\n)"
 msgstr "USB / 串口 - ASCII (\\n)"
 
-#: ../templates/setup/setup.html:353
+#: ../templates/setup/setup.html:497
 msgid "USB / Serial Port - ASCII (\\r)"
-msgstr "USB / 串口 - ASCII (\\r)"
+msgstr "USB / 串口- ASCII (\\r)"
 
-#: ../templates/setup/setup.html:352
+#: ../templates/setup/setup.html:496
 msgid "USB / Serial Port - ASCII (\\r\\n)"
-msgstr "USB / 串口 - ASCII (\\r\\n)"
+msgstr "USB/串口-ASCII（\\r\\n）"
 
-#: ../templates/setup/setup.html:355
+#: ../templates/setup/setup.html:499
 msgid "USB / Serial Port - Binary"
 msgstr "USB / 串口 - Binary"
 
-#: ../templates/setup/setup.html:99
+#: ../templates/setup/setup.html:122
 msgid "USB/Serial"
 msgstr "USB/Serial"
 
-#: ../templates/setup/setup.html:193 ../templates/setup/setup.html:378
+#: ../templates/setup/setup.html:251
 msgid "USB/Serial Port Address"
 msgstr "USB/Serial 端口地址"
 
@@ -2035,33 +2210,41 @@ msgstr "更新灯时间"
 
 #: ../templates/calibration/mask-generator.html:59
 msgid "Update Mask File"
-msgstr ""
+msgstr "更新掩膜文件"
 
-#: ../templates/setup/tools.html:31
+#: ../templates/setup/upgrade.html:6
+msgid "Upgrade from build #{{vers.Current}}"
+msgstr "从生成升级"
+
+#: ../templates/setup/tools.html:42
 msgid "Upgrade nanoDLP"
 msgstr "升级 nanoDLP"
 
-#: ../templates/setup/upgrade.html:16
+#: ../templates/setup/upgrade.html:26
 msgid "Upgrade to the beta version"
 msgstr "升级到测试版"
 
-#: ../templates/setup/upgrade.html:14
+#: ../templates/setup/upgrade.html:21
 msgid "Upgrade to the latest stable version"
 msgstr "升级到最后的稳定版"
 
-#: ../templates/plate/plates.html:179
+#: ../templates/setup/restore.html:8
+msgid "Upload"
+msgstr "上传"
+
+#: ../templates/plate/plates.html:229
 msgid "Upload Image"
 msgstr "上传图像"
 
-#: ../templates/index.html:150
+#: ../templates/index.html:201
 msgid "Uptime"
 msgstr "运行时间"
 
-#: ../templates/setup/custom-buttons.html:64
+#: ../templates/setup/custom-buttons.html:62
 msgid "Usable Keywords:"
 msgstr "使用关键字:"
 
-#: ../templates/profile/edit.html:424
+#: ../templates/profile/edit.html:472
 msgid "Use, If Available"
 msgstr "如果可以用的话"
 
@@ -2075,19 +2258,15 @@ msgstr "仪表盘用户名"
 
 #: ../templates/setup/custom-inputs.html:20
 msgid "Value Type"
-msgstr "值类型"
+msgstr "数值类型"
 
-#: ../templates/setup/setup.html:548
-msgid "Various Settings"
-msgstr "各种设置"
-
-#: ../templates/setup/setup.html:312
+#: ../templates/setup/setup.html:427
 msgid "Vertical Resolution"
 msgstr "垂直分辨率"
 
-#: ../templates/setup/setup.html:344
+#: ../templates/setup/setup.html:486
 msgid "Vertically"
-msgstr ""
+msgstr "垂直方向"
 
 #: ../templates/setup/wireless.html:45
 msgid "WEP"
@@ -2097,66 +2276,69 @@ msgstr "WEP"
 msgid "WPA"
 msgstr "WPA"
 
-#: ../templates/plate/preview.html:56
+#: ../templates/plate/preview.html:99
 msgid "Wait"
 msgstr "稍后"
 
-#: ../templates/index.html:79 ../templates/plate/preview.html:50
+#: ../templates/index.html:115 ../templates/plate/preview.html:93
 msgid "Wait After"
 msgstr "等待后"
 
-#: ../templates/profile/edit.html:137 ../templates/profile/edit.html:169
-#: ../templates/profile/edit.html:87
+#: ../templates/profile/edit.html:198
 msgid "Wait After Lift"
 msgstr "等待后升起"
 
-#: ../templates/profile/edit.html:122 ../templates/profile/edit.html:72
+#: ../templates/profile/edit.html:129
 msgid "Wait After Print"
 msgstr "等待打印后"
 
-#: ../templates/index.html:77 ../templates/plate/preview.html:46
+#: ../templates/index.html:113 ../templates/plate/preview.html:89
 msgid "Wait Before"
 msgstr "等待前"
 
-#: ../templates/profile/edit.html:114 ../templates/profile/edit.html:63
+#: ../templates/profile/edit.html:121
 msgid "Wait Before Print"
 msgstr "等待打印前"
 
-#: ../templates/setup/setup.html:223
+#: ../templates/setup/setup.html:289
 msgid "Wait GPIO"
 msgstr "等待 GPIO"
 
-#: ../templates/profile/edit.html:264
+#: ../templates/profile/edit.html:299
 msgid "Wall Around Dimming"
-msgstr "四周墙调光"
+msgstr "四周调光"
 
-#: ../templates/profile/edit.html:323
-msgid "Wall Gap"
-msgstr "墙间隙"
+#: ../templates/setup/upgrade.html:23
+msgid "What's new on the latest beta"
+msgstr "最新测试版本"
 
-#: ../templates/profile/edit.html:298
-msgid "Wall Size"
-msgstr "墙大小"
+#: ../templates/setup/upgrade.html:18
+msgid "What's new on the latest stable"
+msgstr "最新稳定版本"
 
-#: ../templates/menu.html:41
+#: ../templates/menu.html:42
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
-#: ../templates/setup/setup.html:317
+#: ../templates/setup/setup.html:444
 msgid "X/Y Resolution"
 msgstr "X/Y 分辨率"
 
-#: ../templates/setup/setup.html:321
+#: ../templates/setup/setup.html:452
 msgid "Y Resolution"
 msgstr "Y 分辨率"
 
-#: ../templates/setup/setup.html:147
+#: ../templates/setup/setup.html:193
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: ../templates/setup/custom-inputs.html:39
 msgid "You can add additional inputs to the setup page and they will be accessible as Gcode keywords. eg. [[_ResinPumpAmount]]"
 msgstr "您可以添加额外的输入到设置页，他们将获得Gcode关键词。如. [[_ResinPumpAmount]]"
+
+#: ../templates/setup/upgrade.html:14
+msgid "You can do manual upgrade by using SSH terminal."
+msgstr "您可以使用SSH终端进行手动升级。"
 
 #: ../templates/plate/cover.html:6
 msgid "You can partially select and cover some sections of the plate to prevent further damage to PDMS and resin waste."
@@ -2166,7 +2348,7 @@ msgstr "您可以部分选择和覆盖一些板块，以防止进一步损坏PDM
 msgid "Z Axis Control"
 msgstr "Z 轴控制"
 
-#: ../templates/profile/edit.html:416
+#: ../templates/profile/edit.html:461
 msgid "Z Model Size Modifier"
 msgstr "Z 模型大小修改"
 
@@ -2174,11 +2356,11 @@ msgstr "Z 模型大小修改"
 msgid "Z-Axis Calibration"
 msgstr "Z-轴校准"
 
-#: ../templates/setup/setup.html:469
+#: ../templates/setup/setup.html:665
 msgid "Z-Axis Height"
 msgstr "Z-轴高度"
 
-#: ../templates/profile/edit.html:180
+#: ../templates/profile/edit.html:206
 msgid "Z-Axis Max Speed"
 msgstr "Z-轴最大速度"
 
@@ -2186,54 +2368,62 @@ msgstr "Z-轴最大速度"
 msgid "Zero Level"
 msgstr "零层"
 
-#: ../templates/setup/setup.html:218
+#: ../templates/setup/setup.html:282
 msgid "Zero at Bottom"
 msgstr "零在底部"
 
-#: ../templates/setup/setup.html:219
+#: ../templates/setup/setup.html:283
 msgid "Zero at Top"
 msgstr "零在上部"
 
-#: ../templates/setup/custom-buttons.html:62
+#: ../templates/setup/custom-buttons.html:60
 msgid "eg."
 msgstr "如."
 
-#: ../templates/setup/custom-buttons.html:89
+#: ../templates/setup/custom-buttons.html:87
 msgid "eg. \\x00\\xff"
 msgstr "例如. \\x00\\xff"
 
-#: ../templates/setup/custom-buttons.html:84
+#: ../templates/setup/custom-buttons.html:82
 msgid "eg. {[[LayerThickness]]-[[ZLiftDistance]]}"
 msgstr "例如. {[[LayerThickness]]-[[ZLiftDistance]]}"
 
-#: ../templates/setup/setup.html:100
+#: ../templates/setup/setup.html:123
 msgid "i2c"
 msgstr "i2c"
 
-#: ../templates/setup/setup.html:227 ../templates/setup/setup.html:522
+#: ../templates/setup/setup.html:296 ../templates/setup/setup.html:739
 msgid "i2c Address"
 msgstr "i2c 地址"
 
-#: ../templates/setup/setup.html:513
+#: ../templates/setup/setup.html:728
 msgid "i2c Bus Path"
 msgstr "i2c 总线路径"
 
-#: ../templates/setup/setup.html:290 ../templates/setup/setup.html:294
-msgid "ms"
-msgstr ""
+#: ../templates/index.html:28
+msgid "is idle. Click here to select a plate to print."
+msgstr "空闲.单击此处选择要打印的模型."
 
-#: ../templates/plate/plates.html:144 ../templates/plate/plates.html:157
+#: ../templates/plate/edit.html:65 ../templates/plate/plates.html:266
+msgid "mm"
+msgstr "毫米"
+
+#: ../templates/setup/setup.html:393 ../templates/setup/setup.html:402
+msgid "ms"
+msgstr "毫秒"
+
+#: ../templates/plate/plates.html:181 ../templates/plate/plates.html:207
 msgid "of"
 msgstr "属于"
 
-#: ../templates/profile/edit.html:102 ../templates/setup/setup.html:317
+#: ../templates/profile/edit.html:105 ../templates/setup/setup.html:444
 msgid "μm"
-msgstr "μm"
+msgstr "微米"
 
-#: ../templates/profile/edit.html:158 ../templates/profile/edit.html:181
-#: ../templates/profile/edit.html:194 ../templates/setup/setup.html:444
+#: ../templates/profile/edit.html:164 ../templates/profile/edit.html:207
+#: ../templates/profile/edit.html:224 ../templates/setup/setup.html:622
 msgid "μm/Second"
-msgstr "μm/Segundo"
+msgstr "微米/秒"
 
 #: ../templates/base.html:11
 msgid "∑"

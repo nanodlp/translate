@@ -1,4 +1,34 @@
 <br>
+<h4>Javascript Support</h4>
+You can use Javascript (ES5/ES6) to handle advanced requirements.
+<br>
+Javascript need to start with [JS] and end with [/JS]. The Javascript code inside will be interpreted and any result saved on variable called `output` will be repaced with [JS]...[/JS].
+<br>
+<br>
+Eg.
+<br>
+<code>
+M116<br>
+[JS]<br>
+var distance = [[LayerThickness]]-[[ZLiftDistance]]*[[LayerNumber]];<br>
+var xmlHttp = new XMLHttpRequest();<br>
+xmlHttp.open( "GET", "https://www.nanodlp.com/speed-calculation?distance="+distance,false);<br>
+xmlHttp.send(null);<br>
+output = "G1 Z"+distance+" F"+xmlHttp.responseText;<br>
+[/JS]<br>
+M117<br>
+</code>
+<br>
+Result:
+<br>
+<code>
+M116<br>
+G1 Z22.25 F100<br>
+M117<br>
+</code>
+<br>
+<!--<div class="alert alert-danger" role="alert">Operations below are supported but deprecated and will be removed</div>
+<br>
 <h4>GCODE Operations</h4>
 <dl class="dl-horizontal small">
 	<dt>Math Operators: + - * / ** () &lt; > %</dt>
@@ -85,4 +115,4 @@
 	<dd>Returns a random float between 0.0 and 1.0</dd>
 	<dt>fact</dt>
 	<dd>Returns the factorial of a given number</dd>
-</dl>
+</dl>-->

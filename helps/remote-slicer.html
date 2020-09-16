@@ -1,6 +1,46 @@
-Due to performance constrains on some development boards such as Raspberry Pi, remote slicer could be used to speed up process substantially and handle larger 3D files.
+<b>What is Remote Slicing?</b>
+<br>
+Remote slicing is the capability of handing over the process of slicing to a remote desktop computer
+or
+server. It is mostly developed for boards with low specification, like Raspberry Pi.<br><br>
+<b>What is/are the reason(s) to use it?</b><br>
+<p>
+	On boards like Raspberry Pi, the process of slicing large STL files could take up to 30 minutes,
+	whether
+	on a normal Personal Computer, it takes about 2 to 3 minutes. By using Remote Slicing your waiting
+	time
+	decreases significantly.
+</p><br>
+<b>How to use it?</b>
+<p>There are two ways to use Remote Slicing</p>
+<ul>
+	<li><b>First Approach</b></li>
+	<ul>
+		<li>If you have installed Nanodlp on your local Personal Computer, try to connect to Nanodlp
+			on
+			Raspberry Pi by opening your favorite browser. Once you upload a plate on Nanodlp
+			Raspberry Pi,
+			the Nanodlp on your Personal Computer will be detected and the process of slicing is going
+			to
+			start.</li>
+	</ul>
+	<li><b>Second Approach</b></li>
+	<ol>
+		<li>Navigate through <code><b>Setup</b></code> > <code><b>Machine Settings</b></code></li>
+		<li>On the first row, choose <code><b>Advanced</b></code> by selecting <code><b>Setup
+					Mode</b></code>
+		</li>
+		<li>By looking at the last section, <code><b>Various Settings</b></code>, you can find
+			<code><b>Remote
+					Slicer</b></code> on the first row, where you can enter the IP alongside the Port
+			number.
+		</li>
+	</ol>
+</ul>
+<br>
+<img src="https://www.nanodlp.com/help/remote-slicing.png" style="max-width:100%">
 <br><br>
-This function delegate slicing to another NanoDLP installation. If this field not filled, computer uploading a new plate will be scanned for active NanoDLP  installation (only on port 8080) and will be used as default slicer for ARM systems. If TCP IP:Port specified for remote NanoDLP, system will try to use it as remote slicer.<br><br>
+
 <h4>How remote Slicer works: (example)</h4>
 <ol>
 	<li>NanoDLP installed on Raspberry Pi and Windows computer being used by user.</li>
@@ -8,6 +48,7 @@ This function delegate slicing to another NanoDLP installation. If this field no
 	<li>Raspberry Pi NanoDLP detects active NanoDLP installation on users's Windows computer.</li>
 	<li>Raspberry Pi transfer required data to Windows.</li>
 	<li>NanoDLP on Windows start processing.</li>
-	<li>NanoDLP on Raspberry Pi get status update from Windows version. And wait until slicing get completed.</li>
+	<li>NanoDLP on Raspberry Pi get status update from Windows version. And wait until slicing get
+		completed.</li>
 	<li>NanoDLP on Raspberry Pi fetch prepared data.</li>
 </ol>
