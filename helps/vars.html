@@ -1,10 +1,28 @@
 <br>
-<h4>GCODE Variables</h4>
+<h4>Dynamic Variables</h4>
 <dl class="dl-horizontal small">
+	<dt>[[ZSpeed]]</dt>
+	<dd>Speed in micron/second, calculated from startup/min/max/slow section speeds in setup page. The result of dynamic speed will be used.</dd>
+	<dt>[[ZLiftDistance]]</dt>
+	<dd>Amount of lift after layer print in millimeter. The result of dynamic lifting will be used.</dd>
+	<dt>[[CurrentAction]]</dt>
+	<dd>Return current status/action of the printer: MoveTo, GcodeBefore, WaitBefore, DisplayLayer, WaitAfter, GcodeAfter, MoveToWait, WaitAfterList</dd>
+</dl>
+<br>
+
+<br>
+<h4>GCODE Variables</h4>
+<dl class="dl-horizontal small">	
+	<dt>[[Split]]</dt>
+	<dd>Split gcode into chunks and process, each part will be processed after complete processing of the previous one. For example if a single chunk contain [[Delay]] keyword, it will delay processing of the next chunks.
+		It is not functional on dynamic calculation fields such as dynamic speed.
+	</dd>
 	<dt>[[LayerThickness]]</dt>
 	<dd>Layer thickness in millimeter</dd>
 	<dt>[[LayerPosition]]</dt>
 	<dd>Absolute layer position in millimeter</dd>
+	<dt>[[ZAxisHeight]]</dt>
+	<dd>Z axis height in millimeter</dd>
 	<dt>[[CurrentPosition]]</dt>
 	<dd>Current position in millimeter</dd>
 	<dt>[[StopPosition]]</dt>

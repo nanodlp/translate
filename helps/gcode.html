@@ -1,15 +1,3 @@
-<br>
-<h4>Dynamic Variables</h4>
-<dl class="dl-horizontal small">
-	<dt>[[ZSpeed]]</dt>
-	<dd>Speed in micron/second, calculated from startup/min/max/slow section speeds in setup page. The result of dynamic speed will be used.</dd>
-	<dt>[[ZLiftDistance]]</dt>
-	<dd>Amount of lift after layer print in millimeter. The result of dynamic lifting will be used.</dd>
-	<dt>[[CurrentAction]]</dt>
-	<dd>Return current status/action of the printer: MoveTo, GcodeBefore, WaitBefore, DisplayLayer, WaitAfter, GcodeAfter, MoveToWait, WaitAfterList</dd>
-</dl>
-<br>
-
 <h4>Control Keywords</h4>
 <dl class="dl-horizontal small">
 	<dt>[[LayerChange layer]]</dt>
@@ -36,6 +24,8 @@
 	<dd>Put delay <samp>eg. [[Delay 1.23]]</samp></dd>
 	<dt>[[WaitForDoneMessage]]</dt>
 	<dd>Wait for <kbd>Z_move_comp</kbd> message from RAMPS or similar boards</dd>
+	<dt>[[WaitForDoneMessage n]]</dt>
+	<dd>Wait for <kbd>Z_move_comp</kbd> message from RAMPS or wait for n second. Which happens earlier</dd>
 	<dt>[[ResponseCheck ExpectedOK BufferSize]]</dt>
 	<dd>Helps syncronize fast moving SLS and laser SLA systems. It limits how many gcode will be send to RAMPS before waiting for response from RAMPS. It requires ok response from RAMPS after commands get completed and not after receiving them.
 		<br><kbd>ExpectedOK</kbd> integer indicates how many OK will be received from RAMPS board.
