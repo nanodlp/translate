@@ -29,12 +29,12 @@ msgstr "100 Pulses ⇧"
 msgid "100 Pulse ⇩"
 msgstr "100 Pulses ⇩"
 
-#: ../templates/setup/setup.html:717
+#: ../templates/setup/setup.html:723
 msgid "16x2"
 msgstr "16x2"
 
 #: ../templates/plate/advanced-plates.html:92
-#: ../templates/plate/plates.html:150
+#: ../templates/plate/plates.html:141
 msgid "3D"
 msgstr "3D"
 
@@ -44,42 +44,30 @@ msgstr "3Dアンチエイリアシング"
 
 #: ../templates/plate/plates.html:11
 msgid "3D Editor"
-msgstr "3D編集器"
+msgstr "3Dエディタ"
 
-#: ../templates/index.html:35
+#: ../templates/index.html:28
 msgid "3D Printer"
 msgstr "3Dプリント"
 
-#: ../templates/setup/setup.html:713
+#: ../templates/setup/setup.html:719
 msgid "AMLCD Type"
 msgstr "AMLCD種類"
 
-#: ../templates/setup/setup.html:239
-msgid "ASCII (\\n)"
-msgstr ""
-
-#: ../templates/setup/setup.html:240
-msgid "ASCII (\\r)"
-msgstr ""
-
-#: ../templates/setup/setup.html:238
-msgid "ASCII (\\r\\n)"
-msgstr ""
-
-#: ../templates/setup/setup.html:270
+#: ../templates/setup/setup.html:273
 msgid "Absolute"
 msgstr "絶対"
 
-#: ../templates/index.html:107 ../templates/index.html:68
+#: ../templates/index.html:101 ../templates/index.html:62
 #: ../templates/plate/advanced-plates.html:24 ../templates/plate/plates.html:55
-#: ../templates/setup/custom-buttons.html:42
+#: ../templates/setup/custom-buttons.html:40
 #: ../templates/setup/custom-inputs.html:49
 msgid "Action"
-msgstr "動作"
+msgstr "アクション"
 
 #: ../templates/profile/profiles.html:11 ../templates/setup/tools.html:20
 msgid "Actions"
-msgstr "動作"
+msgstr "アクション"
 
 #: ../templates/setup/mask.html:11
 msgid "Add Mask"
@@ -107,23 +95,19 @@ msgstr "上級モデル"
 
 #: ../templates/profile/edit.html:16
 msgid "After Layer Exposure"
-msgstr "レイヤー露光後"
+msgstr "レイヤー露光後動作"
 
 #: ../templates/setup/upgrade.html:13
 msgid "After completion printer will be restarted."
 msgstr "終了するとプリンターが再起動します"
 
-#: ../templates/setup/setup.html:689
+#: ../templates/setup/setup.html:695
 msgid "All Images"
 msgstr "全ての画像"
 
 #: ../templates/plate/plates.html:23
 msgid "All Profiles"
-msgstr "すべての構成ファイル"
-
-#: ../templates/setup/tools.html:50
-msgid "Analytic Dashboard"
-msgstr ""
+msgstr "すべてのプロファイル"
 
 #: ../templates/profile/edit.html:383
 msgid "Anti-aliasing"
@@ -133,13 +117,13 @@ msgstr "アンチエイリアシング"
 msgid "Anytime"
 msgstr "任意時間"
 
-#: ../templates/setup/setup.html:63
+#: ../templates/setup/setup.html:64
 msgid "Appearance"
 msgstr "外観"
 
-#: ../templates/index.html:223
+#: ../templates/index.html:214
 msgid "Application Log"
-msgstr "アプリケーション記録"
+msgstr "アプリケーションログ"
 
 #: ../templates/plate/plates.html:42
 msgid "Are you sure you want to delete all plates?"
@@ -151,7 +135,7 @@ msgstr "このモデルを削除してもよろしいですか?"
 
 #: ../templates/profile/profiles.html:33
 msgid "Are you sure you want to delete this profile?"
-msgstr "この構成ファイルを本当に削除しますか？"
+msgstr "このプロファイルを本当に削除しますか？"
 
 #: ../templates/plate/preview.html:37
 msgid ""
@@ -159,7 +143,7 @@ msgid ""
 "    Projector/LCD unit of the printer?"
 msgstr ""
 
-#: ../templates/setup/tools.html:56
+#: ../templates/setup/tools.html:48
 msgid "Are you sure you want to expand filesystem?"
 msgstr "ファイルシステムを拡張してもよろしいですか?"
 
@@ -167,11 +151,11 @@ msgstr "ファイルシステムを拡張してもよろしいですか?"
 msgid "Are you sure you want to force stop the printer?"
 msgstr "プリンタを強制停止してもよろしいですか?"
 
-#: ../templates/index.html:181 ../templates/setup/tools.html:25
+#: ../templates/index.html:172 ../templates/setup/tools.html:25
 msgid "Are you sure you want to power off the printer?"
 msgstr "プリンタ電源をオフにする必要がありますか？?"
 
-#: ../templates/index.html:182
+#: ../templates/index.html:173
 msgid "Are you sure you want to power off the projector?"
 msgstr "プロジェクタをオフにしてもよろしいですか ?"
 
@@ -187,7 +171,7 @@ msgstr "キャリブレーションプレートを印刷してもよろしいで
 msgid "Are you sure you want to regenerate the layers of this plate?"
 msgstr "このモデルのレイヤーを再生成してもよろしいですか?"
 
-#: ../templates/index.html:185 ../templates/setup/tools.html:28
+#: ../templates/index.html:176 ../templates/setup/tools.html:28
 msgid "Are you sure you want to restart the printer?"
 msgstr "プリンタを再起動してもよろしいですか?"
 
@@ -195,7 +179,7 @@ msgstr "プリンタを再起動してもよろしいですか?"
 msgid "Are you sure you want to restore the default settings and reboot the printer?"
 msgstr "デフォルト設定を復元してプリンタを再起動してもよろしいですか?"
 
-#: ../templates/index.html:186
+#: ../templates/index.html:177
 msgid "Are you sure you want to resume the previous print?"
 msgstr "本当に最後の印刷を再開しますか？"
 
@@ -207,7 +191,7 @@ msgstr "上書きした部分を保存してもよろしいですか?"
 msgid "Are you sure you want to set this height as the bottom?"
 msgstr "この高さを下に設定してもよろしいですか?"
 
-#: ../templates/index.html:183
+#: ../templates/index.html:174
 msgid ""
 "Are you sure you want to start the display? It will automatically select\n"
 "\t\t\tthe second display."
@@ -219,7 +203,7 @@ msgstr ""
 msgid "Are you sure you want to stop printing?"
 msgstr "印刷を中止してもよろしいですか?"
 
-#: ../templates/index.html:178
+#: ../templates/index.html:169
 msgid ""
 "Are you sure you want to stop printing? It will stop after the current\n"
 "\t\t\tlayer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click\n"
@@ -237,6 +221,10 @@ msgstr "nanodlpとアクセス端末を終了してもよろしいですか？"
 msgid "Area Count"
 msgstr "区域カウント"
 
+#: ../templates/setup/setup.html:243
+msgid "Ascii"
+msgstr "Ascii"
+
 #: ../templates/setup/wireless.html:26
 msgid "Authentication"
 msgstr "認証"
@@ -247,25 +235,21 @@ msgstr "認証要求"
 
 #: ../templates/plate/edit.html:52
 msgid "Auto Center"
-msgstr "自動センターリング"
+msgstr "自動センタリング"
 
-#: ../templates/setup/setup.html:785
+#: ../templates/setup/setup.html:791
 msgid "Auto Slice"
 msgstr "自動スライサー"
-
-#: ../templates/analytics.html:172
-msgid "Auto Update Paused"
-msgstr ""
 
 #: ../templates/plate/edit.html:106
 msgid "Available memory on Raspberry Pi is limited to slice STL files larger than 200MB. Please, use NanoDLP remote slicer feature or SLC format to upload large plates."
 msgstr "Raspberry Piで使用可能なメモリは、スライスが200MB未満のSTLファイルに制限されています。 大きなモデルをアップロードするには、NanoDLPリモートスライサー機能またはSLC形式を使用してください。"
 
-#: ../templates/setup/setup.html:52
+#: ../templates/setup/setup.html:53
 msgid "Axis / Movement"
 msgstr "軸/移動"
 
-#: ../templates/setup/setup.html:52
+#: ../templates/setup/setup.html:53
 msgid "Axis details, speed, gcodes"
 msgstr "軸の詳細、速度、Gコード"
 
@@ -273,53 +257,57 @@ msgstr "軸の詳細、速度、Gコード"
 msgid "Backup Plates and Settings"
 msgstr "バックアップモデルと設定"
 
-#: ../templates/calibration/projector-calibration.html:72
+#: ../templates/calibration/projector-calibration.html:47
 msgid "Barrel Distortion"
-msgstr "バレルの変形"
+msgstr "レンズ収差 補正"
 
-#: ../templates/calibration/projector-calibration.html:77
+#: ../templates/calibration/projector-calibration.html:51
 msgid "Barrel Factor"
-msgstr "バレル歪み"
+msgstr "レンズ収差 歪み係数"
 
-#: ../templates/calibration/projector-calibration.html:82
+#: ../templates/calibration/projector-calibration.html:56
 msgid "Barrel's Center X"
-msgstr "バレルセンター X"
+msgstr "レンズ収差 中心位置 X"
 
-#: ../templates/calibration/projector-calibration.html:86
+#: ../templates/calibration/projector-calibration.html:60
 msgid "Barrel's Center Y"
-msgstr "バレルセンター Y"
+msgstr "レンズ収差 中心位置 Y"
 
 #: ../templates/profile/edit.html:11
 msgid "Basic Details"
-msgstr "基本的な詳細"
+msgstr "基本項目"
 
-#: ../templates/setup/setup.html:50
+#: ../templates/setup/setup.html:51
 msgid "Basic Settings"
 msgstr "基本設定"
 
 #: ../templates/profile/edit.html:13
 msgid "Before Layer Exposure"
-msgstr "レイヤー露光の前"
+msgstr "レイヤー露光前動作"
 
-#: ../templates/setup/setup.html:241
+#: ../templates/setup/setup.html:244
 msgid "Binary"
 msgstr "バイナリ"
 
-#: ../templates/setup/setup.html:111
+#: ../templates/setup/custom-buttons.html:84
+msgid "Binary support:"
+msgstr "バイナリサポート:"
+
+#: ../templates/setup/setup.html:112
 msgid "Black / Dark"
 msgstr "黒 / 暗い"
 
-#: ../templates/setup/setup.html:109
+#: ../templates/setup/setup.html:110
 msgid "Black / Light"
 msgstr "黒 / 明るい"
 
-#: ../templates/plate/plates.html:169
+#: ../templates/plate/plates.html:160
 msgid "Blackout"
-msgstr "断層"
+msgstr ""
 
 #: ../templates/plate/cover.html:3
 msgid "Blackout Platform"
-msgstr "ブレーグポイント"
+msgstr ""
 
 #: ../templates/profile/edit.html:271
 msgid "Blank Area Color"
@@ -329,11 +317,11 @@ msgstr "空白区域色"
 msgid "Blue"
 msgstr "青"
 
-#: ../templates/setup/setup.html:107
+#: ../templates/setup/setup.html:108
 msgid "Blue / Dark"
 msgstr "青 / 暗い"
 
-#: ../templates/setup/setup.html:108
+#: ../templates/setup/setup.html:109
 msgid "Blue / Light"
 msgstr "青 / 明るい"
 
@@ -341,25 +329,25 @@ msgstr "青 / 明るい"
 msgid "Bluring Radius"
 msgstr "ぼかし半径"
 
-#: ../templates/setup/setup.html:302
+#: ../templates/setup/setup.html:305
 msgid "Bootup Code"
 msgstr "スタートアップコード"
 
-#: ../templates/setup/setup.html:54
+#: ../templates/setup/setup.html:55
 msgid "Bootup, start, resume, stop print, before, after layer"
-msgstr "レイヤーの前、後、起動、開始、再開、印刷の停止"
+msgstr "レイヤーの前、後、起動、開始、再開、停止"
 
-#: ../templates/setup/setup.html:478
+#: ../templates/setup/setup.html:487
 msgid "Both"
 msgstr "すべて"
 
 #: ../templates/profile/edit.html:335
 msgid "Bottom Cap Wall"
-msgstr "底壁"
+msgstr "底板厚さ"
 
-#: ../templates/calibration/projector-calibration.html:9
-msgid "Boundary & Size"
-msgstr ""
+#: ../templates/calibration/projector-calibration.html:26
+msgid "Boundaries"
+msgstr "境界"
 
 #: ../templates/plate/preview.html:78
 msgid "Boundry - X"
@@ -369,11 +357,11 @@ msgstr "境界 - X"
 msgid "Boundry - Y"
 msgstr "境界 - Y"
 
-#: ../templates/setup/setup.html:94
+#: ../templates/setup/setup.html:95
 msgid "Brazilian Portuguese"
 msgstr "ポルトガル語"
 
-#: ../templates/setup/setup.html:110
+#: ../templates/setup/setup.html:111
 msgid "Brown / Light"
 msgstr "ブラウン / 明るい"
 
@@ -383,41 +371,41 @@ msgstr "セットアップ"
 
 #: ../templates/profile/edit.html:14
 msgid "Burin-in layers count, cure time, lift, erode"
-msgstr "ブリンイン層のカウント、硬化時間、リフト、侵食"
+msgstr "初期レイヤーの厚さ、レイヤー数、硬化時間、リフト、領域補正"
 
 #: ../templates/profile/edit.html:56
 msgid "Burn-in Cure Time"
-msgstr "老化-硬化時間"
+msgstr "初期レイヤー - 硬化時間"
 
 #: ../templates/profile/edit.html:96
 msgid "Burn-in Erode / Dilate Areas"
-msgstr "老化-腐食/拡大領域"
+msgstr "初期レイヤー - 領域補正（縮小／拡張）"
 
 #: ../templates/profile/edit.html:14
 msgid "Burn-in Layer Exposure"
-msgstr "バーンインレイヤー露出"
+msgstr "初期レイヤー"
 
 #: ../templates/profile/edit.html:48
 msgid "Burn-in Layer Thickness"
-msgstr "老化層厚さ"
+msgstr "初期レイヤー - 厚さ"
 
 #: ../templates/profile/edit.html:80
 msgid "Burn-in Lift After Print"
-msgstr "老化-印刷後に持ち上げる"
+msgstr "初期レイヤー - リフト"
 
 #: ../templates/profile/edit.html:88
 msgid "Burn-in Wait After Lift"
-msgstr "老化-持ち上げてから待つ"
+msgstr "初期レイヤー - リフト後待機時間"
 
 #: ../templates/profile/edit.html:72
 msgid "Burn-in Wait After Print"
-msgstr "老化-印刷後に待つ"
+msgstr "初期レイヤー - 印刷後待機時間"
 
 #: ../templates/profile/edit.html:64
 msgid "Burn-in Wait Before Print"
-msgstr "老化-印刷する前に待つ"
+msgstr "初期レイヤー - 印刷前待機時間"
 
-#: ../templates/index.html:193
+#: ../templates/index.html:184
 msgid "CPU"
 msgstr "CPU"
 
@@ -425,27 +413,27 @@ msgstr "CPU"
 msgid "Calibrate Zero Position ⇧"
 msgstr "校正ゼロ位置 ⇧"
 
-#: ../templates/plate/plates.html:246
+#: ../templates/plate/plates.html:237
 msgid "Calibration Plate"
 msgstr "校正モデル"
 
-#: ../templates/setup/setup.html:62
+#: ../templates/setup/setup.html:63
 msgid "Camera"
 msgstr "カメラ"
 
-#: ../templates/setup/setup.html:694
+#: ../templates/setup/setup.html:700
 msgid "Camera Command"
 msgstr "カメラコマンド"
 
-#: ../templates/setup/setup.html:667
+#: ../templates/setup/setup.html:673
 msgid "Camera Photo Frequency"
 msgstr "カメラ周波数"
 
-#: ../templates/setup/setup.html:62
+#: ../templates/setup/setup.html:63
 msgid "Camera settings, storage"
 msgstr "カメラ設定、ストレージ"
 
-#: ../templates/setup/setup.html:826
+#: ../templates/setup/setup.html:813
 msgid "Cancel"
 msgstr "取消"
 
@@ -457,17 +445,17 @@ msgstr "スターティングセンター"
 msgid "Center Pieces"
 msgstr "センター"
 
-#: ../templates/setup/setup.html:458
+#: ../templates/setup/setup.html:467
 msgid "Center of Barrel - X"
-msgstr "センターチューブ - X"
+msgstr "レンズ収差中心位置 - X"
 
-#: ../templates/setup/setup.html:465
+#: ../templates/setup/setup.html:474
 msgid "Center of Barrel - Y"
-msgstr "センターチューブ - Y"
+msgstr "レンズ収差中心位置 - Y"
 
-#: ../templates/setup/tools.html:46
+#: ../templates/setup/tools.html:40
 msgid "Change Distribution"
-msgstr "分布を変更"
+msgstr "ディストリビューションの変更"
 
 #: ../templates/setup/distro.html:18
 msgid "Change to \"Microlay\" Version"
@@ -495,41 +483,49 @@ msgstr "印刷中にWiFi設定を変更すると、中断が発生する可能�
 
 #: ../templates/profile/edit.html:284
 msgid "Checkerboard"
-msgstr "チェッカーボード"
+msgstr "チェック柄（Checkerboard）"
 
-#: ../templates/setup/setup.html:92
+#: ../templates/setup/setup.html:93
 msgid "Chinese"
 msgstr "中国"
 
-#: ../templates/base.html:111
-#: ../templates/calibration/projector-calibration.html:133
-#: ../templates/calibration/projector-calibration.html:91
+#: ../templates/base.html:102
+#: ../templates/calibration/projector-calibration.html:18
+#: ../templates/calibration/projector-calibration.html:27
+#: ../templates/calibration/projector-calibration.html:36
+#: ../templates/calibration/projector-calibration.html:65
+#: ../templates/calibration/projector-calibration.html:9
+#: ../templates/calibration/projector-calibration.html:99
 msgid "Close"
 msgstr "閉じる"
 
-#: ../templates/setup/setup.html:54
+#: ../templates/setup/setup.html:55
 msgid "Code / Gcode"
 msgstr "コード/ Gcode"
 
 #: ../templates/profile/edit.html:417
 msgid "Code After Each Layer"
-msgstr "各層後コーディング"
+msgstr "各レイヤーの後に実行するG-CODE"
 
 #: ../templates/profile/edit.html:172
 msgid "Code Before Each Layer"
-msgstr "各層前コーディング"
+msgstr "各レイヤーの前に実行するG-CODE"
 
 #: ../templates/plate/generator.html:22
 msgid "Comma Separated Cure Times"
-msgstr "各コンマ区切りの硬化時間"
+msgstr "硬化時間（カンマ区切りで入力）"
 
 #: ../templates/plate/generator.html:26
 msgid "Comma Separated Pillar Diameter"
-msgstr "カンマ区切りのカラム径"
+msgstr "カラム径（カンマ区切りで入力）"
 
 #: ../templates/plate/edit.html:60
 msgid "Comma separated in second"
-msgstr "秒で区切られたコンマ"
+msgstr "秒（カンマ区切りで入力）"
+
+#: ../templates/setup/custom-buttons.html:39
+msgid "Confirmation Text"
+msgstr "テキストを確認"
 
 #: ../templates/setup/wireless.html:29
 msgid "Connect"
@@ -539,21 +535,21 @@ msgstr "接続"
 msgid "Consider this protection is very basic and easily could be bypassed."
 msgstr "この保護は非常に基本的であり、簡単にバイパスできると考えてください。"
 
-#: ../templates/setup/setup.html:53
-msgid "Controller settings"
-msgstr ""
+#: ../templates/setup/setup.html:54
+msgid "Controller settings, gcodes"
+msgstr "コントローラー設定、gcode"
 
-#: ../templates/index.html:17
+#: ../templates/index.html:10
 msgid "Could not connect to the NanoDLP. Please check your network connection."
 msgstr "NanoDLPに接続できません。インターネットの接続を確認してください。"
 
-#: ../templates/plate/plates.html:236
+#: ../templates/plate/plates.html:227
 msgid "Create 3D shapes by repeating an image frame"
 msgstr "画像ボックスを繰り返して3次元形状を作成する"
 
-#: ../templates/index.html:123 ../templates/plate/preview.html:91
+#: ../templates/index.html:114 ../templates/plate/preview.html:91
 msgid "Cure Layer"
-msgstr "硬化層"
+msgstr "レイヤーを露光"
 
 #: ../templates/plate/advanced-plates.html:37 ../templates/plate/plates.html:71
 #: ../templates/profile/profiles.html:9
@@ -562,9 +558,9 @@ msgstr "硬化時間"
 
 #: ../templates/calibration/z-calibration.html:26
 msgid "Current"
-msgstr "現在の層"
+msgstr "現在位置"
 
-#: ../templates/setup/setup.html:226
+#: ../templates/setup/setup.html:231
 msgid "Custom Acceleration"
 msgstr "カスタム加速"
 
@@ -572,17 +568,17 @@ msgstr "カスタム加速"
 msgid "Custom Buttons"
 msgstr "カスタムボタン"
 
-#: ../templates/setup/custom-buttons.html:41
-msgid "Custom HTML"
-msgstr ""
-
 #: ../templates/setup/custom-buttons.html:16
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
-#: ../templates/setup/setup.html:235
+#: ../templates/setup/setup.html:240
 msgid "Data Encoding"
 msgstr "データのエンコード"
+
+#: ../templates/setup/tools.html:38
+msgid "Debug Info"
+msgstr "デバッグ情報"
 
 #: ../templates/plate/edit.html:84
 msgid "Decrease Mask Intensity"
@@ -596,12 +592,12 @@ msgstr "デフォルト"
 msgid "Description"
 msgstr "解説"
 
-#: ../templates/index.html:234 ../templates/plate/advanced-plates.html:23
+#: ../templates/index.html:225 ../templates/plate/advanced-plates.html:23
 #: ../templates/plate/plates.html:54 ../templates/setup/custom-inputs.html:46
 #: ../templates/setup/custom-inputs.html:47
 #: ../templates/setup/custom-inputs.html:48
 msgid "Details"
-msgstr "細部"
+msgstr "詳細"
 
 #: ../templates/profile/edit.html:291
 msgid "Dimming Amount Percentage"
@@ -611,18 +607,18 @@ msgstr "暗くする割合"
 msgid "Dimming and Mask settings will take effect on the created layers."
 msgstr "調光とマスクの設定は、作成されたレイヤーで有効になります。"
 
-#: ../templates/setup/setup.html:148
+#: ../templates/setup/setup.html:153
 msgid "Direction GPIO"
 msgstr "方向GPIO"
 
 #: ../templates/plate/edit.html:56 ../templates/profile/edit.html:377
-#: ../templates/profile/edit.html:387 ../templates/setup/setup.html:132
-#: ../templates/setup/setup.html:5 ../templates/setup/setup.html:772
-#: ../templates/setup/setup.html:789 ../templates/setup/setup.html:798
+#: ../templates/profile/edit.html:387 ../templates/setup/setup.html:133
+#: ../templates/setup/setup.html:5 ../templates/setup/setup.html:778
+#: ../templates/setup/setup.html:795 ../templates/setup/setup.html:804
 msgid "Disable"
 msgstr "無効"
 
-#: ../templates/index.html:155
+#: ../templates/index.html:146
 msgid "Disable Auto Shutdown"
 msgstr "自動シャットダウンを無効にする"
 
@@ -630,70 +626,62 @@ msgstr "自動シャットダウンを無効にする"
 msgid "Disable Motor"
 msgstr "モーターを無効にする"
 
-#: ../templates/profile/edit.html:395 ../templates/setup/setup.html:120
-#: ../templates/setup/setup.html:475 ../templates/setup/setup.html:486
-#: ../templates/setup/setup.html:670
+#: ../templates/profile/edit.html:395 ../templates/setup/setup.html:121
+#: ../templates/setup/setup.html:484 ../templates/setup/setup.html:495
+#: ../templates/setup/setup.html:676
 msgid "Disabled"
 msgstr "無効"
 
-#: ../templates/index.html:206
+#: ../templates/index.html:197
 msgid "Disk"
 msgstr "ディスク"
 
-#: ../templates/index.html:13
-msgid "Dismiss"
-msgstr ""
-
-#: ../templates/calibration/projector-calibration.html:132
-#: ../templates/calibration/projector-calibration.html:91
+#: ../templates/calibration/projector-calibration.html:18
+#: ../templates/calibration/projector-calibration.html:27
+#: ../templates/calibration/projector-calibration.html:36
+#: ../templates/calibration/projector-calibration.html:65
+#: ../templates/calibration/projector-calibration.html:9
+#: ../templates/calibration/projector-calibration.html:99
 msgid "Display"
 msgstr "表示"
 
-#: ../templates/menu.html:20
-msgid "Display Calibration"
-msgstr ""
-
-#: ../templates/setup/setup.html:483
+#: ../templates/setup/setup.html:492
 msgid "Display Communication Type"
-msgstr "通信タイプを表示"
+msgstr "ディスプレイ - 通信方式"
 
-#: ../templates/setup/setup.html:426
+#: ../templates/setup/setup.html:435
 msgid "Display Controller"
-msgstr "ディスプレイコントローラー"
+msgstr "LCD種別"
 
-#: ../templates/setup/setup.html:51
+#: ../templates/setup/setup.html:52
 msgid "Display Engine"
-msgstr "表示エンジン"
-
-#: ../templates/plate/preview.html:9
-msgid "Display Layer"
-msgstr ""
+msgstr "ディスプレイ設定"
 
 #: ../templates/calibration/mask-generator.html:31
 msgid "Display Mask"
 msgstr "ディスプレイマスク"
 
-#: ../templates/setup/setup.html:568
+#: ../templates/setup/setup.html:577
 msgid "Display Number"
-msgstr "ディスプレイ番号"
+msgstr "ディスプレイ - 番号"
 
-#: ../templates/setup/setup.html:543
+#: ../templates/setup/setup.html:552
 msgid "Display Power Cycle"
 msgstr "エネルギーサイクルを表示"
 
-#: ../templates/setup/setup.html:536
+#: ../templates/setup/setup.html:545
 msgid "Display Turn Off Command"
-msgstr "閉じるコマンドを表示"
+msgstr "画面表示終了コマンド"
 
-#: ../templates/setup/setup.html:530
+#: ../templates/setup/setup.html:539
 msgid "Display Turn On Command"
-msgstr "ブートコマンドを表示"
+msgstr "画面表示開始コマンド"
 
-#: ../templates/setup/setup.html:497
+#: ../templates/setup/setup.html:506
 msgid "Display Warm-up Time"
-msgstr "起床時間表示"
+msgstr "ウォームアップ時間"
 
-#: ../templates/setup/setup.html:51
+#: ../templates/setup/setup.html:52
 msgid "Display resolution, connection, lamps"
 msgstr "ディスプレイ解像度、接続、ランプ"
 
@@ -701,25 +689,13 @@ msgstr "ディスプレイ解像度、接続、ランプ"
 msgid "Do not Rotate"
 msgstr "回転しない"
 
-#: ../templates/setup/upgrade.html:32
-msgid "Downgrade / Upgrade to other builds"
-msgstr ""
-
 #: ../templates/import.html:22
 msgid "Download & Import Profile"
-msgstr "構成ファイルのインポートとダウンロード"
+msgstr "プロファイルのインポートとダウンロード"
 
 #: ../templates/import.html:44
 msgid "Download & Restore Machine Settings"
 msgstr "コンピューター設定をダウンロードして復元する"
-
-#: ../templates/analytics.html:169
-msgid "Download CSV"
-msgstr ""
-
-#: ../templates/setup/tools.html:38
-msgid "Download Debug File"
-msgstr ""
 
 #: ../templates/import.html:41
 msgid "Download Machine Settings"
@@ -729,7 +705,7 @@ msgstr "マシン設定をダウンロードする"
 msgid "Download Profile"
 msgstr "設定ファイルをダウンロード"
 
-#: ../templates/setup/setup.html:195
+#: ../templates/setup/setup.html:200
 msgid "Driver Enable GPIO"
 msgstr "ドライバーはGPIOを有効にします"
 
@@ -737,65 +713,49 @@ msgstr "ドライバーはGPIOを有効にします"
 msgid "During the upgrade process NanoDLP would not be accessible."
 msgstr "アップグレードプロセス中は、NanoDLPにアクセスできません"
 
+#: ../templates/calibration/projector-calibration.html:8
+msgid "Dynamic Calibration"
+msgstr "動的校正"
+
 #: ../templates/profile/edit.html:153
 msgid "Dynamic Cure Time"
 msgstr "動的硬化時間"
 
 #: ../templates/profile/edit.html:180
 msgid "Dynamic Lift"
-msgstr "出力増大"
+msgstr "動的リフト"
+
+#: ../templates/calibration/projector-calibration.html:17
+msgid "Dynamic Red Calib."
+msgstr "ダイナミックな赤いマーキング"
 
 #: ../templates/profile/edit.html:163
 msgid "Dynamic Speed"
-msgstr "昇格後の動的待機"
+msgstr "動的リフト - 速度"
 
 #: ../templates/profile/edit.html:189
 msgid "Dynamic Wait After Lift"
-msgstr "昇格後の動的待機"
+msgstr "動的リフト - リフト後待機時間"
 
-#: ../templates/index.html:102
+#: ../templates/index.html:96
 msgid "ETA"
-msgstr "推定終了時間"
-
-#: ../templates/setup/editor.html:32
-msgid "Edit Config Settings"
-msgstr ""
-
-#: ../templates/calibration/projector-calibration.html:114
-msgid "Edit Mask"
-msgstr ""
-
-#: ../templates/setup/editor.html:8
-msgid "Edit Network Settings"
-msgstr ""
+msgstr "終了予定時間"
 
 #: ../templates/plate/edit.html:8
 msgid "Edit Plate"
 msgstr "モデルを編集"
-
-#: ../templates/setup/editor.html:4
-msgid "Edit Raspberry Pi Configuration Files"
-msgstr ""
-
-#: ../templates/setup/tools.html:43
-msgid "Edit Raspberry Pi Settings"
-msgstr ""
-
-#: ../templates/setup/editor.html:20
-msgid "Edit Wifi Settings"
-msgstr ""
 
 #: ../templates/setup/password.html:30
 msgid "Empty username for dashboard, makes the dashboard accessible to everyone without authentication."
 msgstr "ダッシュボードのユーザー名は空なので、誰でも認証なしでダッシュボードにアクセスできます"
 
 #: ../templates/profile/edit.html:378 ../templates/profile/edit.html:386
-#: ../templates/setup/setup.html:771 ../templates/setup/setup.html:788
-#: ../templates/setup/setup.html:797
+#: ../templates/setup/setup.html:777 ../templates/setup/setup.html:794
+#: ../templates/setup/setup.html:803
 msgid "Enable"
-msgstr "オン"
+msgstr "有効"
 
-#: ../templates/index.html:158
+#: ../templates/index.html:149
 msgid ""
 "Enable\n"
 "\t\t\t\tAuto Shutdown"
@@ -803,49 +763,49 @@ msgstr ""
 "有効\n"
 "\t\t\t\t自動シャットダウン"
 
-#: ../templates/setup/setup.html:218
+#: ../templates/setup/setup.html:223
 msgid "Enable Before Each Print"
 msgstr "印刷する前に毎回有効にする"
 
-#: ../templates/setup/setup.html:214
+#: ../templates/setup/setup.html:219
 msgid "Enable GPIO Mode"
-msgstr "GPIOモードを有効にする"
+msgstr ""
 
-#: ../templates/setup/setup.html:203
+#: ../templates/setup/setup.html:208
 msgid "Enable GPIO State"
-msgstr "GPIOステータスを有効にする"
+msgstr ""
 
 #: ../templates/calibration/z-calibration.html:48
 msgid "Enable Motor"
-msgstr "モーターをオンにする"
+msgstr ""
 
-#: ../templates/setup/setup.html:217
+#: ../templates/setup/setup.html:222
 msgid "Enable on Boot"
-msgstr "起動時に有効にする"
+msgstr ""
 
 #: ../templates/calibration/z-calibration.html:31
 msgid "End Level"
-msgstr "結束層"
+msgstr "最大高さ"
 
-#: ../templates/setup/setup.html:165
+#: ../templates/setup/setup.html:170
 msgid "Endstop Switch - Bottom Limit"
 msgstr "リミットスイッチ - 下限"
 
-#: ../templates/setup/setup.html:173
+#: ../templates/setup/setup.html:178
 msgid "Endstop Switch - Default State"
-msgstr "リミットスイッチ-デフォルト状態"
+msgstr "リミットスイッチ - デフォルト状態"
 
-#: ../templates/setup/setup.html:156
+#: ../templates/setup/setup.html:161
 msgid "Endstop Switch - Top Limit"
 msgstr "リミットスイッチ - 上限"
 
-#: ../templates/setup/setup.html:91
+#: ../templates/setup/setup.html:92
 msgid "English"
 msgstr "英語"
 
 #: ../templates/profile/edit.html:145
 msgid "Erode / Dilate Areas"
-msgstr "侵食/拡張区域"
+msgstr "領域補正（縮小／拡張）"
 
 #: ../templates/error.html:4
 msgid "Error ({{code}}) Accessing Requested Resource {{path}}"
@@ -855,19 +815,19 @@ msgstr "リクエストされたリソースへのアクセス中にエラーが
 msgid "Even-though it can process multi color images, to make the dimming feature work correctly, try to use images containing grayscale colors."
 msgstr "マルチカラー画像を処理して調光機能を適切に機能させることができる場合でも、グレースケール色を含む画像を使用してみてください。"
 
-#: ../templates/setup/setup.html:560
+#: ../templates/setup/setup.html:569
 msgid "Execute to Turn Display Off"
-msgstr "クローズ表示を行う"
+msgstr "表示終了に実行する外部コマンド"
 
-#: ../templates/setup/setup.html:553
+#: ../templates/setup/setup.html:562
 msgid "Execute to Turn Display On"
-msgstr "オープンディスプレイを実行する"
+msgstr "表示開始に実行する外部コマンド"
 
-#: ../templates/setup/setup.html:491
+#: ../templates/setup/setup.html:500
 msgid "Execution Only"
 msgstr "実行のみ"
 
-#: ../templates/setup/tools.html:55
+#: ../templates/setup/tools.html:47
 msgid "Expand Filesystem"
 msgstr "拡張ファイルシステム"
 
@@ -879,19 +839,19 @@ msgstr "カンマ区切り値をエクスポート"
 msgid "Export Machine Settings File"
 msgstr "マシン設定ファイルをエクスポート"
 
-#: ../templates/setup/setup.html:752
+#: ../templates/setup/setup.html:758
 msgid "Fault GPIO Default State"
 msgstr "GPIOのデフォルト状態の失敗"
 
 #: ../templates/plate/preview.html:48
 msgid "Faulty layers:"
-msgstr "失敗層"
+msgstr "異常のあるレイヤー"
 
 #: ../templates/plate/edit.html:15
 msgid "File From USB"
 msgstr "USBからファイルを取得する"
 
-#: ../templates/setup/tools.html:54
+#: ../templates/setup/tools.html:46
 msgid "Filesystem expantion will run silently in background, and will restart the Raspberry Pi afterward. Please do not change anything."
 msgstr "ファイルシステムの拡張はバックグラウンドで実行され、Raspberry Piは完了後に再起動されます。 実行しないでください。"
 
@@ -903,20 +863,16 @@ msgstr "最終マスク"
 msgid "Floor ⇩"
 msgstr "底部"
 
-#: ../templates/calibration/projector-calibration.html:38
-msgid "Focus Calibration"
-msgstr ""
-
 #: ../templates/setup/tools.html:21
 msgid "Force Stop"
-msgstr "強制取消"
+msgstr "強制停止"
 
-#: ../templates/setup/setup.html:574
+#: ../templates/setup/setup.html:583
 msgid "Framebuffer Path"
 msgstr "フレームバッファーパス"
 
 #: ../templates/plate/advanced-plates.html:136
-#: ../templates/plate/plates.html:279
+#: ../templates/plate/plates.html:270
 msgid "Free Disk Space"
 msgstr "空きディスク容量"
 
@@ -924,32 +880,32 @@ msgstr "空きディスク容量"
 msgid "Free space available on your disk is low. Please remove some plates."
 msgstr "ディスクの空き容量が少なくなっています。 一部のモデルを削除してください。"
 
-#: ../templates/calibration/projector-calibration.html:52
+#: ../templates/calibration/projector-calibration.html:35
 msgid "Full White"
-msgstr "真っ白"
+msgstr ""
 
-#: ../templates/calibration/projector-calibration.html:131
+#: ../templates/calibration/projector-calibration.html:98
 msgid "FullHD Calibration"
 msgstr "フルHD補正"
 
-#: ../templates/setup/custom-buttons.html:40
+#: ../templates/setup/custom-buttons.html:38
 msgid "Gcode"
-msgstr "Gcode"
+msgstr ""
 
-#: ../templates/index.html:125 ../templates/plate/preview.html:95
+#: ../templates/index.html:116 ../templates/plate/preview.html:95
 msgid "Gcode After"
-msgstr "Gcode 後"
+msgstr ""
 
-#: ../templates/index.html:121 ../templates/plate/preview.html:87
+#: ../templates/index.html:112 ../templates/plate/preview.html:87
 msgid "Gcode Before"
-msgstr "Gcode 前"
+msgstr ""
 
 #: ../templates/plate/extrude.html:54 ../templates/plate/generator.html:46
-#: ../templates/plate/plates.html:253
+#: ../templates/plate/plates.html:244
 msgid "Generate"
 msgstr "形成"
 
-#: ../templates/setup/setup.html:794
+#: ../templates/setup/setup.html:800
 msgid "Generate 3D Preview"
 msgstr "3Dプレビューを生成する"
 
@@ -961,17 +917,17 @@ msgstr "緑"
 msgid "Grid Preview"
 msgstr "グリッドのプレビュー"
 
-#: ../templates/setup/setup.html:56
+#: ../templates/setup/setup.html:57
 msgid "HMI"
 msgstr "HMI"
 
-#: ../templates/setup/setup.html:55
+#: ../templates/setup/setup.html:56
 msgid "Hardware"
 msgstr "ハードウェア"
 
-#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:90
+#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:84
 msgid "Height"
-msgstr "高度"
+msgstr "高さ"
 
 #: ../templates/menu.html:27
 msgid "Help"
@@ -979,16 +935,12 @@ msgstr "ヘルプ"
 
 #: ../templates/profile/edit.html:318
 msgid "Hexagonal"
-msgstr "六角形"
+msgstr "インフィル（六角形）"
 
-#: ../templates/setup/custom-buttons.html:24
-msgid "Hidden"
-msgstr ""
-
-#: ../templates/setup/setup.html:177 ../templates/setup/setup.html:207
-#: ../templates/setup/setup.html:756
+#: ../templates/setup/setup.html:182 ../templates/setup/setup.html:212
+#: ../templates/setup/setup.html:762
 msgid "High"
-msgstr "高"
+msgstr ""
 
 #: ../templates/calibration/mask-generator.html:68
 msgid "Highlight Point"
@@ -996,25 +948,25 @@ msgstr "ハイライトポイント"
 
 #: ../templates/profile/edit.html:319
 msgid "Hollowing"
-msgstr "穴を掘る"
+msgstr "中空"
 
 #: ../templates/profile/edit.html:314
 msgid "Hollowing / Infill Type"
-msgstr "中空/穴埋め"
+msgstr "中空/インフィル"
 
 #: ../templates/profile/edit.html:285
 msgid "Homogeneous"
-msgstr "同種類"
+msgstr "均等（Homogeneous）"
 
-#: ../templates/setup/setup.html:411
+#: ../templates/setup/setup.html:420
 msgid "Horizontal Resolution"
 msgstr "水平解像度"
 
-#: ../templates/setup/setup.html:476
+#: ../templates/setup/setup.html:485
 msgid "Horizontally"
 msgstr "水平"
 
-#: ../templates/calibration/projector-calibration.html:117
+#: ../templates/calibration/projector-calibration.html:85
 msgid "Hours"
 msgstr "時間"
 
@@ -1040,7 +992,7 @@ msgstr "マシン設定のインポート"
 
 #: ../templates/import.html:11 ../templates/import.html:8
 msgid "Import Profile"
-msgstr "構成のインポート"
+msgstr "プロファイルのインポート"
 
 #: ../templates/import.html:4
 msgid "Import and Export Settings"
@@ -1048,45 +1000,49 @@ msgstr "設定のインポートとエクスポート"
 
 #: ../templates/profile/edit.html:365
 msgid "Infill Pattern Cell Width"
-msgstr "充填パターン単位幅"
+msgstr "充填パターン セル幅"
 
 #: ../templates/profile/edit.html:355
 msgid "Infill Pattern Wall Size"
-msgstr "充填パターン単位サイズ"
+msgstr "充填パターン 壁厚さ"
 
 #: ../templates/plate/preview.html:11
 msgid "Information"
 msgstr "情報"
 
-#: ../templates/index.html:11
-msgid "It seems your printer experienced issue during the last print."
-msgstr ""
+#: ../templates/setup/custom-buttons.html:58
+msgid "It is possible to call a program or a script from shell and use the result as Gcode."
+msgstr "シェルからプログラムまたはスクリプトを呼び出して、エフェクトGcodeを使用できます。"
 
-#: ../templates/setup/setup.html:95
+#: ../templates/setup/custom-buttons.html:86
+msgid "It is possible to send binary codes using base 16 format."
+msgstr "バイナリまたは16の禁止フォーマットを使用してバイナリコードを送信することが可能です。"
+
+#: ../templates/setup/setup.html:96
 msgid "Italian"
 msgstr "イタリア"
 
-#: ../templates/setup/setup.html:93
+#: ../templates/setup/setup.html:94
 msgid "Japanese"
 msgstr "日本語"
 
 #: ../templates/profile/edit.html:232
 msgid "Jump After Number of Layers"
-msgstr "レイヤー番号にジャンプ"
+msgstr ""
 
 #: ../templates/profile/edit.html:239
 msgid "Jump Height"
-msgstr "ジャンプの高さ"
+msgstr ""
 
-#: ../templates/setup/setup.html:512
+#: ../templates/setup/setup.html:521
 msgid "Lamp Brightness"
 msgstr "ライトの明るさ"
 
-#: ../templates/setup/setup.html:59
+#: ../templates/setup/setup.html:60
 msgid "Lamps, light output, barrel correction"
-msgstr "ランプ、光出力、バレル補正"
+msgstr "ランプ、レンズ収差補正"
 
-#: ../templates/setup/setup.html:88
+#: ../templates/setup/setup.html:89
 msgid "Language"
 msgstr "言語"
 
@@ -1094,7 +1050,7 @@ msgstr "言語"
 msgid "Largest Area"
 msgstr "最大面積"
 
-#: ../templates/setup/setup.html:82
+#: ../templates/setup/setup.html:83
 msgid "Laser"
 msgstr "レーザー発振器"
 
@@ -1102,80 +1058,56 @@ msgstr "レーザー発振器"
 msgid "Laser Code"
 msgstr "レーザーコーディング"
 
-#: ../templates/analytics.html:174
-msgid "Last 100 Points - Auto Update"
-msgstr ""
-
-#: ../templates/analytics.html:176
-msgid "Last 1000 Points - Auto Update"
-msgstr ""
-
-#: ../templates/analytics.html:173
-msgid "Last 50 Points - Auto Update"
-msgstr ""
-
-#: ../templates/analytics.html:175
-msgid "Last 500 Points - Auto Update"
-msgstr ""
-
-#: ../templates/analytics.html:177
-msgid "Last 5000 Points - Auto Update"
-msgstr ""
-
-#: ../templates/plate/plates.html:75
-msgid "Last Print"
-msgstr ""
-
-#: ../templates/calibration/z-calibration.html:104 ../templates/index.html:231
-#: ../templates/index.html:85 ../templates/plate/plates.html:216
+#: ../templates/calibration/z-calibration.html:104 ../templates/index.html:222
+#: ../templates/index.html:79 ../templates/plate/plates.html:207
 #: ../templates/plate/preview.html:67
 msgid "Layer"
-msgstr "層"
+msgstr "印刷中レイヤー"
 
-#: ../templates/plate/plates.html:189
+#: ../templates/plate/plates.html:180
 msgid "Layer ID"
-msgstr "層 ID"
+msgstr "レイヤー ID"
 
 #: ../templates/profile/profiles.html:8
 msgid "Layer Thickness"
-msgstr "層の厚さ"
+msgstr "レイヤーの厚さ"
 
-#: ../templates/plate/plates.html:190 ../templates/profile/edit.html:326
+#: ../templates/plate/plates.html:181 ../templates/profile/edit.html:326
 #: ../templates/profile/edit.html:336
 msgid "Layers"
-msgstr "層"
+msgstr "レイヤー"
 
-#: ../templates/setup/setup.html:648
+#: ../templates/setup/setup.html:657
 msgid "Leadscrew Pitch"
-msgstr "ねじピッチ"
+msgstr "リードねじピッチ"
 
-#: ../templates/setup/setup.html:450
+#: ../templates/setup/setup.html:459
 msgid "Lens Barrel Factor"
-msgstr "鏡筒係数"
+msgstr "レンズ収差 係数"
 
-#: ../templates/index.html:230
+#: ../templates/index.html:221
 msgid "Level"
-msgstr "水平"
+msgstr "レベル"
 
-#: ../templates/index.html:126
+#: ../templates/index.html:117
 msgid "Lift"
-msgstr "持ち上げる"
+msgstr "リフト"
 
 #: ../templates/profile/edit.html:137
 msgid "Lift After Print"
-msgstr "持ち上げ印刷"
+msgstr "リフト高さ"
 
-#: ../templates/index.html:127
+#: ../templates/index.html:118
 msgid "Lift Wait"
-msgstr "持ち上げ待ち"
+msgstr "リフト待機時間"
 
 #: ../templates/profile/edit.html:16
 msgid "Lift after print, wait after lift, sending gcode"
-msgstr "印刷後に持ち上げ、持ち上げてから待機し、gcodeを送信する"
+msgstr "リフト設定、リフト後待機時間"
 
-#: ../templates/setup/setup.html:586
+#: ../templates/setup/setup.html:595
 msgid "Light Output Formula"
-msgstr "光出力スキーム"
+msgstr ""
 
 #: ../templates/calibration/mask-generator.html:27
 #: ../templates/profile/edit.html:262
@@ -1190,14 +1122,14 @@ msgstr "ローカルパネルのパスワード保護"
 msgid "Login"
 msgstr "登録"
 
-#: ../templates/setup/setup.html:178 ../templates/setup/setup.html:206
-#: ../templates/setup/setup.html:755
+#: ../templates/setup/setup.html:183 ../templates/setup/setup.html:211
+#: ../templates/setup/setup.html:761
 msgid "Low"
-msgstr "低い"
+msgstr ""
 
 #: ../templates/profile/edit.html:254
 msgid "Low Quality Cure Time"
-msgstr "低品質の硬化時間"
+msgstr "低品質レイヤーの硬化時間"
 
 #: ../templates/profile/edit.html:146 ../templates/profile/edit.html:401
 #: ../templates/profile/edit.html:97
@@ -1206,27 +1138,23 @@ msgstr "mm"
 
 #: ../templates/menu.html:21
 msgid "Machine Settings"
-msgstr "機械設定"
+msgstr "機器設定"
 
 #: ../templates/import.html:49
 msgid "Machine Settings and Profiles Repository"
-msgstr "マシン設定と構成ファイルライブラリ"
+msgstr "マシン設定とプロファイルライブラリ"
 
 #: ../templates/plate/generator.html:4
 msgid "Making any change will automatically discard the previous calibration plate."
 msgstr "変更を加えると、以前のキャリブレーションディスクは自動的に破棄されます。"
 
-#: ../templates/setup/setup.html:335
+#: ../templates/setup/setup.html:339
 msgid "Manual Movement Code Template"
-msgstr "コードテンプレートを手動で移動する"
+msgstr "手動で移動時のコードテンプレート"
 
 #: ../templates/setup/password.html:50
 msgid "Manufacturer Settings"
 msgstr "メーカー設定"
-
-#: ../templates/calibration/projector-calibration.html:57
-msgid "Mask"
-msgstr ""
 
 #: ../templates/profile/edit.html:469
 msgid "Mask File"
@@ -1240,7 +1168,7 @@ msgstr "マスクファイル (PNG)"
 msgid "Mask Generation Wizard"
 msgstr "マスク生成ウィザード"
 
-#: ../templates/calibration/projector-calibration.html:115
+#: ../templates/calibration/projector-calibration.html:83
 msgid "Mask Generator"
 msgstr "マスクの生成"
 
@@ -1252,15 +1180,11 @@ msgstr "グリッドをマスク"
 msgid "Mask Preview"
 msgstr "マスクプレビュー"
 
-#: ../templates/calibration/projector-calibration.html:112
-msgid "Mask and Lamp"
-msgstr ""
-
 #: ../templates/setup/mask.html:8
 msgid "Mask file effects only STL/SLC/SVG files uploaded after mask submit"
 msgstr "アップロードされたマスクファイルはSTL SLC / SVGファイルにのみ影響します。"
 
-#: ../templates/setup/setup.html:613
+#: ../templates/setup/setup.html:622
 msgid "Max Speed"
 msgstr "最大スピード"
 
@@ -1288,7 +1212,7 @@ msgstr "測定方法"
 msgid "Measurement Point Width"
 msgstr "測定点幅"
 
-#: ../templates/index.html:208
+#: ../templates/index.html:199
 msgid "Memory"
 msgstr "メモリ"
 
@@ -1297,7 +1221,7 @@ msgstr "メモリ"
 msgid "Micron"
 msgstr "mm"
 
-#: ../templates/setup/setup.html:642
+#: ../templates/setup/setup.html:651
 msgid "Microstep"
 msgstr "細分"
 
@@ -1307,16 +1231,16 @@ msgstr "細分"
 #: ../templates/plate/generator.html:32 ../templates/plate/generator.html:36
 #: ../templates/plate/generator.html:40 ../templates/profile/edit.html:181
 #: ../templates/profile/edit.html:216 ../templates/profile/edit.html:240
-#: ../templates/profile/edit.html:81 ../templates/setup/setup.html:596
-#: ../templates/setup/setup.html:604 ../templates/setup/setup.html:648
+#: ../templates/profile/edit.html:81 ../templates/setup/setup.html:605
+#: ../templates/setup/setup.html:613 ../templates/setup/setup.html:657
 msgid "Millimeter"
 msgstr "mm"
 
-#: ../templates/setup/setup.html:402
+#: ../templates/setup/setup.html:411
 msgid "Millisecond"
 msgstr " ms "
 
-#: ../templates/setup/setup.html:621
+#: ../templates/setup/setup.html:630
 msgid "Min Speed"
 msgstr "最小スピード"
 
@@ -1324,19 +1248,19 @@ msgstr "最小スピード"
 msgid "Min for Number Input"
 msgstr "最小入力"
 
-#: ../templates/setup/setup.html:472
+#: ../templates/setup/setup.html:481
 msgid "Mirror Layers"
-msgstr "ミラー層"
+msgstr "ミラー表示"
 
-#: ../templates/index.html:233
+#: ../templates/index.html:224
 msgid "Module"
 msgstr "モジュール"
 
-#: ../templates/setup/setup.html:627
+#: ../templates/setup/setup.html:636
 msgid "Motor Startup Speed"
 msgstr "モーター始動速度"
 
-#: ../templates/setup/setup.html:634
+#: ../templates/setup/setup.html:643
 msgid "Motor Step Angle"
 msgstr "モーターステップ角"
 
@@ -1359,15 +1283,15 @@ msgstr "レイヤーに移動"
 
 #: ../templates/profile/edit.html:13
 msgid "Move to layer, movement speed, slow section, sending gcode"
-msgstr "レイヤーに移動、移動速度、遅いセクション、gcodeを送信"
+msgstr "レイヤーに移動、移動速度、遅いセクション"
 
-#: ../templates/setup/setup.html:266
+#: ../templates/setup/setup.html:269
 msgid "Movement Positioning"
 msgstr "移動ポイント"
 
 #: ../templates/profile/edit.html:401
 msgid "Multi Print Gap"
-msgstr "複数の印刷ギャップ"
+msgstr "複数印刷時の間隔"
 
 #: ../templates/plate/edit.html:60
 msgid "Multiple Print"
@@ -1377,7 +1301,7 @@ msgstr "複数印刷"
 msgid "Name"
 msgstr "名称"
 
-#: ../templates/setup/custom-buttons.html:38
+#: ../templates/setup/custom-buttons.html:36
 msgid "Name / Color"
 msgstr "名称 / 顔色"
 
@@ -1385,11 +1309,11 @@ msgstr "名称 / 顔色"
 msgid "Name without space, only characters"
 msgstr "名前にスペースを含めることはできません。文字と記号のみ"
 
-#: ../templates/setup/setup.html:61
+#: ../templates/setup/setup.html:62
 msgid "NanoDLP network port, remote slicer"
 msgstr "NanoDLPネットワークポート、リモートスライサー"
 
-#: ../templates/setup/setup.html:61
+#: ../templates/setup/setup.html:62
 msgid "Network"
 msgstr "通信網"
 
@@ -1397,15 +1321,15 @@ msgstr "通信網"
 msgid "New Version Available"
 msgstr "新しいバージョンが利用可能"
 
-#: ../templates/setup/setup.html:700
+#: ../templates/setup/setup.html:706
 msgid "Nextion Display Port Address"
 msgstr "Nextionポート表示アドレス"
 
-#: ../templates/setup/setup.html:56
+#: ../templates/setup/setup.html:57
 msgid "Nextion, AMLCD"
 msgstr "Nextion、AMLCD"
 
-#: ../templates/setup/setup.html:189
+#: ../templates/setup/setup.html:194
 msgid "No"
 msgstr "いいえ"
 
@@ -1414,7 +1338,7 @@ msgid "No Encryption"
 msgstr "暗号化されていません"
 
 #: ../templates/plate/advanced-plates.html:124
-#: ../templates/plate/plates.html:227
+#: ../templates/plate/plates.html:218
 msgid "No Plates"
 msgstr "モデルなし"
 
@@ -1426,31 +1350,31 @@ msgstr "設定なし"
 msgid "No wireless connection found"
 msgstr "ワイヤレス接続が見つかりません"
 
-#: ../templates/setup/setup.html:430
+#: ../templates/setup/setup.html:439
 msgid "Non-Standard Monochrome"
 msgstr "非標準のモノクロ"
 
-#: ../templates/setup/setup.html:429
+#: ../templates/setup/setup.html:438
 msgid "Normal"
-msgstr "正常"
+msgstr ""
 
 #: ../templates/profile/edit.html:113
 msgid "Normal Layer Cure Time"
-msgstr "正常層の硬化時間"
+msgstr "通常レイヤー - 硬化時間"
 
 #: ../templates/profile/edit.html:15
 msgid "Normal Layer Exposure"
-msgstr "通常のレイヤー露出"
+msgstr "通常レイヤー"
 
 #: ../templates/profile/edit.html:104
 msgid "Normal Layer Thickness"
-msgstr "通常層の厚さ"
+msgstr "通常レイヤー - 厚さ"
 
 #: ../templates/profile/edit.html:15
 msgid "Normal layers count, cure time, lift, erode"
-msgstr "通常の層数、硬化時間、リフト、侵食"
+msgstr "通常レイヤーの厚さ、硬化時間、リフト、領域補正"
 
-#: ../templates/setup/setup.html:716
+#: ../templates/setup/setup.html:722
 msgid "Not Available"
 msgstr "利用できません。"
 
@@ -1464,12 +1388,12 @@ msgstr "ナンバー"
 
 #: ../templates/profile/edit.html:41
 msgid "Number of Burin-in Layers"
-msgstr "層数"
+msgstr "初期レイヤー - レイヤー数"
 
 #: ../templates/plate/edit.html:74 ../templates/plate/extrude.html:48
 #: ../templates/profile/edit.html:247
 msgid "Number of Low Quality Layers"
-msgstr "低品質のレイヤー数"
+msgstr "低品質レイヤー数"
 
 #: ../templates/calibration/mask-generator.html:19
 msgid "Number of Points in Height"
@@ -1487,23 +1411,23 @@ msgstr "オフ"
 msgid "Offset Lowest Point for Slicing"
 msgstr "スライスの最低点をオフセット"
 
-#: ../templates/setup/setup.html:679
+#: ../templates/setup/setup.html:685
 msgid "Once Per 10 Layers"
 msgstr "10層に1回"
 
-#: ../templates/setup/setup.html:673
+#: ../templates/setup/setup.html:679
 msgid "Once Per 2 Layers"
 msgstr "２層に1回"
 
-#: ../templates/setup/setup.html:675
+#: ../templates/setup/setup.html:681
 msgid "Once Per 3 Layers"
 msgstr "３層に1回"
 
-#: ../templates/setup/setup.html:677
+#: ../templates/setup/setup.html:683
 msgid "Once Per 5 Layers"
 msgstr "５層に1回"
 
-#: ../templates/setup/setup.html:672
+#: ../templates/setup/setup.html:678
 msgid "Once Per Layer"
 msgstr "毎層に一回"
 
@@ -1515,19 +1439,19 @@ msgstr "オンラインアクセスコード"
 msgid "Only Display Point"
 msgstr "ポイントのみを表示"
 
-#: ../templates/setup/setup.html:688
+#: ../templates/setup/setup.html:694
 msgid "Only Last Image"
 msgstr "最後の画像のみ"
 
-#: ../templates/setup/setup.html:671
+#: ../templates/setup/setup.html:677
 msgid "Only Manually"
 msgstr "手動機能のみ"
 
-#: ../templates/setup/setup.html:133
+#: ../templates/setup/setup.html:134
 msgid "Open Before Each Layer"
 msgstr "各層の前に開く"
 
-#: ../templates/setup/setup.html:135
+#: ../templates/setup/setup.html:136
 msgid "Open Before Print"
 msgstr "印刷前に開く"
 
@@ -1543,17 +1467,17 @@ msgstr "グローバルマスクを選択"
 msgid "Orange"
 msgstr "オレンジ"
 
-#: ../templates/setup/setup.html:831
+#: ../templates/setup/setup.html:818
 msgid "Other Settings"
 msgstr "その他の設定"
 
 #: ../templates/profile/edit.html:345
 msgid "Outer Wall Thickness"
-msgstr "外壁厚"
+msgstr "外壁厚さ"
 
 #: ../templates/plate/preview.html:55
 msgid "Overhang areas on layers:"
-msgstr "床吊りエリア:"
+msgstr "オーバーハングエリア:"
 
 #: ../templates/profile/edit.html:17
 msgid "Override Machine Settings"
@@ -1561,15 +1485,15 @@ msgstr "マシン設定を上書き"
 
 #: ../templates/profile/edit.html:439
 msgid "Override Print Stop GCode"
-msgstr "印刷停止GCodeの書き換え"
+msgstr "印刷停止に実行するGCode"
 
 #: ../templates/profile/edit.html:432
 msgid "Override Resume Print GCode"
-msgstr "書き換えて印刷に戻るGCode"
+msgstr "印刷再開時に実行するGCode"
 
 #: ../templates/profile/edit.html:425
 msgid "Override Start of Print GCode"
-msgstr "GCodeを書き換えて印刷を開始する"
+msgstr "印刷開始に実行するGCode"
 
 #: ../templates/profile/edit.html:445
 msgid "Override X Resolution"
@@ -1583,7 +1507,7 @@ msgstr "Y軸の解像度"
 msgid "PNG/JPEG File"
 msgstr "PNG/JPEG ファイル"
 
-#: ../templates/plate/plates.html:240
+#: ../templates/plate/plates.html:231
 msgid "Paint"
 msgstr "コーティング"
 
@@ -1612,7 +1536,7 @@ msgid "Per Litre"
 msgstr "リットルあたり"
 
 #: ../templates/plate/edit.html:84 ../templates/profile/edit.html:462
-#: ../templates/setup/setup.html:512 ../templates/setup/setup.html:586
+#: ../templates/setup/setup.html:521 ../templates/setup/setup.html:595
 msgid "Percentage"
 msgstr "割合"
 
@@ -1680,18 +1604,14 @@ msgstr "物理 7, BCM 4"
 msgid "Physical 8, BCM 14"
 msgstr "物理 8, BCM 14"
 
-#: ../templates/plate/plates.html:249
+#: ../templates/plate/plates.html:240
 msgid "Pillars:"
 msgstr "柱:"
 
 #: ../templates/calibration/mask-generator.html:54
-#: ../templates/setup/setup.html:458 ../templates/setup/setup.html:465
+#: ../templates/setup/setup.html:467 ../templates/setup/setup.html:474
 msgid "Pixel"
 msgstr "ピクセル "
-
-#: ../templates/calibration/projector-calibration.html:24
-msgid "Pixel Check"
-msgstr ""
 
 #: ../templates/profile/edit.html:280
 msgid "Pixel Dimming Type"
@@ -1721,7 +1641,7 @@ msgid "Plate File"
 msgstr "モデルファイル"
 
 #: ../templates/plate/extrude.html:12 ../templates/plate/generator.html:5
-#: ../templates/plate/plates.html:235
+#: ../templates/plate/plates.html:226
 msgid "Plate Generator"
 msgstr "モデル生成"
 
@@ -1729,31 +1649,31 @@ msgstr "モデル生成"
 msgid "Plate Name"
 msgstr "モデル名称"
 
-#: ../templates/plate/plates.html:275
+#: ../templates/plate/plates.html:266
 msgid "Plate Size"
 msgstr "モデルサイズ"
 
-#: ../templates/plate/plates.html:97
+#: ../templates/plate/plates.html:88
 msgid "Plate contains overhang areas."
 msgstr "モデルにはフローティング領域が含まれています"
 
-#: ../templates/plate/advanced-plates.html:39 ../templates/plate/plates.html:84
+#: ../templates/plate/advanced-plates.html:39 ../templates/plate/plates.html:75
 msgid "Plate generated using old profile data."
-msgstr "古い構成データを使用してパネルを生成する"
+msgstr "古いプロファイルを使用してモデルが生成されています"
 
 #: ../templates/menu.html:12 ../templates/plate/plates.html:5
 msgid "Plates"
-msgstr "模型"
+msgstr "モデル"
 
 #: ../templates/calibration/z-calibration.html:5
 msgid "Platform Information"
 msgstr "プラットフォーム情報"
 
-#: ../templates/setup/setup.html:596
-msgid "Platform Stop Position"
-msgstr ""
+#: ../templates/setup/setup.html:605
+msgid "Platform Wait Position"
+msgstr "プラットフォーム待機位置"
 
-#: ../templates/setup/setup.html:768
+#: ../templates/setup/setup.html:774
 msgid "Play Sound After Print Stop"
 msgstr "印刷停止後に音を鳴らす"
 
@@ -1765,69 +1685,68 @@ msgstr "ディストリビューションを選択してください。 マス�
 msgid "Please upload an image with the same width and height as your projector's native resolution."
 msgstr "プロジェクターのネイティブ解像度と同じ幅と高さの画像をアップロードしてください。"
 
-#: ../templates/setup/custom-buttons.html:39
-msgid "Position / Condition / Confirmation"
-msgstr ""
+#: ../templates/setup/custom-buttons.html:37
+msgid "Position / Condition"
+msgstr "場所/条件"
 
 #: ../templates/setup/tools.html:24
 msgid "Power Off"
 msgstr "電源を切る"
 
-#: ../templates/setup/setup.html:548
+#: ../templates/setup/setup.html:557
 msgid "Power-Up on Start / Power-Down on Last Layer"
 msgstr "起動時に電源オン/最後のレイヤーの電源を切る"
 
-#: ../templates/setup/setup.html:547
+#: ../templates/setup/setup.html:556
 msgid "Power-Up on Start / Power-Down on Shutdown"
 msgstr "起動時の電源オン/シャットダウン時の電源オフ"
 
-#: ../templates/setup/setup.html:546
+#: ../templates/setup/setup.html:555
 msgid "Power-Up on Start / Power-Down on Stop"
 msgstr "開始時に電源オン/停止時に電源オフ"
 
 #: ../templates/profile/edit.html:12
 msgid "Prepare models for print, erode, dimming, 3D AA, AA, resolution, dimming, hollowing, mask"
-msgstr "印刷、侵食、調光、3D AA、AA、解像度、調光、くり抜き、マスク用のモデルを準備する"
+msgstr "印刷、領域補正、調光、3D AA、AA、解像度、調光、中空、マスク用のモデルを準備する"
 
 #: ../templates/calibration/mask-generator.html:32
 #: ../templates/plate/advanced-plates.html:22 ../templates/plate/plates.html:53
 msgid "Preview"
 msgstr "プレビュー"
 
-#: ../templates/plate/plates.html:206
+#: ../templates/plate/plates.html:197
 msgid "Print After Sliced"
 msgstr "スライス後の印刷"
 
-#: ../templates/plate/plates.html:201
+#: ../templates/plate/plates.html:192
 msgid "Print Now"
 msgstr "即効印刷"
 
-#: ../templates/setup/setup.html:59
+#: ../templates/setup/setup.html:60
 msgid "Print Quality"
 msgstr "印刷品質"
 
-#: ../templates/setup/setup.html:329
+#: ../templates/setup/setup.html:332
 msgid "Print Stop Code"
-msgstr "停止コードを印刷"
+msgstr "印刷停止コード"
 
-#: ../templates/plate/advanced-plates.html:51
-#: ../templates/plate/plates.html:108
+#: ../templates/plate/advanced-plates.html:51 ../templates/plate/plates.html:99
 msgid "Print Time"
 msgstr "印刷時間"
 
-#: ../templates/setup/setup.html:72
+#: ../templates/setup/setup.html:73
 msgid "Printer Name"
-msgstr "印刷名称"
+msgstr "プリンタ名"
 
-#: ../templates/setup/setup.html:78
+#: ../templates/setup/setup.html:79
 msgid "Printer Type"
-msgstr "プリンター機種"
+msgstr "プリンタータイプ"
 
-#: ../templates/setup/setup.html:50
+#: ../templates/setup/setup.html:51
 msgid "Printer name, type, language"
 msgstr "プリンター名、タイプ、言語"
 
-#: ../templates/setup/setup.html:55
+#: ../templates/setup/setup.html:56
 msgid "Printer type, GPIO"
 msgstr "プリンターの種類、GPIO"
 
@@ -1836,51 +1755,56 @@ msgstr "プリンターの種類、GPIO"
 msgid "Printing"
 msgstr "印刷中"
 
-#: ../templates/index.html:195
+#: ../templates/index.html:186
 msgid "Proc"
 msgstr "Proc"
 
 #: ../templates/plate/edit.html:38 ../templates/plate/extrude.html:28
 #: ../templates/plate/generator.html:9
 msgid "Profile"
-msgstr "構成"
+msgstr "プロファイル"
 
-#: ../templates/plate/advanced-plates.html:42 ../templates/plate/plates.html:89
+#: ../templates/plate/advanced-plates.html:42 ../templates/plate/plates.html:80
 msgid "Profile not found."
-msgstr "構成が見つかりません"
+msgstr "プロファイルが見つかりません"
 
-#: ../templates/index.html:169
+#: ../templates/plate/preview.html:9
+msgid "Project Layer"
+msgstr "投影されたレイヤー"
+
+#: ../templates/index.html:160
 msgid ""
 "Projector\n"
 "\t\t\t\tOff"
 msgstr "\t\t\t\tオフ"
 
-#: ../templates/setup/setup.html:81
+#: ../templates/setup/setup.html:82
 msgid "Projector / LCD"
 msgstr "プロジェクター/LCD"
 
-#: ../templates/calibration/projector-calibration.html:103
-msgid "Projector / UV Turn Off"
-msgstr ""
-
-#: ../templates/calibration/projector-calibration.html:102
-msgid "Projector / UV Turn On"
-msgstr ""
-
-#: ../templates/setup/custom-buttons.html:18
+#: ../templates/menu.html:20 ../templates/setup/custom-buttons.html:18
 msgid "Projector Calibration"
 msgstr "プロジェクターのキャリブレーション"
 
+#: ../templates/calibration/projector-calibration.html:82
 #: ../templates/setup/mask.html:3
 msgid "Projector Mask"
 msgstr "投影マスク"
 
-#: ../templates/setup/setup.html:523
+#: ../templates/calibration/projector-calibration.html:74
+msgid "Projector Turn Off"
+msgstr "プロジェクターオフ"
+
+#: ../templates/calibration/projector-calibration.html:73
+msgid "Projector Turn On"
+msgstr "プロジェクターオン"
+
+#: ../templates/setup/setup.html:532
 msgid "Projector USB/Serial Port Address"
 msgstr "プロジェクターUSB /シリアルポートアドレス"
 
 #: ../templates/calibration/z-calibration.html:16
-#: ../templates/setup/setup.html:657
+#: ../templates/setup/setup.html:665
 msgid "Pulse"
 msgstr "パルス"
 
@@ -1888,17 +1812,17 @@ msgstr "パルス"
 msgid "Quality"
 msgstr "品質"
 
-#: ../templates/setup/setup.html:505
+#: ../templates/setup/setup.html:514
 msgid "Query Lamp Hours"
-msgstr "ランプ時間を検査"
+msgstr "ランプ時間取得コマンド"
 
-#: ../templates/setup/setup.html:53
+#: ../templates/setup/setup.html:54
 msgid "RAMPS / Controller"
 msgstr "RAMPS /コントローラ"
 
 #: ../templates/menu.html:22
 msgid "RAMPS Terminal"
-msgstr "RAMPS終端"
+msgstr "RAMPS ターミナル"
 
 #: ../templates/menu.html:34
 msgid "RAMPS: Reconnect"
@@ -1908,7 +1832,7 @@ msgstr "RAMPS: 再接続"
 msgid "Record Current Height as Axis Height"
 msgstr "現在の高さを軸の高さとして記録"
 
-#: ../templates/plate/plates.html:247
+#: ../templates/plate/plates.html:238
 msgid "Rect:"
 msgstr "矩形.:"
 
@@ -1917,11 +1841,11 @@ msgid "Red"
 msgstr "赤"
 
 #: ../templates/plate/advanced-plates.html:100
-#: ../templates/plate/plates.html:163
+#: ../templates/plate/plates.html:154
 msgid "Regenerate"
-msgstr "再形成"
+msgstr "再生成"
 
-#: ../templates/setup/setup.html:269
+#: ../templates/setup/setup.html:272
 msgid "Relative"
 msgstr "相対"
 
@@ -1929,15 +1853,15 @@ msgstr "相対"
 msgid "Reload NanoDLP"
 msgstr "NanoDLPをリロード"
 
-#: ../templates/index.html:95
+#: ../templates/index.html:89
 msgid "Remaining"
-msgstr "残り"
+msgstr "残り時間"
 
 #: ../templates/setup/password.html:37
 msgid "Remote Access to the printer"
 msgstr "リモートアクセス印刷"
 
-#: ../templates/setup/setup.html:778
+#: ../templates/setup/setup.html:784
 msgid "Remote Slicer"
 msgstr "リモートスライス"
 
@@ -1957,58 +1881,54 @@ msgstr "グリッドをリセット"
 msgid "Reset Grid Values"
 msgstr "グリッド値をリセット"
 
-#: ../templates/setup/setup.html:184
+#: ../templates/setup/setup.html:189
 msgid "Reset Position on Limit"
 msgstr "制限をリセット"
 
-#: ../templates/analytics.html:170
-msgid "Reset Stats"
-msgstr ""
-
 #: ../templates/plate/advanced-plates.html:59
-#: ../templates/plate/plates.html:116
+#: ../templates/plate/plates.html:107
 msgid "Resin Cost"
-msgstr "樹脂コスト"
+msgstr "レジンコスト"
 
-#: ../templates/setup/setup.html:604
+#: ../templates/setup/setup.html:613
 msgid "Resin Depth"
 msgstr "樹脂深さ"
 
 #: ../templates/profile/edit.html:29
 msgid "Resin Price"
-msgstr "樹脂価格"
+msgstr "レジン価格"
 
 #: ../templates/menu.html:13
 msgid "Resin Profiles"
-msgstr "樹脂紹介"
+msgstr "レジンプロファイル"
 
 #: ../templates/profile/profiles.html:3
 msgid "Resin Settings"
-msgstr "樹脂設定"
+msgstr "レジンプロファイル設定"
 
 #: ../templates/plate/advanced-plates.html:55
-#: ../templates/plate/plates.html:112
+#: ../templates/plate/plates.html:103
 msgid "Resin Usage"
-msgstr "樹脂使用"
+msgstr "レジン使用量"
 
 #: ../templates/profile/edit.html:11
 msgid "Resin name, price, description"
 msgstr "樹脂名、価格、説明"
 
-#: ../templates/setup/setup.html:60
+#: ../templates/setup/setup.html:61
 msgid "Resolution, 3D preview, remote slicer"
 msgstr "解像度、3Dプレビュー、リモートスライサー"
 
 #: ../templates/profile/edit.html:17
 msgid "Resolution, codes, mask"
-msgstr "解像度、コード、マスク"
+msgstr "解像度、コード、マスク - レジン毎に特有の動作が必要な場合に設定"
 
 #: ../templates/setup/tools.html:27
 msgid "Restart Printer"
 msgstr "印刷を再開"
 
-#: ../templates/setup/setup.html:293 ../templates/setup/setup.html:713
-#: ../templates/setup/setup.html:762
+#: ../templates/setup/setup.html:296 ../templates/setup/setup.html:719
+#: ../templates/setup/setup.html:768
 msgid "Restart Required"
 msgstr "再起動する必要があります"
 
@@ -2028,23 +1948,23 @@ msgstr "デフォルト設定に戻す"
 msgid "Restore Machine Settings"
 msgstr "マシン設定を復元する"
 
-#: ../templates/plate/plates.html:195
+#: ../templates/plate/plates.html:186
 msgid "Resume"
 msgstr "継続"
 
-#: ../templates/setup/setup.html:321
+#: ../templates/setup/setup.html:324
 msgid "Resume Print Code"
-msgstr "コードの印刷を続行"
+msgstr "印刷再開コード"
 
 #: ../templates/plate/edit.html:93 ../templates/profile/edit.html:396
 msgid "Rotate 90°"
-msgstr "回転 90º"
+msgstr "90º回転"
 
 #: ../templates/plate/edit.html:89 ../templates/profile/edit.html:392
 msgid "Rotate Layers"
-msgstr "回転層"
+msgstr "レイヤーを回転"
 
-#: ../templates/setup/setup.html:98
+#: ../templates/setup/setup.html:99
 msgid "Russian"
 msgstr "ロシア語"
 
@@ -2053,17 +1973,16 @@ msgid "SSID"
 msgstr "SSID"
 
 #: ../templates/plate/edit.html:25
-msgid "STL, OBJ, SLC, NSLICE, SVG, NanoDLP or Zip (PNG Files)"
-msgstr ""
+msgid "STL, OBJ, SLC, SVG, NanoDLP or Zip (PNG Files)"
+msgstr "STL, OBJ, SLC, SVG, NanoDLP or Zip (PNG Files)"
 
 #: ../templates/plate/edit.html:91
 msgid "Same as Profile"
-msgstr "同じプロファイル"
+msgstr "プロファイルに従う"
 
-#: ../templates/profile/edit.html:480 ../templates/setup/editor.html:11
-#: ../templates/setup/editor.html:23 ../templates/setup/editor.html:35
-#: ../templates/setup/password.html:35 ../templates/setup/password.html:48
-#: ../templates/setup/password.html:62 ../templates/setup/setup.html:825
+#: ../templates/profile/edit.html:480 ../templates/setup/password.html:35
+#: ../templates/setup/password.html:48 ../templates/setup/password.html:62
+#: ../templates/setup/setup.html:812
 msgid "Save"
 msgstr "保存"
 
@@ -2085,7 +2004,7 @@ msgstr "モデル検索"
 #: ../templates/profile/edit.html:255 ../templates/profile/edit.html:57
 #: ../templates/profile/edit.html:65 ../templates/profile/edit.html:73
 #: ../templates/profile/edit.html:89 ../templates/profile/profiles.html:9
-#: ../templates/setup/setup.html:497
+#: ../templates/setup/setup.html:506
 msgid "Second"
 msgstr "秒"
 
@@ -2093,35 +2012,27 @@ msgstr "秒"
 msgid "Selected Covers"
 msgstr "被る選択"
 
-#: ../templates/setup/tools.html:40
-msgid "Send Debug File"
-msgstr ""
-
 #: ../templates/term.html:9
 msgid "Send Gcode"
 msgstr " Gcode転送"
-
-#: ../templates/index.html:12
-msgid "Send Report"
-msgstr ""
 
 #: ../templates/term.html:5
 msgid "Serial Terminal"
 msgstr "シリアルターミナル"
 
-#: ../templates/setup/setup.html:368
+#: ../templates/setup/setup.html:377
 msgid "Servo Motor"
 msgstr "サーボモーター"
 
-#: ../templates/setup/setup.html:393
+#: ../templates/setup/setup.html:402
 msgid "Servo Pulse Width - Close"
 msgstr "サーボパルス幅-オフ"
 
-#: ../templates/setup/setup.html:384
+#: ../templates/setup/setup.html:393
 msgid "Servo Pulse Width - Open"
 msgstr "サーボパルス幅-オン"
 
-#: ../templates/setup/setup.html:402
+#: ../templates/setup/setup.html:411
 msgid "Servo Signal Length"
 msgstr "サーボ信号長"
 
@@ -2133,47 +2044,47 @@ msgstr "設定"
 msgid "Setup"
 msgstr "セットアップ"
 
-#: ../templates/setup/setup.html:276
+#: ../templates/setup/setup.html:279
 msgid "Shield Axis Direction"
 msgstr "シールド軸方向"
 
-#: ../templates/setup/setup.html:117
+#: ../templates/setup/setup.html:118
 msgid "Shield Use"
 msgstr "保護カバーの使用"
 
-#: ../templates/setup/setup.html:308
+#: ../templates/setup/setup.html:311
 msgid "Shutdown Code"
 msgstr "シャットダウンコード"
 
-#: ../templates/setup/setup.html:129 ../templates/setup/setup.html:64
+#: ../templates/setup/setup.html:130 ../templates/setup/setup.html:65
 msgid "Shutter"
 msgstr "シャッター"
 
-#: ../templates/calibration/projector-calibration.html:105
+#: ../templates/calibration/projector-calibration.html:76
 msgid "Shutter Close"
 msgstr "シャッターオフ"
 
-#: ../templates/setup/setup.html:354
+#: ../templates/setup/setup.html:363
 msgid "Shutter Close Code"
 msgstr "シャッターオフコード"
 
-#: ../templates/setup/setup.html:376
+#: ../templates/setup/setup.html:385
 msgid "Shutter GPIO"
 msgstr "シャッター GPIO"
 
-#: ../templates/calibration/projector-calibration.html:104
+#: ../templates/calibration/projector-calibration.html:75
 msgid "Shutter Open"
 msgstr "シャッターオン"
 
-#: ../templates/setup/setup.html:344
+#: ../templates/setup/setup.html:353
 msgid "Shutter Open Code"
 msgstr "シャッターオンコード"
 
-#: ../templates/setup/setup.html:364
+#: ../templates/setup/setup.html:373
 msgid "Shutter Type"
 msgstr "シャッター種類"
 
-#: ../templates/setup/setup.html:64
+#: ../templates/setup/setup.html:65
 msgid "Shutter types, gcodes, GPIO"
 msgstr "シャッタータイプ、gcode、GPIO"
 
@@ -2185,17 +2096,17 @@ msgstr "初期のレイヤー調光をスキップする"
 msgid "Slicer Options"
 msgstr "スライサーオプション"
 
-#: ../templates/setup/setup.html:60
+#: ../templates/setup/setup.html:61
 msgid "Slicing"
 msgstr "スライス"
 
-#: ../templates/plate/plates.html:174
+#: ../templates/plate/plates.html:165
 msgid "Slicing..."
-msgstr "スライサー中..."
+msgstr "スライス中..."
 
 #: ../templates/plate/advanced-plates.html:107
 msgid "Slicing... (You can start printing)"
-msgstr "スライサー中。。。（印刷準備完了）"
+msgstr "スライス中。。。（印刷準備完了）"
 
 #: ../templates/profile/edit.html:215
 msgid "Slow Section Height"
@@ -2205,15 +2116,15 @@ msgstr "遅いセクションの高さ"
 msgid "Smallest Area"
 msgstr "最小面積"
 
-#: ../templates/setup/setup.html:46
+#: ../templates/setup/setup.html:47
 msgid "Some critical settings such as type of the shield and etc, will not take effect in the middle of printing. To change those settings without restart, stop printing and submit this page again."
 msgstr "マスクタイプなどの一部の重要な設定は、印刷プロセス中に有効になりません。 再起動せずにこれらの設定を変更するには、印刷を中止して、このページを再度送信してください。"
 
-#: ../templates/plate/plates.html:93
+#: ../templates/plate/plates.html:84
 msgid "Source file contains faulty triangles."
 msgstr "ソースファイルに間違った三角形が含まれています。"
 
-#: ../templates/setup/setup.html:96
+#: ../templates/setup/setup.html:97
 msgid "Spanish"
 msgstr "スペイン語"
 
@@ -2221,24 +2132,24 @@ msgstr "スペイン語"
 msgid "Speed in Slow Section"
 msgstr "低速"
 
-#: ../templates/index.html:164
+#: ../templates/index.html:155
 msgid "Start Display"
 msgstr "表示開始"
 
-#: ../templates/setup/setup.html:314
+#: ../templates/setup/setup.html:317
 msgid "Start of Print Code"
-msgstr "コード印刷開始"
+msgstr "印刷開始コード"
 
-#: ../templates/setup/setup.html:141
+#: ../templates/setup/setup.html:146
 msgid "Step GPIO for Z-Axis"
 msgstr "Z 軸ステッピング GPIO"
 
-#: ../templates/setup/setup.html:746
+#: ../templates/setup/setup.html:752
 msgid "Stepper Driver Fault Detection GPIO"
 msgstr "ステッパードライバーの故障検出GPIO"
 
 #: ../templates/plate/advanced-plates.html:64 ../templates/plate/edit.html:69
-#: ../templates/plate/plates.html:121
+#: ../templates/plate/plates.html:112
 msgid "Stop Layers"
 msgstr "停止層"
 
@@ -2246,16 +2157,16 @@ msgstr "停止層"
 msgid "Stop Layers - Comma Seperated"
 msgstr "停止層 – カンマ区切り"
 
-#: ../templates/setup/setup.html:740
+#: ../templates/setup/setup.html:746
 msgid "Stop/Shutdown Physical GPIO"
 msgstr "物理GPIOの停止/シャットダウン"
 
-#: ../templates/setup/setup.html:685
+#: ../templates/setup/setup.html:691
 msgid "Storage Mode"
 msgstr "ストレージモード"
 
 #: ../templates/plate/edit.html:99 ../templates/setup/custom-inputs.html:59
-#: ../templates/setup/setup.html:845
+#: ../templates/setup/setup.html:832
 msgid "Submit"
 msgstr "提出"
 
@@ -2267,21 +2178,21 @@ msgstr "サポートフォーラム"
 msgid "Support Padding"
 msgstr "サポートパディング"
 
-#: ../templates/setup/upgrade.html:34
-msgid "Switch to {{version}}"
-msgstr ""
+#: ../templates/setup/custom-buttons.html:79
+msgid "Supported Math operations:"
+msgstr "数学演算をサポート:"
 
-#: ../templates/setup/setup.html:762
+#: ../templates/setup/setup.html:768
 msgid "TCP Port to Listen"
 msgstr "TCPポート監視 "
 
-#: ../templates/index.html:176
+#: ../templates/index.html:167
 msgid "Take Photo"
 msgstr "撮る"
 
-#: ../templates/index.html:197
+#: ../templates/index.html:188
 msgid "Temp"
-msgstr "臨時"
+msgstr "CPU温度"
 
 #: ../templates/setup/wireless.html:64
 msgid "Terminate WiFi Connections"
@@ -2305,17 +2216,17 @@ msgstr "このプロセスは、インターネット接続の品質に応じて
 
 #: ../templates/setup/upgrade.html:11
 msgid "The upgrade process would not change your configurations."
-msgstr "アップグレードプロセスで構成が変更されることはありません。"
+msgstr "アップグレードプロセスでプロファイルが変更されることはありません。"
 
-#: ../templates/setup/setup.html:104
+#: ../templates/setup/setup.html:105
 msgid "Theme"
 msgstr "テーマ"
 
-#: ../templates/setup/setup.html:63
+#: ../templates/setup/setup.html:64
 msgid "Theme, language, sound"
 msgstr "テーマ、言語、音"
 
-#: ../templates/plate/plates.html:130
+#: ../templates/plate/plates.html:121
 msgid "This plate is corrupt."
 msgstr "このプレートは壊れています。"
 
@@ -2333,19 +2244,19 @@ msgstr ""
 msgid "This process could take up to a minute to complete, depending on the depth."
 msgstr "深度によっては、このプロセスが完了するまでに1分かかる場合があります。"
 
-#: ../templates/setup/setup.html:367
+#: ../templates/setup/setup.html:376
 msgid "Through Shield"
 msgstr "貫通シールド"
 
-#: ../templates/index.html:232
+#: ../templates/index.html:223
 msgid "Time"
 msgstr "時間"
 
 #: ../templates/profile/profiles.html:7 ../templates/setup/custom-inputs.html:9
 msgid "Title"
-msgstr "テーマ"
+msgstr "表題"
 
-#: ../templates/index.html:120
+#: ../templates/index.html:111
 msgid "To Layer"
 msgstr "層"
 
@@ -2379,37 +2290,37 @@ msgstr "ツール"
 
 #: ../templates/profile/edit.html:325
 msgid "Top Cap Wall"
-msgstr "頂部制限"
+msgstr "上板厚さ"
 
 #: ../templates/calibration/z-calibration.html:76
 msgid "Top ⇧"
 msgstr "上 ⇧"
 
-#: ../templates/index.html:55
+#: ../templates/index.html:49
 msgid "Total Cure Time"
-msgstr "総硬化時間"
+msgstr "累積硬化時間"
 
-#: ../templates/index.html:43
+#: ../templates/index.html:37
 msgid "Total Layers Printed"
-msgstr "総印刷レイヤー数"
+msgstr "累積印刷レイヤー数"
 
-#: ../templates/index.html:48
+#: ../templates/index.html:42
 msgid "Total Plates Printed"
-msgstr "総印刷回数"
+msgstr "累積印刷回数"
 
-#: ../templates/index.html:60
+#: ../templates/index.html:54
 msgid "Total Print Time"
-msgstr "总共打印时间"
+msgstr "累積印刷時間"
 
 #: ../templates/plate/preview.html:71
 msgid "Total Solid Area"
-msgstr "総固体面積 "
+msgstr "塗りつぶし面積"
 
-#: ../templates/setup/setup.html:369
+#: ../templates/setup/setup.html:378
 msgid "True/False Signal"
 msgstr "真/偽の信号"
 
-#: ../templates/setup/setup.html:97
+#: ../templates/setup/setup.html:98
 msgid "Turkish"
 msgstr "トルコ"
 
@@ -2417,39 +2328,35 @@ msgstr "トルコ"
 msgid "USB"
 msgstr "USB"
 
-#: ../templates/setup/setup.html:489
+#: ../templates/setup/setup.html:498
 msgid "USB / Serial Port - ASCII (\\n)"
 msgstr "USB / シリアルポート - ASCII (\\n)"
 
-#: ../templates/setup/setup.html:488
+#: ../templates/setup/setup.html:497
 msgid "USB / Serial Port - ASCII (\\r)"
 msgstr "USB / シリアルポート- ASCII (\\r)"
 
-#: ../templates/setup/setup.html:487
+#: ../templates/setup/setup.html:496
 msgid "USB / Serial Port - ASCII (\\r\\n)"
 msgstr "USB/シリアルポート-ASCII（\\r\\n）"
 
-#: ../templates/setup/setup.html:490
+#: ../templates/setup/setup.html:499
 msgid "USB / Serial Port - Binary"
 msgstr "USB / シリアルポート - Binary"
 
-#: ../templates/setup/setup.html:121
+#: ../templates/setup/setup.html:122
 msgid "USB/Serial"
 msgstr "USB/Serial"
 
-#: ../templates/setup/setup.html:248
+#: ../templates/setup/setup.html:251
 msgid "USB/Serial Port Address"
 msgstr "USB/Serial ポートアドレス"
-
-#: ../templates/calibration/projector-calibration.html:100
-msgid "UV LED / Projector"
-msgstr ""
 
 #: ../templates/setup/custom-inputs.html:26
 msgid "Unit Text"
 msgstr "ユニットテキスト"
 
-#: ../templates/calibration/projector-calibration.html:116
+#: ../templates/calibration/projector-calibration.html:84
 msgid "Update Lamp Hours"
 msgstr "ランプ時間を更新"
 
@@ -2461,7 +2368,7 @@ msgstr "マスクファイルを更新"
 msgid "Upgrade from build #{{vers.Current}}"
 msgstr "アップグレード"
 
-#: ../templates/setup/tools.html:48
+#: ../templates/setup/tools.html:42
 msgid "Upgrade nanoDLP"
 msgstr "nanoDLPをアップグード "
 
@@ -2473,21 +2380,21 @@ msgstr "ベータ版にアップグレード"
 msgid "Upgrade to the latest stable version"
 msgstr "最新の安定バージョンにアップグレード"
 
-#: ../templates/setup/restore.html:8 ../templates/setup/tools.html:62
+#: ../templates/setup/restore.html:8
 msgid "Upload"
 msgstr "転送"
 
-#: ../templates/setup/tools.html:58
-msgid "Upload AVR Firmware"
-msgstr ""
-
-#: ../templates/plate/plates.html:238
+#: ../templates/plate/plates.html:229
 msgid "Upload Image"
 msgstr "画像転送"
 
-#: ../templates/index.html:210
+#: ../templates/index.html:201
 msgid "Uptime"
 msgstr "稼働時間"
+
+#: ../templates/setup/custom-buttons.html:62
+msgid "Usable Keywords:"
+msgstr "キーワードを使用する:"
 
 #: ../templates/profile/edit.html:472
 msgid "Use, If Available"
@@ -2505,11 +2412,11 @@ msgstr "ダッシュボードのユーザー名"
 msgid "Value Type"
 msgstr "数値型"
 
-#: ../templates/setup/setup.html:418
+#: ../templates/setup/setup.html:427
 msgid "Vertical Resolution"
 msgstr "垂直解像度"
 
-#: ../templates/setup/setup.html:477
+#: ../templates/setup/setup.html:486
 msgid "Vertically"
 msgstr "垂直方向"
 
@@ -2525,27 +2432,27 @@ msgstr "WPA"
 msgid "Wait"
 msgstr "後で"
 
-#: ../templates/index.html:124 ../templates/plate/preview.html:93
+#: ../templates/index.html:115 ../templates/plate/preview.html:93
 msgid "Wait After"
-msgstr "待つ"
+msgstr ""
 
 #: ../templates/profile/edit.html:198
 msgid "Wait After Lift"
-msgstr "待ってから立ち上がる"
+msgstr "リフト後待機時間"
 
 #: ../templates/profile/edit.html:129
 msgid "Wait After Print"
-msgstr "印刷後まで待機"
+msgstr "印刷終了まで待機"
 
-#: ../templates/index.html:122 ../templates/plate/preview.html:89
+#: ../templates/index.html:113 ../templates/plate/preview.html:89
 msgid "Wait Before"
-msgstr "待つ前"
+msgstr "硬化前待機"
 
 #: ../templates/profile/edit.html:121
 msgid "Wait Before Print"
-msgstr "印刷前に待機」"
+msgstr "印刷前に待機"
 
-#: ../templates/setup/setup.html:286
+#: ../templates/setup/setup.html:289
 msgid "Wait GPIO"
 msgstr "GPIOを待つ"
 
@@ -2565,15 +2472,15 @@ msgstr "最新の安定バージョン"
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
-#: ../templates/setup/setup.html:435
+#: ../templates/setup/setup.html:444
 msgid "X/Y Resolution"
 msgstr "X/Y 解像度"
 
-#: ../templates/setup/setup.html:443
+#: ../templates/setup/setup.html:452
 msgid "Y Resolution"
 msgstr "Y 解像度"
 
-#: ../templates/setup/setup.html:188
+#: ../templates/setup/setup.html:193
 msgid "Yes"
 msgstr "はい"
 
@@ -2587,90 +2494,93 @@ msgstr "SSHターミナルを使用して手動でアップグレードできま
 
 #: ../templates/plate/cover.html:6
 msgid "You can partially select and cover some sections of the plate to prevent further damage to PDMS and resin waste."
-msgstr "一部のプレートを部分的に選択してカバーすることで、PDMSと樹脂廃棄物へのさらなる損傷を防ぐことができます。"
+msgstr "モデルの一部分を選択してカバーすることで、PDMSと樹脂廃棄物へのさらなる損傷を防ぐことができます。"
 
 #: ../templates/menu.html:19
 msgid "Z Axis Control"
-msgstr "Z 軸制御"
+msgstr "Z軸 制御"
 
 #: ../templates/profile/edit.html:461
 msgid "Z Model Size Modifier"
-msgstr "Z モデルサイズ変更"
+msgstr "Z軸 モデルサイズ変更"
 
 #: ../templates/setup/custom-buttons.html:17
 msgid "Z-Axis Calibration"
-msgstr "Z-軸の校正"
+msgstr "Z軸の校正"
 
-#: ../templates/setup/setup.html:656
+#: ../templates/setup/setup.html:665
 msgid "Z-Axis Height"
-msgstr "Z-軸の高さ"
+msgstr "Z軸の高さ"
 
 #: ../templates/profile/edit.html:206
 msgid "Z-Axis Max Speed"
-msgstr "Z-軸の最大スピード"
+msgstr "Z軸 上昇速度"
 
 #: ../templates/calibration/z-calibration.html:21
 msgid "Zero Level"
-msgstr "ゼロ層"
+msgstr "原点"
 
-#: ../templates/setup/setup.html:279
+#: ../templates/setup/setup.html:282
 msgid "Zero at Bottom"
 msgstr "底部にゼロ"
 
-#: ../templates/setup/setup.html:280
+#: ../templates/setup/setup.html:283
 msgid "Zero at Top"
 msgstr "上部にゼロ"
 
-#: ../templates/plate/plates.html:77
-msgid "days ago"
-msgstr ""
+#: ../templates/setup/custom-buttons.html:60
+msgid "eg."
+msgstr "例えば、"
 
-#: ../templates/plate/plates.html:79
-msgid "hours ago"
-msgstr ""
+#: ../templates/setup/custom-buttons.html:87
+msgid "eg. \\x00\\xff"
+msgstr "例えば、 \\x00\\xff"
 
-#: ../templates/setup/setup.html:122
+#: ../templates/setup/custom-buttons.html:82
+msgid "eg. {[[LayerThickness]]-[[ZLiftDistance]]}"
+msgstr "例えば、 {[[LayerThickness]]-[[ZLiftDistance]]}"
+
+#: ../templates/setup/setup.html:123
 msgid "i2c"
 msgstr "i2c"
 
-#: ../templates/setup/setup.html:293 ../templates/setup/setup.html:733
+#: ../templates/setup/setup.html:296 ../templates/setup/setup.html:739
 msgid "i2c Address"
 msgstr "i2c 住所"
 
-#: ../templates/setup/setup.html:722
+#: ../templates/setup/setup.html:728
 msgid "i2c Bus Path"
 msgstr "i2c バス路"
 
-#: ../templates/index.html:35
+#: ../templates/index.html:28
 msgid "is idle. Click here to select a plate to print."
-msgstr "無効です。印刷するモデルを選択するには、ここをクリックしてください。"
+msgstr "待機中です。印刷するモデルを選択するには、ここをクリックしてください。"
 
-#: ../templates/plate/edit.html:65 ../templates/plate/plates.html:275
-#: ../templates/setup/setup.html:659
+#: ../templates/plate/edit.html:65 ../templates/plate/plates.html:266
 msgid "mm"
 msgstr "mm"
 
-#: ../templates/setup/setup.html:384 ../templates/setup/setup.html:393
+#: ../templates/setup/setup.html:393 ../templates/setup/setup.html:402
 msgid "ms"
 msgstr "ms"
 
-#: ../templates/plate/plates.html:190 ../templates/plate/plates.html:216
+#: ../templates/plate/plates.html:181 ../templates/plate/plates.html:207
 msgid "of"
-msgstr "属する"
+msgstr " ／ "
 
-#: ../templates/profile/edit.html:105 ../templates/setup/setup.html:435
+#: ../templates/profile/edit.html:105 ../templates/setup/setup.html:444
 msgid "μm"
 msgstr "μm"
 
 #: ../templates/profile/edit.html:164 ../templates/profile/edit.html:207
-#: ../templates/profile/edit.html:224 ../templates/setup/setup.html:613
+#: ../templates/profile/edit.html:224 ../templates/setup/setup.html:622
 msgid "μm/Second"
 msgstr "μm/s"
 
-#: ../templates/base.html:18
+#: ../templates/base.html:11
 msgid "∑"
 msgstr "∑"
 
-#: ../templates/base.html:16
+#: ../templates/base.html:9
 msgid "ⓘ"
 msgstr "ⓘ"
