@@ -46,7 +46,7 @@ msgstr ""
 msgid "3D Editor"
 msgstr ""
 
-#: ../templates/index.html:35
+#: ../templates/index.html:26
 msgid "3D Printer"
 msgstr ""
 
@@ -70,7 +70,7 @@ msgstr ""
 msgid "Absolute"
 msgstr "Assoluto"
 
-#: ../templates/index.html:107 ../templates/index.html:68
+#: ../templates/index.html:100 ../templates/index.html:60
 #: ../templates/plate/advanced-plates.html:24 ../templates/plate/plates.html:55
 #: ../templates/setup/custom-buttons.html:42
 #: ../templates/setup/custom-inputs.html:49
@@ -137,10 +137,6 @@ msgstr "Sempre"
 msgid "Appearance"
 msgstr ""
 
-#: ../templates/index.html:223
-msgid "Application Log"
-msgstr "Log delle Applicazioni"
-
 #: ../templates/plate/plates.html:42
 msgid "Are you sure you want to delete all plates?"
 msgstr ""
@@ -167,11 +163,11 @@ msgstr "Sei sicuro di voler espandere il filesystem?"
 msgid "Are you sure you want to force stop the printer?"
 msgstr "Sei sicuro di voler forzare l'arresto della stampante?"
 
-#: ../templates/index.html:181 ../templates/setup/tools.html:25
+#: ../templates/index.html:176 ../templates/setup/tools.html:25
 msgid "Are you sure you want to power off the printer?"
 msgstr "Sei sicuro di voler spegnere la stampante?"
 
-#: ../templates/index.html:182
+#: ../templates/index.html:177
 msgid "Are you sure you want to power off the projector?"
 msgstr "Sei sicuro di voler spegnere il Proiettore"
 
@@ -187,7 +183,7 @@ msgstr "Sei sicuro di voler stampare la piastra di calibrazione?"
 msgid "Are you sure you want to regenerate the layers of this plate?"
 msgstr "Sei sicuro di voler rigenerare gli strati di questa piastra?"
 
-#: ../templates/index.html:185 ../templates/setup/tools.html:28
+#: ../templates/index.html:180 ../templates/setup/tools.html:28
 msgid "Are you sure you want to restart the printer?"
 msgstr "Sei sicuro di voler riavviare la stampante?"
 
@@ -195,7 +191,7 @@ msgstr "Sei sicuro di voler riavviare la stampante?"
 msgid "Are you sure you want to restore the default settings and reboot the printer?"
 msgstr "Sei sicuro di voler riportare la stampante ai settaggi di base e riavviare ?"
 
-#: ../templates/index.html:186
+#: ../templates/index.html:181
 msgid "Are you sure you want to resume the previous print?"
 msgstr ""
 
@@ -207,21 +203,21 @@ msgstr "Sei sicuro di voler salvare le sezioni coperte?"
 msgid "Are you sure you want to set this height as the bottom?"
 msgstr "Sei sicuro di voler impostare questa come Altezza di base?"
 
-#: ../templates/index.html:183
+#: ../templates/index.html:178
 msgid ""
 "Are you sure you want to start the display? It will automatically select\n"
-"\t\t\tthe second display."
+"\tthe second display."
 msgstr ""
 
 #: ../templates/plate/advanced-plates.html:14 ../templates/plate/plates.html:46
 msgid "Are you sure you want to stop printing?"
 msgstr "Sei sicuro di voler fermare la stampa?"
 
-#: ../templates/index.html:178
+#: ../templates/index.html:173
 msgid ""
 "Are you sure you want to stop printing? It will stop after the current\n"
-"\t\t\tlayer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click\n"
-"\t\t\tthe `Force Stop` button."
+"\tlayer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click\n"
+"\tthe `Force Stop` button."
 msgstr ""
 
 #: ../templates/setup/tools.html:33
@@ -412,7 +408,7 @@ msgstr ""
 msgid "Burn-in Wait Before Print"
 msgstr ""
 
-#: ../templates/index.html:193
+#: ../templates/printer.html:8
 msgid "CPU"
 msgstr "CPU"
 
@@ -546,7 +542,7 @@ msgstr ""
 msgid "Create 3D shapes by repeating an image frame"
 msgstr "Crea forme 3D ripetendo un frame di immagine"
 
-#: ../templates/index.html:123 ../templates/plate/preview.html:91
+#: ../templates/index.html:116 ../templates/plate/preview.html:91
 msgid "Cure Layer"
 msgstr "Strato Attuale"
 
@@ -591,8 +587,8 @@ msgstr "Predefinito"
 msgid "Description"
 msgstr "Descrizione"
 
-#: ../templates/index.html:234 ../templates/plate/advanced-plates.html:23
-#: ../templates/plate/plates.html:54 ../templates/setup/custom-inputs.html:46
+#: ../templates/plate/advanced-plates.html:23 ../templates/plate/plates.html:54
+#: ../templates/printer.html:45 ../templates/setup/custom-inputs.html:46
 #: ../templates/setup/custom-inputs.html:47
 #: ../templates/setup/custom-inputs.html:48
 msgid "Details"
@@ -617,7 +613,7 @@ msgstr "Direzione GPIO"
 msgid "Disable"
 msgstr "Disattiva"
 
-#: ../templates/index.html:155
+#: ../templates/index.html:144
 msgid "Disable Auto Shutdown"
 msgstr "Disattiva Spegnimento Automatico"
 
@@ -631,7 +627,7 @@ msgstr "Disattiva Motore"
 msgid "Disabled"
 msgstr "Disattivato"
 
-#: ../templates/index.html:206
+#: ../templates/printer.html:21
 msgid "Disk"
 msgstr "Disco"
 
@@ -748,7 +744,7 @@ msgstr ""
 msgid "Dynamic Wait After Lift"
 msgstr ""
 
-#: ../templates/index.html:102
+#: ../templates/index.html:95
 msgid "ETA"
 msgstr ""
 
@@ -790,10 +786,10 @@ msgstr ""
 msgid "Enable"
 msgstr "Abilita"
 
-#: ../templates/index.html:158
+#: ../templates/index.html:147
 msgid ""
 "Enable\n"
-"\t\t\t\tAuto Shutdown"
+"\t\t\t\t\t\t\t\tAuto Shutdown"
 msgstr ""
 
 #: ../templates/setup/setup.html:218
@@ -929,11 +925,11 @@ msgstr "Calibrazione FullHD"
 msgid "Gcode"
 msgstr "Gcode"
 
-#: ../templates/index.html:125 ../templates/plate/preview.html:95
+#: ../templates/index.html:118 ../templates/plate/preview.html:95
 msgid "Gcode After"
 msgstr "Dopo  Gcode"
 
-#: ../templates/index.html:121 ../templates/plate/preview.html:87
+#: ../templates/index.html:114 ../templates/plate/preview.html:87
 msgid "Gcode Before"
 msgstr "Prima  Gcode"
 
@@ -962,13 +958,9 @@ msgstr ""
 msgid "Hardware"
 msgstr ""
 
-#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:90
+#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:83
 msgid "Height"
 msgstr "Altezza"
-
-#: ../templates/menu.html:27
-msgid "Help"
-msgstr "Aiuto"
 
 #: ../templates/profile/edit.html:318
 msgid "Hexagonal"
@@ -1119,9 +1111,9 @@ msgstr ""
 msgid "Last Print"
 msgstr ""
 
-#: ../templates/calibration/z-calibration.html:104 ../templates/index.html:231
-#: ../templates/index.html:85 ../templates/plate/plates.html:216
-#: ../templates/plate/preview.html:67
+#: ../templates/calibration/z-calibration.html:104 ../templates/index.html:78
+#: ../templates/plate/plates.html:216 ../templates/plate/preview.html:67
+#: ../templates/printer.html:42
 msgid "Layer"
 msgstr "Strato"
 
@@ -1146,11 +1138,11 @@ msgstr "Passo Della Vite"
 msgid "Lens Barrel Factor"
 msgstr ""
 
-#: ../templates/index.html:230
+#: ../templates/printer.html:41
 msgid "Level"
 msgstr "Livello"
 
-#: ../templates/index.html:126
+#: ../templates/index.html:119
 msgid "Lift"
 msgstr ""
 
@@ -1158,7 +1150,7 @@ msgstr ""
 msgid "Lift After Print"
 msgstr "Soll. dopo la Stampa"
 
-#: ../templates/index.html:127
+#: ../templates/index.html:120
 msgid "Lift Wait"
 msgstr ""
 
@@ -1281,7 +1273,7 @@ msgstr ""
 msgid "Measurement Point Width"
 msgstr "Larghezza del punto di misura"
 
-#: ../templates/index.html:208
+#: ../templates/printer.html:23
 msgid "Memory"
 msgstr "Memoria"
 
@@ -1321,7 +1313,7 @@ msgstr "Minima immissione di numeri"
 msgid "Mirror Layers"
 msgstr ""
 
-#: ../templates/index.html:233
+#: ../templates/printer.html:44
 msgid "Module"
 msgstr "Modulo"
 
@@ -1829,7 +1821,7 @@ msgstr ""
 msgid "Printing"
 msgstr "In Stampa"
 
-#: ../templates/index.html:195
+#: ../templates/printer.html:10
 msgid "Proc"
 msgstr "Proc"
 
@@ -1842,10 +1834,10 @@ msgstr "Profilo"
 msgid "Profile not found."
 msgstr "Profilo non Trovato"
 
-#: ../templates/index.html:169
+#: ../templates/index.html:160
 msgid ""
 "Projector\n"
-"\t\t\t\tOff"
+"\t\t\t\t\t\t\t\tOff"
 msgstr ""
 
 #: ../templates/setup/setup.html:81
@@ -1922,7 +1914,7 @@ msgstr "Relativo"
 msgid "Reload NanoDLP"
 msgstr ""
 
-#: ../templates/index.html:95
+#: ../templates/index.html:88
 msgid "Remaining"
 msgstr "Residuo"
 
@@ -2214,12 +2206,16 @@ msgstr ""
 msgid "Speed in Slow Section"
 msgstr "Vel. in Sezione Lenta"
 
-#: ../templates/index.html:164
+#: ../templates/index.html:155
 msgid "Start Display"
 msgstr "Avvia Schermo"
 
 #: ../templates/setup/setup.html:314
 msgid "Start of Print Code"
+msgstr ""
+
+#: ../templates/menu.html:25
+msgid "Status"
 msgstr ""
 
 #: ../templates/setup/setup.html:141
@@ -2252,7 +2248,7 @@ msgstr "Modalit&agrave di Archiviazione"
 msgid "Submit"
 msgstr "Invia"
 
-#: ../templates/menu.html:26
+#: ../templates/menu.html:27
 msgid "Support Forum"
 msgstr ""
 
@@ -2268,11 +2264,11 @@ msgstr ""
 msgid "TCP Port to Listen"
 msgstr "Porta TCP in ascolto "
 
-#: ../templates/index.html:176
+#: ../templates/index.html:166
 msgid "Take Photo"
 msgstr "Fare foto"
 
-#: ../templates/index.html:197
+#: ../templates/printer.html:12
 msgid "Temp"
 msgstr "Temp"
 
@@ -2330,7 +2326,7 @@ msgstr "Questo processo potrebbe richiedere fino a un minuto al termine, a secon
 msgid "Through Shield"
 msgstr ""
 
-#: ../templates/index.html:232
+#: ../templates/printer.html:43
 msgid "Time"
 msgstr "Tempo"
 
@@ -2338,7 +2334,7 @@ msgstr "Tempo"
 msgid "Title"
 msgstr "Nome Profilo"
 
-#: ../templates/index.html:120
+#: ../templates/index.html:113
 msgid "To Layer"
 msgstr ""
 
@@ -2366,7 +2362,7 @@ msgstr "Attiva la navigazione"
 msgid "Toggle Overhang Areas"
 msgstr ""
 
-#: ../templates/menu.html:25 ../templates/setup/tools.html:37
+#: ../templates/menu.html:26 ../templates/setup/tools.html:37
 msgid "Tools"
 msgstr "Strumenti"
 
@@ -2378,19 +2374,19 @@ msgstr "Parete di copert. Super."
 msgid "Top ⇧"
 msgstr "Top ⇧"
 
-#: ../templates/index.html:55
+#: ../templates/index.html:47
 msgid "Total Cure Time"
 msgstr ""
 
-#: ../templates/index.html:43
+#: ../templates/index.html:35
 msgid "Total Layers Printed"
 msgstr ""
 
-#: ../templates/index.html:48
+#: ../templates/index.html:40
 msgid "Total Plates Printed"
 msgstr ""
 
-#: ../templates/index.html:60
+#: ../templates/index.html:52
 msgid "Total Print Time"
 msgstr ""
 
@@ -2478,7 +2474,7 @@ msgstr ""
 msgid "Upload Image"
 msgstr "Caricare Immagine"
 
-#: ../templates/index.html:210
+#: ../templates/printer.html:25
 msgid "Uptime"
 msgstr "Tempo di Attivit&agrave - "
 
@@ -2518,7 +2514,7 @@ msgstr "WPA"
 msgid "Wait"
 msgstr "Attesa"
 
-#: ../templates/index.html:124 ../templates/plate/preview.html:93
+#: ../templates/index.html:117 ../templates/plate/preview.html:93
 msgid "Wait After"
 msgstr "Attesa Dopo"
 
@@ -2530,7 +2526,7 @@ msgstr "Attesa dopo la Salita"
 msgid "Wait After Print"
 msgstr "Attesa dopo la Stampa"
 
-#: ../templates/index.html:122 ../templates/plate/preview.html:89
+#: ../templates/index.html:115 ../templates/plate/preview.html:89
 msgid "Wait Before"
 msgstr "Attesa Prima"
 
@@ -2634,7 +2630,7 @@ msgstr "Indirizzo i2c"
 msgid "i2c Bus Path"
 msgstr "Percorso Bus ic2"
 
-#: ../templates/index.html:35
+#: ../templates/index.html:26
 msgid "is idle. Click here to select a plate to print."
 msgstr ""
 

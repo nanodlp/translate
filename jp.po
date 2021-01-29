@@ -46,7 +46,7 @@ msgstr "3Dアンチエイリアシング"
 msgid "3D Editor"
 msgstr "3Dエディタ"
 
-#: ../templates/index.html:35
+#: ../templates/index.html:26
 msgid "3D Printer"
 msgstr "3Dプリント"
 
@@ -70,7 +70,7 @@ msgstr ""
 msgid "Absolute"
 msgstr "絶対"
 
-#: ../templates/index.html:107 ../templates/index.html:68
+#: ../templates/index.html:100 ../templates/index.html:60
 #: ../templates/plate/advanced-plates.html:24 ../templates/plate/plates.html:55
 #: ../templates/setup/custom-buttons.html:42
 #: ../templates/setup/custom-inputs.html:49
@@ -137,10 +137,6 @@ msgstr "任意時間"
 msgid "Appearance"
 msgstr "外観"
 
-#: ../templates/index.html:223
-msgid "Application Log"
-msgstr "アプリケーションログ"
-
 #: ../templates/plate/plates.html:42
 msgid "Are you sure you want to delete all plates?"
 msgstr "すべてのモデルを削除してもよろしいですか？"
@@ -167,11 +163,11 @@ msgstr "ファイルシステムを拡張してもよろしいですか?"
 msgid "Are you sure you want to force stop the printer?"
 msgstr "プリンタを強制停止してもよろしいですか?"
 
-#: ../templates/index.html:181 ../templates/setup/tools.html:25
+#: ../templates/index.html:176 ../templates/setup/tools.html:25
 msgid "Are you sure you want to power off the printer?"
 msgstr "プリンタ電源をオフにする必要がありますか？?"
 
-#: ../templates/index.html:182
+#: ../templates/index.html:177
 msgid "Are you sure you want to power off the projector?"
 msgstr "プロジェクタをオフにしてもよろしいですか ?"
 
@@ -187,7 +183,7 @@ msgstr "キャリブレーションプレートを印刷してもよろしいで
 msgid "Are you sure you want to regenerate the layers of this plate?"
 msgstr "このモデルのレイヤーを再生成してもよろしいですか?"
 
-#: ../templates/index.html:185 ../templates/setup/tools.html:28
+#: ../templates/index.html:180 ../templates/setup/tools.html:28
 msgid "Are you sure you want to restart the printer?"
 msgstr "プリンタを再起動してもよろしいですか?"
 
@@ -195,7 +191,7 @@ msgstr "プリンタを再起動してもよろしいですか?"
 msgid "Are you sure you want to restore the default settings and reboot the printer?"
 msgstr "デフォルト設定を復元してプリンタを再起動してもよろしいですか?"
 
-#: ../templates/index.html:186
+#: ../templates/index.html:181
 msgid "Are you sure you want to resume the previous print?"
 msgstr "本当に最後の印刷を再開しますか？"
 
@@ -207,27 +203,22 @@ msgstr "上書きした部分を保存してもよろしいですか?"
 msgid "Are you sure you want to set this height as the bottom?"
 msgstr "この高さを下に設定してもよろしいですか?"
 
-#: ../templates/index.html:183
+#: ../templates/index.html:178
 msgid ""
 "Are you sure you want to start the display? It will automatically select\n"
-"\t\t\tthe second display."
+"\tthe second display."
 msgstr ""
-"印刷を中止してもよろしいですか？ 現在\n"
-"\t\t\t第二次表示"
 
 #: ../templates/plate/advanced-plates.html:14 ../templates/plate/plates.html:46
 msgid "Are you sure you want to stop printing?"
 msgstr "印刷を中止してもよろしいですか?"
 
-#: ../templates/index.html:178
+#: ../templates/index.html:173
 msgid ""
 "Are you sure you want to stop printing? It will stop after the current\n"
-"\t\t\tlayer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click\n"
-"\t\t\tthe `Force Stop` button."
+"\tlayer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click\n"
+"\tthe `Force Stop` button."
 msgstr ""
-"印刷を中止してもよろしいですか？現在\n"
-"\t\t\tレイヤーが完成しました。 現在のレイヤーを中止したい場合、「ツール」タブをクリックして「設定」ページに移動します。\n"
-"\t\t\tthe“強制停止”ボタン"
 
 #: ../templates/setup/tools.html:33
 msgid "Are you sure you want to terminate nanoDLP and have access to terminal?"
@@ -417,7 +408,7 @@ msgstr "初期レイヤー - 印刷後待機時間"
 msgid "Burn-in Wait Before Print"
 msgstr "初期レイヤー - 印刷前待機時間"
 
-#: ../templates/index.html:193
+#: ../templates/printer.html:8
 msgid "CPU"
 msgstr "CPU"
 
@@ -551,7 +542,7 @@ msgstr "NanoDLPに接続できません。インターネットの接続を確�
 msgid "Create 3D shapes by repeating an image frame"
 msgstr "画像ボックスを繰り返して3次元形状を作成する"
 
-#: ../templates/index.html:123 ../templates/plate/preview.html:91
+#: ../templates/index.html:116 ../templates/plate/preview.html:91
 msgid "Cure Layer"
 msgstr "レイヤーを露光"
 
@@ -596,8 +587,8 @@ msgstr "デフォルト"
 msgid "Description"
 msgstr "解説"
 
-#: ../templates/index.html:234 ../templates/plate/advanced-plates.html:23
-#: ../templates/plate/plates.html:54 ../templates/setup/custom-inputs.html:46
+#: ../templates/plate/advanced-plates.html:23 ../templates/plate/plates.html:54
+#: ../templates/printer.html:45 ../templates/setup/custom-inputs.html:46
 #: ../templates/setup/custom-inputs.html:47
 #: ../templates/setup/custom-inputs.html:48
 msgid "Details"
@@ -622,7 +613,7 @@ msgstr "方向GPIO"
 msgid "Disable"
 msgstr "無効"
 
-#: ../templates/index.html:155
+#: ../templates/index.html:144
 msgid "Disable Auto Shutdown"
 msgstr "自動シャットダウンを無効にする"
 
@@ -636,7 +627,7 @@ msgstr "モーターを無効にする"
 msgid "Disabled"
 msgstr "無効"
 
-#: ../templates/index.html:206
+#: ../templates/printer.html:21
 msgid "Disk"
 msgstr "ディスク"
 
@@ -753,7 +744,7 @@ msgstr "動的リフト - 速度"
 msgid "Dynamic Wait After Lift"
 msgstr "動的リフト - リフト後待機時間"
 
-#: ../templates/index.html:102
+#: ../templates/index.html:95
 msgid "ETA"
 msgstr "終了予定時間"
 
@@ -795,13 +786,11 @@ msgstr "ダッシュボードのユーザー名は空なので、誰でも認証
 msgid "Enable"
 msgstr "有効"
 
-#: ../templates/index.html:158
+#: ../templates/index.html:147
 msgid ""
 "Enable\n"
-"\t\t\t\tAuto Shutdown"
+"\t\t\t\t\t\t\t\tAuto Shutdown"
 msgstr ""
-"有効\n"
-"\t\t\t\t自動シャットダウン"
 
 #: ../templates/setup/setup.html:218
 msgid "Enable Before Each Print"
@@ -936,11 +925,11 @@ msgstr "フルHD補正"
 msgid "Gcode"
 msgstr ""
 
-#: ../templates/index.html:125 ../templates/plate/preview.html:95
+#: ../templates/index.html:118 ../templates/plate/preview.html:95
 msgid "Gcode After"
 msgstr ""
 
-#: ../templates/index.html:121 ../templates/plate/preview.html:87
+#: ../templates/index.html:114 ../templates/plate/preview.html:87
 msgid "Gcode Before"
 msgstr ""
 
@@ -969,13 +958,9 @@ msgstr "HMI"
 msgid "Hardware"
 msgstr "ハードウェア"
 
-#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:90
+#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:83
 msgid "Height"
 msgstr "高さ"
-
-#: ../templates/menu.html:27
-msgid "Help"
-msgstr "ヘルプ"
 
 #: ../templates/profile/edit.html:318
 msgid "Hexagonal"
@@ -1126,9 +1111,9 @@ msgstr ""
 msgid "Last Print"
 msgstr ""
 
-#: ../templates/calibration/z-calibration.html:104 ../templates/index.html:231
-#: ../templates/index.html:85 ../templates/plate/plates.html:216
-#: ../templates/plate/preview.html:67
+#: ../templates/calibration/z-calibration.html:104 ../templates/index.html:78
+#: ../templates/plate/plates.html:216 ../templates/plate/preview.html:67
+#: ../templates/printer.html:42
 msgid "Layer"
 msgstr "印刷中レイヤー"
 
@@ -1153,11 +1138,11 @@ msgstr "リードねじピッチ"
 msgid "Lens Barrel Factor"
 msgstr "レンズ収差 係数"
 
-#: ../templates/index.html:230
+#: ../templates/printer.html:41
 msgid "Level"
 msgstr "レベル"
 
-#: ../templates/index.html:126
+#: ../templates/index.html:119
 msgid "Lift"
 msgstr "リフト"
 
@@ -1165,7 +1150,7 @@ msgstr "リフト"
 msgid "Lift After Print"
 msgstr "リフト高さ"
 
-#: ../templates/index.html:127
+#: ../templates/index.html:120
 msgid "Lift Wait"
 msgstr "リフト待機時間"
 
@@ -1288,7 +1273,7 @@ msgstr "測定方法"
 msgid "Measurement Point Width"
 msgstr "測定点幅"
 
-#: ../templates/index.html:208
+#: ../templates/printer.html:23
 msgid "Memory"
 msgstr "メモリ"
 
@@ -1328,7 +1313,7 @@ msgstr "最小入力"
 msgid "Mirror Layers"
 msgstr "ミラー表示"
 
-#: ../templates/index.html:233
+#: ../templates/printer.html:44
 msgid "Module"
 msgstr "モジュール"
 
@@ -1836,7 +1821,7 @@ msgstr "プリンターの種類、GPIO"
 msgid "Printing"
 msgstr "印刷中"
 
-#: ../templates/index.html:195
+#: ../templates/printer.html:10
 msgid "Proc"
 msgstr "Proc"
 
@@ -1849,11 +1834,11 @@ msgstr "プロファイル"
 msgid "Profile not found."
 msgstr "プロファイルが見つかりません"
 
-#: ../templates/index.html:169
+#: ../templates/index.html:160
 msgid ""
 "Projector\n"
-"\t\t\t\tOff"
-msgstr "\t\t\t\tオフ"
+"\t\t\t\t\t\t\t\tOff"
+msgstr ""
 
 #: ../templates/setup/setup.html:81
 msgid "Projector / LCD"
@@ -1871,7 +1856,6 @@ msgstr ""
 msgid "Projector Calibration"
 msgstr "プロジェクターのキャリブレーション"
 
-#: ../templates/calibration/projector-calibration.html:82
 #: ../templates/setup/mask.html:3
 msgid "Projector Mask"
 msgstr "投影マスク"
@@ -1930,7 +1914,7 @@ msgstr "相対"
 msgid "Reload NanoDLP"
 msgstr "NanoDLPをリロード"
 
-#: ../templates/index.html:95
+#: ../templates/index.html:88
 msgid "Remaining"
 msgstr "残り時間"
 
@@ -2222,13 +2206,17 @@ msgstr "スペイン語"
 msgid "Speed in Slow Section"
 msgstr "低速"
 
-#: ../templates/index.html:164
+#: ../templates/index.html:155
 msgid "Start Display"
 msgstr "表示開始"
 
 #: ../templates/setup/setup.html:314
 msgid "Start of Print Code"
 msgstr "印刷開始コード"
+
+#: ../templates/menu.html:25
+msgid "Status"
+msgstr ""
 
 #: ../templates/setup/setup.html:141
 msgid "Step GPIO for Z-Axis"
@@ -2260,7 +2248,7 @@ msgstr "ストレージモード"
 msgid "Submit"
 msgstr "提出"
 
-#: ../templates/menu.html:26
+#: ../templates/menu.html:27
 msgid "Support Forum"
 msgstr "サポートフォーラム"
 
@@ -2276,11 +2264,11 @@ msgstr ""
 msgid "TCP Port to Listen"
 msgstr "TCPポート監視 "
 
-#: ../templates/index.html:176
+#: ../templates/index.html:166
 msgid "Take Photo"
 msgstr "撮る"
 
-#: ../templates/index.html:197
+#: ../templates/printer.html:12
 msgid "Temp"
 msgstr "CPU温度"
 
@@ -2338,7 +2326,7 @@ msgstr "深度によっては、このプロセスが完了するまでに1分�
 msgid "Through Shield"
 msgstr "貫通シールド"
 
-#: ../templates/index.html:232
+#: ../templates/printer.html:43
 msgid "Time"
 msgstr "時間"
 
@@ -2346,7 +2334,7 @@ msgstr "時間"
 msgid "Title"
 msgstr "表題"
 
-#: ../templates/index.html:120
+#: ../templates/index.html:113
 msgid "To Layer"
 msgstr "層"
 
@@ -2374,7 +2362,7 @@ msgstr "ナビゲーションを切り替え"
 msgid "Toggle Overhang Areas"
 msgstr "フローティング領域を切り替え"
 
-#: ../templates/menu.html:25 ../templates/setup/tools.html:37
+#: ../templates/menu.html:26 ../templates/setup/tools.html:37
 msgid "Tools"
 msgstr "ツール"
 
@@ -2386,19 +2374,19 @@ msgstr "上板厚さ"
 msgid "Top ⇧"
 msgstr "上 ⇧"
 
-#: ../templates/index.html:55
+#: ../templates/index.html:47
 msgid "Total Cure Time"
 msgstr "累積硬化時間"
 
-#: ../templates/index.html:43
+#: ../templates/index.html:35
 msgid "Total Layers Printed"
 msgstr "累積印刷レイヤー数"
 
-#: ../templates/index.html:48
+#: ../templates/index.html:40
 msgid "Total Plates Printed"
 msgstr "累積印刷回数"
 
-#: ../templates/index.html:60
+#: ../templates/index.html:52
 msgid "Total Print Time"
 msgstr "累積印刷時間"
 
@@ -2486,7 +2474,7 @@ msgstr ""
 msgid "Upload Image"
 msgstr "画像転送"
 
-#: ../templates/index.html:210
+#: ../templates/printer.html:25
 msgid "Uptime"
 msgstr "稼働時間"
 
@@ -2526,7 +2514,7 @@ msgstr "WPA"
 msgid "Wait"
 msgstr "後で"
 
-#: ../templates/index.html:124 ../templates/plate/preview.html:93
+#: ../templates/index.html:117 ../templates/plate/preview.html:93
 msgid "Wait After"
 msgstr ""
 
@@ -2538,7 +2526,7 @@ msgstr "リフト後待機時間"
 msgid "Wait After Print"
 msgstr "印刷終了まで待機"
 
-#: ../templates/index.html:122 ../templates/plate/preview.html:89
+#: ../templates/index.html:115 ../templates/plate/preview.html:89
 msgid "Wait Before"
 msgstr "硬化前待機"
 
@@ -2602,7 +2590,7 @@ msgstr "Z軸 モデルサイズ変更"
 msgid "Z-Axis Calibration"
 msgstr "Z軸の校正"
 
-#: ../templates/setup/setup.html:665
+#: ../templates/setup/setup.html:656
 msgid "Z-Axis Height"
 msgstr "Z軸の高さ"
 
@@ -2642,7 +2630,7 @@ msgstr "i2c 住所"
 msgid "i2c Bus Path"
 msgstr "i2c バス路"
 
-#: ../templates/index.html:35
+#: ../templates/index.html:26
 msgid "is idle. Click here to select a plate to print."
 msgstr "待機中です。印刷するモデルを選択するには、ここをクリックしてください。"
 

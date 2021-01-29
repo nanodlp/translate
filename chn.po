@@ -46,7 +46,7 @@ msgstr "3D 抗锯齿处理"
 msgid "3D Editor"
 msgstr "3D编辑器"
 
-#: ../templates/index.html:35
+#: ../templates/index.html:26
 msgid "3D Printer"
 msgstr "3D 打印"
 
@@ -70,7 +70,7 @@ msgstr ""
 msgid "Absolute"
 msgstr "绝对"
 
-#: ../templates/index.html:107 ../templates/index.html:68
+#: ../templates/index.html:100 ../templates/index.html:60
 #: ../templates/plate/advanced-plates.html:24 ../templates/plate/plates.html:55
 #: ../templates/setup/custom-buttons.html:42
 #: ../templates/setup/custom-inputs.html:49
@@ -137,10 +137,6 @@ msgstr "任何时间"
 msgid "Appearance"
 msgstr "界面主题"
 
-#: ../templates/index.html:223
-msgid "Application Log"
-msgstr "应用记录"
-
 #: ../templates/plate/plates.html:42
 msgid "Are you sure you want to delete all plates?"
 msgstr "确定要删除所有模型吗？"
@@ -169,11 +165,11 @@ msgstr "您确定要扩展文件系统吗?"
 msgid "Are you sure you want to force stop the printer?"
 msgstr "您确定要强制停止打印机吗?"
 
-#: ../templates/index.html:181 ../templates/setup/tools.html:25
+#: ../templates/index.html:176 ../templates/setup/tools.html:25
 msgid "Are you sure you want to power off the printer?"
 msgstr "你确定需要关闭打印机电源?"
 
-#: ../templates/index.html:182
+#: ../templates/index.html:177
 msgid "Are you sure you want to power off the projector?"
 msgstr "您确定要关闭投影机 ?"
 
@@ -189,7 +185,7 @@ msgstr "您确定要打印校准盘吗?"
 msgid "Are you sure you want to regenerate the layers of this plate?"
 msgstr "您确定要重新生成这个模型的图层吗?"
 
-#: ../templates/index.html:185 ../templates/setup/tools.html:28
+#: ../templates/index.html:180 ../templates/setup/tools.html:28
 msgid "Are you sure you want to restart the printer?"
 msgstr "您确定要重新启动打印机吗?"
 
@@ -197,7 +193,7 @@ msgstr "您确定要重新启动打印机吗?"
 msgid "Are you sure you want to restore the default settings and reboot the printer?"
 msgstr "您确定要恢复默认设置并重新启动打印机吗?"
 
-#: ../templates/index.html:186
+#: ../templates/index.html:181
 msgid "Are you sure you want to resume the previous print?"
 msgstr "是否确实要恢复上一次打印？"
 
@@ -209,27 +205,22 @@ msgstr "您确定要保存已覆盖的部分吗?"
 msgid "Are you sure you want to set this height as the bottom?"
 msgstr "您确定要将此高度设置为底部吗?"
 
-#: ../templates/index.html:183
+#: ../templates/index.html:178
 msgid ""
 "Are you sure you want to start the display? It will automatically select\n"
-"\t\t\tthe second display."
+"\tthe second display."
 msgstr ""
-"确定要启动显示吗？它将自动选择\n"
-"\t\t\t第二次显示。"
 
 #: ../templates/plate/advanced-plates.html:14 ../templates/plate/plates.html:46
 msgid "Are you sure you want to stop printing?"
 msgstr "您确定要停止打印吗?"
 
-#: ../templates/index.html:178
+#: ../templates/index.html:173
 msgid ""
 "Are you sure you want to stop printing? It will stop after the current\n"
-"\t\t\tlayer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click\n"
-"\t\t\tthe `Force Stop` button."
+"\tlayer is completed. If you want to abort the current layer, go to the `Setup` page, click on `Tools` tab and click\n"
+"\tthe `Force Stop` button."
 msgstr ""
-"确定要停止打印吗？它将在当前\n"
-"\t\t\t层已完成。如果要中止当前层，请转到“设置”页，单击“工具”选项卡，然后单击\n"
-"\t\t\t“强制停止”按钮。"
 
 #: ../templates/setup/tools.html:33
 msgid "Are you sure you want to terminate nanoDLP and have access to terminal?"
@@ -419,7 +410,7 @@ msgstr "老化-打印后等待"
 msgid "Burn-in Wait Before Print"
 msgstr "老化-打印前等待"
 
-#: ../templates/index.html:193
+#: ../templates/printer.html:8
 msgid "CPU"
 msgstr "CPU"
 
@@ -553,7 +544,7 @@ msgstr "无法连接到NanoDLP。请检查您的网络连接"
 msgid "Create 3D shapes by repeating an image frame"
 msgstr "通过重复图像框创建三维形状"
 
-#: ../templates/index.html:123 ../templates/plate/preview.html:91
+#: ../templates/index.html:116 ../templates/plate/preview.html:91
 msgid "Cure Layer"
 msgstr "固化层"
 
@@ -598,8 +589,8 @@ msgstr "默认"
 msgid "Description"
 msgstr "描述"
 
-#: ../templates/index.html:234 ../templates/plate/advanced-plates.html:23
-#: ../templates/plate/plates.html:54 ../templates/setup/custom-inputs.html:46
+#: ../templates/plate/advanced-plates.html:23 ../templates/plate/plates.html:54
+#: ../templates/printer.html:45 ../templates/setup/custom-inputs.html:46
 #: ../templates/setup/custom-inputs.html:47
 #: ../templates/setup/custom-inputs.html:48
 msgid "Details"
@@ -624,7 +615,7 @@ msgstr "方向 GPIO"
 msgid "Disable"
 msgstr "禁止"
 
-#: ../templates/index.html:155
+#: ../templates/index.html:144
 msgid "Disable Auto Shutdown"
 msgstr "禁用自动关机"
 
@@ -638,7 +629,7 @@ msgstr "禁用马达"
 msgid "Disabled"
 msgstr "禁用"
 
-#: ../templates/index.html:206
+#: ../templates/printer.html:21
 msgid "Disk"
 msgstr "磁盘"
 
@@ -755,7 +746,7 @@ msgstr "动态速度"
 msgid "Dynamic Wait After Lift"
 msgstr "提升后动态等待"
 
-#: ../templates/index.html:102
+#: ../templates/index.html:95
 msgid "ETA"
 msgstr "预计完成时间"
 
@@ -797,13 +788,11 @@ msgstr "仪表板的用户名为空，使每个人无需身份验证即可访问
 msgid "Enable"
 msgstr "开启"
 
-#: ../templates/index.html:158
+#: ../templates/index.html:147
 msgid ""
 "Enable\n"
-"\t\t\t\tAuto Shutdown"
+"\t\t\t\t\t\t\t\tAuto Shutdown"
 msgstr ""
-"启用\n"
-"\t\t\t\t自动关机"
 
 #: ../templates/setup/setup.html:218
 msgid "Enable Before Each Print"
@@ -938,11 +927,11 @@ msgstr "全高清校正"
 msgid "Gcode"
 msgstr "G代码"
 
-#: ../templates/index.html:125 ../templates/plate/preview.html:95
+#: ../templates/index.html:118 ../templates/plate/preview.html:95
 msgid "Gcode After"
 msgstr "G代码 后"
 
-#: ../templates/index.html:121 ../templates/plate/preview.html:87
+#: ../templates/index.html:114 ../templates/plate/preview.html:87
 msgid "Gcode Before"
 msgstr "G代码 前"
 
@@ -971,13 +960,9 @@ msgstr "人机界面"
 msgid "Hardware"
 msgstr "硬件"
 
-#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:90
+#: ../templates/calibration/z-calibration.html:14 ../templates/index.html:83
 msgid "Height"
 msgstr "高度"
-
-#: ../templates/menu.html:27
-msgid "Help"
-msgstr "帮助"
 
 #: ../templates/profile/edit.html:318
 msgid "Hexagonal"
@@ -1128,9 +1113,9 @@ msgstr ""
 msgid "Last Print"
 msgstr ""
 
-#: ../templates/calibration/z-calibration.html:104 ../templates/index.html:231
-#: ../templates/index.html:85 ../templates/plate/plates.html:216
-#: ../templates/plate/preview.html:67
+#: ../templates/calibration/z-calibration.html:104 ../templates/index.html:78
+#: ../templates/plate/plates.html:216 ../templates/plate/preview.html:67
+#: ../templates/printer.html:42
 msgid "Layer"
 msgstr "层"
 
@@ -1155,11 +1140,11 @@ msgstr "丝杆螺距"
 msgid "Lens Barrel Factor"
 msgstr "透镜筒系数"
 
-#: ../templates/index.html:230
+#: ../templates/printer.html:41
 msgid "Level"
 msgstr "水平"
 
-#: ../templates/index.html:126
+#: ../templates/index.html:119
 msgid "Lift"
 msgstr "提高"
 
@@ -1167,7 +1152,7 @@ msgstr "提高"
 msgid "Lift After Print"
 msgstr "提后打印"
 
-#: ../templates/index.html:127
+#: ../templates/index.html:120
 msgid "Lift Wait"
 msgstr "提高等待"
 
@@ -1290,7 +1275,7 @@ msgstr "测量方式"
 msgid "Measurement Point Width"
 msgstr "测量点宽度"
 
-#: ../templates/index.html:208
+#: ../templates/printer.html:23
 msgid "Memory"
 msgstr "内存"
 
@@ -1330,7 +1315,7 @@ msgstr "最小输入数"
 msgid "Mirror Layers"
 msgstr "镜像层"
 
-#: ../templates/index.html:233
+#: ../templates/printer.html:44
 msgid "Module"
 msgstr "模块"
 
@@ -1838,7 +1823,7 @@ msgstr "打印机类型，GPIO"
 msgid "Printing"
 msgstr "打印中"
 
-#: ../templates/index.html:195
+#: ../templates/printer.html:10
 msgid "Proc"
 msgstr "程序"
 
@@ -1851,13 +1836,11 @@ msgstr "配置"
 msgid "Profile not found."
 msgstr "配置没找到"
 
-#: ../templates/index.html:169
+#: ../templates/index.html:160
 msgid ""
 "Projector\n"
-"\t\t\t\tOff"
+"\t\t\t\t\t\t\t\tOff"
 msgstr ""
-"投影仪\n"
-"\t\t\t\tOff"
 
 #: ../templates/setup/setup.html:81
 msgid "Projector / LCD"
@@ -1933,7 +1916,7 @@ msgstr "相对"
 msgid "Reload NanoDLP"
 msgstr "重新加载NanoDLP"
 
-#: ../templates/index.html:95
+#: ../templates/index.html:88
 msgid "Remaining"
 msgstr "剩余"
 
@@ -2225,13 +2208,17 @@ msgstr "西班牙"
 msgid "Speed in Slow Section"
 msgstr "慢段速度"
 
-#: ../templates/index.html:164
+#: ../templates/index.html:155
 msgid "Start Display"
 msgstr "开始显示"
 
 #: ../templates/setup/setup.html:314
 msgid "Start of Print Code"
 msgstr "开始打印代码"
+
+#: ../templates/menu.html:25
+msgid "Status"
+msgstr ""
 
 #: ../templates/setup/setup.html:141
 msgid "Step GPIO for Z-Axis"
@@ -2263,7 +2250,7 @@ msgstr "储存模式"
 msgid "Submit"
 msgstr "提交"
 
-#: ../templates/menu.html:26
+#: ../templates/menu.html:27
 msgid "Support Forum"
 msgstr "支持论坛"
 
@@ -2279,11 +2266,11 @@ msgstr ""
 msgid "TCP Port to Listen"
 msgstr "TCP 端口监听 "
 
-#: ../templates/index.html:176
+#: ../templates/index.html:166
 msgid "Take Photo"
 msgstr "拍照"
 
-#: ../templates/index.html:197
+#: ../templates/printer.html:12
 msgid "Temp"
 msgstr "临时"
 
@@ -2343,7 +2330,7 @@ msgstr "这一过程可能需要一分钟才能完成，具体取决于深度."
 msgid "Through Shield"
 msgstr "穿透屏蔽层"
 
-#: ../templates/index.html:232
+#: ../templates/printer.html:43
 msgid "Time"
 msgstr "时间"
 
@@ -2351,7 +2338,7 @@ msgstr "时间"
 msgid "Title"
 msgstr "标题"
 
-#: ../templates/index.html:120
+#: ../templates/index.html:113
 msgid "To Layer"
 msgstr "层"
 
@@ -2379,7 +2366,7 @@ msgstr "切换导航"
 msgid "Toggle Overhang Areas"
 msgstr "切换悬空区域"
 
-#: ../templates/menu.html:25 ../templates/setup/tools.html:37
+#: ../templates/menu.html:26 ../templates/setup/tools.html:37
 msgid "Tools"
 msgstr "工具"
 
@@ -2391,19 +2378,19 @@ msgstr "顶部限制"
 msgid "Top ⇧"
 msgstr "上 ⇧"
 
-#: ../templates/index.html:55
+#: ../templates/index.html:47
 msgid "Total Cure Time"
 msgstr "总共固化时间"
 
-#: ../templates/index.html:43
+#: ../templates/index.html:35
 msgid "Total Layers Printed"
 msgstr "打印总层数"
 
-#: ../templates/index.html:48
+#: ../templates/index.html:40
 msgid "Total Plates Printed"
 msgstr "总共打印次数"
 
-#: ../templates/index.html:60
+#: ../templates/index.html:52
 msgid "Total Print Time"
 msgstr "总共打印时间"
 
@@ -2491,7 +2478,7 @@ msgstr ""
 msgid "Upload Image"
 msgstr "上传图像"
 
-#: ../templates/index.html:210
+#: ../templates/printer.html:25
 msgid "Uptime"
 msgstr "运行时间"
 
@@ -2531,7 +2518,7 @@ msgstr "WPA"
 msgid "Wait"
 msgstr "稍后"
 
-#: ../templates/index.html:124 ../templates/plate/preview.html:93
+#: ../templates/index.html:117 ../templates/plate/preview.html:93
 msgid "Wait After"
 msgstr "等待后"
 
@@ -2543,7 +2530,7 @@ msgstr "等待后升起"
 msgid "Wait After Print"
 msgstr "等待打印后"
 
-#: ../templates/index.html:122 ../templates/plate/preview.html:89
+#: ../templates/index.html:115 ../templates/plate/preview.html:89
 msgid "Wait Before"
 msgstr "等待前"
 
@@ -2647,7 +2634,7 @@ msgstr "i2c 地址"
 msgid "i2c Bus Path"
 msgstr "i2c 总线路径"
 
-#: ../templates/index.html:35
+#: ../templates/index.html:26
 msgid "is idle. Click here to select a plate to print."
 msgstr "空闲.单击此处选择要打印的模型."
 
