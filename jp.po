@@ -983,7 +983,6 @@ msgstr "インフィル（六角形）"
 
 #: ../templates/setup/custom-buttons.html:24
 msgid "Hidden"
-msgid "High"
 msgstr ""
 
 #: ../templates/setup/setup.html:177 ../templates/setup/setup.html:207
